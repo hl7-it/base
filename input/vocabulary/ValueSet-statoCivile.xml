@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/codesystem.xsd">
+	<id value="ValueSet-statoCivile"/>
+	<meta>
+		<lastUpdated value="2019-11-01T09:29:23.356+11:00"/>
+		<profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+	</meta>
+	<url value="http://hl7.it/fhir/ValueSet/ValueSet-statoCivile"/>
+	<!--
+ 
+    <system value="urn:ietf:rfc:3986"/> 
+    <value value="urn:oid:2.16.840.1.113883.4.642.3.29"/> 
+  </identifier>
+  -->
+	<version value="4.0.1"/>
+	<name value="StatoCivile"/>
+	<title value="Stato Civile"/>
+	<status value="active"/>
+	<experimental value="false"/>
+	<date value="2019-11-01T09:29:23+11:00"/>
+	<publisher value="HL7 Italia"/>
+	<contact>
+		<telecom>
+			<system value="url"/>
+			<value value="http://hl7.it/fhir"/>
+		</telecom>
+	</contact>
+	<description value="Questo value set definisce una serie di codici per rappresentare lo stato civile di una persona. Specializa ed estende il value set http://hl7.org/fhir/ValueSet/marital-status."/>
+	<compose>
+		<include>
+			<system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+			<concept>
+				<code value="D"/>
+				<display value="Divorziato/a"/>
+			</concept>
+			<concept>
+				<code value="M"/>
+				<display value="Coniugato/a"/>
+			</concept>
+			<concept>
+				<code value="S"/>
+				<display value="Celibe/nubile"/>
+			</concept>
+			<concept>
+				<code value="W"/>
+				<display value="Vedovo/a"/>
+			</concept>
+			<concept>
+				<code value="L"/>
+				<display value="Separato/a Legalmente"/>
+			</concept>
+			<concept>
+				<code value="A"/>
+				<display value="Annullato"/>
+			</concept>
+		</include>
+		<include>
+			<system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+			<concept>
+				<code value="UNK"/>
+				<display value="Sconosciuto"/>
+			</concept>
+		</include>
+		<include>
+			<system value="http://terminology.hl7.it/CodeSystem/istat-statoCivile"/>
+			<concept>
+				<code value="6"/>
+				<display value="Unito civilmente"/>
+			</concept>
+			<concept>
+				<code value="7"/>
+				<display value="Stato libero a seguito di decesso della parte unita civilmente"/>
+			</concept>
+			<concept>
+				<code value="8"/>
+				<display value="Stato libero a seguito di scioglimento dell'unione"/>
+			</concept>
+		</include>
+	</compose>
+</ValueSet>

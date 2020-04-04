@@ -1,0 +1,75 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Practitioner-mmg-it",
+  "url": "http://hl7.it/fhir/StructureDefinition/Practitioner-mmg-it",
+  "version": "0.1.0",
+  "name": "PractitionerMMG",
+  "title": "Practitioner per MMG/PLS",
+  "status": "active",
+  "description": "Profilo base Practitioner usato per descrivere Medico Medicina Generale e Pediatra di Libera Scelta",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "servd",
+      "uri": "http://www.omg.org/spec/ServD/1.0/",
+      "name": "ServD"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Practitioner",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Practitioner",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Practitioner.identifier",
+        "path": "Practitioner.identifier",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open",
+          "description": "Slice based on the identifier pattern"
+        },
+        "short": "Identificativo del MMG/PLS (e.g. Codice Fiscale, ID Regionale)",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.identifier:codiceFiscale",
+        "path": "Practitioner.identifier",
+        "sliceName": "codiceFiscale",
+        "max": "1"
+      },
+      {
+        "id": "Practitioner.identifier:codiceFiscale.system",
+        "path": "Practitioner.identifier.system",
+        "patternUri": "http://hl7.it/fhir/StructureDefinition/certificazioneAnagrafica"
+      },
+      {
+        "id": "Practitioner.name",
+        "path": "Practitioner.name",
+        "short": "Nome del Medico",
+        "mustSupport": true
+      }
+    ]
+  }
+}

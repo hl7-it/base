@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="Territori_Figli.xsd" generated="2020-02-27T17:55:33">
+<Territori_Figli>
+<Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>T</Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>
+<Codice_x0020_Continente>5</Codice_x0020_Continente>
+<Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>Oceania</Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>
+<Codice_x0020_Area>50</Codice_x0020_Area>
+<Denominazione_x0020_Area_x0020__x0028_IT_x0029_>Oceania</Denominazione_x0020_Area_x0020__x0028_IT_x0029_>
+<code>902</code>
+<display>Nuova Caledonia</display>
+<Denominazione_x0020_EN>New Caledonia</Denominazione_x0020_EN>
+<Codice_x0020_MIN>718</Codice_x0020_MIN>
+<Codice_x0020_AT>Z716</Codice_x0020_AT>
+<Codice_x0020_UNSD_M49>n.d.</Codice_x0020_UNSD_M49>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha2>NC</Codice_x0020_ISO_x0020_3166_x0020_alpha2>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha3>NCL</Codice_x0020_ISO_x0020_3166_x0020_alpha3>
+<Codice_x0020_ISTAT_Stato_x0020_Padre>215</Codice_x0020_ISTAT_Stato_x0020_Padre>
+<Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>FRA</Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>
+</Territori_Figli>
+<Territori_Figli>
+<Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>T</Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>
+<Codice_x0020_Continente>4</Codice_x0020_Continente>
+<Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>America</Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>
+<Codice_x0020_Area>42</Codice_x0020_Area>
+<Denominazione_x0020_Area_x0020__x0028_IT_x0029_>America centro meridionale</Denominazione_x0020_Area_x0020__x0028_IT_x0029_>
+<code>904</code>
+<display>Saint-Martin (FR)</display>
+<Denominazione_x0020_EN>Saint Martin (FR)</Denominazione_x0020_EN>
+<Codice_x0020_MIN>542</Codice_x0020_MIN>
+<Codice_x0020_AT>n.d.</Codice_x0020_AT>
+<Codice_x0020_UNSD_M49>n.d.</Codice_x0020_UNSD_M49>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha2>MF</Codice_x0020_ISO_x0020_3166_x0020_alpha2>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha3>MAF</Codice_x0020_ISO_x0020_3166_x0020_alpha3>
+<Codice_x0020_ISTAT_Stato_x0020_Padre>215</Codice_x0020_ISTAT_Stato_x0020_Padre>
+<Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>FRA</Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>
+</Territori_Figli>
+<Territori_Figli>
+<Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>T</Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>
+<Codice_x0020_Continente>4</Codice_x0020_Continente>
+<Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>America</Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>
+<Codice_x0020_Area>42</Codice_x0020_Area>
+<Denominazione_x0020_Area_x0020__x0028_IT_x0029_>America centro meridionale</Denominazione_x0020_Area_x0020__x0028_IT_x0029_>
+<code>906</code>
+<display>Saint-Barthélemy</display>
+<Denominazione_x0020_EN>Saint Barthelemy</Denominazione_x0020_EN>
+<Codice_x0020_MIN>541</Codice_x0020_MIN>
+<Codice_x0020_AT>n.d.</Codice_x0020_AT>
+<Codice_x0020_UNSD_M49>n.d.</Codice_x0020_UNSD_M49>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha2>BL</Codice_x0020_ISO_x0020_3166_x0020_alpha2>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha3>BLM</Codice_x0020_ISO_x0020_3166_x0020_alpha3>
+<Codice_x0020_ISTAT_Stato_x0020_Padre>215</Codice_x0020_ISTAT_Stato_x0020_Padre>
+<Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>FRA</Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>
+</Territori_Figli>
+<Territori_Figli>
+<Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>T</Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>
+<Codice_x0020_Continente>4</Codice_x0020_Continente>
+<Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>America</Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>
+<Codice_x0020_Area>41</Codice_x0020_Area>
+<Denominazione_x0020_Area_x0020__x0028_IT_x0029_>America settentrionale</Denominazione_x0020_Area_x0020__x0028_IT_x0029_>
+<code>908</code>
+<display>Bermuda</display>
+<Denominazione_x0020_EN>Bermuda</Denominazione_x0020_EN>
+<Codice_x0020_MIN>508</Codice_x0020_MIN>
+<Codice_x0020_AT>Z400</Codice_x0020_AT>
+<Codice_x0020_UNSD_M49>n.d.</Codice_x0020_UNSD_M49>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha2>BM</Codice_x0020_ISO_x0020_3166_x0020_alpha2>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha3>BMU</Codice_x0020_ISO_x0020_3166_x0020_alpha3>
+<Codice_x0020_ISTAT_Stato_x0020_Padre>219</Codice_x0020_ISTAT_Stato_x0020_Padre>
+<Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>GBR</Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>
+</Territori_Figli>
+<Territori_Figli>
+<Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>T</Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>
+<Codice_x0020_Continente>5</Codice_x0020_Continente>
+<Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>Oceania</Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>
+<Codice_x0020_Area>50</Codice_x0020_Area>
+<Denominazione_x0020_Area_x0020__x0028_IT_x0029_>Oceania</Denominazione_x0020_Area_x0020__x0028_IT_x0029_>
+<code>909</code>
+<display>Isole Cook (NZ)</display>
+<Denominazione_x0020_EN>Cook Islands (NZ)</Denominazione_x0020_EN>
+<Codice_x0020_MIN>702</Codice_x0020_MIN>
+<Codice_x0020_AT>Z703</Codice_x0020_AT>
+<Codice_x0020_UNSD_M49>n.d.</Codice_x0020_UNSD_M49>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha2>CK</Codice_x0020_ISO_x0020_3166_x0020_alpha2>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha3>COK</Codice_x0020_ISO_x0020_3166_x0020_alpha3>
+<Codice_x0020_ISTAT_Stato_x0020_Padre>719</Codice_x0020_ISTAT_Stato_x0020_Padre>
+<Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>NZL</Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>
+</Territori_Figli>
+<Territori_Figli>
+<Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>T</Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>
+<Codice_x0020_Continente>1</Codice_x0020_Continente>
+<Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>Europa</Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>
+<Codice_x0020_Area>13</Codice_x0020_Area>
+<Denominazione_x0020_Area_x0020__x0028_IT_x0029_>Altri Paesi europei</Denominazione_x0020_Area_x0020__x0028_IT_x0029_>
+<code>910</code>
+<display>Gibilterra</display>
+<Denominazione_x0020_EN>Gibraltar</Denominazione_x0020_EN>
+<Codice_x0020_MIN>218</Codice_x0020_MIN>
+<Codice_x0020_AT>Z113</Codice_x0020_AT>
+<Codice_x0020_UNSD_M49>n.d.</Codice_x0020_UNSD_M49>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha2>GI</Codice_x0020_ISO_x0020_3166_x0020_alpha2>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha3>GIB</Codice_x0020_ISO_x0020_3166_x0020_alpha3>
+<Codice_x0020_ISTAT_Stato_x0020_Padre>219</Codice_x0020_ISTAT_Stato_x0020_Padre>
+<Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>GBR</Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>
+</Territori_Figli>
+<Territori_Figli>
+<Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>T</Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>
+<Codice_x0020_Continente>4</Codice_x0020_Continente>
+<Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>America</Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>
+<Codice_x0020_Area>42</Codice_x0020_Area>
+<Denominazione_x0020_Area_x0020__x0028_IT_x0029_>America centro meridionale</Denominazione_x0020_Area_x0020__x0028_IT_x0029_>
+<code>911</code>
+<display>Isole Cayman</display>
+<Denominazione_x0020_EN>Cayman Islands</Denominazione_x0020_EN>
+<Codice_x0020_MIN>511</Codice_x0020_MIN>
+<Codice_x0020_AT>Z530</Codice_x0020_AT>
+<Codice_x0020_UNSD_M49>n.d.</Codice_x0020_UNSD_M49>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha2>KY</Codice_x0020_ISO_x0020_3166_x0020_alpha2>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha3>CYM</Codice_x0020_ISO_x0020_3166_x0020_alpha3>
+<Codice_x0020_ISTAT_Stato_x0020_Padre>219</Codice_x0020_ISTAT_Stato_x0020_Padre>
+<Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>GBR</Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>
+</Territori_Figli>
+<Territori_Figli>
+<Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>T</Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>
+<Codice_x0020_Continente>4</Codice_x0020_Continente>
+<Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>America</Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>
+<Codice_x0020_Area>42</Codice_x0020_Area>
+<Denominazione_x0020_Area_x0020__x0028_IT_x0029_>America centro meridionale</Denominazione_x0020_Area_x0020__x0028_IT_x0029_>
+<code>917</code>
+<display>Anguilla</display>
+<Denominazione_x0020_EN>Anguilla</Denominazione_x0020_EN>
+<Codice_x0020_MIN>502</Codice_x0020_MIN>
+<Codice_x0020_AT>Z529</Codice_x0020_AT>
+<Codice_x0020_UNSD_M49>n.d.</Codice_x0020_UNSD_M49>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha2>AI</Codice_x0020_ISO_x0020_3166_x0020_alpha2>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha3>AIA</Codice_x0020_ISO_x0020_3166_x0020_alpha3>
+<Codice_x0020_ISTAT_Stato_x0020_Padre>219</Codice_x0020_ISTAT_Stato_x0020_Padre>
+<Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>GBR</Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>
+</Territori_Figli>
+<Territori_Figli>
+<Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>T</Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>
+<Codice_x0020_Continente>5</Codice_x0020_Continente>
+<Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>Oceania</Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>
+<Codice_x0020_Area>50</Codice_x0020_Area>
+<Denominazione_x0020_Area_x0020__x0028_IT_x0029_>Oceania</Denominazione_x0020_Area_x0020__x0028_IT_x0029_>
+<code>920</code>
+<display>Polinesia francese</display>
+<Denominazione_x0020_EN>French Polynesia</Denominazione_x0020_EN>
+<Codice_x0020_MIN>724</Codice_x0020_MIN>
+<Codice_x0020_AT>Z723</Codice_x0020_AT>
+<Codice_x0020_UNSD_M49>n.d.</Codice_x0020_UNSD_M49>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha2>PF</Codice_x0020_ISO_x0020_3166_x0020_alpha2>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha3>PYF</Codice_x0020_ISO_x0020_3166_x0020_alpha3>
+<Codice_x0020_ISTAT_Stato_x0020_Padre>215</Codice_x0020_ISTAT_Stato_x0020_Padre>
+<Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>FRA</Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>
+</Territori_Figli>
+<Territori_Figli>
+<Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>T</Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>
+<Codice_x0020_Continente>1</Codice_x0020_Continente>
+<Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>Europa</Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>
+<Codice_x0020_Area>13</Codice_x0020_Area>
+<Denominazione_x0020_Area_x0020__x0028_IT_x0029_>Altri Paesi europei</Denominazione_x0020_Area_x0020__x0028_IT_x0029_>
+<code>924</code>
+<display>Isole Fær Øer</display>
+<Denominazione_x0020_EN>Faroe Islands</Denominazione_x0020_EN>
+<Codice_x0020_MIN>213</Codice_x0020_MIN>
+<Codice_x0020_AT>Z108</Codice_x0020_AT>
+<Codice_x0020_UNSD_M49>n.d.</Codice_x0020_UNSD_M49>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha2>FO</Codice_x0020_ISO_x0020_3166_x0020_alpha2>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha3>FRO</Codice_x0020_ISO_x0020_3166_x0020_alpha3>
+<Codice_x0020_ISTAT_Stato_x0020_Padre>212</Codice_x0020_ISTAT_Stato_x0020_Padre>
+<Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>DNK</Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>
+</Territori_Figli>
+<Territori_Figli>
+<Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>T</Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>
+<Codice_x0020_Continente>1</Codice_x0020_Continente>
+<Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>Europa</Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>
+<Codice_x0020_Area>13</Codice_x0020_Area>
+<Denominazione_x0020_Area_x0020__x0028_IT_x0029_>Altri Paesi europei</Denominazione_x0020_Area_x0020__x0028_IT_x0029_>
+<code>925</code>
+<display>Jersey</display>
+<Denominazione_x0020_EN>Jersey</Denominazione_x0020_EN>
+<Codice_x0020_MIN>273</Codice_x0020_MIN>
+<Codice_x0020_AT>n.d.</Codice_x0020_AT>
+<Codice_x0020_UNSD_M49>n.d.</Codice_x0020_UNSD_M49>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha2>JE</Codice_x0020_ISO_x0020_3166_x0020_alpha2>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha3>JEY</Codice_x0020_ISO_x0020_3166_x0020_alpha3>
+<Codice_x0020_ISTAT_Stato_x0020_Padre>219</Codice_x0020_ISTAT_Stato_x0020_Padre>
+<Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>GBR</Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>
+</Territori_Figli>
+<Territori_Figli>
+<Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>T</Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>
+<Codice_x0020_Continente>4</Codice_x0020_Continente>
+<Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>America</Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>
+<Codice_x0020_Area>42</Codice_x0020_Area>
+<Denominazione_x0020_Area_x0020__x0028_IT_x0029_>America centro meridionale</Denominazione_x0020_Area_x0020__x0028_IT_x0029_>
+<code>926</code>
+<display>Aruba</display>
+<Denominazione_x0020_EN>Aruba</Denominazione_x0020_EN>
+<Codice_x0020_MIN>603</Codice_x0020_MIN>
+<Codice_x0020_AT>Z501</Codice_x0020_AT>
+<Codice_x0020_UNSD_M49>n.d.</Codice_x0020_UNSD_M49>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha2>AW</Codice_x0020_ISO_x0020_3166_x0020_alpha2>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha3>ABW</Codice_x0020_ISO_x0020_3166_x0020_alpha3>
+<Codice_x0020_ISTAT_Stato_x0020_Padre>232</Codice_x0020_ISTAT_Stato_x0020_Padre>
+<Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>NLD</Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>
+</Territori_Figli>
+<Territori_Figli>
+<Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>T</Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>
+<Codice_x0020_Continente>4</Codice_x0020_Continente>
+<Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>America</Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>
+<Codice_x0020_Area>42</Codice_x0020_Area>
+<Denominazione_x0020_Area_x0020__x0028_IT_x0029_>America centro meridionale</Denominazione_x0020_Area_x0020__x0028_IT_x0029_>
+<code>928</code>
+<display>Sint Maarten (NL)</display>
+<Denominazione_x0020_EN>St Maarten (NL)</Denominazione_x0020_EN>
+<Codice_x0020_MIN>621</Codice_x0020_MIN>
+<Codice_x0020_AT>n.d.</Codice_x0020_AT>
+<Codice_x0020_UNSD_M49>n.d.</Codice_x0020_UNSD_M49>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha2>SX</Codice_x0020_ISO_x0020_3166_x0020_alpha2>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha3>SXM</Codice_x0020_ISO_x0020_3166_x0020_alpha3>
+<Codice_x0020_ISTAT_Stato_x0020_Padre>232</Codice_x0020_ISTAT_Stato_x0020_Padre>
+<Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>NLD</Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>
+</Territori_Figli>
+<Territori_Figli>
+<Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>T</Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>
+<Codice_x0020_Continente>4</Codice_x0020_Continente>
+<Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>America</Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>
+<Codice_x0020_Area>41</Codice_x0020_Area>
+<Denominazione_x0020_Area_x0020__x0028_IT_x0029_>America settentrionale</Denominazione_x0020_Area_x0020__x0028_IT_x0029_>
+<code>934</code>
+<display>Groenlandia</display>
+<Denominazione_x0020_EN>Greenland</Denominazione_x0020_EN>
+<Codice_x0020_MIN>520</Codice_x0020_MIN>
+<Codice_x0020_AT>Z402</Codice_x0020_AT>
+<Codice_x0020_UNSD_M49>n.d.</Codice_x0020_UNSD_M49>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha2>GL</Codice_x0020_ISO_x0020_3166_x0020_alpha2>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha3>GRL</Codice_x0020_ISO_x0020_3166_x0020_alpha3>
+<Codice_x0020_ISTAT_Stato_x0020_Padre>212</Codice_x0020_ISTAT_Stato_x0020_Padre>
+<Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>DNK</Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>
+</Territori_Figli>
+<Territori_Figli>
+<Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>T</Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>
+<Codice_x0020_Continente>1</Codice_x0020_Continente>
+<Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>Europa</Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>
+<Codice_x0020_Area>13</Codice_x0020_Area>
+<Denominazione_x0020_Area_x0020__x0028_IT_x0029_>Altri Paesi europei</Denominazione_x0020_Area_x0020__x0028_IT_x0029_>
+<code>939</code>
+<display>Sark</display>
+<Denominazione_x0020_EN>Sark</Denominazione_x0020_EN>
+<Codice_x0020_MIN>n.d.</Codice_x0020_MIN>
+<Codice_x0020_AT>n.d.</Codice_x0020_AT>
+<Codice_x0020_UNSD_M49>n.d.</Codice_x0020_UNSD_M49>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha2>n.d.</Codice_x0020_ISO_x0020_3166_x0020_alpha2>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha3>n.d.</Codice_x0020_ISO_x0020_3166_x0020_alpha3>
+<Codice_x0020_ISTAT_Stato_x0020_Padre>219</Codice_x0020_ISTAT_Stato_x0020_Padre>
+<Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>GBR</Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>
+</Territori_Figli>
+<Territori_Figli>
+<Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>T</Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>
+<Codice_x0020_Continente>1</Codice_x0020_Continente>
+<Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>Europa</Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>
+<Codice_x0020_Area>13</Codice_x0020_Area>
+<Denominazione_x0020_Area_x0020__x0028_IT_x0029_>Altri Paesi europei</Denominazione_x0020_Area_x0020__x0028_IT_x0029_>
+<code>940</code>
+<display>Guernsey</display>
+<Denominazione_x0020_EN>Guernsey</Denominazione_x0020_EN>
+<Codice_x0020_MIN>274</Codice_x0020_MIN>
+<Codice_x0020_AT>n.d.</Codice_x0020_AT>
+<Codice_x0020_UNSD_M49>n.d.</Codice_x0020_UNSD_M49>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha2>GG</Codice_x0020_ISO_x0020_3166_x0020_alpha2>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha3>GGY</Codice_x0020_ISO_x0020_3166_x0020_alpha3>
+<Codice_x0020_ISTAT_Stato_x0020_Padre>219</Codice_x0020_ISTAT_Stato_x0020_Padre>
+<Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>GBR</Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>
+</Territori_Figli>
+<Territori_Figli>
+<Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>T</Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>
+<Codice_x0020_Continente>4</Codice_x0020_Continente>
+<Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>America</Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>
+<Codice_x0020_Area>42</Codice_x0020_Area>
+<Denominazione_x0020_Area_x0020__x0028_IT_x0029_>America centro meridionale</Denominazione_x0020_Area_x0020__x0028_IT_x0029_>
+<code>958</code>
+<display>Isole Falkland (Malvine)</display>
+<Denominazione_x0020_EN>Falkland Islands (Malvinas)</Denominazione_x0020_EN>
+<Codice_x0020_MIN>610</Codice_x0020_MIN>
+<Codice_x0020_AT>Z609</Codice_x0020_AT>
+<Codice_x0020_UNSD_M49>n.d.</Codice_x0020_UNSD_M49>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha2>FK</Codice_x0020_ISO_x0020_3166_x0020_alpha2>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha3>FLK</Codice_x0020_ISO_x0020_3166_x0020_alpha3>
+<Codice_x0020_ISTAT_Stato_x0020_Padre>219</Codice_x0020_ISTAT_Stato_x0020_Padre>
+<Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>GBR</Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>
+</Territori_Figli>
+<Territori_Figli>
+<Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>T</Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>
+<Codice_x0020_Continente>1</Codice_x0020_Continente>
+<Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>Europa</Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>
+<Codice_x0020_Area>13</Codice_x0020_Area>
+<Denominazione_x0020_Area_x0020__x0028_IT_x0029_>Altri Paesi europei</Denominazione_x0020_Area_x0020__x0028_IT_x0029_>
+<code>959</code>
+<display>Isola di Man</display>
+<Denominazione_x0020_EN>Isle of Man</Denominazione_x0020_EN>
+<Codice_x0020_MIN>228</Codice_x0020_MIN>
+<Codice_x0020_AT>Z122</Codice_x0020_AT>
+<Codice_x0020_UNSD_M49>n.d.</Codice_x0020_UNSD_M49>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha2>IM</Codice_x0020_ISO_x0020_3166_x0020_alpha2>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha3>IMN</Codice_x0020_ISO_x0020_3166_x0020_alpha3>
+<Codice_x0020_ISTAT_Stato_x0020_Padre>219</Codice_x0020_ISTAT_Stato_x0020_Padre>
+<Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>GBR</Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>
+</Territori_Figli>
+<Territori_Figli>
+<Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>T</Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>
+<Codice_x0020_Continente>4</Codice_x0020_Continente>
+<Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>America</Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>
+<Codice_x0020_Area>42</Codice_x0020_Area>
+<Denominazione_x0020_Area_x0020__x0028_IT_x0029_>America centro meridionale</Denominazione_x0020_Area_x0020__x0028_IT_x0029_>
+<code>964</code>
+<display>Montserrat</display>
+<Denominazione_x0020_EN>Montserrat</Denominazione_x0020_EN>
+<Codice_x0020_MIN>528</Codice_x0020_MIN>
+<Codice_x0020_AT>Z531</Codice_x0020_AT>
+<Codice_x0020_UNSD_M49>n.d.</Codice_x0020_UNSD_M49>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha2>MS</Codice_x0020_ISO_x0020_3166_x0020_alpha2>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha3>MSR</Codice_x0020_ISO_x0020_3166_x0020_alpha3>
+<Codice_x0020_ISTAT_Stato_x0020_Padre>219</Codice_x0020_ISTAT_Stato_x0020_Padre>
+<Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>GBR</Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>
+</Territori_Figli>
+<Territori_Figli>
+<Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>T</Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>
+<Codice_x0020_Continente>4</Codice_x0020_Continente>
+<Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>America</Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>
+<Codice_x0020_Area>42</Codice_x0020_Area>
+<Denominazione_x0020_Area_x0020__x0028_IT_x0029_>America centro meridionale</Denominazione_x0020_Area_x0020__x0028_IT_x0029_>
+<code>966</code>
+<display>Curaçao</display>
+<Denominazione_x0020_EN>Curaçao</Denominazione_x0020_EN>
+<Codice_x0020_MIN>620</Codice_x0020_MIN>
+<Codice_x0020_AT>n.d.</Codice_x0020_AT>
+<Codice_x0020_UNSD_M49>n.d.</Codice_x0020_UNSD_M49>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha2>CW</Codice_x0020_ISO_x0020_3166_x0020_alpha2>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha3>CUW</Codice_x0020_ISO_x0020_3166_x0020_alpha3>
+<Codice_x0020_ISTAT_Stato_x0020_Padre>232</Codice_x0020_ISTAT_Stato_x0020_Padre>
+<Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>NLD</Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>
+</Territori_Figli>
+<Territori_Figli>
+<Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>T</Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>
+<Codice_x0020_Continente>5</Codice_x0020_Continente>
+<Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>Oceania</Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>
+<Codice_x0020_Area>50</Codice_x0020_Area>
+<Denominazione_x0020_Area_x0020__x0028_IT_x0029_>Oceania</Denominazione_x0020_Area_x0020__x0028_IT_x0029_>
+<code>972</code>
+<display>Isole Pitcairn</display>
+<Denominazione_x0020_EN>Pitcairn</Denominazione_x0020_EN>
+<Codice_x0020_MIN>723</Codice_x0020_MIN>
+<Codice_x0020_AT>Z722</Codice_x0020_AT>
+<Codice_x0020_UNSD_M49>n.d.</Codice_x0020_UNSD_M49>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha2>PN</Codice_x0020_ISO_x0020_3166_x0020_alpha2>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha3>PCN</Codice_x0020_ISO_x0020_3166_x0020_alpha3>
+<Codice_x0020_ISTAT_Stato_x0020_Padre>219</Codice_x0020_ISTAT_Stato_x0020_Padre>
+<Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>GBR</Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>
+</Territori_Figli>
+<Territori_Figli>
+<Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>T</Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>
+<Codice_x0020_Continente>4</Codice_x0020_Continente>
+<Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>America</Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>
+<Codice_x0020_Area>41</Codice_x0020_Area>
+<Denominazione_x0020_Area_x0020__x0028_IT_x0029_>America settentrionale</Denominazione_x0020_Area_x0020__x0028_IT_x0029_>
+<code>980</code>
+<display>Saint Pierre e Miquelon</display>
+<Denominazione_x0020_EN>Saint Pierre and Miquelon</Denominazione_x0020_EN>
+<Codice_x0020_MIN>535</Codice_x0020_MIN>
+<Codice_x0020_AT>Z403</Codice_x0020_AT>
+<Codice_x0020_UNSD_M49>n.d.</Codice_x0020_UNSD_M49>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha2>PM</Codice_x0020_ISO_x0020_3166_x0020_alpha2>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha3>SPM</Codice_x0020_ISO_x0020_3166_x0020_alpha3>
+<Codice_x0020_ISTAT_Stato_x0020_Padre>215</Codice_x0020_ISTAT_Stato_x0020_Padre>
+<Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>FRA</Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>
+</Territori_Figli>
+<Territori_Figli>
+<Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>T</Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>
+<Codice_x0020_Continente>2</Codice_x0020_Continente>
+<Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>Africa</Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>
+<Codice_x0020_Area>24</Codice_x0020_Area>
+<Denominazione_x0020_Area_x0020__x0028_IT_x0029_>Africa centro meridionale</Denominazione_x0020_Area_x0020__x0028_IT_x0029_>
+<code>983</code>
+<display>Sant&apos;Elena</display>
+<Denominazione_x0020_EN>Saint Helena</Denominazione_x0020_EN>
+<Codice_x0020_MIN>447</Codice_x0020_MIN>
+<Codice_x0020_AT>Z340</Codice_x0020_AT>
+<Codice_x0020_UNSD_M49>n.d.</Codice_x0020_UNSD_M49>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha2>SH</Codice_x0020_ISO_x0020_3166_x0020_alpha2>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha3>SHN</Codice_x0020_ISO_x0020_3166_x0020_alpha3>
+<Codice_x0020_ISTAT_Stato_x0020_Padre>219</Codice_x0020_ISTAT_Stato_x0020_Padre>
+<Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>GBR</Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>
+</Territori_Figli>
+<Territori_Figli>
+<Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>T</Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>
+<Codice_x0020_Continente>5</Codice_x0020_Continente>
+<Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>Oceania</Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>
+<Codice_x0020_Area>50</Codice_x0020_Area>
+<Denominazione_x0020_Area_x0020__x0028_IT_x0029_>Oceania</Denominazione_x0020_Area_x0020__x0028_IT_x0029_>
+<code>988</code>
+<display>Terre australi e antartiche francesi</display>
+<Denominazione_x0020_EN>French Southern Territories</Denominazione_x0020_EN>
+<Codice_x0020_MIN>806</Codice_x0020_MIN>
+<Codice_x0020_AT>n.d.</Codice_x0020_AT>
+<Codice_x0020_UNSD_M49>n.d.</Codice_x0020_UNSD_M49>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha2>TF</Codice_x0020_ISO_x0020_3166_x0020_alpha2>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha3>ATF</Codice_x0020_ISO_x0020_3166_x0020_alpha3>
+<Codice_x0020_ISTAT_Stato_x0020_Padre>215</Codice_x0020_ISTAT_Stato_x0020_Padre>
+<Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>FRA</Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>
+</Territori_Figli>
+<Territori_Figli>
+<Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>T</Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>
+<Codice_x0020_Continente>4</Codice_x0020_Continente>
+<Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>America</Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>
+<Codice_x0020_Area>42</Codice_x0020_Area>
+<Denominazione_x0020_Area_x0020__x0028_IT_x0029_>America centro meridionale</Denominazione_x0020_Area_x0020__x0028_IT_x0029_>
+<code>992</code>
+<display>Isole Turks e Caicos</display>
+<Denominazione_x0020_EN>Turks and Caicos Islands</Denominazione_x0020_EN>
+<Codice_x0020_MIN>537</Codice_x0020_MIN>
+<Codice_x0020_AT>Z519</Codice_x0020_AT>
+<Codice_x0020_UNSD_M49>n.d.</Codice_x0020_UNSD_M49>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha2>TC</Codice_x0020_ISO_x0020_3166_x0020_alpha2>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha3>TCA</Codice_x0020_ISO_x0020_3166_x0020_alpha3>
+<Codice_x0020_ISTAT_Stato_x0020_Padre>219</Codice_x0020_ISTAT_Stato_x0020_Padre>
+<Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>GBR</Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>
+</Territori_Figli>
+<Territori_Figli>
+<Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>T</Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>
+<Codice_x0020_Continente>4</Codice_x0020_Continente>
+<Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>America</Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>
+<Codice_x0020_Area>42</Codice_x0020_Area>
+<Denominazione_x0020_Area_x0020__x0028_IT_x0029_>America centro meridionale</Denominazione_x0020_Area_x0020__x0028_IT_x0029_>
+<code>994</code>
+<display>Isole Vergini britanniche</display>
+<Denominazione_x0020_EN>British Virgin Islands</Denominazione_x0020_EN>
+<Codice_x0020_MIN>539</Codice_x0020_MIN>
+<Codice_x0020_AT>Z525</Codice_x0020_AT>
+<Codice_x0020_UNSD_M49>n.d.</Codice_x0020_UNSD_M49>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha2>VG</Codice_x0020_ISO_x0020_3166_x0020_alpha2>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha3>VGB</Codice_x0020_ISO_x0020_3166_x0020_alpha3>
+<Codice_x0020_ISTAT_Stato_x0020_Padre>219</Codice_x0020_ISTAT_Stato_x0020_Padre>
+<Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>GBR</Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>
+</Territori_Figli>
+<Territori_Figli>
+<Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>T</Stato_x0028_S_x0029__x002F_Territorio_x0028_T_x0029_>
+<Codice_x0020_Continente>5</Codice_x0020_Continente>
+<Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>Oceania</Denominazione_x0020_Continente_x0020__x0028_IT_x0029_>
+<Codice_x0020_Area>50</Codice_x0020_Area>
+<Denominazione_x0020_Area_x0020__x0028_IT_x0029_>Oceania</Denominazione_x0020_Area_x0020__x0028_IT_x0029_>
+<code>997</code>
+<display>Wallis e Futuna</display>
+<Denominazione_x0020_EN>Wallis and Futuna Islands</Denominazione_x0020_EN>
+<Codice_x0020_MIN>734</Codice_x0020_MIN>
+<Codice_x0020_AT>Z729</Codice_x0020_AT>
+<Codice_x0020_UNSD_M49>n.d.</Codice_x0020_UNSD_M49>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha2>WF</Codice_x0020_ISO_x0020_3166_x0020_alpha2>
+<Codice_x0020_ISO_x0020_3166_x0020_alpha3>WLF</Codice_x0020_ISO_x0020_3166_x0020_alpha3>
+<Codice_x0020_ISTAT_Stato_x0020_Padre>215</Codice_x0020_ISTAT_Stato_x0020_Padre>
+<Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>FRA</Codice_x0020_ISO_x0020_alpha3_Stato_x0020_Padre>
+</Territori_Figli>
+</dataroot>

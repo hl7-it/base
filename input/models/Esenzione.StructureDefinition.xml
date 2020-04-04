@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+	<id value="Esenzione"/>
+	<url value="http://hl7.it/fhir/StructureDefinition/Esenzione"/>
+	<version value="0.0.1"/>
+	<name value="Esenzione"/>
+	<title value="Esenzione - Modello Logico"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<description value="Modello Logico che definisce il set minimo di dati che caratterizzano una Esenzione&#xD;&#xA;Questa versione è a scopo dimostrativo."/>
+	<fhirVersion value="4.0.0"/>
+	<mapping>
+		<identity value="fhir-it"/>
+		<uri value="http://hl7.it/fhir"/>
+		<name value="HL7 FHIR IT Profiles"/>
+	</mapping>
+	<kind value="logical"/>
+	<abstract value="true"/>
+	<type value="Esenzione"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="Esenzione">
+			<path value="Esenzione"/>
+			<short value="Esenzione"/>
+			<definition value="Modello Logico che definisce il set minimo di dati che caratterizzano una Esenzione"/>
+			<min value="0"/>
+			<max value="*"/>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Coverage.costToBeneficiary.exception"/>
+			</mapping>
+		</element>
+		<element id="Esenzione.stato">
+			<path value="Esenzione.stato"/>
+			<short value="Stato dell'esenzione"/>
+			<definition value="Stato dell'esenzione"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="CodeableConcept"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept"/>
+			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Coverage.status"/>
+			</mapping>
+		</element>
+		<element id="Esenzione.tipo">
+			<path value="Esenzione.tipo"/>
+			<short value="Tipo Esenzione"/>
+			<definition value="Tipo Esenzione"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="CodeableConcept"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept"/>
+			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Coverage.costToBeneficiary.exception.type"/>
+			</mapping>
+		</element>
+		<element id="Esenzione.codice">
+			<path value="Esenzione.codice"/>
+			<short value="Codice Esenzione"/>
+			<definition value="Codice Esenzione"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="CodeableConcept"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept"/>
+			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Coverage.costToBeneficiary.exception.type"/>
+			</mapping>
+		</element>
+		<element id="Esenzione.descrizione">
+			<path value="Esenzione.descrizione"/>
+			<short value="Descrizione dell'esenzione"/>
+			<definition value="Descrizione dell'esenzione"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="string"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/string"/>
+			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Coverage.costToBeneficiary.exception.type.text"/>
+			</mapping>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Coverage.text"/>
+			</mapping>
+		</element>
+		<element id="Esenzione.periodoValidita">
+			<path value="Esenzione.periodoValidita"/>
+			<short value="Periodo di validità dell'esenzione"/>
+			<definition value="Periodo di validità dell'esenzione"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="Period"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/Period"/>
+			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Coverage.costToBeneficiary.exception.period"/>
+			</mapping>
+		</element>
+	</differential>
+</StructureDefinition>

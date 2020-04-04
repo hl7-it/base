@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/codesystem.xsd">
+	<id value="istat-comuni"/>
+	<meta>
+		<profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+	</meta>
+	<url value="http://hl7.it/fhir/ValueSet/istat-comuni"/>
+	<!--
+ 
+    <system value="urn:ietf:rfc:3986"/> 
+    <value value="urn:oid:2.16.840.1.113883.4.642.3.29"/> 
+  </identifier>
+  -->
+	<version value="4.0.1"/>
+	<name value="ValueSet_comuni_ISTAT"/>
+	<title value="Comuni ISTAT"/>
+	<status value="active"/>
+	<experimental value="false"/>
+	<date value="2019-11-01T09:29:23+11:00"/>
+	<publisher value="HL7 Italia"/>
+	<contact>
+		<telecom>
+			<system value="url"/>
+			<value value="http://hl7.it/fhir"/>
+		</telecom>
+	</contact>
+	<description value="Lista completa unità territoriali ISTAT + unknown"/>
+	<compose>
+		<include>
+			<system value="http://terminology.hl7.it/CodeSystem/istat-unitaTerritoriali"/>
+		</include>
+		<include>
+			<system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+			<concept>
+				<code value="UNK"/>
+				<display value="Sconosciuto"/>
+			</concept>
+		</include>
+	</compose>
+</ValueSet>

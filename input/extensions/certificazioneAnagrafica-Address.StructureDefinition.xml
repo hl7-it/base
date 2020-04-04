@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/structuredefinition.xsd">
+	<id value="certificazioneAnagrafica"/>
+	<url value="http://hl7.it/fhir/StructureDefinition/certificazioneAnagrafica"/>
+	<version value="0.0.1"/>
+	<name value="CertificazioneAnagrafica"/>
+	<title value="Certificazione Anagrafica"/>
+	<status value="draft"/>
+	<description value="Estensione usata per indicare che l'informazione associata è stata certificata (od autocertificata) da una certa entità (persona, organizzazione).  L'estensione è carattrizzata da:\  
+	* una data di certificazione o da una periodo di validità\  
+	* un codice or un riferimento al certificatore."/>
+	<fhirVersion value="4.0.0"/>
+	<kind value="complex-type"/>
+	<abstract value="false"/>
+	<context>
+		<type value="element"/>
+		<expression value="Address"/>
+	</context>
+	<context>
+		<type value="element"/>
+		<expression value="Patient"/>
+	</context>
+	<context>
+		<type value="element"/>
+		<expression value="Patient.identifier"/>
+	</context>
+	<type value="Extension"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+	<derivation value="constraint"/>
+	<differential>
+		<element id="Extension">
+			<path value="Extension"/>
+			<short value="Certificazione Anagrafica"/>
+			<definition value="Identifica che un certo record paziente, o codice fiscale od indirizzo di residenza è stato certificato da una specifica entità (e.g. MEF)."/>
+		</element>
+		<element id="Extension.extension">
+			<path value="Extension.extension"/>
+			<slicing>
+				<discriminator>
+					<type value="value"/>
+					<path value="url"/>
+				</discriminator>
+				<rules value="open"/>
+			</slicing>
+		</element>
+		<element id="Extension.extension:dataCertificazione">
+			<path value="Extension.extension"/>
+			<sliceName value="dataCertificazione"/>
+			<short value="Data/Periodo  di certificazione"/>
+			<max value="1"/>
+		</element>
+		<element id="Extension.extension:dataCertificazione.url">
+			<path value="Extension.extension.url"/>
+			<fixedUri value="dataCertificazione"/>
+		</element>
+		<element id="Extension.extension:dataCertificazione.value[x]">
+			<path value="Extension.extension.value[x]"/>
+			<type>
+				<code value="dateTime"/>
+			</type>
+			<type>
+				<code value="Period"/>
+			</type>
+		</element>
+		<!--
+		<element id="Extension.extension:tipoCertificatore">
+			<path value="Extension.extension"/>
+			<sliceName value="tipoCertificatore"/>
+			<short value="Tipo di Entità certificatrice"/>
+			<max value="1"/>
+		</element>
+		<element id="Extension.extension:tipoCertificatore.url">
+			<path value="Extension.extension.url"/>
+			<fixedUri value="tipoCertificatore"/>
+		</element>
+		<element id="Extension.extension:tipoCertificatore.value[x]">
+			<path value="Extension.extension.value[x]"/>
+			<type>
+				<code value="CodeableConcept"/>
+			</type>
+			<binding>
+				<strength value="extensible"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/tipoCertificatore"/>
+			</binding>
+		</element>
+-->
+		<element id="Extension.extension:certificatore">
+			<path value="Extension.extension"/>
+			<sliceName value="certificatore"/>
+			<short value="Entità Certificante"/>
+			<max value="1"/>
+		</element>
+		<element id="Extension.extension:certificatore.url">
+			<path value="Extension.extension.url"/>
+			<fixedUri value="certificatore"/>
+		</element>
+		<element id="Extension.extension:certificatore.value[x]">
+			<path value="Extension.extension.value[x]"/>
+			<type>
+				<code value="CodeableConcept"/>
+			</type>
+			<type>
+				<code value="Reference"/>
+			</type>
+			<binding>
+				<strength value="extensible"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/tipoCertificatore"/>
+			</binding>
+		</element>
+		<!--
+				<element id="Extension.extension:certificatore.valueCodeableConcept">
+			<path value="Extension.extension.value[x]"/>
+			<sliceName value="codiceCertificatore"/>
+			<type>
+				<code value="CodeableConcept"/>
+			</type>
+			<binding>
+				<strength value="extensible"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/tipoCertificatore"/>
+			</binding>
+		</element>
+-->
+		<element id="Extension.extension:gradoCertificazione">
+			<path value="Extension.extension"/>
+			<sliceName value="gradoCertificazione"/>
+		</element>
+		<element id="Extension.extension:gradoCertificazione.url">
+			<path value="Extension.extension.url"/>
+			<fixedUri value="gradoCertificazione"/>
+		</element>
+		<element id="Extension.extension:gradoCertificazione.value[x]">
+			<path value="Extension.extension.value[x]"/>
+			<type>
+				<code value="decimal"/>
+			</type>
+		</element>
+		<element id="Extension.url">
+			<path value="Extension.url"/>
+			<fixedUri value="http://hl7.it/fhir/StructureDefinition/certificazioneAnagrafica"/>
+		</element>
+		<element id="Extension.value[x]">
+			<path value="Extension.value[x]"/>
+			<max value="0"/>
+		</element>
+	</differential>
+</StructureDefinition>

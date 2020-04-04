@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/codesystem.xsd">
+	<id value="it-identifier-type"/>
+	<url value="http://terminology.hl7.it/CodeSystem/it-identifier-type"/>
+	<name value="IdentifierType"/>
+	<title value="Tipi di identificatore"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<description value="Estensione alla tabella http://terminology.hl7.org/CodeSystem/v2-0203 per i tipi di identificatore"/>
+	<caseSensitive value="true"/>
+	<content value="complete"/>
+	<concept>
+		<code value="ENI"/>
+		<display value="Europeo Non Iscritto"/>		
+	</concept>
+	<concept>
+		<code value="STP"/>
+		<display value="Straniero Temporaneamente Presente"/>
+	</concept>
+</CodeSystem>

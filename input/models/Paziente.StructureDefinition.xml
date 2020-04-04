@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/structuredefinition.xsd">
+	<id value="Paziente"/>
+	<url value="http://hl7.it/fhir/StructureDefinition/Paziente"/>
+	<version value="0.0.1"/>
+	<name value="Paziente"/>
+	<title value="Paziente - Modello Logico"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<description value="Modello Logico che definisce il set minimo di dati che caratterizzano un paziente nella giurisdizione italiana.&#xD;&#xA;Questa versione è a scopo dimostrativo."/>
+	<fhirVersion value="4.0.0"/>
+	<!--
+	<mapping>
+		<identity value="fhir"/>
+		<uri value="http://hl7.org/fhir"/>
+		<name value="HL7 FHIR"/>
+	</mapping>
+-->
+	<mapping>
+		<identity value="fhir-it"/>
+		<uri value="http://hl7.it/fhir"/>
+		<name value="HL7 FHIR IT Profiles"/>
+	</mapping>
+	<kind value="logical"/>
+	<abstract value="true"/>
+	<type value="Paziente"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="Paziente">
+			<path value="Paziente"/>
+			<short value="Paziente"/>
+			<definition value="Modello Logico che definisce il set minimo di dati che caratterizzano un paziente nella giurisdizione italiano."/>
+			<alias value="Patient"/>
+			<min value="0"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient"/>
+			</mapping>
+		</element>
+		<element id="Paziente.identificatori">
+			<path value="Paziente.identificatori"/>
+			<short value="Identificatori del Paziente"/>
+			<definition value="Lista degli identificatori del paziente. In base al tipo di soggetto ed al contesto di uso uno o più ID possono essere richiesti"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="BackboneElement"/>
+			</type>
+			<mustSupport value="true"/>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.identifier"/>
+			</mapping>
+		</element>
+		<element id="Paziente.identificatori.codiceFiscale">
+			<path value="Paziente.identificatori.codiceFiscale"/>
+			<short value="Codice Fiscale"/>
+			<definition value="Codice Fiscale"/>
+			<requirements value="Per i soggetti assistiti dal Servizio Sanitario Nazionale"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="Identifier"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/Identifier"/>
+			</type>
+			<mustSupport value="true"/>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.identifier:codiceFiscale"/>
+			</mapping>
+		</element>
+		<element id="Paziente.identificatori.idRegionale">
+			<path value="Paziente.identificatori.idRegionale"/>
+			<short value="Identificativo Regionale"/>
+			<definition value="Identificativo Regionale"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="Identifier"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/Identifier"/>
+			</type>
+		</element>
+		<element id="Paziente.identificatori.idLocaleAzienda">
+			<path value="Paziente.identificatori.idLocaleAzienda"/>
+			<short value="ID locale Aziendale"/>
+			<definition value="ID locale Aziendale, per tutti i soggetti che hanno avuto un contatto con una specifica Azienda"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="Identifier"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/Identifier"/>
+			</type>
+		</element>
+		<element id="Paziente.identificatori.codiceSanitario">
+			<path value="Paziente.identificatori.codiceSanitario"/>
+			<short value="Codice Sanitario"/>
+			<definition value="Codice Sanitario"/>
+			<requirements value="Per i soggetti assistiti dal Servizio Sanitario Regionale"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="Identifier"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/Identifier"/>
+			</type>
+		</element>
+		<element id="Paziente.identificatori.codiceSTP">
+			<path value="Paziente.identificatori.codiceSTP"/>
+			<short value="Codice STP"/>
+			<definition value="Codice STP"/>
+			<comment value="Codice STP, per gli Stranieri temporaneamente presenti"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="Identifier"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/Identifier"/>
+			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.identifier:codiceSTP"/>
+			</mapping>
+		</element>
+		<element id="Paziente.identificatori.codiceENI">
+			<path value="Paziente.identificatori.codiceENI"/>
+			<short value="Codice ENI"/>
+			<definition value="Codice ENI"/>
+			<comment value="Codice ENI, per i cittadini Europei Non Iscritti"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="Identifier"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/Identifier"/>
+			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.identifier:codiceSTP"/>
+			</mapping>
+		</element>
+		<element id="Paziente.identificatori.anpr">
+			<path value="Paziente.identificatori.anpr"/>
+			<short value="ANPR"/>
+			<definition value="Identificativo Anagrafe nazionale della popolazione residente (quando applicabile)"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="Identifier"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/Identifier"/>
+			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.identifier:anpr"/>
+			</mapping>
+		</element>
+		<element id="Paziente.documentiIdentificazione">
+			<path value="Paziente.documentiIdentificazione"/>
+			<short value="Documenti di Identificazione"/>
+			<definition value="Documenti usati per l'identificazione della persona: e.g. Passaporto, Carta di Identità,.."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="BackboneElement"/>
+			</type>
+		</element>
+		<element id="Paziente.documentiIdentificazione.passaporto">
+			<path value="Paziente.documentiIdentificazione.passaporto"/>
+			<short value="Passaporto"/>
+			<definition value="Passaporto"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="http://hl7.it/fhir/StructureDefinition/DocumentoIdentificazione"/>
+			</type>
+		</element>
+		<element id="Paziente.documentiIdentificazione.cartaIdentita">
+			<path value="Paziente.documentiIdentificazione.cartaIdentita"/>
+			<short value="Carta di Identità"/>
+			<definition value="Carta di Identità"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="http://hl7.it/fhir/StructureDefinition/DocumentoIdentificazione"/>
+			</type>
+		</element>
+		<element id="Paziente.tesseraTEAM">
+			<path value="Paziente.tesseraTEAM"/>
+			<short value="Tessera Team (aka EHIC)"/>
+			<definition value="Tessera Team (aka EHIC)"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.it/fhir/StructureDefinition/EHIC"/>
+			</type>
+		</element>
+		<element id="Paziente.nome">
+			<path value="Paziente.nome"/>
+			<short value="Nome completo"/>
+			<definition value="Nome completo"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="HumanName"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/HumanName"/>
+			</type>
+			<mustSupport value="true"/>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.name"/>
+			</mapping>
+		</element>
+		<element id="Paziente.genere">
+			<path value="Paziente.genere"/>
+			<short value="Genere (Amministrativo)"/>
+			<definition value="Genere (Amministrativo)"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="CodeableConcept"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept"/>
+			</type>
+			<mustSupport value="true"/>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.gender"/>
+			</mapping>
+		</element>
+		<element id="Paziente.statoCivile">
+			<path value="Paziente.statoCivile"/>
+			<short value="Stato Civile"/>
+			<definition value="Stato Civile"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="CodeableConcept"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept"/>
+			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.maritalStatus"/>
+			</mapping>
+		</element>
+		<element id="Paziente.dataNascita">
+			<path value="Paziente.dataNascita"/>
+			<short value="Data di Nascita"/>
+			<definition value="Data di Nascita"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="date"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/date"/>
+			</type>
+			<type>
+				<code value="dateTime"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/dateTime"/>
+			</type>
+			<mustSupport value="true"/>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.birthDate"/>
+			</mapping>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.extension[@url='http://hl7.org/fhir/StructureDefinition/birthDateTime']"/>
+			</mapping>
+		</element>
+		<element id="Paziente.luogoNascita">
+			<path value="Paziente.luogoNascita"/>
+			<short value="Luogo di Nascita (codice)"/>
+			<definition value="Luogo di Nascita (codice)"/>
+			<comment value="Solo stringa od anche codice"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="CodeableConcept"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept"/>
+			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.extension('http://hl7.org/fhir/StructureDefinition/birthPlace')"/>
+			</mapping>
+		</element>
+		<element id="Paziente.Indirizzi">
+			<path value="Paziente.indirizzi"/>
+			<short value="Indirizzi (residenza; domicilio)"/>
+			<definition value="Indirizzi (e.g. residenza; domicilio)"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="BackboneElement"/>
+			</type>
+			<mustSupport value="true"/>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.address"/>
+			</mapping>
+		</element>
+		<element id="Paziente.indirizzi.residenza">
+			<path value="Paziente.indirizzi.residenza"/>
+			<short value="Residenza"/>
+			<definition value="Residenza"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.it/fhir/StructureDefinition/Indirizzo"/>
+			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.address.extension('http://hl7.org/fhir/StructureDefinition/official-Address').where(valueBoolean='true')"/>
+			</mapping>
+		</element>
+		<element id="Paziente.indirizzi.domicilio">
+			<path value="Paziente.indirizzi.domicilio"/>
+			<short value="Domicilio"/>
+			<definition value="Domicilio"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.it/fhir/StructureDefinition/Indirizzo"/>
+			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.address.use.where(code='home')"/>
+			</mapping>
+		</element>
+		<!-- uncomment when the meaning will be more clear
+		<element id="Paziente.indirizzi.domicilioSanitario">
+			<path value="Paziente.indirizzi.domicilioSanitario"/>
+			<short value="Domicilio Sanitario"/>
+			<definition value="Domicilio Sanitario"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.it/fhir/StructureDefinition/Indirizzo"/>
+			</type>
+		</element>
+		<element id="Paziente.indirizzi.reperibilita">
+			<path value="Paziente.indirizzi.reperibilita"/>
+			<short value="Reperibilità"/>
+			<definition value="Reperibilità"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.it/fhir/StructureDefinition/Indirizzo"/>
+			</type>
+		</element>
+-->
+		<element id="Paziente.listaAUSL">
+			<path value="Paziente.listaAUSL"/>
+			<short value="Aziende Sanitarie (Assistenza, residenza)"/>
+			<definition value="Aziende Sanitarie (Assistenza, residenza)"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="BackboneElement"/>
+			</type>
+		</element>
+		<element id="Paziente.listaAUSL.auslAssistenza">
+			<path value="Paziente.listaAUSL.auslAssistenza"/>
+			<short value="ASL di Assistenza"/>
+			<definition value="ASL di Assistenza"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.it/fhir/StructureDefinition/AziendaSanitaria"/>
+			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.generalPractitioner:mmgPlsAzienda"/>
+			</mapping>
+		</element>
+		<element id="Paziente.listaAUSL.aslResidenza">
+			<path value="Paziente.listaAUSL.aslResidenza"/>
+			<short value="ASL di Residenza"/>
+			<definition value="ASL di Residenza"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.it/fhir/StructureDefinition/AziendaSanitaria"/>
+			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Coverage.where(beneficiary.id = Patient.id).payorOrganization"/>
+			</mapping>
+		</element>
+		<element id="Paziente.recapiti">
+			<path value="Paziente.recapiti"/>
+			<short value="Recapiti (telecom)"/>
+			<definition value="Recapiti del paziente (telecom)"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="BackboneElement"/>
+			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.telecom"/>
+			</mapping>
+		</element>
+		<element id="Paziente.recapiti.telefono">
+			<path value="Paziente.recapiti.telefono"/>
+			<short value="telefono"/>
+			<definition value="telefono"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="ContactDetail"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/ContactDetail"/>
+			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.telecom.where(system = 'phone')"/>
+			</mapping>
+		</element>
+		<element id="Paziente.recapiti.eMail">
+			<path value="Paziente.recapiti.eMail"/>
+			<short value="eMail"/>
+			<definition value="eMail"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="ContactDetail"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/ContactDetail"/>
+			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.telecom.where(system = 'email')"/>
+			</mapping>
+		</element>
+		<element id="Paziente.recapiti.pec">
+			<path value="Paziente.recapiti.pec"/>
+			<short value="pec"/>
+			<definition value="pec"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="ContactDetail"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/ContactDetail"/>
+			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.telecom.where(system = 'email')"/>
+			</mapping>
+		</element>
+		<element id="Paziente.recapiti.cellulare">
+			<path value="Paziente.recapiti.cellulare"/>
+			<short value="Cellulare"/>
+			<definition value="Cellulare"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="ContactDetail"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/ContactDetail"/>
+			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.telecom.where(use = 'mobile')"/>
+			</mapping>
+		</element>
+		<element id="Paziente.contatti">
+			<path value="Paziente.contatti"/>
+			<short value="Contatto del paziente"/>
+			<definition value="Persona od organizzazione di contatto per il paziente"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="BackboneElement"/>
+			</type>
+		</element>
+		<element id="Paziente.contatti.persona">
+			<path value="Paziente.contatti.persona"/>
+			<short value="Persona di contatto per il paziente"/>
+			<definition value="Persona di contatto per il paziente"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.it/fhir/StructureDefinition/ContattoPersona"/>
+			</type>
+		</element>
+		<element id="Paziente.contatti.organizzazione">
+			<path value="Paziente.contatti.organizzazione"/>
+			<short value="Organizzazione di contatto per il paziente"/>
+			<definition value="Organizzazione di contatto per il paziente"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.org/fhir/StructureDefinition/Organization"/>
+			</type>
+		</element>
+		<element id="Paziente.cittadinanza">
+			<path value="Paziente.cittadinanza"/>
+			<short value="Cittadinanza"/>
+			<definition value="Cittadinanza"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="CodeableConcept"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept"/>
+			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.extension('http://hl7.org/fhir/StructureDefinition/patient-citizenship')"/>
+			</mapping>
+		</element>
+		<element id="Paziente.decesso">
+			<path value="Paziente.decesso"/>
+			<short value="Decesso"/>
+			<definition value="Informazioni sul decesso"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="BackboneElement"/>
+			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.deceased[x]"/>
+			</mapping>
+		</element>
+		<element id="Paziente.decesso.flagDeceduto">
+			<path value="Paziente.decesso.flagDeceduto"/>
+			<short value="Deceduto (si/no)"/>
+			<definition value="Deceduto (si/no)"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="boolean"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/boolean"/>
+			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.deceasedBoolean"/>
+			</mapping>
+		</element>
+		<element id="Paziente.decesso.dataDecesso">
+			<path value="Paziente.decesso.dataDecesso"/>
+			<short value="Data decesso"/>
+			<definition value="Data decesso"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="dateTime"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/dateTime"/>
+			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.deceasedDateTime"/>
+			</mapping>
+		</element>
+		<element id="Paziente.esenzione">
+			<path value="Paziente.esenzione"/>
+			<short value="Esenzioni"/>
+			<definition value="Esenzioni"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.it/fhir/StructureDefinition/Esenzione"/>
+			</type>
+		</element>
+		<element id="Paziente.medicoCurante">
+			<path value="Paziente.medicoCurante"/>
+			<short value="Medico Curante"/>
+			<definition value="Medico Curante"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="http://hl7.it/fhir/StructureDefinition/MedicoCurante"/>
+			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.generalPractitioner:mmgPls"/>
+			</mapping>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.generalPractitioner:mmgPlsRole"/>
+			</mapping>
+		</element>
+	</differential>
+</StructureDefinition>

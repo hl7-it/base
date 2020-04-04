@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="tipoEntita"/>
+	<url value="http://terminology.hl7.it/CodeSystem/tipoEntita"/>
+	<name value="CodeSystemtipoEntita"/>
+	<title value="Tipo di Entità"/>
+	<status value="draft"/>
+	<experimental value="false"/>
+	<description value="I codici delle diverse entità che possono certificare i record Paziente, l'indirizzo di Residenza ed il Codice Fiscale"/>
+	<caseSensitive value="true"/>
+	<!--
+  <valueSet value="http://hl7.org/fhir/uv/ips/ValueSet/absent-unknown-uv-ips"/>
+	-->
+	<content value="complete"/>
+	<concept>
+		<code value="gov"/>
+		<display value="Ministero od Agenzia governativa"/>
+		<definition value="Ministero od Agenzia governativa"/>
+		<concept>
+			<code value="mef"/>
+			<display value="Ministero Economia e Finanze"/>
+			<definition value="Ministero dell'Economia e Finanze"/>
+		</concept>
+	</concept>
+		<concept>
+		<code value="regione"/>
+		<display value="Regione"/>
+		<definition value="Regione"/>
+		<!-- perché non usare un codice comune se disponibile ? -->
+	</concept>
+	<concept>
+		<code value="comune"/>
+		<display value="Comune"/>
+		<definition value="Comune"/>
+		<!-- perché non usare un codice comune se disponibile ? -->
+	</concept>
+		<concept>
+		<code value="ausl"/>
+		<display value="Azienda Sanitaria"/>
+		<definition value="Comune"/>
+		<!-- perché non usare un codice comune se disponibile ? -->
+	</concept>
+	<concept>
+		<code value="self"/>
+		<display value="soggetto stesso"/>
+		<definition value="L'informazione è stata autocertificata"/>
+	</concept>
+</CodeSystem>

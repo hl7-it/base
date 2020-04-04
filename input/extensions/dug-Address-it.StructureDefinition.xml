@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="dug-Address-it" />
+  <url value="http://hl7.it/fhir/StructureDefinition/dug-Address-it" />
+  <version value="0.0.1" />
+  <name value="DUG_Address_it" />
+  <title value="DUG (Denominazione Urbanistica Generica)" />
+  <status value="draft" />
+  <description value="Denominazione Urbanistica Ufficiale" />
+  <fhirVersion value="4.0.0" />
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <context>
+    <type value="element" />
+    <expression value="Address.line" />
+  </context>
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="http://hl7.it/fhir/StructureDefinition/dug-Address-it" />
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <type>
+        <code value="CodeableConcept" />
+      </type>
+      			<binding>
+				<strength value="extensible"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/istat-dug"/>
+			</binding>
+    </element>
+  </differential>
+</StructureDefinition>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/codesystem.xsd">
+	<id value="istat-statoCivile"/>
+	<meta><source value="https://www.anpr.interno.it/portale/tabelle-di-riferimento"/></meta>
+	<text>
+		<status value="generated"/>
+		<div xmlns="http://www.w3.org/1999/xhtml">Tabella ISTAT Stato Civile</div>
+	</text>
+	<url value="http://terminology.hl7.it/CodeSystem/istat-statoCivile"/>
+	<name value="Stato_Civile_ISTAT"/>
+	<title value="Tabella ISTAT Stato Civile"/>
+	<status value="draft"/>
+	<experimental value="false"/>
+	<description value="Tabella ISTAT Stato Civile"/>
+	<caseSensitive value="true"/>
+	<content value="complete"/>
+	<concept>
+		<code value="1"/>
+		<display value="Celibe/Nubile"/>		
+	</concept>
+	<concept>
+		<code value="2"/>
+		<display value="Coniugato/a"/>
+	</concept>
+	<concept>
+		<code value="3"/>
+		<display value="Vedovo/a"/>
+	</concept>
+	<concept>
+		<code value="4"/>
+		<display value="Divorziato/a"/>
+	</concept>
+	<concept>
+		<code value="9"/>
+		<display value="Non classificabile/ignoto/n.c"/>
+	</concept>
+	<concept>
+		<code value="6"/>
+		<display value="Unito civilmente"/>
+	</concept>
+	<concept>
+		<code value="7"/>
+		<display value="Stato libero a seguito di decesso della parte unita civilmente"/>
+	</concept>
+	<concept>
+		<code value="8"/>
+		<display value="Stato libero a seguito di scioglimento dell'unione"/>
+	</concept>
+</CodeSystem>

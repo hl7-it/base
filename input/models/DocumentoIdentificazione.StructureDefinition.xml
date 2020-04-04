@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+	<id value="DocumentoIdentificazione"/>
+	<url value="http://hl7.it/fhir/StructureDefinition/DocumentoIdentificazione"/>
+	<version value="0.0.1"/>
+	<name value="DocumentoIdentificazione"/>
+	<title value="Documento di Identificazione - Modello Logico"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<description value="Modello Logico che definisce il set di dati che caratterizzano i documenti di Identificazione (e.g. Passaporto, CI) &#xD;&#xA;Questa versione è a scopo dimostrativo."/>
+	<fhirVersion value="4.0.0"/>
+	<kind value="logical"/>
+	<abstract value="true"/>
+	<type value="DocumentoIdentificazione"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="DocumentoIdentificazione">
+			<path value="DocumentoIdentificazione"/>
+			<short value="DocumentoIdentificazione"/>
+			<definition value="Modello Logico che definisce il set di dati che caratterizzano i documenti di Identificazione (e.g. Passaporto, CI)"/>
+			<min value="0"/>
+			<max value="*"/>
+		</element>
+		<element id="DocumentoIdentificazione.idDocumento">
+			<path value="DocumentoIdentificazione.idDocumento"/>
+			<short value="Identificativo del documento di identificazione"/>
+			<definition value="Identificativo del documento di identificazione"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="string"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/string"/>
+			</type>
+		</element>
+		<element id="DocumentoIdentificazione.tipo">
+			<path value="DocumentoIdentificazione.tipo"/>
+			<short value="Tipo di documento di identificazione (e.g. Passaporto, CI)"/>
+			<definition value="Tipo di documento di identificazione (e.g. Passaporto, CI)"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="CodeableConcept"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept"/>
+			</type>
+		</element>
+		<element id="DocumentoIdentificazione.periodoValidita">
+			<path value="DocumentoIdentificazione.periodoValidita"/>
+			<short value="Periodo di validità del documento"/>
+			<definition value="Periodo di validità del documento. da data di emissione a data scadenza"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="Period"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/Period"/>
+			</type>
+		</element>
+		<element id="DocumentoIdentificazione.enteRilasciante">
+			<path value="DocumentoIdentificazione.enteRilasciante"/>
+			<short value="Ente rilasciante"/>
+			<definition value="Ente rilasciante"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="string"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/string"/>
+			</type>
+		</element>
+		<element id="DocumentoIdentificazione.statoRilasciante">
+			<path value="DocumentoIdentificazione.statoRilasciante"/>
+			<short value="Stato Rilasciante"/>
+			<definition value="Stato Rilasciante"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="CodeableConcept"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept"/>
+			</type>
+		</element>
+	</differential>
+</StructureDefinition>

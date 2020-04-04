@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NamingSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/namingsystem.xsd">
+	<id value="it-sid-cf"/>
+	<name value="CodiceFiscale"/>	
+	<status value="draft"/>
+	<kind value="identifier"/>
+	<date value="2015-08-21"/>
+	<publisher value="HL7 Italia"/>
+	<description value="Il codice fiscale costituisce lo strumento di identificazione delle persone fisiche e dei soggetti diversi dalle persone fisiche in tutti i rapporti con gli enti e le amministrazioni pubbliche. Ai cittadini che hanno diritto anche all’assistenza sanitaria da parte del Servizio Sanitario Nazionale, viene rilasciata la Tessera sanitaria (che contiene anche il codice fiscale). L’unico valido è quello rilasciato dall’Agenzia delle Entrate."/>
+	<uniqueId>
+		<type value="uri"/>
+		<value value="http://hl7.it/fhir/sid/codiceFiscale"/>
+		<preferred value="true"/>
+	</uniqueId>
+	<uniqueId>
+		<type value="oid"/>
+		<value value="2.16.840.1.113883.2.9.4.3.2"/>
+		<preferred value="false"/>
+	</uniqueId>
+</NamingSystem>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patient xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/structuredefinition.xsd">
+	<id value="Patient-birthPlace-opt2"/>
+	<extension url="http://hl7.it/fhir/StructureDefinition/patientBirthPlace-codeable-it">
+		<valueCodeableConcept>
+			<coding>
+				<system value="http://terminology.hl7.it/CodeSystem/ae-codiciCatastali"/>
+				<code value="F979"/>
+				<display value="NUORO"/>
+			</coding>
+		</valueCodeableConcept>
+	</extension>
+	<identifier>
+		<type>
+			<coding>
+				<system value="http://terminology.hl7.it/CodeSystem/it-identifier-type"/>
+				<code value="STP"/>
+			</coding>
+		</type>
+		<system value="http://example.org/sid/asl_XYZ/stp"/>
+		<value value="123456789"/>
+	</identifier>
+	<active value="true"/>
+	<name>
+		<text value="Akuba Ackah"/>
+		<family value="Ackah"/>
+		<given value="Akuba"/>
+	</name>
+	<address>
+		<text value="Via dei Pini 123; Ronda"/>
+	</address>
+</Patient>

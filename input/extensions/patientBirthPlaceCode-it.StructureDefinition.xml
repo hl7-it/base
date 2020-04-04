@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/structuredefinition.xsd">
+	<id value="patientBirthPlace-codeable-it"/>
+	<url value="http://hl7.it/fhir/StructureDefinition/patientBirthPlace-codeable-it"/>
+	<version value="0.0.1"/>
+	<name value="PatientBirthPlaceCodeableIT"/>
+	<title value="Codice comune e/o stato di nascita"/>
+	<status value="draft"/>
+	<description value="Codice comune e/o stato di nascita"/>
+	<fhirVersion value="4.0.1"/>
+	<kind value="complex-type"/>
+	<abstract value="false"/>
+	<context>
+		<type value="element"/>
+		<expression value="Patient"/>
+	</context>
+	<type value="Extension"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+	<derivation value="constraint"/>
+	<differential>
+		<element id="Extension.url">
+			<path value="Extension.url"/>
+			<fixedUri value="http://hl7.it/fhir/StructureDefinition/patientBirthPlace-codeable-it"/>
+		</element>
+		<element id="Extension.value[x]">
+			<path value="Extension.value[x]"/>
+			<type>
+				<code value="CodeableConcept"/>
+			</type>
+		</element>
+	</differential>
+</StructureDefinition>

@@ -1,0 +1,27 @@
+{
+ "name": "fish",
+ "version" : "0.1.0",  
+ "canonical" : "http://hl7.it/fhir",
+ "url" : "http://hl7.it/fhir",
+ "title" : "Fish Implementation Guide",
+ "description": "An example of how FSH can be used to create an IG about fish",
+ "dependencies": {
+    "hl7.fhir.r4.core": "4.0.1",
+    "hl7.fhir.it.sandbox": "dev"
+ },
+ "keywords": [
+   "FSH",
+   "Actual fish", 
+   "SUSHI",
+   "Veterinary Care"
+ ],
+ "language": "it",
+ "author": "James Tuna",
+ "maintainers": [
+   {
+     "name": "Bill Cod",
+     "email": "cod@reef.gov"
+   }
+ ],
+ "license": "CC0-1.0"
+}
