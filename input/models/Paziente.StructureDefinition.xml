@@ -69,7 +69,7 @@
 			<mustSupport value="true"/>
 			<mapping>
 				<identity value="fhir-it"/>
-				<map value="Patient.identifier:codiceFiscale"/>
+				<map value="Patient.identifier.slice(codiceFiscale)"/>
 			</mapping>
 		</element>
 		<element id="Paziente.identificatori.idRegionale">
@@ -119,7 +119,7 @@
 			</type>
 			<mapping>
 				<identity value="fhir-it"/>
-				<map value="Patient.identifier:codiceSTP"/>
+				<map value="Patient.identifier.slice(codiceSTP)"/>
 			</mapping>
 		</element>
 		<element id="Paziente.identificatori.codiceENI">
@@ -135,7 +135,7 @@
 			</type>
 			<mapping>
 				<identity value="fhir-it"/>
-				<map value="Patient.identifier:codiceSTP"/>
+				<map value="Patient.identifier.slice(codiceSTP)"/>
 			</mapping>
 		</element>
 		<element id="Paziente.identificatori.anpr">
@@ -150,7 +150,7 @@
 			</type>
 			<mapping>
 				<identity value="fhir-it"/>
-				<map value="Patient.identifier:anpr"/>
+				<map value="Patient.identifier.slice(anpr)"/>
 			</mapping>
 		</element>
 		<element id="Paziente.documentiIdentificazione">
@@ -261,7 +261,7 @@
 			</mapping>
 			<mapping>
 				<identity value="fhir-it"/>
-				<map value="Patient.extension[@url='http://hl7.org/fhir/StructureDefinition/birthDateTime']"/>
+				<map value="Patient.extension('http://hl7.org/fhir/StructureDefinition/birthDateTime')"/>
 			</mapping>
 		</element>
 		<element id="Paziente.luogoNascita">
@@ -306,7 +306,7 @@
 			</type>
 			<mapping>
 				<identity value="fhir-it"/>
-				<map value="Patient.address.extension('http://hl7.org/fhir/StructureDefinition/official-Address').where(valueBoolean='true')"/>
+				<map value="Patient.address.where(extension('http://hl7.org/fhir/StructureDefinition/official-Address').valueBoolean='true')"/>
 			</mapping>
 		</element>
 		<element id="Paziente.indirizzi.domicilio">
@@ -320,7 +320,7 @@
 			</type>
 			<mapping>
 				<identity value="fhir-it"/>
-				<map value="Patient.address.use.where(code='home')"/>
+				<map value="Patient.address.where(use.code='home')"/>
 			</mapping>
 		</element>
 		<!-- uncomment when the meaning will be more clear
@@ -366,7 +366,7 @@
 			</type>
 			<mapping>
 				<identity value="fhir-it"/>
-				<map value="Patient.generalPractitioner:mmgPlsAzienda"/>
+				<map value="Patient.generalPractitioner.slice(mmgPlsAzienda)"/>
 			</mapping>
 		</element>
 		<element id="Paziente.listaAUSL.aslResidenza">
@@ -555,6 +555,10 @@
 			<type>
 				<code value="http://hl7.it/fhir/StructureDefinition/Esenzione"/>
 			</type>
+			<mapping>
+			<identity value="fhir-it"/>
+				<map value="Coverage.where(beneficiary.id = Patient.id).costToBeneficiary.exception"/>
+			</mapping>
 		</element>
 		<element id="Paziente.medicoCurante">
 			<path value="Paziente.medicoCurante"/>
@@ -567,11 +571,11 @@
 			</type>
 			<mapping>
 				<identity value="fhir-it"/>
-				<map value="Patient.generalPractitioner:mmgPls"/>
+				<map value="Patient.generalPractitioner.slice(mmgPls)"/>
 			</mapping>
 			<mapping>
 				<identity value="fhir-it"/>
-				<map value="Patient.generalPractitioner:mmgPlsRole"/>
+				<map value="Patient.generalPractitioner.slice(mmgPlsRole)"/>
 			</mapping>
 		</element>
 	</differential>

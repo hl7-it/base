@@ -15,7 +15,7 @@
 		</valueAddress>
 	</extension>
 	<identifier>
-		<system value="http://hl7.it/fhir/sid/codiceFiscale"/>
+		<system value="http://hl7.it/sid/codiceFiscale"/>
 		<value value="TSTPSN80A01D612A"/>
 	</identifier>
 	<active value="true"/>

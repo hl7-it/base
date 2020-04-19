@@ -9,7 +9,7 @@
 	<description value="Il codice fiscale costituisce lo strumento di identificazione delle persone fisiche e dei soggetti diversi dalle persone fisiche in tutti i rapporti con gli enti e le amministrazioni pubbliche. Ai cittadini che hanno diritto anche all’assistenza sanitaria da parte del Servizio Sanitario Nazionale, viene rilasciata la Tessera sanitaria (che contiene anche il codice fiscale). L’unico valido è quello rilasciato dall’Agenzia delle Entrate."/>
 	<uniqueId>
 		<type value="uri"/>
-		<value value="http://hl7.it/fhir/sid/codiceFiscale"/>
+		<value value="http://hl7.it/sid/codiceFiscale"/>
 		<preferred value="true"/>
 	</uniqueId>
 	<uniqueId>

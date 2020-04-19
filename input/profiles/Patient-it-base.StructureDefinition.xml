@@ -157,7 +157,7 @@
 			<path value="Patient.identifier"/>
 			<sliceName value="codiceFiscale"/>
 			<patternIdentifier>
-				<system value="http://hl7.it/fhir/sid/codiceFiscale"/>
+				<system value="http://hl7.it/sid/codiceFiscale"/>
 			</patternIdentifier>
 			<mustSupport value="true"/>
 		</element>
@@ -180,10 +180,10 @@
 			<path value="Patient.identifier"/>
 			<sliceName value="anpr"/>
 			<patternIdentifier>
-				<system value="http://hl7.it/fhir/sid/anpr"/>
+				<system value="http://hl7.it/sid/anpr"/>
 			</patternIdentifier>
 		</element>
-		<!--
+			<!--
 		<element id="Patient.identifier:anpr.system">
 			<path value="Patient.identifier.system"/>
 			<min value="1"/>

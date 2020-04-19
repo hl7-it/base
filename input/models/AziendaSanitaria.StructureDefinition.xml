@@ -28,7 +28,7 @@
 			<max value="*"/>
 			<mapping>
 				<identity value="fhir-it"/>
-				<map value="Organziation.conformsTo('http://hl7.it/fhir/StructureDefinition/Organization-AziendaSanitaria-it')"/>
+				<map value="Organization.conformsTo('http://hl7.it/fhir/StructureDefinition/Organization-AziendaSanitaria-it')"/>
 			</mapping>
 		</element>
 		<element id="AziendaSanitaria.identificativo">
@@ -43,7 +43,7 @@
 			</type>
 			<mapping>
 				<identity value="fhir-it"/>
-				<map value="Organziation.conformsTo('http://hl7.it/fhir/StructureDefinition/Organization-AziendaSanitaria-it').identifier"/>
+				<map value="Organization.conformsTo('http://hl7.it/fhir/StructureDefinition/Organization-AziendaSanitaria-it').identifier"/>
 			</mapping>
 		</element>
 		<element id="AziendaSanitaria.nome">
@@ -58,7 +58,7 @@
 			</type>
 			<mapping>
 				<identity value="fhir-it"/>
-				<map value="Organziation.conformsTo('http://hl7.it/fhir/StructureDefinition/Organization-AziendaSanitaria-it').name"/>
+				<map value="Organization.conformsTo('http://hl7.it/fhir/StructureDefinition/Organization-AziendaSanitaria-it').name"/>
 			</mapping>
 		</element>
 	</differential>
