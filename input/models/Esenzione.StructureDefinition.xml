@@ -43,7 +43,7 @@
 			</type>
 			<mapping>
 				<identity value="fhir-it"/>
-				<map value="Coverage.status"/>
+				<map value="Coverage.costToBeneficiary.exception.extension('StatoEsenzioneCoverageIT')"/>
 			</mapping>
 		</element>
 		<element id="Esenzione.tipo">

@@ -1,0 +1,33 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "EsenzioniIT",
+  "id": "esenzioni-MinSan",
+  "title": "Codici Esenzioni Minister della Salute",
+  "description": "Codici Esenzioni Ministero della Salute",
+  "version": "0.1.0",
+  "url": "http://hl7.it/fhir/CodeSystem/esenzioni-MinSan",
+  "concept": [
+    {
+      "code": "E01",
+      "display": "Esente per età",
+      "definition": "Cittadini di età inferiore a sei anni e superiore a sessantacinque anni, appartenenti ad un nucleo familiare con reddito annuo complessivo non superiore a 36.151,98 euro."
+    },
+    {
+      "code": "E02",
+      "display": "Esente per disoccupazione",
+      "definition": "Disoccupati e loro familiari a carico appartenenti ad un nucleo familiare con un reddito annuo complessivo inferiore a 8.263,31 euro, incrementato fino a 11.362,05 euro in presenza del coniuge ed in ragione di ulteriori 516,46 euro per ogni figlio a carico."
+    },
+    {
+      "code": "E03",
+      "display": "Titolare di pensione sociale",
+      "definition": "Titolari di pensioni sociali e loro familiari a carico."
+    },
+    {
+      "code": "E04",
+      "display": "Titolare di pensione al minimo",
+      "definition": "Titolari di pensioni al minimo di età superiore a sessant'anni e loro familiari a carico, appartenenti ad un nucleo familiare con un reddito annuo complessivo inferiore a 8.263,31 euro, incrementato fino a 11.362,05 euro in presenza del coniuge ed in ragione di ulteriori 516,46 euro per ogni figlio a carico."
+    }
+  ]
+}

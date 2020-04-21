@@ -378,6 +378,7 @@
 				<label value="codiceProvincia"/>
 				<valueCodeableConcept>
 					<coding>
+						<system value="http://example.org/sid/province"/>
 						<code value="TV"/>
 						<display value="Treviso"/>
 					</coding>

@@ -71,6 +71,30 @@
 			<description value="Istanza di Patient con birthPlace codificato usando l'estensione SC-code all'interno di patientBirthPlace"/>
 			<exampleCanonical value="http://hl7.it/fhir/StructureDefinition/Patient-it-base"/>
 		</resource>
+		<resource>
+			<reference>
+				<reference value="Coverage/EsempioEsenzione"/>
+			</reference>
+			<name value="Coverage. Esempio di gestire delle esenzioni"/>
+			<description value="Esempio di uso della risorsa coverage per gestire le esenzioni"/>
+			<exampleCanonical value="http://hl7.it/fhir/StructureDefinition/Coverage-esenzioni-it"/>
+		</resource>
+		<resource>			
+					<reference>
+				<reference value="Organization/ASL-example"/>
+			</reference>
+			<name value="Organization. Esempio di Azienda Sanitaria"/>
+			<description value="Esempio di uso della risorsa Organization per descrivere una Azienda Sanitaria"/>
+			<exampleCanonical value="http://hl7.it/fhir/StructureDefinition/Organization-AziendaSanitaria-it"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Practitioner/PractitionerMMGExample"/>
+			</reference>
+			<name value="Practitioner. Medico di Medicina Generale"/>
+			<description value="Esempio di uso della risorsa Practitioner per rappresentare i dati anagrafici di un medico."/>
+			<exampleCanonical value="http://hl7.it/fhir/StructureDefinition/Practitioner-mmg-it"/>
+		</resource>
 		<!-- You don't need to define any groupings.  The IGPublisher will define them for you.  You only need to do so if your IG is 'special' and it's
       inappropriate to use the defaults.  Feel free to provide feedback about the defaults... -->
 		<page>
@@ -88,13 +112,11 @@
 				<title value="Background"/>
 				<generation value="html"/>
 			</page>
-		
 			<page>
 				<nameUrl value="methodology.html"/>
 				<title value="Metodologia"/>
 				<generation value="markdown"/>
 			</page>
-	
 			<page>
 				<nameUrl value="spec.html"/>
 				<title value="Detailed Specification"/>

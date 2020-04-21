@@ -111,10 +111,12 @@
 		</element>
 		<element id="Patient.identifier">
 			<path value="Patient.identifier"/>
+			<short value="Identificativo del paziente"/>
+			<definition value="Identificativo del paziente. &#13;&#10; Lo slicing specificato per questo element è di tipo open; questo significa che sono ammessi identificativi che non rispettano le regole definite per le sice specificate.  &#13;&#10; Esempi di possibili sistemi di identificazione sono elencati in https://confluence.hl7.org/display/HI/Identificatori"/>			
 			<slicing>
 				<discriminator>
-					<type value="pattern"/>
-					<path value="$this"/>
+					<type value="value"/>
+					<path value="$this.system"/>
 				</discriminator>
 				<rules value="open"/>
 			</slicing>
@@ -139,6 +141,7 @@
 				<valueSet value="http://hl7.it/fhir/ValueSet/it-identifier-type"/>
 			</binding>
 		</element>
+		<!--
 		<element id="Patient.identifier.system">
 			<path value="Patient.identifier.system"/>
 			<short value="URI che definisce lo spazio di identificazione, in cui l'identificativo usato è unico."/>
@@ -146,6 +149,7 @@
 			<min value="1"/>
 			<mustSupport value="true"/>
 		</element>
+		-->
 		<element id="Patient.identifier.value">
 			<path value="Patient.identifier.value"/>
 			<short value="ID del paziente (e.g. Codice Fiscale)"/>
@@ -156,14 +160,18 @@
 		<element id="Patient.identifier:codiceFiscale">
 			<path value="Patient.identifier"/>
 			<sliceName value="codiceFiscale"/>
-			<patternIdentifier>
-				<system value="http://hl7.it/sid/codiceFiscale"/>
-			</patternIdentifier>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.identifier:codiceFiscale.system">
+			<path value="Patient.identifier.system"/>
+			<fixedUri value="http://hl7.it/sid/codiceFiscale"/>
+			<min value="1"/>
 			<mustSupport value="true"/>
 		</element>
 		<element id="Patient.identifier:codiceFiscale.value">
 			<path value="Patient.identifier.value"/>
 			<min value="1"/>
+			<mustSupport value="true"/>
 			<constraint>
 				<key value="pat-id-cf-1"/>
 				<severity value="error"/>
@@ -171,6 +179,7 @@
 				<!-- <expression value="matches('^(?:[A-Z][AEIOU][AEIOUX]|[B-DF-HJ-NP-TV-Z]{2}[A-Z]){2}(?:[\\dLMNP-V]{2}(?:[A-EHLMPR-T](?:[04LQ][1-9MNP-V]|[15MR][\\dLMNP-V]|[26NS][0-8LMNP-U])|[DHPS][37PT][0L]|[ACELMRT][37PT][01LM]|[AC-EHLMPR-T][26NS][9V])|(?:[02468LNQSU][048LQU]|[13579MPRTV][26NS])B[26NS][9V])(?:[A-MZ][1-9MNP-V][\\dLMNP-V]{2}|[A-M][0L](?:[1-9MNP-V][\\dLMNP-V]|[0L][1-9MNP-V]))[A-Z]$')"/>
 -->
 				<expression value="matches('^[A-Za-z]{6}[0-9LMNPQRSTUV]{2}[A-Za-z]{1}[0-9LMNPQRSTUV]{2}[A-Za-z]{1}[0-9LMNPQRSTUV]{3}[A-Za-z]{1}$')"/>
+				<xpath value="matches(@value,'^[A-Za-z]{6}[0-9LMNPQRSTUV]{2}[A-Za-z]{1}[0-9LMNPQRSTUV]{2}[A-Za-z]{1}[0-9LMNPQRSTUV]{3}[A-Za-z]{1}$')"/>
 				<!--
 				<xpath value="matches(@value,'/^(?:[A-Z][AEIOU][AEIOUX]|[B-DF-HJ-NP-TV-Z]{2}[A-Z]){2}(?:[\dLMNP-V]{2}(?:[A-EHLMPR-T](?:[04LQ][1-9MNP-V]|[15MR][\dLMNP-V]|[26NS][0-8LMNP-U])|[DHPS][37PT][0L]|[ACELMRT][37PT][01LM]|[AC-EHLMPR-T][26NS][9V])|(?:[02468LNQSU][048LQU]|[13579MPRTV][26NS])B[26NS][9V])(?:[A-MZ][1-9MNP-V][\dLMNP-V]{2}|[A-M][0L](?:[1-9MNP-V][\dLMNP-V]|[0L][1-9MNP-V]))[A-Z]$/i') "/>
 -->
@@ -179,26 +188,31 @@
 		<element id="Patient.identifier:anpr">
 			<path value="Patient.identifier"/>
 			<sliceName value="anpr"/>
-			<patternIdentifier>
-				<system value="http://hl7.it/sid/anpr"/>
-			</patternIdentifier>
 		</element>
-			<!--
 		<element id="Patient.identifier:anpr.system">
 			<path value="Patient.identifier.system"/>
+			<fixedUri value="http://hl7.it/sid/anpr"/>
 			<min value="1"/>
 			<mustSupport value="true"/>
 		</element>
-
-		<element id="Patient.identifier:anpr.value">
-			<path value="Patient.identifier.value"/>
-			<min value="1"/>
+		<element id="Patient.identifier:regione">
+			<path value="Patient.identifier"/>
+			<sliceName value="regione"/>
 		</element>
--->
+		<element id="Patient.identifier:regione.system">
+			<path value="Patient.identifier.system"/>
+			<min value="1"/>
+			<mustSupport value="true"/>
+			<binding>
+				<strength value="required"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/UriIdRegionali"/>
+			</binding>
+		</element>
 		<element id="Patient.identifier:codiceENI">
 			<path value="Patient.identifier"/>
 			<sliceName value="codiceENI"/>
 			<short value="Codice ENI"/>
+			<!--
 			<patternIdentifier>
 				<type>
 					<coding>
@@ -207,10 +221,21 @@
 					</coding>
 				</type>
 			</patternIdentifier>
+			-->
+		</element>
+		<element id="Patient.identifier:codiceENI.system">
+			<path value="Patient.identifier.system"/>
+			<min value="1"/>
+			<mustSupport value="true"/>
+			<binding>
+				<strength value="required"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/UriIdEni"/>
+			</binding>
 		</element>
 		<element id="Patient.identifier:codiceSTP">
 			<path value="Patient.identifier"/>
 			<sliceName value="codiceSTP"/>
+			<!--
 			<patternIdentifier>
 				<type>
 					<coding>
@@ -219,6 +244,16 @@
 					</coding>
 				</type>
 			</patternIdentifier>
+-->
+		</element>
+		<element id="Patient.identifier:codiceSTP.system">
+			<path value="Patient.identifier.system"/>
+			<min value="1"/>
+			<mustSupport value="true"/>
+			<binding>
+				<strength value="required"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/UriIdStp"/>
+			</binding>
 		</element>
 		<element id="Patient.name">
 			<path value="Patient.name"/>

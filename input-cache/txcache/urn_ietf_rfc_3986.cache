@@ -1,0 +1,701 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "http://hl7.it/sid/lazio/eni",
+        "display" : "Codici ENI - Lazio"
+      },
+      {
+        "code" : "http://hl7.it/sid/piemonte/eni",
+        "display" : "Codici ENI - Piemonte"
+      },
+      {
+        "code" : "http://hl7.it/sid/vallee/eni",
+        "display" : "Codici ENI - Valle d'Aosta"
+      },
+      {
+        "code" : "http://hl7.it/sid/veneto/eni",
+        "display" : "Codici ENI - Veneto"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:c5952a3b-7b54-4cb4-9141-a138b8561114",
+    "timestamp" : "2020-04-19T13:19:12.346Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "urn:ietf:rfc:3986|n/a"
+    }],
+    "contains" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/lazio/eni",
+      "display" : "Codici ENI - Lazio"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/piemonte/eni",
+      "display" : "Codici ENI - Piemonte"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/vallee/eni",
+      "display" : "Codici ENI - Valle d'Aosta"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/veneto/eni",
+      "display" : "Codici ENI - Veneto"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "http://hl7.it/sid/lazio/asur",
+        "display" : "Anagrafe Sanitaria Unica Regionale - Lazio"
+      },
+      {
+        "code" : "http://hl7.it/sid/piemonte/aura",
+        "display" : "Archivio Unico Regionale degli Assistiti - Piemonte"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.20.4.1",
+        "display" : "MPI (angrafe unica aziendale) - Valle d'Aosta"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1",
+        "display" : "ANAGRAFE UNICA REGIONALE - Veneto"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:d1a7e4cb-0772-4fef-a398-f29d1468a2ac",
+    "timestamp" : "2020-04-19T13:19:12.752Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "urn:ietf:rfc:3986|n/a"
+    }],
+    "contains" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/lazio/asur",
+      "display" : "Anagrafe Sanitaria Unica Regionale - Lazio"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/piemonte/aura",
+      "display" : "Archivio Unico Regionale degli Assistiti - Piemonte"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.20.4.1",
+      "display" : "MPI (angrafe unica aziendale) - Valle d'Aosta"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1",
+      "display" : "ANAGRAFE UNICA REGIONALE - Veneto"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "http://hl7.it/sid/lazio/stp",
+        "display" : "Codici STP - Lazio"
+      },
+      {
+        "code" : "http://hl7.it/sid/piemonte/stp",
+        "display" : "Codici STP - Piemonte"
+      },
+      {
+        "code" : "http://hl7.it/sid/vallee/stp",
+        "display" : "Codici STP - Valle d'Aosta"
+      },
+      {
+        "code" : "http://hl7.it/sid/veneto/stp",
+        "display" : "Codici STP - Veneto"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:bd66e647-f439-4f90-821f-2a9d71de9ece",
+    "timestamp" : "2020-04-19T13:19:13.158Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "urn:ietf:rfc:3986|n/a"
+    }],
+    "contains" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/lazio/stp",
+      "display" : "Codici STP - Lazio"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/piemonte/stp",
+      "display" : "Codici STP - Piemonte"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/vallee/stp",
+      "display" : "Codici STP - Valle d'Aosta"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/veneto/stp",
+      "display" : "Codici STP - Veneto"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "http://hl7.it/sid/lazio/eni",
+        "display" : "Codici ENI - Lazio"
+      },
+      {
+        "code" : "http://hl7.it/sid/piemonte/eni",
+        "display" : "Codici ENI - Piemonte"
+      },
+      {
+        "code" : "http://hl7.it/sid/vallee/eni",
+        "display" : "Codici ENI - Valle d'Aosta"
+      },
+      {
+        "code" : "http://hl7.it/sid/veneto/eni",
+        "display" : "Codici ENI - Veneto"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:ea8e7ae1-9687-4e67-b3b6-9fd5d03bfdc4",
+    "timestamp" : "2020-04-19T13:19:52.190Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "urn:ietf:rfc:3986|n/a"
+    }],
+    "contains" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/lazio/eni",
+      "display" : "Codici ENI - Lazio"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/piemonte/eni",
+      "display" : "Codici ENI - Piemonte"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/vallee/eni",
+      "display" : "Codici ENI - Valle d'Aosta"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/veneto/eni",
+      "display" : "Codici ENI - Veneto"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "http://hl7.it/sid/lazio/asur",
+        "display" : "Anagrafe Sanitaria Unica Regionale - Lazio"
+      },
+      {
+        "code" : "http://hl7.it/sid/piemonte/aura",
+        "display" : "Archivio Unico Regionale degli Assistiti - Piemonte"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.20.4.1",
+        "display" : "MPI (angrafe unica aziendale) - Valle d'Aosta"
+      },
+      {
+        "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1",
+        "display" : "ANAGRAFE UNICA REGIONALE - Veneto"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><p>All codes from system <code>urn:ietf:rfc:3986</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-http---hl7.it-sid-lazio-asur\"> </a>http://hl7.it/sid/lazio/asur</td><td>Anagrafe Sanitaria Unica Regionale - Lazio</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-http---hl7.it-sid-piemonte-aura\"> </a>http://hl7.it/sid/piemonte/aura</td><td>Archivio Unico Regionale degli Assistiti - Piemonte</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-urn-oid-2.16.840.1.113883.2.9.2.20.4.1\"> </a>urn:oid:2.16.840.1.113883.2.9.2.20.4.1</td><td>MPI (angrafe unica aziendale) - Valle d'Aosta</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-urn-oid-2.16.840.1.113883.2.9.2.50.4.1\"> </a>urn:oid:2.16.840.1.113883.2.9.2.50.4.1</td><td>ANAGRAFE UNICA REGIONALE - Veneto</td></tr></table></div>"
+  },
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:42b79682-9186-4497-82a0-c9ee0e657caf",
+    "timestamp" : "2020-04-19T13:19:52.612Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "urn:ietf:rfc:3986|n/a"
+    }],
+    "contains" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/lazio/asur",
+      "display" : "Anagrafe Sanitaria Unica Regionale - Lazio"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/piemonte/aura",
+      "display" : "Archivio Unico Regionale degli Assistiti - Piemonte"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.20.4.1",
+      "display" : "MPI (angrafe unica aziendale) - Valle d'Aosta"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "urn:oid:2.16.840.1.113883.2.9.2.50.4.1",
+      "display" : "ANAGRAFE UNICA REGIONALE - Veneto"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "http://hl7.it/sid/lazio/stp",
+        "display" : "Codici STP - Lazio"
+      },
+      {
+        "code" : "http://hl7.it/sid/piemonte/stp",
+        "display" : "Codici STP - Piemonte"
+      },
+      {
+        "code" : "http://hl7.it/sid/vallee/stp",
+        "display" : "Codici STP - Valle d'Aosta"
+      },
+      {
+        "code" : "http://hl7.it/sid/veneto/stp",
+        "display" : "Codici STP - Veneto"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:155da79d-8053-47aa-9215-71abe6b14cd3",
+    "timestamp" : "2020-04-19T13:19:53.049Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "urn:ietf:rfc:3986|n/a"
+    }],
+    "contains" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/lazio/stp",
+      "display" : "Codici STP - Lazio"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/piemonte/stp",
+      "display" : "Codici STP - Piemonte"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/vallee/stp",
+      "display" : "Codici STP - Valle d'Aosta"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/veneto/stp",
+      "display" : "Codici STP - Veneto"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "http://hl7.it/sid/eni",
+        "display" : "Codici ENI"
+      },
+      {
+        "code" : "http://hl7.it/sid/lazio/eni",
+        "display" : "Codici ENI - Lazio"
+      },
+      {
+        "code" : "http://hl7.it/sid/piemonte/eni",
+        "display" : "Codici ENI - Piemonte"
+      },
+      {
+        "code" : "http://hl7.it/sid/vallee/eni",
+        "display" : "Codici ENI - Valle d'Aosta"
+      },
+      {
+        "code" : "http://hl7.it/sid/veneto/eni",
+        "display" : "Codici ENI - Veneto"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:89e542eb-967d-4815-8700-bda79f250c0d",
+    "timestamp" : "2020-04-19T14:44:45.817Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "urn:ietf:rfc:3986|n/a"
+    }],
+    "contains" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/eni",
+      "display" : "Codici ENI"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/lazio/eni",
+      "display" : "Codici ENI - Lazio"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/piemonte/eni",
+      "display" : "Codici ENI - Piemonte"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/vallee/eni",
+      "display" : "Codici ENI - Valle d'Aosta"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/veneto/eni",
+      "display" : "Codici ENI - Veneto"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "http://hl7.it/sid/stp",
+        "display" : "Codici STP"
+      },
+      {
+        "code" : "http://hl7.it/sid/lazio/stp",
+        "display" : "Codici STP - Lazio"
+      },
+      {
+        "code" : "http://hl7.it/sid/piemonte/stp",
+        "display" : "Codici STP - Piemonte"
+      },
+      {
+        "code" : "http://hl7.it/sid/vallee/stp",
+        "display" : "Codici STP - Valle d'Aosta"
+      },
+      {
+        "code" : "http://hl7.it/sid/veneto/stp",
+        "display" : "Codici STP - Veneto"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:d1facd98-59c1-4edf-a8a0-f8b52ad5ce8b",
+    "timestamp" : "2020-04-19T14:44:46.286Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "urn:ietf:rfc:3986|n/a"
+    }],
+    "contains" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/stp",
+      "display" : "Codici STP"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/lazio/stp",
+      "display" : "Codici STP - Lazio"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/piemonte/stp",
+      "display" : "Codici STP - Piemonte"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/vallee/stp",
+      "display" : "Codici STP - Valle d'Aosta"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/veneto/stp",
+      "display" : "Codici STP - Veneto"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "http://hl7.it/sid/eni",
+        "display" : "Codici ENI"
+      },
+      {
+        "code" : "http://hl7.it/sid/lazio/eni",
+        "display" : "Codici ENI - Lazio"
+      },
+      {
+        "code" : "http://hl7.it/sid/piemonte/eni",
+        "display" : "Codici ENI - Piemonte"
+      },
+      {
+        "code" : "http://hl7.it/sid/vallee/eni",
+        "display" : "Codici ENI - Valle d'Aosta"
+      },
+      {
+        "code" : "http://hl7.it/sid/veneto/eni",
+        "display" : "Codici ENI - Veneto"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:100f77e4-cbf4-4708-a5e3-3fac00b5ab22",
+    "timestamp" : "2020-04-19T14:45:28.958Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "urn:ietf:rfc:3986|n/a"
+    }],
+    "contains" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/eni",
+      "display" : "Codici ENI"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/lazio/eni",
+      "display" : "Codici ENI - Lazio"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/piemonte/eni",
+      "display" : "Codici ENI - Piemonte"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/vallee/eni",
+      "display" : "Codici ENI - Valle d'Aosta"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/veneto/eni",
+      "display" : "Codici ENI - Veneto"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "http://hl7.it/sid/stp",
+        "display" : "Codici STP"
+      },
+      {
+        "code" : "http://hl7.it/sid/lazio/stp",
+        "display" : "Codici STP - Lazio"
+      },
+      {
+        "code" : "http://hl7.it/sid/piemonte/stp",
+        "display" : "Codici STP - Piemonte"
+      },
+      {
+        "code" : "http://hl7.it/sid/vallee/stp",
+        "display" : "Codici STP - Valle d'Aosta"
+      },
+      {
+        "code" : "http://hl7.it/sid/veneto/stp",
+        "display" : "Codici STP - Veneto"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:21408c7f-580f-432e-bd08-13fa5e775fb2",
+    "timestamp" : "2020-04-19T14:45:29.505Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "urn:ietf:rfc:3986|n/a"
+    }],
+    "contains" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/stp",
+      "display" : "Codici STP"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/lazio/stp",
+      "display" : "Codici STP - Lazio"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/piemonte/stp",
+      "display" : "Codici STP - Piemonte"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/vallee/stp",
+      "display" : "Codici STP - Valle d'Aosta"
+    },
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.it/sid/veneto/stp",
+      "display" : "Codici STP - Veneto"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

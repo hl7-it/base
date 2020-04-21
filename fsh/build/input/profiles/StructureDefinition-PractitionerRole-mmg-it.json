@@ -73,14 +73,6 @@
         "id": "PractitionerRole.practitioner",
         "path": "PractitionerRole.practitioner",
         "short": "Dettagli del Medico",
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "http://hl7.it/fhir/StructureDefinition/Practitioner-mmg-it"
-            ]
-          }
-        ],
         "mustSupport": true
       },
       {

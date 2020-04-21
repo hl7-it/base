@@ -96,8 +96,105 @@
         "mustSupport": true
       },
       {
+        "id": "Coverage.costToBeneficiary.value[x]",
+        "path": "Coverage.costToBeneficiary.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "Coverage.costToBeneficiary.valueQuantity",
+        "path": "Coverage.costToBeneficiary.valueQuantity",
+        "min": 0,
+        "type": [
+          {
+            "code": "Quantity",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/SimpleQuantity"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Coverage.costToBeneficiary.valueQuantity.extension:no-value",
+        "path": "Coverage.costToBeneficiary.valueQuantity.extension",
+        "sliceName": "no-value",
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Coverage.costToBeneficiary.valueMoney",
+        "path": "Coverage.costToBeneficiary.valueMoney",
+        "min": 0,
+        "type": [
+          {
+            "code": "Money"
+          }
+        ]
+      },
+      {
+        "id": "Coverage.costToBeneficiary.valueMoney.extension:no-value",
+        "path": "Coverage.costToBeneficiary.valueMoney.extension",
+        "sliceName": "no-value",
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
         "id": "Coverage.costToBeneficiary.exception",
         "path": "Coverage.costToBeneficiary.exception",
+        "mustSupport": true
+      },
+      {
+        "id": "Coverage.costToBeneficiary.exception.extension",
+        "path": "Coverage.costToBeneficiary.exception.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Coverage.costToBeneficiary.exception.extension:stato-esenzione",
+        "path": "Coverage.costToBeneficiary.exception.extension",
+        "sliceName": "stato-esenzione",
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.it/fhir/StructureDefinition/statoEsenzione-Coverage"
+            ]
+          }
+        ],
         "mustSupport": true
       },
       {
@@ -107,7 +204,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://terminology.fhir.it/ValueSet/esensioni"
+          "valueSet": "http://hl7.it/fhir/ValueSet/esenzioni-MinSan"
         }
       },
       {

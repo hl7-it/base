@@ -21,8 +21,8 @@
 				<code value="STP"/>
 			</coding>
 		</type>
-		<system value="http://example.org/sid/asl_XYZ/stp"/>
-		<value value="123456789"/>
+		<system value="http://hl7.it/sid/stp"/>
+		<value value="STP0010011234567"/>
 	</identifier>
 	<active value="true"/>
 	<name>
