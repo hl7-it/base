@@ -4,8 +4,8 @@
   "content": "complete",
   "name": "EsenzioniIT",
   "id": "esenzioni-MinSan",
-  "title": "Codici Esenzioni Minister della Salute",
-  "description": "Codici Esenzioni Ministero della Salute",
+  "title": "Codici Esenzioni Ministero della Salute",
+  "description": "Codici Esenzioni Ministero della Salute. NOTA BENE: QUESTO è SOLO UN ESTRATTO",
   "version": "0.1.0",
   "url": "http://hl7.it/fhir/CodeSystem/esenzioni-MinSan",
   "concept": [

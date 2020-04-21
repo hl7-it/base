@@ -234,8 +234,8 @@ Description: "Estensione del Vocabolario HL7 V3 RoleCode"
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 CodeSystem: EsenzioniIT
 Id: esenzioni-MinSan
-Title: "Codici Esenzioni Minister della Salute"
-Description: "Codici Esenzioni Ministero della Salute"
+Title: "Codici Esenzioni Ministero della Salute"
+Description: "Codici Esenzioni Ministero della Salute. NOTA BENE: QUESTO è SOLO UN ESTRATTO"
 //-------------------------------------------------------------------------------------------
 * #E01 "Esente per età" "Cittadini di età inferiore a sei anni e superiore a sessantacinque anni, appartenenti ad un nucleo familiare con reddito annuo complessivo non superiore a 36.151,98 euro."
 * #E02 "Esente per disoccupazione" "Disoccupati e loro familiari a carico appartenenti ad un nucleo familiare con un reddito annuo complessivo inferiore a 8.263,31 euro, incrementato fino a 11.362,05 euro in presenza del coniuge ed in ragione di ulteriori 516,46 euro per ogni figlio a carico."

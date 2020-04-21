@@ -9,13 +9,6 @@
 	<experimental value="true"/>
 	<description value="Modello Logico che definisce il set minimo di dati che caratterizzano un paziente nella giurisdizione italiana.&#xD;&#xA;Questa versione è a scopo dimostrativo."/>
 	<fhirVersion value="4.0.0"/>
-	<!--
-	<mapping>
-		<identity value="fhir"/>
-		<uri value="http://hl7.org/fhir"/>
-		<name value="HL7 FHIR"/>
-	</mapping>
--->
 	<mapping>
 		<identity value="fhir-it"/>
 		<uri value="http://hl7.it/fhir"/>
@@ -546,6 +539,44 @@
 				<map value="Patient.deceasedDateTime"/>
 			</mapping>
 		</element>
+		<element id="Paziente.altriDati">
+			<path value="Paziente.altriDati"/>
+			<short value="Altre informazioni sul paziente"/>
+			<definition value="Altre informazioni sul paziente: e.g. professione, titolo di studio, qualifica."/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="BackboneElement"/>
+			</type>
+		</element>
+		<element id="Paziente.altriDati.professione">
+			<path value="Paziente.altriDati.professione"/>
+			<short value="Professione"/>
+			<definition value="Professione attuale del paziente"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="CodeableConcept"/>
+			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="not mapped yet"/>
+			</mapping>
+		</element>
+		<element id="Paziente.altriDati.titoloStudio">
+			<path value="Paziente.altriDati.titoloStudio"/>
+			<short value="Titolo Studio"/>
+			<definition value="Titolo di studio del paziente"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="CodeableConcept"/>
+			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="not mapped yet"/>
+			</mapping>
+		</element>
 		<element id="Paziente.esenzione">
 			<path value="Paziente.esenzione"/>
 			<short value="Esenzioni"/>
@@ -556,7 +587,7 @@
 				<code value="http://hl7.it/fhir/StructureDefinition/Esenzione"/>
 			</type>
 			<mapping>
-			<identity value="fhir-it"/>
+				<identity value="fhir-it"/>
 				<map value="Coverage.where(beneficiary.id = Patient.id).costToBeneficiary.exception"/>
 			</mapping>
 		</element>

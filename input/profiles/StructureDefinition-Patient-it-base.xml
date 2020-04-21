@@ -109,10 +109,34 @@
 				<profile value="http://hl7.org/fhir/StructureDefinition/patient-citizenship"/>
 			</type>
 		</element>
+		<element id="Patient.extension:professione">
+			<path value="Patient.extension"/>
+			<sliceName value="professione"/>
+			<short value="Professione"/>
+			<definition value="Indica la professione del cittadino come semplice CodeableConcept"/>
+			<max value="1"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.it/fhir/StructureDefinition/patient-professione-it"/>				
+			</type>
+			<mustSupport value="false"/>
+		</element>
+		<element id="Patient.extension:titoloStudio">
+			<path value="Patient.extension"/>
+			<sliceName value="titoloStudio"/>
+			<short value="Titolo di studio"/>
+			<definition value="Indica il titolo di studio del cittadino come semplice CodeableConcept"/>
+			<max value="1"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.it/fhir/StructureDefinition/patient-titoloStudio-it"/>
+			</type>
+			<mustSupport value="false"/>
+		</element>
 		<element id="Patient.identifier">
 			<path value="Patient.identifier"/>
 			<short value="Identificativo del paziente"/>
-			<definition value="Identificativo del paziente. &#13;&#10; Lo slicing specificato per questo element è di tipo open; questo significa che sono ammessi identificativi che non rispettano le regole definite per le sice specificate.  &#13;&#10; Esempi di possibili sistemi di identificazione sono elencati in https://confluence.hl7.org/display/HI/Identificatori"/>			
+			<definition value="Identificativo del paziente. &#13;&#10; Lo slicing specificato per questo element è di tipo open; questo significa che sono ammessi identificativi che non rispettano le regole definite per le sice specificate.  &#13;&#10; Esempi di possibili sistemi di identificazione sono elencati in https://confluence.hl7.org/display/HI/Identificatori"/>
 			<slicing>
 				<discriminator>
 					<type value="value"/>
