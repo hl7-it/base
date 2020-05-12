@@ -59,8 +59,8 @@
 			<reference>
 				<reference value="Patient/Patient-birthPlace-opt2"/>
 			</reference>
-			<name value="Patient. Esempio con estensione patientBirthPlace-codeable-it"/>
-			<description value="Istanza di Patient con birthPlace codificato usando l'estensione patientBirthPlace-codeable-it"/>
+			<name value="Patient. Esempio con estensione patient-codedBirthPlace-it "/>
+			<description value="Istanza di Patient con birthPlace codificato usando l'estensione patient-codedBirthPlace-it "/>
 			<exampleCanonical value="http://hl7.it/fhir/StructureDefinition/Patient-it-base"/>
 		</resource>
 		<resource>

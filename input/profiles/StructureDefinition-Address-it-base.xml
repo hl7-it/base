@@ -146,7 +146,7 @@
 			<max value="1"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.it/fhir/StructureDefinition/dug-Address-it"/>
+				<profile value="http://hl7.it/fhir/StructureDefinition/address-dug-it"/>
 			</type>
 			<example>
 				<label value="ex-1"/>

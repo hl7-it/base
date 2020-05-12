@@ -1,7 +1,7 @@
 //============== ALIAS ===============
 
 Alias: COV_TYP = http://terminology.hl7.org/CodeSystem/v3-ActCode
-
+Alias: professioniPaziente = http://hl7.it/fhir/ValueSet/professione-patient-it
 
 
 //=========================
@@ -13,7 +13,7 @@ Title:       "Professione del paziente"
 Description: "Estensione per gestire la professione del paziente come CodeableConcept"
 //-------------------------------------------------------------------------------------------
 * value[x] only CodeableConcept
-// * valueCodeableConcept from StatoEsenzioneV3ActStatus (required)
+* valueCodeableConcept from professioniPaziente (preferred)
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Extension:   TitoloStudioPaziente

@@ -40,7 +40,7 @@
 			<extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameType">
 				<valueString value="VIALE"/>
 			</extension>
-			<extension url="http://hl7.it/fhir/StructureDefinition/dug-Address-it">
+			<extension url="http://hl7.it/fhir/StructureDefinition/address-dug-it">
 				<valueCodeableConcept>
 					<coding>
 						<system value="http://registry.geodati.gov.it/dug"/>

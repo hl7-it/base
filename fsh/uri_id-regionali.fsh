@@ -13,6 +13,7 @@ Description: "Identificativi per anagrafi regionali"
 * URI#http://hl7.it/sid/piemonte/aura  "Archivio Unico Regionale degli Assistiti - Piemonte"
 * URI#urn:oid:2.16.840.1.113883.2.9.2.20.4.1 "MPI (angrafe unica aziendale) - Valle d'Aosta"
 * URI#urn:oid:2.16.840.1.113883.2.9.2.50.4.1 "ANAGRAFE UNICA REGIONALE - Veneto"
+* URI#urn:oid:2.16.840.1.113883.2.9.2.60.4.1 "Anagrafe Unica - Friuli-Venezia Giulia"
 
 
 
@@ -25,7 +26,7 @@ Description: "Identificativi per codici regionali."
 * URI#http://hl7.it/sid/lazio/stp "Codici STP - Lazio"
 * URI#http://hl7.it/sid/piemonte/stp  "Codici STP - Piemonte"
 * URI#http://hl7.it/sid/vallee/stp "Codici STP - Valle d'Aosta"
-* URI#http://hl7.it/sid/veneto/stp "Codici STP - Veneto"
+* URI#urn:oid:2.16.840.1.113883.2.9.2.50.4.1.1 "Codici STP - Veneto"
 
  
 ValueSet: UriIdEni
@@ -37,4 +38,4 @@ Description: "Identificativi per codici regionali."
 * URI#http://hl7.it/sid/lazio/eni "Codici ENI - Lazio"
 * URI#http://hl7.it/sid/piemonte/eni  "Codici ENI - Piemonte"
 * URI#http://hl7.it/sid/vallee/eni "Codici ENI - Valle d'Aosta"
-* URI#http://hl7.it/sid/veneto/eni "Codici ENI - Veneto"
+* URI#urn:oid:2.16.840.1.113883.2.9.2.50.4.1.4 "Codici ENI - Veneto"

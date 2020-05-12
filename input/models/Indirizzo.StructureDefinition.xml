@@ -193,7 +193,7 @@
 			</example>
 			<mapping>
 				<identity value="fhir-it"/>
-				<map value="Address.line.extension('http://hl7.it/fhir/StructureDefinition/dug-Address-it')"/>
+				<map value="Address.line.extension('http://hl7.it/fhir/StructureDefinition/address-dug-it')"/>
 			</mapping>
 		</element>
 		<element id="Indirizzo.strutturaIndirizzo.linea.denominazioneUrbanisticaUfficiale">

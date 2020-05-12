@@ -2,6 +2,7 @@
 
 Alias: COV_TYP = http://terminology.hl7.org/CodeSystem/v3-ActCode
 Alias: V3ActStatus = http://terminology.hl7.org/CodeSystem/v3-ActStatus
+Alias: V3NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
 Alias: AbsentReason = http://terminology.hl7.org/CodeSystem/data-absent-reason
 Alias: dataAbsentReason = http://hl7.org/fhir/StructureDefinition/data-absent-reason
 // Alias: StatoEsenzioneCoverage = http://hl7.it/fhir/StructureDefinition/statoEsenzione-Coverage
@@ -13,7 +14,7 @@ Alias: dataAbsentReason = http://hl7.org/fhir/StructureDefinition/data-absent-re
 //====== Estensione =====================================
 
 Extension:   StatoEsenzioneCoverage
-Id:          statoEsenzione-Coverage
+Id:          coverage-statoEsenzione
 Title:       "Stato Esenzione"
 Description: "Estensione per gestire lo stato di una esenzione"
 //-------------------------------------------------------------------------------------------
@@ -25,8 +26,10 @@ Description: "Estensione per gestire lo stato di una esenzione"
 
 //====== Profili =====================================
 
-//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+/* ---- COMMENTATO -- */
 Profile:  CoverageItEsensioni
 Parent:   Coverage
 Id:       Coverage-esenzioni-it
@@ -35,14 +38,21 @@ Description: "Profilo base coverage usato per gestire l'ASL di residenza e le es
 
 //-------------------------------------------------------------------------------------------
 
+/* -----------  ---*
 * status 1..1 MS
 * type = COV_TYP#PUBLICPOL
 * beneficiary only Reference(http://hl7.it/fhir/StructureDefinition/Patient-it-base)
 * payor[Organization] only Reference(OrganizationAziendaSanitaria)
 * costToBeneficiary MS  // commento
+
+/* --------
 * costToBeneficiary.value[x] MS
+* costToBeneficiary.value[x].extension contains dataAbsentReason named no-value 0..1 MS
+--- */
+
 * costToBeneficiary.valueQuantity.extension contains dataAbsentReason named no-value 0..1 MS
 * costToBeneficiary.valueMoney.extension contains dataAbsentReason named no-value 0..1 MS
+ 
 * costToBeneficiary.exception MS
 * costToBeneficiary.exception.extension contains StatoEsenzioneCoverage named stato-esenzione 0..1 MS
 * costToBeneficiary.exception.type MS
@@ -52,7 +62,11 @@ Description: "Profilo base coverage usato per gestire l'ASL di residenza e le es
 
 
 
+
+// Alias: CoverageItEsensioni = http://hl7.it/fhir/StructureDefinition/Coverage-esenzioni-it
+
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+/* 000000000000000000 00000000000000 */
 Instance: EsempioEsenzione
 InstanceOf: CoverageItEsensioni
 Description: "Esempio Esenzione"
@@ -61,11 +75,10 @@ Description: "Esempio Esenzione"
 * type = COV_TYP#PUBLICPOL
 * beneficiary = Reference(Patient/Patient-CF-residenza)
 * payor = Reference(Organization/ASL-example)
- /* COMMENTED */
 * costToBeneficiary.valueMoney.extension[no-value].valueCode = #not-applicable
-// * costToBeneficiary.valueQuantity = 0.01 '1'
 * costToBeneficiary.exception.extension[stato-esenzione].valueCodeableConcept = V3ActStatus#active
 * costToBeneficiary.exception.type = http://hl7.it/fhir/CodeSystem/esenzioni-MinSan#E01
+
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -231,25 +244,7 @@ Description: "Estensione del Vocabolario HL7 V3 RoleCode"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-CodeSystem: EsenzioniIT
-Id: esenzioni-MinSan
-Title: "Codici Esenzioni Ministero della Salute"
-Description: "Codici Esenzioni Ministero della Salute. NOTA BENE: QUESTO è SOLO UN ESTRATTO"
-//-------------------------------------------------------------------------------------------
-* #E01 "Esente per età" "Cittadini di età inferiore a sei anni e superiore a sessantacinque anni, appartenenti ad un nucleo familiare con reddito annuo complessivo non superiore a 36.151,98 euro."
-* #E02 "Esente per disoccupazione" "Disoccupati e loro familiari a carico appartenenti ad un nucleo familiare con un reddito annuo complessivo inferiore a 8.263,31 euro, incrementato fino a 11.362,05 euro in presenza del coniuge ed in ragione di ulteriori 516,46 euro per ogni figlio a carico."
-* #E03 "Titolare di pensione sociale" "Titolari di pensioni sociali e loro familiari a carico."
-* #E04 "Titolare di pensione al minimo" "Titolari di pensioni al minimo di età superiore a sessant'anni e loro familiari a carico, appartenenti ad un nucleo familiare con un reddito annuo complessivo inferiore a 8.263,31 euro, incrementato fino a 11.362,05 euro in presenza del coniuge ed in ragione di ulteriori 516,46 euro per ogni figlio a carico."
-//-------------------------------------------------------------------------------------------
 
-//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: EsenzioniIT
-Id: esenzioni-MinSan
-Title: "Codici Esenzioni Ministero della Salute"
-Description: "Codici Esenzioni Ministero della Salute"
-//-------------------------------------------------------------------------------------------
-* codes from system EsenzioniIT
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: MmgPlsRoles
@@ -272,6 +267,7 @@ Title: "Stato delle esenzioni (V3ActStatus)."
 Description: "Value Set basato sul vocabolario HL7 V3 ActStatus che descrive lo stato delle esenzioni. Questo value set è adottato da HL7 CDA R2 IG 'DOCUMENTO DI ESENZIONE'"
 //-------------------------------------------------------------------------------------------
 * V3ActStatus#active "attivo" // "Esenzione in corso di validità"
-* V3ActStatus#suspended  "sospesa" // "Esenzione momentaneamente sospesa (ad esempio in attesa del rinnovo di un’iscrizione temporanea)"
-* V3ActStatus#aborted  "abortita" // "Esenzione mai stata valida (ad esempio è stata assegnata per errore e il documento corrispondente era già stato prodotto in stato active)"
-* V3ActStatus#completed "completata" // "Esenzione non più in corso di validità"
+* V3ActStatus#suspended  "sospeso" // "Esenzione momentaneamente sospesa (ad esempio in attesa del rinnovo di un’iscrizione temporanea)"
+* V3ActStatus#aborted  "abortito" // "Esenzione mai stata valida (ad esempio è stata assegnata per errore e il documento corrispondente era già stato prodotto in stato active)"
+* V3ActStatus#completed "completato" // "Esenzione non più in corso di validità"
+* V3NullFlavor#UNK "sconosciuto"

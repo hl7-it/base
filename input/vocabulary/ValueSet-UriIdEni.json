@@ -29,7 +29,7 @@
             "display": "Codici ENI - Valle d'Aosta"
           },
           {
-            "code": "http://hl7.it/sid/veneto/eni",
+            "code": "urn:oid:2.16.840.1.113883.2.9.2.50.4.1.4",
             "display": "Codici ENI - Veneto"
           }
         ]

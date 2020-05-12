@@ -91,7 +91,7 @@
 			<max value="*"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.it/fhir/StructureDefinition/patientBirthPlace-codeable-it"/>
+				<profile value="http://hl7.it/fhir/StructureDefinition/patient-codeableBirthPlace-it"/>
 			</type>
 			<binding>
 				<strength value="example"/>
@@ -219,11 +219,11 @@
 			<min value="1"/>
 			<mustSupport value="true"/>
 		</element>
-		<element id="Patient.identifier:regione">
+		<element id="Patient.identifier:idRegionale">
 			<path value="Patient.identifier"/>
-			<sliceName value="regione"/>
+			<sliceName value="idRegionale"/>
 		</element>
-		<element id="Patient.identifier:regione.system">
+		<element id="Patient.identifier:idRegionale.system">
 			<path value="Patient.identifier.system"/>
 			<min value="1"/>
 			<mustSupport value="true"/>

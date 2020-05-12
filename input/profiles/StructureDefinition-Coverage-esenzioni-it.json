@@ -48,69 +48,6 @@
   "differential": {
     "element": [
       {
-        "id": "Coverage.status",
-        "path": "Coverage.status",
-        "mustSupport": true
-      },
-      {
-        "id": "Coverage.type",
-        "path": "Coverage.type",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "code": "PUBLICPOL",
-              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode"
-            }
-          ]
-        }
-      },
-      {
-        "id": "Coverage.beneficiary",
-        "path": "Coverage.beneficiary",
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "http://hl7.it/fhir/StructureDefinition/Patient-it-base"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "Coverage.payor",
-        "path": "Coverage.payor",
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "http://hl7.it/fhir/StructureDefinition/Organization-AziendaSanitaria-it",
-              "http://hl7.org/fhir/StructureDefinition/Patient",
-              "http://hl7.org/fhir/StructureDefinition/RelatedPerson"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "Coverage.costToBeneficiary",
-        "path": "Coverage.costToBeneficiary",
-        "mustSupport": true
-      },
-      {
-        "id": "Coverage.costToBeneficiary.value[x]",
-        "path": "Coverage.costToBeneficiary.value[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        },
-        "mustSupport": true
-      },
-      {
         "id": "Coverage.costToBeneficiary.valueQuantity",
         "path": "Coverage.costToBeneficiary.valueQuantity",
         "min": 0,
@@ -191,7 +128,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.it/fhir/StructureDefinition/statoEsenzione-Coverage"
+              "http://hl7.it/fhir/StructureDefinition/coverage-statoEsenzione"
             ]
           }
         ],

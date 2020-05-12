@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="dug-Address-it" />
-  <url value="http://hl7.it/fhir/StructureDefinition/dug-Address-it" />
+  <id value="address-dug-it" />
+  <url value="http://hl7.it/fhir/StructureDefinition/address-dug-it" />
   <version value="0.0.1" />
-  <name value="DUG_Address_it" />
+  <name value="DenominazioneUrbanisticaGenerica"/>
   <title value="DUG (Denominazione Urbanistica Generica)" />
   <status value="draft" />
   <description value="Denominazione Urbanistica Ufficiale" />
@@ -20,7 +20,7 @@
   <differential>
     <element id="Extension.url">
       <path value="Extension.url" />
-      <fixedUri value="http://hl7.it/fhir/StructureDefinition/dug-Address-it" />
+      <fixedUri value="http://hl7.it/fhir/StructureDefinition/address-dug-it" />
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />

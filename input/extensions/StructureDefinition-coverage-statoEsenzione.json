@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "statoEsenzione-Coverage",
-  "url": "http://hl7.it/fhir/StructureDefinition/statoEsenzione-Coverage",
+  "id": "coverage-statoEsenzione",
+  "url": "http://hl7.it/fhir/StructureDefinition/coverage-statoEsenzione",
   "version": "0.1.0",
   "name": "StatoEsenzioneCoverage",
   "title": "Stato Esenzione",
@@ -36,7 +36,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.it/fhir/StructureDefinition/statoEsenzione-Coverage"
+        "fixedUri": "http://hl7.it/fhir/StructureDefinition/coverage-statoEsenzione"
       },
       {
         "id": "Extension.value[x]",

@@ -18,15 +18,24 @@
           },
           {
             "code": "suspended",
-            "display": "sospesa"
+            "display": "sospeso"
           },
           {
             "code": "aborted",
-            "display": "abortita"
+            "display": "abortito"
           },
           {
             "code": "completed",
-            "display": "completata"
+            "display": "completato"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "concept": [
+          {
+            "code": "UNK",
+            "display": "sconosciuto"
           }
         ]
       }

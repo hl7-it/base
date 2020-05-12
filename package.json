@@ -7,7 +7,7 @@
   "description": "An example of how FSH can be used to create an IG about fish",
   "dependencies": {
     "hl7.fhir.r4.core": "4.0.1",
-    "hl7.fhir.it.sandbox": "dev"
+    "hl7.fhir.it.base": "dev"
   },
   "keywords": [
     "FSH",

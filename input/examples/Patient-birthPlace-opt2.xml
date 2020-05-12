@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patient xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/structuredefinition.xsd">
 	<id value="Patient-birthPlace-opt2"/>
-	<extension url="http://hl7.it/fhir/StructureDefinition/patientBirthPlace-codeable-it">
+	<extension url="http://hl7.it/fhir/StructureDefinition/patient-codeableBirthPlace-it">
 		<valueCodeableConcept>
 			<coding>
 				<system value="http://terminology.hl7.it/CodeSystem/ae-codiciCatastali"/>

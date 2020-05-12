@@ -6,14 +6,6 @@
       "http://hl7.it/fhir/StructureDefinition/Coverage-esenzioni-it"
     ]
   },
-  "type": {
-    "coding": [
-      {
-        "code": "PUBLICPOL",
-        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode"
-      }
-    ]
-  },
   "costToBeneficiary": [
     {
       "valueMoney": {
@@ -28,7 +20,7 @@
         {
           "extension": [
             {
-              "url": "http://hl7.it/fhir/StructureDefinition/statoEsenzione-Coverage",
+              "url": "http://hl7.it/fhir/StructureDefinition/coverage-statoEsenzione",
               "valueCodeableConcept": {
                 "coding": [
                   {
@@ -52,6 +44,14 @@
     }
   ],
   "status": "active",
+  "type": {
+    "coding": [
+      {
+        "code": "PUBLICPOL",
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+      }
+    ]
+  },
   "beneficiary": {
     "reference": "Patient/Patient-CF-residenza"
   },
