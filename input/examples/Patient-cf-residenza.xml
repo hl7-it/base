@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patient xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/codesystem.xsd">
-	<id value="Patient-CF-residenza"/>
+	<id value="esempio-CF-residenza"/>
 	<extension url="http://hl7.org/fhir/StructureDefinition/patient-birthPlace">
 		<valueAddress>
 			<country value="Italia">
 				<extension url="http://hl7.org/fhir/StructureDefinition/iso21090-SC-coding">
 					<valueCoding>
-						<system value="http://terminology.hl7.it/CodeSystem/ae-codiciCatastali"/>
+						<system value="http://terminology.hl7.it/CodeSystem/AE-codiciCatastali"/>
 						<code value="F979"/>
 						<display value="NUORO"/>
 					</valueCoding>

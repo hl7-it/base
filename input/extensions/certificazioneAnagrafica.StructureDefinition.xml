@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/structuredefinition.xsd">
 	<id value="certificazioneAnagrafica"/>
-	<url value="http://hl7.it/fhir/StructureDefinition/certificazioneAnagrafica"/>
+	<url value="http://hl7.it/fhir/StructureDefinition/certificazioneAnagrafica-it"/>
 	<version value="0.0.1"/>
-	<name value="CertificazioneAnagrafica"/>
+	<name value="ExtCertificazioneAnagrafica"/>
 	<title value="Certificazione Anagrafica"/>
 	<status value="draft"/>
 	<description value="Estensione usata per indicare che l'informazione associata è stata certificata (od autocertificata) da una certa entità (persona, organizzazione).  L'estensione è carattrizzata da:\  
@@ -136,7 +136,7 @@
 		</element>
 		<element id="Extension.url">
 			<path value="Extension.url"/>
-			<fixedUri value="http://hl7.it/fhir/StructureDefinition/certificazioneAnagrafica"/>
+			<fixedUri value="http://hl7.it/fhir/StructureDefinition/certificazioneAnagrafica-it"/>
 		</element>
 		<element id="Extension.value[x]">
 			<path value="Extension.value[x]"/>

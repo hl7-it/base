@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VsMinisteroSaluteEsenzioni",
+  "id": "minsan-esenzioni",
+  "title": "Codici Esenzioni Ministero della Salute",
+  "description": "Codici Esenzioni Ministero della Salute",
+  "version": "0.1.0",
+  "url": "http://hl7.it/fhir/ValueSet/minsan-esenzioni",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.it/CodeSystem/minsan-esenzioni"
+      }
+    ]
+  }
+}

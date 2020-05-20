@@ -3,6 +3,10 @@
   "id": "PractitionerMMGExample",
   "identifier": [
     {
+      "system": "http://hl7.it/sid/codiceFiscale",
+      "value": "RSSMRT57D12D612R"
+    },
+    {
       "system": "http://example.org/sid/codiceRegionale",
       "value": "123456789"
     }

@@ -1,0 +1,105 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "PractitionerRole-it-base",
+  "url": "http://hl7.it/fhir/StructureDefinition/PractitionerRole-it-base",
+  "version": "0.1.0",
+  "name": "PractitionerRoleItBase",
+  "title": "PractitionerRole - base",
+  "status": "active",
+  "description": "Profilo base generico per PractitionerRole",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "servd",
+      "uri": "http://www.omg.org/spec/ServD/1.0/",
+      "name": "ServD"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "PractitionerRole",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/PractitionerRole",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "PractitionerRole.identifier",
+        "path": "PractitionerRole.identifier",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open",
+          "description": "Slice based on the identifier pattern"
+        },
+        "short": "Identificativo dell'operatore (e.g. Codice Fiscale, ID Regionale)",
+        "mustSupport": true
+      },
+      {
+        "id": "PractitionerRole.identifier:codiceFiscale",
+        "path": "PractitionerRole.identifier",
+        "sliceName": "codiceFiscale",
+        "max": "1",
+        "patternIdentifier": {
+          "system": "http://hl7.it/sid/codiceFiscale"
+        }
+      },
+      {
+        "id": "PractitionerRole.period",
+        "path": "PractitionerRole.period",
+        "mustSupport": true
+      },
+      {
+        "id": "PractitionerRole.practitioner",
+        "path": "PractitionerRole.practitioner",
+        "short": "Dettagli dell'operatore",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.it/fhir/StructureDefinition/Practitioner-it-base"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "PractitionerRole.organization",
+        "path": "PractitionerRole.organization",
+        "short": "Organizzazione di Appartenenza",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.it/fhir/StructureDefinition/Organization-it-base"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "PractitionerRole.code",
+        "path": "PractitionerRole.code",
+        "mustSupport": true
+      }
+    ]
+  }
+}

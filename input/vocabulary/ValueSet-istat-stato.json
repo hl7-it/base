@@ -1,0 +1,26 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "IstatCodiceStato",
+  "id": "istat-stato",
+  "title": "Codici Stato - ISTAT",
+  "description": "Codici Stato - ISTAT, più sconosciuto",
+  "version": "0.1.0",
+  "url": "http://hl7.it/fhir/ValueSet/istat-stato",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "concept": [
+          {
+            "code": "UNK",
+            "display": "Sconosciuto"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere"
+      }
+    ]
+  }
+}

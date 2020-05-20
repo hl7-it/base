@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../../fhir-all-xsd/codesystem.xsd">
-	<id value="ae-codiciCatastali"/>
+	<id value="AE-codiciCatastali"/>
 	<meta>
 		<source value="https://www.istat.it/it/archivio/6789"/>
 	</meta>
@@ -10,7 +10,7 @@
 			<h1>WARNING: A SCOPO DIMOSTRATIVO</h1>
 		Questo Code System è estratto dalla tabella dei comuni ISTAT</div>
 	</text>
-	<url value="http://terminology.hl7.it/CodeSystem/ae-codiciCatastali"/>
+	<url value="http://terminology.hl7.it/CodeSystem/AE-codiciCatastali"/>
 	<version value="31_12_2019"/>
 	<name value="AgenziaEntrate_CodiciCatastali"/>
 	<title value="Agenzia delle Entrate - Codici Catastali"/>

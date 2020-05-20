@@ -4,10 +4,10 @@
 	<url value="http://hl7.it/fhir/StructureDefinition/MedicoCurante"/>
 	<version value="0.0.1"/>
 	<name value="MedicoCurante"/>
-	<title value="Medico Curante - Modello Logico"/>
+	<title value="Medico Curante"/>
 	<status value="draft"/>
 	<experimental value="true"/>
-	<description value="Modello Logico che definisce il set minimo di dati che caratterizzano un Medico Curante&#xD;&#xA;Questa versione è a scopo dimostrativo."/>
+	<description value="Modello Logico che definisce il set minimo di dati che caratterizzano un Medico Curante."/>
 	<fhirVersion value="4.0.0"/>
 	<kind value="logical"/>
 	<mapping>
@@ -28,11 +28,11 @@
 			<max value="*"/>
 			<mapping>
 				<identity value="fhir-it"/>
-				<map value="Practitioner.conformsTo('http://hl7.it/fhir/StructureDefinition/Practitioner-mmg-it')"/>
+				<map value="Practitioner.conformsTo('http://hl7.it/fhir/StructureDefinition/Practitioner-it-base')"/>
 			</mapping>
 			<mapping>
 				<identity value="fhir-it"/>
-				<map value="PractitionerRole.conformsTo('http://hl7.it/fhir/StructureDefinition/PractitionerRole-mmg-it')"/>
+				<map value="PractitionerRole.conformsTo('http://hl7.it/fhir/StructureDefinition/PractitionerRole-it-mmg')"/>
 			</mapping>
 		</element>
 		<element id="MedicoCurante.identificativo">
@@ -48,11 +48,11 @@
 			<mustSupport value="true"/>
 			<mapping>
 				<identity value="fhir-it"/>
-				<map value="Practitioner.conformsTo('http://hl7.it/fhir/StructureDefinition/Practitioner-mmg-it').identifier"/>
+				<map value="Practitioner.conformsTo('http://hl7.it/fhir/StructureDefinition/Practitioner-it-base').identifier"/>
 			</mapping>
 			<mapping>
 				<identity value="fhir-it"/>
-				<map value="PractitionerRole.conformsTo('http://hl7.it/fhir/StructureDefinition/PractitionerRole-mmg-it').identifier"/>
+				<map value="PractitionerRole.conformsTo('http://hl7.it/fhir/StructureDefinition/PractitionerRole-it-mmg').identifier"/>
 			</mapping>
 		</element>
 		<element id="MedicoCurante.nome">
@@ -68,11 +68,11 @@
 			<mustSupport value="true"/>
 			<mapping>
 				<identity value="fhir-it"/>
-				<map value="Practitioner.conformsTo('http://hl7.it/fhir/StructureDefinition/Practitioner-mmg-it').name"/>
+				<map value="Practitioner.conformsTo('http://hl7.it/fhir/StructureDefinition/Practitioner-it-base').name"/>
 			</mapping>
 			<mapping>
 				<identity value="fhir-it"/>
-				<map value="PractitionerRole.conformsTo('http://hl7.it/fhir/StructureDefinition/PractitionerRole-mmg-it').practitioner.name"/>
+				<map value="PractitionerRole.conformsTo('http://hl7.it/fhir/StructureDefinition/PractitionerRole-it-mmg').practitioner.name"/>
 			</mapping>
 		</element>
 		<element id="MedicoCurante.aziendaAppartenenza">
@@ -87,7 +87,7 @@
 			<mustSupport value="true"/>
 			<mapping>
 				<identity value="fhir-it"/>
-				<map value="PractitionerRole.conformsTo('http://hl7.it/fhir/StructureDefinition/PractitionerRole-mmg-it').organization.resolve().conformsTo('http://hl7.it/fhir/StructureDefinition/Organization-AziendaSanitaria-it')"/>
+				<map value="PractitionerRole.conformsTo('http://hl7.it/fhir/StructureDefinition/PractitionerRole-it-mmg').organization.resolve().conformsTo('http://hl7.it/fhir/StructureDefinition/Organization-it-AziendaSanitaria')"/>
 			</mapping>
 		</element>
 	</differential>

@@ -10,7 +10,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://hl7.it/fhir/CodeSystem/V3RoleCodeIT",
+        "system": "http://terminology.hl7.it/CodeSystem/it-v3RoleCode",
         "concept": [
           {
             "code": "MMG",

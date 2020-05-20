@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../../fhir-all-xsd/codesystem.xsd">
-	<id value="istat-unitaTerritoriali"/>
+	<id value="istat-unitaAmministrativeTerritoriali"/>
 	<meta>
 		<source value="https://www.istat.it/it/archivio/6789"/>
 	</meta>
@@ -17,7 +17,7 @@ Per approfondimenti è possibile consultare il 'Riepilogo delle novità 2020-201
 Avvertenza: si informa che gli elenchi dei comuni alla data del 31 dicembre 2019 e 1° gennaio 2020 sono stati aggiornati a seguito dell’acquisizione del cambio denominazione del comune di Salorno/Salurn (BZ) in Salorno sulla strada del vino/Salurn an der Weinstraße (variazione vigente dall’11 ottobre 2019).</p>
 		</div>
 	</text>
-	<url value="http://terminology.hl7.it/CodeSystem/istat-unitaTerritoriali"/>
+	<url value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritoriali"/>
 	<version value="31_12_2019"/>
 	<name value="ISTAT_UnitaTerritoriali"/>
 	<title value="ISTAT - CODICI STATISTICI DELLE UNITÀ AMMINISTRATIVE TERRITORIALI: COMUNI, CITTÀ METROPOLITANE, PROVINCE E REGIONI"/>
@@ -44,7 +44,7 @@ Avvertenza: si informa che gli elenchi dei comuni alla data del 31 dicembre 2019
 				<valueString value="Flag Provincia"/>
 			</extension>
 		</code>
-		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaTerritorialiEstero#isProvincia"/>
+		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere#isProvincia"/>
 		<description value="Flag Comune capoluogo di provincia/città metropolitana/libero consorzio.	1=Comune capoluogo; 0=Comune non è capoluogo. 	Avvertenza: La provincia di Barletta-Andria-Trani presenta tre comuni capoluogo (Barletta, Andria e Trani).	- 2020- Istat"/>
 		<type value="code"/>
 	</property>
@@ -54,7 +54,7 @@ Avvertenza: si informa che gli elenchi dei comuni alla data del 31 dicembre 2019
 				<valueString value="Progressivo del comune"/>
 			</extension>
 		</code>
-		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaTerritorialiEstero#serialComune"/>
+		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere#serialComune"/>
 		<description value="Progressivo alfanumerico di tre caratteri assegnato al comune nell'ambito della provincia di appartenenza	E' un numero progressivo che parte da '001' all'interno di ogni provincia - 2020	- Istat"/>
 		<type value="code"/>
 	</property>
@@ -64,7 +64,7 @@ Avvertenza: si informa che gli elenchi dei comuni alla data del 31 dicembre 2019
 				<valueString value="Sigla Automobilistica"/>
 			</extension>
 		</code>
-		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaTerritorialiEstero#targaProvincia"/>
+		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere#targaProvincia"/>
 		<description value="Sigla automobilistica	E' la sigla automobilistica della provincia - 2020 - Motorizzazione"/>
 		<type value="code"/>
 	</property>
@@ -74,7 +74,7 @@ Avvertenza: si informa che gli elenchi dei comuni alla data del 31 dicembre 2019
 				<valueString value="Codice catastale del comune"/>
 			</extension>
 		</code>
-		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaTerritorialiEstero#catasto"/>
+		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere#catasto"/>
 		<description value="E' il codice assegnato al comune dall'Agenzia delle Entrate	E' un codice composto da quattro caratteri, il primo dei quali alfabetico e gli altri tre numerici. Il codice è stato assegnato inizialmente seguendo l'ordinamento alfabetico crescente dell'elenco di tutti i comuni di Italia, indipedentemente dalla Provincia di appartenenza. Per i comuni di nuova istituzione viene assegnato il primo codice alfanumerico disponibile. - 2019	- Agenzia delle Entrate"/>
 		<type value="code"/>
 	</property>
@@ -84,7 +84,7 @@ Avvertenza: si informa che gli elenchi dei comuni alla data del 31 dicembre 2019
 				<valueString value="NUTS1"/>
 			</extension>
 		</code>
-		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaTerritorialiEstero#NUTS1"/>
+		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere#NUTS1"/>
 		<description value="Nomenclatura delle unità territoriali per le statistiche corrispondente al livello territoriale di Ripartizione	E' il codice attualmente vigente. Cfr. Regolamenti (UE) n. 105/2007 del 1/02/07,  n. 176/2008, n. 31/2011 e n. 1319/2013. 	2015	Eurostat"/>
 		<type value="code"/>
 	</property>
@@ -94,7 +94,7 @@ Avvertenza: si informa che gli elenchi dei comuni alla data del 31 dicembre 2019
 				<valueString value="NUTS2"/>
 			</extension>
 		</code>
-		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaTerritorialiEstero#NUTS2"/>
+		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere#NUTS2"/>
 		<description value="Nomenclatura delle unità territoriali per le statistiche corrispondente al livello territoriale delle Regioni	E' il codice attualmente vigente. Cfr. Regolamenti (UE) n. 105/2007 del 1/02/07,  n. 176/2008, n. 31/2011 e n. 1319/2013. Nella nomenclatura NUTS non è presente la regione di livello 2 'Trentino-Alto Adige/Südtirol'; al suo posto compaiono la 'Provincia autonoma di Bolzano/Bozen' (ITH1) e la 'Provincia autonoma di Trento' (ITH2) - 2015 - Eurostat"/>
 		<type value="code"/>
 	</property>
@@ -104,7 +104,7 @@ Avvertenza: si informa che gli elenchi dei comuni alla data del 31 dicembre 2019
 				<valueString value="NUTS3"/>
 			</extension>
 		</code>
-		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaTerritorialiEstero#NUTS3"/>
+		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere#NUTS3"/>
 		<description value="Nomenclatura delle unità territoriali per le statistiche corrispondente al livello territoriale delle Province	E' il codice attualmente vigente. Cfr. Regolamenti (UE) n. 105/2007 del 1/02/07,  n. 176/2008, n. 31/2011 e n. 1319/2013 - 2015	- Eurostat"/>
 		<type value="code"/>
 	</property>
@@ -114,7 +114,7 @@ Avvertenza: si informa che gli elenchi dei comuni alla data del 31 dicembre 2019
 				<valueString value="Codice Comune numerico (dal 2010 al 2016)"/>
 			</extension>
 		</code>
-		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaTerritorialiEstero#code-2010-2016"/>
+		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere#code-2010-2016"/>
 		<description value="Codice Comune numerico con 110 province (dal 2010 al 2016)	Codice Istat del Comune (in formato numerico) riferito alla situazione antecedente alla soppressione delle quattro province sarde di Carbonia-Iglesias, Medio Campidano, Olbia-Tempio, Ogliastra e della costituzione della nuova provincia del Sud Sardegna	Si ottiene dalla concatenazione del Codice Provincia (110 province) con Progressivo del comune. Ha validità nel periodo che va dalla costituzione delle tre nuove province del 2009 al ridisegno dei confini provinciali della Sardegna in conseguenza dell'attuazione del piano di riordino territoriale dell'Intera Isola.	- 2016	- Istat"/>
 		<type value="code"/>
 	</property>
@@ -124,7 +124,7 @@ Avvertenza: si informa che gli elenchi dei comuni alla data del 31 dicembre 2019
 				<valueString value="Codice Comune numerico (dal 2006 al 2009)."/>
 			</extension>
 		</code>
-		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaTerritorialiEstero#code-2006-2009"/>
+		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere#code-2006-2009"/>
 		<description value="Codice Comune numerico con 107 province (dal 2006 al 2009). Codice Istat del Comune (in formato numerico) riferito alla situazione antecedente alla costituzione delle tre nuove province di Monza e della Brianza, Fermo e Barletta-Andria-Trani	Si ottiene dalla concatenazione del Codice Provincia (107 province) con Progressivo del comune. Ha validità nel periodo che va dalla costituzione delle nuove province della Sardegna (2006) alla istituzione di tre nuove province nel 2009 - 2009- Istat"/>
 		<type value="code"/>
 	</property>
@@ -134,7 +134,7 @@ Avvertenza: si informa che gli elenchi dei comuni alla data del 31 dicembre 2019
 				<valueString value="Codice Comune numerico (dal 1995 al 2005)"/>
 			</extension>
 		</code>
-		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaTerritorialiEstero#code-1995-2005"/>
+		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere#code-1995-2005"/>
 		<description value="Codice Comune numerico con 103 province (dal 1995 al 2005).	Codice Istat del Comune (in formato numerico) riferito alla situazione antecedente alla costituzione delle quattro nuove province della Sardegna	Si ottiene dalla concatenazione del Codice Provincia (103 province) con il Progressivo del comune. Ha validità nel periodo che va dal 1995 al 2005, prima della istituzione delle nuove province della Sardegna	- 2005- Istat"/>
 		<type value="code"/>
 	</property>
@@ -144,7 +144,7 @@ Avvertenza: si informa che gli elenchi dei comuni alla data del 31 dicembre 2019
 				<valueString value="popolazione"/>
 			</extension>
 		</code>
-		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaTerritorialiEstero#popolazione"/>
+		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere#popolazione"/>
 		<description value="Popolazione legale 2011 (09/10/2011)	Popolazione residente alla data del Censimento del 09/10/2011	Fonte: 15° Censimento generale della popolazione e delle abitazioni. Per i comuni istituiti o interessati rispettivamenti dai processi di fusione o incorporazione di comuni soppressi, la popolazione alla data del XV Censimento generale della popolazione e delle abitazioni è ricostruita per somma	- 2011- Istat"/>
 		<type value="integer"/>
 	</property>

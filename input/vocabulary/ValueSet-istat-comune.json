@@ -1,0 +1,26 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "IstatCodiceComuni",
+  "id": "istat-comune",
+  "title": "Codici Comune - ISTAT",
+  "description": "Codici Comune - ISTAT, più sconosciuto",
+  "version": "0.1.0",
+  "url": "http://hl7.it/fhir/ValueSet/istat-comune",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "concept": [
+          {
+            "code": "UNK",
+            "display": "Sconosciuto"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritoriali"
+      }
+    ]
+  }
+}

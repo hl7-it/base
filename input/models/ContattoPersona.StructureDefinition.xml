@@ -4,7 +4,7 @@
 	<url value="http://hl7.it/fhir/StructureDefinition/ContattoPersona"/>
 	<version value="0.0.1"/>
 	<name value="ContattoPersona"/>
-	<title value="Persona di Contatto - Modello Logico"/>
+	<title value="Persona di Contatto"/>
 	<status value="draft"/>
 	<experimental value="true"/>
 	<description value="Modello Logico che definisce il set di dati che caratterizzano una persona identificato come possibile contatto per il paziente."/>

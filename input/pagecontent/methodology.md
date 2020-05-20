@@ -7,7 +7,7 @@ Questa guida viene sviluppata seguendo un approccio **iterativo** ed
 <tbody>
 <tr class="odd">
 <td><p><img src="method-1.png" style="width:6.33265in;height:3.44556in" /></p>
-<p>Figura - Approccio generale</p></td>
+<p>Figura 1 - Approccio generale</p></td>
 </tr>
 </tbody>
 </table>
@@ -52,7 +52,7 @@ Ambienti di pubblicazione):
 <tr class="odd">
 <td><blockquote>
 <p><img src="method-2.png" style="width:3.78163in;height:2.82007in" /></p>
-<p>Figura 2 - Ambienti di pubblicazione</p>
+<p>Figura - Ambienti di pubblicazione</p>
 </blockquote></td>
 </tr>
 </tbody>
@@ -84,7 +84,7 @@ Figura 3 mostra un caratteristico ciclo di vita di una guida:
 <tbody>
 <tr class="odd">
 <td><p><img src="method-3.png" style="width:6.11514in;height:1.73061in" /></p>
-<p>Figura 3 – Ciclo di vita e versioni di una guida</p></td>
+<p>Figura – Ciclo di vita e versioni di una guida</p></td>
 </tr>
 </tbody>
 </table>
@@ -92,8 +92,9 @@ Figura 3 mostra un caratteristico ciclo di vita di una guida:
 Indipendentemente dalla loro tipologia, le guide sono soggette ad un
 processo di manutenzione e continuo aggiornamento, ogni versione
 pubblicata è caratterizzata da una *versione esterna* (e.g. STU; STU2;
-R1; R1.1) e da un numero di versione interno (e.g. 0.0.1; 2.0.1). Per
-ogni versione esterna è possibile avere più versioni interne.
+R1; R1.1) e da un *semantic version, cioè* da un numero di versione
+interna (e.g. 0.0.1; 2.0.1). Per ogni versione esterna è possibile avere
+più semantic version.
 
 Una pubblicazione STU è sempre associata ad una specifica release,
 nell’esempio della figura STU deve essere letto come Release 1, STU 1.

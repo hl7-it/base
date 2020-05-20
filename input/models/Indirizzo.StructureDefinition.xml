@@ -4,7 +4,7 @@
 	<url value="http://hl7.it/fhir/StructureDefinition/Indirizzo"/>
 	<version value="Indirizzo"/>
 	<name value="Indirizzo"/>
-	<title value="Indirizzo - Modello Logico"/>
+	<title value="Indirizzo"/>
 	<status value="draft"/>
 	<experimental value="true"/>
 	<description value="Modello Logico che definisce le tipiche informazioni che caratterizzano un indirizzo nella giurisdizione italiana."/>
@@ -333,12 +333,12 @@
 				<label value="codiceComune"/>
 				<valueCodeableConcept>
 					<coding>
-						<system value="http://terminology.hl7.it/CodeSystem/istat-unitaTerritoriali"/>
+						<system value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritoriali"/>
 						<code value="005005"/>
 						<display value="Asti"/>
 					</coding>
 					<coding>
-						<system value="http://terminology.hl7.it/CodeSystem/ae-codiciCatastali"/>
+						<system value="http://terminology.hl7.it/CodeSystem/AE-codiciCatastali"/>
 						<code value="A479"/>
 						<display value="Asti"/>
 					</coding>
@@ -375,11 +375,11 @@
 				<profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept"/>
 			</type>
 			<example>
-				<label value="codiceProvincia"/>
+				<label value="codiceIstatProvincia"/>
 				<valueCodeableConcept>
 					<coding>
-						<system value="http://example.org/sid/province"/>
-						<code value="TV"/>
+						<system value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritoriali"/>
+						<code value="026"/>
 						<display value="Treviso"/>
 					</coding>
 				</valueCodeableConcept>

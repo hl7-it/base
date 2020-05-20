@@ -4,10 +4,10 @@
 	<url value="http://hl7.it/fhir/StructureDefinition/Paziente"/>
 	<version value="0.0.1"/>
 	<name value="Paziente"/>
-	<title value="Paziente - Modello Logico"/>
+	<title value="Paziente"/>
 	<status value="draft"/>
 	<experimental value="true"/>
-	<description value="Modello Logico che definisce il set minimo di dati che caratterizzano un paziente nella giurisdizione italiana.&#xD;&#xA;Questa versione è a scopo dimostrativo."/>
+	<description value="Modello Logico che definisce il set minimo di dati che caratterizzano un paziente nella giurisdizione italiana.."/>
 	<fhirVersion value="4.0.0"/>
 	<mapping>
 		<identity value="fhir-it"/>
@@ -580,7 +580,7 @@
 			</type>
 			<mapping>
 				<identity value="fhir-it"/>
-				<map value="Patient.extension('http://hl7.it/fhir/StructureDefinition/patient-professione-it')"/>
+				<map value="Patient.extension('http://hl7.it/fhir/StructureDefinition/patient-occupation-it')"/>
 			</mapping>
 		</element>
 		<element id="Paziente.altriDati.titoloStudio">
@@ -594,7 +594,7 @@
 			</type>
 			<mapping>
 				<identity value="fhir-it"/>
-				<map value="Patient.extension('http://hl7.it/fhir/StructureDefinition/patient-titoloStudio-it')"/>
+				<map value="Patient.extension('http://hl7.it/fhir/StructureDefinition/patient-qualification-it')"/>
 			</mapping>
 		</element>
 		<element id="Paziente.esenzione">

@@ -3,7 +3,7 @@
 	<id value="patient-codeableBirthPlace-it"/>
 	<url value="http://hl7.it/fhir/StructureDefinition/patient-codeableBirthPlace-it"/>
 	<version value="0.0.1"/>
-	<name value="PatientCodeableBirthPlaceIT"/>
+	<name value="ExtCodeableBirthPlace"/>
 	<title value="Codice comune e/o stato di nascita"/>
 	<status value="draft"/>
 	<description value="Codice comune e/o stato di nascita"/>

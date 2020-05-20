@@ -1,0 +1,73 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "PractitionerRole-it-mmg",
+  "url": "http://hl7.it/fhir/StructureDefinition/PractitionerRole-it-mmg",
+  "version": "0.1.0",
+  "name": "PractitionerRoleMMG",
+  "title": "PractitionerRole - MMG/PLS",
+  "status": "active",
+  "description": "Profilo base specifico per PractitionerRole:  include le informazioni minime per descrivere un Medico Medicina Generale od un Pediatra di Libera Scelta e la sua ASL di appartenenza",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "servd",
+      "uri": "http://www.omg.org/spec/ServD/1.0/",
+      "name": "ServD"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "PractitionerRole",
+  "baseDefinition": "http://hl7.it/fhir/StructureDefinition/PractitionerRole-it-base",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "PractitionerRole.identifier",
+        "path": "PractitionerRole.identifier",
+        "short": "Identificativo del MMG/PLS (e.g. Codice Fiscale, ID Regionale)"
+      },
+      {
+        "id": "PractitionerRole.practitioner",
+        "path": "PractitionerRole.practitioner",
+        "short": "Dettagli del Medico"
+      },
+      {
+        "id": "PractitionerRole.organization",
+        "path": "PractitionerRole.organization",
+        "short": "Azienda Sanitaria di Appartenenza",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.it/fhir/StructureDefinition/Organization-it-ausl"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PractitionerRole.code",
+        "path": "PractitionerRole.code",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.it/fhir/ValueSet/MmgPlsRoles"
+        }
+      }
+    ]
+  }
+}

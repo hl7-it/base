@@ -3,7 +3,7 @@
   <id value="address-dug-it" />
   <url value="http://hl7.it/fhir/StructureDefinition/address-dug-it" />
   <version value="0.0.1" />
-  <name value="DenominazioneUrbanisticaGenerica"/>
+  <name value="ExtDUG"/>
   <title value="DUG (Denominazione Urbanistica Generica)" />
   <status value="draft" />
   <description value="Denominazione Urbanistica Ufficiale" />
@@ -29,7 +29,7 @@
       </type>
       			<binding>
 				<strength value="extensible"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/istat-dug"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/istat-dug-vs"/>
 			</binding>
     </element>
   </differential>

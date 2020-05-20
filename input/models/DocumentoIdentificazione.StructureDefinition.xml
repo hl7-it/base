@@ -4,10 +4,10 @@
 	<url value="http://hl7.it/fhir/StructureDefinition/DocumentoIdentificazione"/>
 	<version value="0.0.1"/>
 	<name value="DocumentoIdentificazione"/>
-	<title value="Documento di Identificazione - Modello Logico"/>
+	<title value="Documento di Identificazione"/>
 	<status value="draft"/>
 	<experimental value="true"/>
-	<description value="Modello Logico che definisce il set di dati che caratterizzano i documenti di Identificazione (e.g. Passaporto, CI) &#xD;&#xA;Questa versione è a scopo dimostrativo."/>
+	<description value="Modello Logico che definisce il set di dati che caratterizzano i documenti di Identificazione (e.g. Passaporto, CI) ."/>
 	<fhirVersion value="4.0.0"/>
 	<kind value="logical"/>
 	<abstract value="true"/>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Start by finding all references to "myig" and updating to appropriate text for your IG, including changing realm -->
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-	<id value="hl7.fhir.it.base"/>
+	<id value="ig-it-base"/>
 	<!--  <extension url="http://hl7.org/fhir/tools/StructureDefinition/igpublisher-spreadsheet">
     <valueString value="resources-spreadsheet.xml"/>
   </extension>-->
-	<url value="http://hl7.it/fhir/ImplementationGuide/hl7.fhir.it.base"/>
+	<url value="http://hl7.it/fhir/ImplementationGuide/ig-it-base"/>
 	<!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
 	<version value="0.0.1"/>
 	<name value="HL7ITFhirBase"/>
-	<title value="HL7 Italia FHIR Base"/>
+	<title value="HL7 Italia FHIR Implementation Guide"/>
 	<status value="draft"/>
 	<experimental value="false"/>
 	<publisher value="HL7 Italia"/>
@@ -24,13 +24,8 @@
 	<jurisdiction>
 		<!-- This will drive SNOMED release used -->
 		<coding>
-			<!-- This is the code for universal -->
-			<system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-			<code value="380"/>
-			<!-- Change to this if the IG is country-specific
-      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-      <code value="001"/>
-      -->
+			<system value="urn:iso:std:iso:3166:-2"/>
+			<code value="IT"/>
 		</coding>
 	</jurisdiction>
 	<packageId value="hl7.fhir.it.base"/>
@@ -49,7 +44,15 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="Patient/Patient-CF-residenza"/>
+				<reference value="Patient/esempio-professione"/>
+			</reference>
+			<name value="Patient.  Esempio con Codice Fiscale, Residenza e Domicilio"/>
+			<description value="Istanza di Patient con Codice Fiscale, Residenza e Domicilio"/>
+			<exampleCanonical value="http://hl7.it/fhir/StructureDefinition/Patient-it-base"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Patient/esempio-CF-residenza"/>
 			</reference>
 			<name value="Patient.  Esempio con Codice Fiscale, Residenza e Domicilio"/>
 			<description value="Istanza di Patient con Codice Fiscale, Residenza e Domicilio"/>
@@ -59,8 +62,8 @@
 			<reference>
 				<reference value="Patient/Patient-birthPlace-opt2"/>
 			</reference>
-			<name value="Patient. Esempio con estensione patient-codedBirthPlace-it "/>
-			<description value="Istanza di Patient con birthPlace codificato usando l'estensione patient-codedBirthPlace-it "/>
+			<name value="Patient. Esempio con estensione patient-codedBirthPlace-it"/>
+			<description value="Istanza di Patient con birthPlace codificato usando l'estensione patient-codedBirthPlace-it"/>
 			<exampleCanonical value="http://hl7.it/fhir/StructureDefinition/Patient-it-base"/>
 		</resource>
 		<resource>
@@ -73,19 +76,35 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference value="Patient/es-trad"/>
+			</reference>
+			<name value="Patient.  Esempio di translitterazione di nome con caratteri speciali"/>
+			<description value="Istanza di Patient con esempio di translitterazione del nome con caratteri speciali. Forma con carattere accentato e senza accento"/>
+			<exampleCanonical value="http://hl7.it/fhir/StructureDefinition/Patient-it-base"/>
+		</resource>
+		<resource>
+			<reference>
 				<reference value="Coverage/EsempioEsenzione"/>
 			</reference>
 			<name value="Coverage. Esempio di gestire delle esenzioni"/>
 			<description value="Esempio di uso della risorsa coverage per gestire le esenzioni"/>
-			<exampleCanonical value="http://hl7.it/fhir/StructureDefinition/Coverage-esenzioni-it"/>
+			<exampleCanonical value="http://hl7.it/fhir/StructureDefinition/Coverage-it-base"/>
 		</resource>
-		<resource>			
-					<reference>
+		<resource>
+			<reference>
 				<reference value="Organization/ASL-example"/>
 			</reference>
 			<name value="Organization. Esempio di Azienda Sanitaria"/>
 			<description value="Esempio di uso della risorsa Organization per descrivere una Azienda Sanitaria"/>
-			<exampleCanonical value="http://hl7.it/fhir/StructureDefinition/Organization-AziendaSanitaria-it"/>
+			<exampleCanonical value="http://hl7.it/fhir/StructureDefinition/Organization-it-ausl"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Organization/nice-org"/>
+			</reference>
+			<name value="Organization. Esempio generico"/>
+			<description value="Esempio di uso della risorsa Organization"/>
+			<exampleCanonical value="http://hl7.it/fhir/StructureDefinition/Organization-it-base"/>
 		</resource>
 		<resource>
 			<reference>
@@ -93,7 +112,16 @@
 			</reference>
 			<name value="Practitioner. Medico di Medicina Generale"/>
 			<description value="Esempio di uso della risorsa Practitioner per rappresentare i dati anagrafici di un medico."/>
-			<exampleCanonical value="http://hl7.it/fhir/StructureDefinition/Practitioner-mmg-it"/>
+			<exampleCanonical value="http://hl7.it/fhir/StructureDefinition/Practitioner-it-base"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="PractitionerRole/PractitionerRoleMMGExample"/>
+			</reference>
+			<name value="PractitionerRole. Medico di Medicina Generale"/>
+			<description value="Esempio di uso della risorsa PractitionerRole per rappresentare i dati anagrafici di un medico."/>
+			<exampleCanonical value="http://hl7.it/fhir/StructureDefinition/PractitionerRole-it-mmg"/>
+			<exampleCanonical value="http://hl7.it/fhir/StructureDefinition/PractitionerRole-it-base"/>
 		</resource>
 		<!-- You don't need to define any groupings.  The IGPublisher will define them for you.  You only need to do so if your IG is 'special' and it's
       inappropriate to use the defaults.  Feel free to provide feedback about the defaults... -->
@@ -111,6 +139,11 @@
 				<nameUrl value="background.html"/>
 				<title value="Background"/>
 				<generation value="html"/>
+			</page>
+			<page>
+				<nameUrl value="design.html"/>
+				<title value="Principi e disegno"/>
+				<generation value="markdown"/>
 			</page>
 			<page>
 				<nameUrl value="methodology.html"/>
@@ -161,11 +194,19 @@
 		</parameter>
 		<parameter>
 			<code value="special-url"/>
-			<value value="http://terminology.hl7.it/CodeSystem/istat-unitaTerritorialiEstero"/>
+			<value value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere"/>
 		</parameter>
 		<parameter>
 			<code value="special-url"/>
-			<value value="http://terminology.hl7.it/CodeSystem/istat-unitaTerritoriali"/>
+			<value value="http://terminology.hl7.it/CodeSystem/it-v3RoleCode"/>
+		</parameter>
+		<parameter>
+			<code value="special-url"/>
+			<value value="http://terminology.hl7.it/CodeSystem/minsan-esenzioni"/>
+		</parameter>
+		<parameter>
+			<code value="special-url"/>
+			<value value="http://terminology.hl7.it/CodeSystem/istat-professioni"/>
 		</parameter>
 		<parameter>
 			<code value="special-url"/>
@@ -177,15 +218,19 @@
 		</parameter>
 		<parameter>
 			<code value="special-url"/>
-			<value value="http://terminology.hl7.it/CodeSystem/ae-codiciCatastali"/>
+			<value value="http://terminology.hl7.it/CodeSystem/AE-codiciCatastali"/>
 		</parameter>
 		<parameter>
 			<code value="special-url"/>
-			<value value="http://terminology.hl7.it/CodeSystem/tipoEntita"/>
+			<value value="http://terminology.hl7.it/CodeSystem/it-tipoEntita"/>
 		</parameter>
 		<parameter>
 			<code value="special-url"/>
 			<value value="http://registry.geodati.gov.it/dug"/>
+		</parameter>
+		<parameter>
+			<code value="apply-jurisdiction"/>
+			<value value="true"/>
 		</parameter>
 		<!-- Uncomment one or more of these if you want to limit which syntaxes are supported or want to disable the display of mappings
     <parameter>

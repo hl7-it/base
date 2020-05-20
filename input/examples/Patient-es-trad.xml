@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patient xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/codesystem.xsd">
+	<id value="es-trad"/>
+	<identifier>
+		<system value="http://hl7.it/sid/codiceFiscale"/>
+		<value value="DSRPLL71A41L219U"/>
+	</identifier>
+	<active value="true"/>
+	<name>
+		<use value="official"/>
+		<family value="Pellè">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="it-latn-simple"/>
+					<!-- or "it-latn-simple" ? -->
+				</extension>
+				<extension url="content">
+					<valueString value="Pelle'"/>
+				</extension>
+			</extension>
+		</family>
+		<given value="Désirée">
+			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+				<extension url="lang">
+					<valueCode value="it-latn-simple"/>
+					<!-- or "it-latn-simple" or it-x-usasciii  -->
+				</extension>
+				<extension url="content">
+					<valueString value="Desiree"/>
+				</extension>
+			</extension>
+		</given>
+	</name>
+	<gender value="female"/>
+</Patient>

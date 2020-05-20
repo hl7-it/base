@@ -1,0 +1,42 @@
+{
+  "resourceType": "Patient",
+  "id": "esempio-professione",
+  "extension": [
+    {
+      "url": "http://hl7.it/fhir/StructureDefinition/patient-occupation-it",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "medico",
+            "system": "http://terminology.hl7.it/CodeSystem/istat-professioni"
+          }
+        ]
+      }
+    },
+    {
+      "url": "http://hl7.it/fhir/StructureDefinition/patient-qualification-it",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "laurea",
+            "system": "http://example.org/qualification"
+          }
+        ]
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://hl7.it/sid/codiceFiscale",
+      "value": "RSSMRT57D12D612R"
+    }
+  ],
+  "name": [
+    {
+      "family": "Rossi",
+      "given": [
+        "Martino"
+      ]
+    }
+  ]
+}

@@ -4,10 +4,10 @@
 	<url value="http://hl7.it/fhir/StructureDefinition/Esenzione"/>
 	<version value="0.0.1"/>
 	<name value="Esenzione"/>
-	<title value="Esenzione - Modello Logico"/>
+	<title value="Esenzione"/>
 	<status value="draft"/>
 	<experimental value="true"/>
-	<description value="Modello Logico che definisce il set minimo di dati che caratterizzano una Esenzione&#xD;&#xA;Questa versione è a scopo dimostrativo."/>
+	<description value="Modello Logico che definisce il set minimo di dati che caratterizzano una Esenzione."/>
 	<fhirVersion value="4.0.0"/>
 	<mapping>
 		<identity value="fhir-it"/>

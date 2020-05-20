@@ -7,12 +7,12 @@
 	</text>
 	<url value="http://hl7.it/fhir/StructureDefinition/Patient-it-base"/>
 	<version value="0.0.1"/>
-	<name value="Paziente_IT_Base"/>
-	<title value="Paziente (profilo base IT Realm)"/>
+	<name value="PatientItBase"/>
+	<title value="Patient - base"/>
 	<status value="draft"/>
 	<experimental value="true"/>
 	<date value="2018-03-20T16:43:56.519+01:00"/>
-	<description value="Questo profilo definisce l'uso comune della risorsa FHIR Patient nel contesto Italiano, definendo come alcune tipiche informazioni debbano essere rappresentate in FHIR."/>
+	<description value="Profilo base generico per Patient: descrive come rappresentare in FHIR alcune informazioni tipiche per il contesto Italiano."/>
 	<kind value="resource"/>
 	<abstract value="false"/>
 	<type value="Patient"/>
@@ -31,7 +31,7 @@
 			<max value="1"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.it/fhir/StructureDefinition/certificazioneAnagrafica"/>
+				<profile value="http://hl7.it/fhir/StructureDefinition/certificazioneAnagrafica-it"/>
 			</type>
 		</element>
 		<!-- OPZIONE 1 -->
@@ -79,7 +79,7 @@
 			</type>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/istat-stati"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/istat-stato"/>
 			</binding>
 		</element>
 		<!-- OPZIONE 2 -->
@@ -117,7 +117,7 @@
 			<max value="1"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.it/fhir/StructureDefinition/patient-professione-it"/>				
+				<profile value="http://hl7.it/fhir/StructureDefinition/patient-occupation-it"/>				
 			</type>
 			<mustSupport value="false"/>
 		</element>
@@ -129,7 +129,7 @@
 			<max value="1"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.it/fhir/StructureDefinition/patient-titoloStudio-it"/>
+				<profile value="http://hl7.it/fhir/StructureDefinition/patient-qualification-it"/>
 			</type>
 			<mustSupport value="false"/>
 		</element>
@@ -154,7 +154,7 @@
 			<max value="1"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.it/fhir/StructureDefinition/certificazioneAnagrafica"/>
+				<profile value="http://hl7.it/fhir/StructureDefinition/certificazioneAnagrafica-it"/>
 			</type>
 		</element>
 		<element id="Patient.identifier.type">
@@ -597,7 +597,7 @@
 			<sliceName value="mmgPlsRole"/>
 			<type>
 				<code value="Reference"/>
-				<targetProfile value="http://hl7.it/fhir/StructureDefinition/PractitionerRole-mmg-it"/>
+				<targetProfile value="http://hl7.it/fhir/StructureDefinition/PractitionerRole-it-mmg"/>
 			</type>
 			<mustSupport value="true"/>
 		</element>
@@ -606,7 +606,7 @@
 			<sliceName value="mmgPls"/>
 			<type>
 				<code value="Reference"/>
-				<targetProfile value="http://hl7.it/fhir/StructureDefinition/Practitioner-mmg-it"/>
+				<targetProfile value="http://hl7.it/fhir/StructureDefinition/Practitioner-it-base"/>
 			</type>
 			<mustSupport value="true"/>
 		</element>
@@ -615,7 +615,7 @@
 			<sliceName value="mmgPlsAzienda"/>
 			<type>
 				<code value="Reference"/>
-				<targetProfile value="http://hl7.it/fhir/StructureDefinition/Organization-AziendaSanitaria-it"/>
+				<targetProfile value="http://hl7.it/fhir/StructureDefinition/Organization-it-ausl"/>
 			</type>
 			<mustSupport value="true"/>
 		</element>

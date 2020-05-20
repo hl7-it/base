@@ -4,7 +4,7 @@
 	<extension url="http://hl7.it/fhir/StructureDefinition/patient-codeableBirthPlace-it">
 		<valueCodeableConcept>
 			<coding>
-				<system value="http://terminology.hl7.it/CodeSystem/ae-codiciCatastali"/>
+				<system value="http://terminology.hl7.it/CodeSystem/AE-codiciCatastali"/>
 				<code value="F979"/>
 				<display value="NUORO"/>
 			</coding>

@@ -4,10 +4,10 @@
 	<url value="http://hl7.it/fhir/StructureDefinition/EHIC"/>
 	<version value="0.0.1"/>
 	<name value="EHIC"/>
-	<title value="EHIC (tessera TEAM) - Modello Logico"/>
+	<title value="EHIC (TEAM)"/>
 	<status value="draft"/>
 	<experimental value="true"/>
-	<description value="Modello Logico che definisce il set di dati che caratterizzano la tessera TEAM (EHIC European Healthcare Insurance Card)&#xD;&#xA;Questa versione è a scopo dimostrativo."/>
+	<description value="Modello Logico che definisce il set di dati che caratterizzano la tessera TEAM o EHIC (European Healthcare Insurance Card)."/>
 	<fhirVersion value="4.0.0"/>
 	<kind value="logical"/>
 	<abstract value="true"/>
@@ -18,7 +18,7 @@
 		<element id="EHIC">
 			<path value="EHIC"/>
 			<short value="EHIC"/>
-			<definition value="Modello Logico che definisce il set di dati che caratterizzano la tessera TEAM (EHIC European Healthcare Insurance Card)."/>
+			<definition value="Modello Logico che definisce il set di dati che caratterizzano la tessera TEAM o EHIC (European Healthcare Insurance Card)."/>
 			<alias value="TEAM"/>
 			<min value="0"/>
 			<max value="*"/>

@@ -7,8 +7,8 @@
 		<div xmlns="http://www.w3.org/1999/xhtml">Tabella ISTAT Stato Civile</div>
 	</text>
 	<url value="http://terminology.hl7.it/CodeSystem/istat-statoCivile"/>
-	<name value="Stato_Civile_ISTAT"/>
-	<title value="Tabella ISTAT Stato Civile"/>
+	<name value="CsIstatStatoCivile"/>
+	<title value="ISTAT - Stato Civile"/>
 	<status value="draft"/>
 	<experimental value="false"/>
 	<description value="Tabella ISTAT Stato Civile"/>

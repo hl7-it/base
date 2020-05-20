@@ -10,7 +10,7 @@
 	<immutable value="false"/>
 	<compose>
 		<include>
-			<system value="http://terminology.hl7.it/CodeSystem/tipoEntita"/>
+			<system value="http://terminology.hl7.it/CodeSystem/it-tipoEntita"/>
 			<concept>
 				<code value="gov"/>
 				<display value="Ministero od Agenzia governativa"/>

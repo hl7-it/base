@@ -2,10 +2,10 @@
   "resourceType": "CodeSystem",
   "status": "active",
   "content": "complete",
-  "name": "DenominazioniUrbanisticheGeneriche",
+  "name": "CsIstatDug",
   "id": "dug",
-  "title": "Registro delle Denominazioni Urbanistiche Generiche (DUG)",
-  "description": "Registro delle Denominazioni Urbanistiche Generiche (DUG). ",
+  "title": "ISTAT - Registro delle Denominazioni Urbanistiche Generiche (DUG)",
+  "description": "ISTAT - Registro delle Denominazioni Urbanistiche Generiche (DUG)",
   "version": "0.1.0",
   "url": "http://registry.geodati.gov.it/dug",
   "concept": [

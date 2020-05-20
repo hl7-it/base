@@ -7,8 +7,8 @@
 		<value value="urn:oid:2.16.840.1.113883.4.642.4.2"/>
 	</identifier>
 	<version value="4.0.1"/>
-	<name value="AdministrativeGender"/>
-	<title value="AdministrativeGender"/>
+	<name value="CsSupItAdministrativeGender"/>
+	<title value="HL7 Italia - AdministrativeGender (translation)"/>
 	<status value="active"/>
 	<experimental value="false"/>
 	<date value="2019-11-01T09:29:23+11:00"/>
