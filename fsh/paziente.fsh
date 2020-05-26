@@ -32,7 +32,7 @@ Description: "Estensione per gestire il Titolo di studio del paziente come Codea
 Instance: esempio-professione
 InstanceOf: Patient
 Description: "Patient: professione e titolo di studio"
-* extension[ExtProfessionePaziente].valueCodeableConcept = CS_professioni#medico
+* extension[ExtProfessionePaziente].valueCodeableConcept = CS_professioni#2.4.1 "Medici"
 * extension[ExtTitoloStudioPaziente].valueCodeableConcept = CS_titolo#laurea
 * identifier[0].system = "http://hl7.it/sid/codiceFiscale"
 * identifier[0].value = "RSSMRT57D12D612R"

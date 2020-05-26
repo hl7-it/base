@@ -1,10 +1,10 @@
 {
   "resourceType": "ValueSet",
   "status": "active",
-  "name": "IstatCodiceComuni",
+  "name": "VsIstatComune",
   "id": "istat-comune",
-  "title": "Codici Comune - ISTAT",
-  "description": "Codici Comune - ISTAT, più sconosciuto",
+  "title": "Codici ISTAT Comune",
+  "description": "Codici ISTAT Comune più sconosciuto",
   "version": "0.1.0",
   "url": "http://hl7.it/fhir/ValueSet/istat-comune",
   "compose": {

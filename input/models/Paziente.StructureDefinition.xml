@@ -290,7 +290,7 @@
 			</mapping>
 				<mapping>
 				<identity value="fhir-it"/>
-				<map value="Patient.extension('http://hl7.it/fhir/StructureDefinition/patient-codeableBirthPlace-it')"/>
+				<map value="Patient.extension('http://hl7.it/fhir/StructureDefinition/patient-codeableBirthPlace')"/>
 			</mapping>
 		</element>
 		<element id="Paziente.Indirizzi">

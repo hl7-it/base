@@ -99,7 +99,7 @@
 			<definition value="Indica che i dati di questo indirizzo sono stati certificati da una specifica entità"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.it/fhir/StructureDefinition/certificazioneAnagrafica-it"/>
+				<profile value="http://hl7.it/fhir/StructureDefinition/recordCertification"/>
 			</type>
 		</element>
 		<element id="Address.line">
@@ -147,7 +147,7 @@
 			<max value="1"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.it/fhir/StructureDefinition/address-dug-it"/>
+				<profile value="http://hl7.it/fhir/StructureDefinition/address-dug"/>
 			</type>
 			<example>
 				<label value="ex-1"/>

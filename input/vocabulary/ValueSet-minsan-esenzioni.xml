@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/structuredefinition.xsd">
+	<id value="minsan-esenzioni"/>
+	<url value="http://hl7.it/fhir/ValueSet/minsan-esenzioni"/>
+	<version value="0.1.0"/>
+	<name value="VsMinisteroSaluteEsenzioni"/>
+	<title value="Codici Ministeriali Esenzioni"/>
+	<status value="active"/>
+	<description value="Codici Esenzioni Ministero della Salute"/>
+	<compose>
+		<include>
+			<system value="http://terminology.hl7.it/CodeSystem/minsan-esenzioni"/>
+			<filter>
+				<property value="status"/>
+				<op value="="/>
+				<value value="active"/>
+			</filter>
+		</include>
+	</compose>
+</ValueSet>

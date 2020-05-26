@@ -1,10 +1,10 @@
 {
   "resourceType": "ValueSet",
   "status": "active",
-  "name": "IstatCodiceStato",
+  "name": "VsIstatStato",
   "id": "istat-stato",
-  "title": "Codici Stato - ISTAT",
-  "description": "Codici Stato - ISTAT, più sconosciuto",
+  "title": "Codici ISTAT Stato",
+  "description": "Codici ISTAT Stato più sconosciuto",
   "version": "0.1.0",
   "url": "http://hl7.it/fhir/ValueSet/istat-stato",
   "compose": {

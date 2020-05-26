@@ -1,0 +1,136 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://terminology.hl7.it/CodeSystem/minsan-esenzioni",
+    "code" : "E01"
+  }]
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.it/CodeSystem/minsan-esenzioni"
+    }],
+    "exclude" : [{
+      "system" : "http://terminology.hl7.it/CodeSystem/minsan-esenzioni",
+      "filter" : [{
+        "property" : "status",
+        "op" : "=",
+        "value" : "retired"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"CHECK_MEMERSHIP_ONLY"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "CodeSystem uri 'http://terminology.hl7.it/CodeSystem/minsan-esenzioni' is unknown"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.it/CodeSystem/minsan-esenzioni"
+    }],
+    "exclude" : [{
+      "system" : "http://terminology.hl7.it/CodeSystem/minsan-esenzioni",
+      "filter" : [{
+        "property" : "status",
+        "op" : "=",
+        "value" : "retired"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://terminology.hl7.it/CodeSystem/minsan-esenzioni"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://terminology.hl7.it/CodeSystem/minsan-esenzioni",
+    "code" : "E01"
+  }]
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.it/CodeSystem/minsan-esenzioni"
+    }],
+    "exclude" : [{
+      "system" : "http://terminology.hl7.it/CodeSystem/minsan-esenzioni",
+      "filter" : [{
+        "property" : "http://hl7.org/fhir/concept-properties#status",
+        "op" : "=",
+        "value" : "active"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"CHECK_MEMERSHIP_ONLY"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "CodeSystem uri 'http://terminology.hl7.it/CodeSystem/minsan-esenzioni' is unknown"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.it/CodeSystem/minsan-esenzioni"
+    }],
+    "exclude" : [{
+      "system" : "http://terminology.hl7.it/CodeSystem/minsan-esenzioni",
+      "filter" : [{
+        "property" : "http://hl7.org/fhir/concept-properties#status",
+        "op" : "=",
+        "value" : "active"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://terminology.hl7.it/CodeSystem/minsan-esenzioni"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://terminology.hl7.it/CodeSystem/minsan-esenzioni",
+    "code" : "E01"
+  }]
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.it/CodeSystem/minsan-esenzioni",
+      "filter" : [{
+        "property" : "status",
+        "op" : "=",
+        "value" : "active"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"CHECK_MEMERSHIP_ONLY"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "CodeSystem uri 'http://terminology.hl7.it/CodeSystem/minsan-esenzioni' is unknown"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.it/CodeSystem/minsan-esenzioni",
+      "filter" : [{
+        "property" : "status",
+        "op" : "=",
+        "value" : "active"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://terminology.hl7.it/CodeSystem/minsan-esenzioni"
+}
+-------------------------------------------------------------------------------------

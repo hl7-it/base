@@ -38,6 +38,14 @@
   "differential": {
     "element": [
       {
+        "id": "Organization",
+        "path": "Organization"
+      },
+      {
+        "id": "Organization.identifier",
+        "path": "Organization.identifier"
+      },
+      {
         "id": "Organization.identifier.system",
         "path": "Organization.identifier.system",
         "patternUri": "http://terminology.hl7.it/CodeSystem/fls11"

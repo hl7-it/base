@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/valueset.xsd">
-	<url value="http://hl7.it/fhir/ValueSet/tipoCertificatore"/>
+	<url value="http://hl7.it/fhir/ValueSet/certifierType"/>
 	<version value="2017-03-29T00:00:00"/>
-	<name value="ValueSetTipoCertificatore"/>
+	<name value="VsCertifierType"/>
 	<title value="Codice Entità di Certificazione"/>
 	<status value="draft"/>
 	<experimental value="true"/>

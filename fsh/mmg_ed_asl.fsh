@@ -9,7 +9,7 @@ Alias: dataAbsentReason = http://hl7.org/fhir/StructureDefinition/data-absent-re
 //=========================
 //====== Estensione =====================================
 Extension:   StatoEsenzioneCoverage
-Id:          coverage-statoEsenzione
+Id:          coverage-exceptionStatus
 Title:       "Stato Esenzione"
 Description: "Estensione per gestire lo stato di una esenzione"
 //-------------------------------------------------------------------------------------------

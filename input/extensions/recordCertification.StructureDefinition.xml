@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/structuredefinition.xsd">
-	<id value="certificazioneAnagrafica"/>
-	<url value="http://hl7.it/fhir/StructureDefinition/certificazioneAnagrafica-it"/>
+	<id value="recordCertification"/>
+	<url value="http://hl7.it/fhir/StructureDefinition/recordCertification"/>
 	<version value="0.0.1"/>
-	<name value="ExtCertificazioneAnagrafica"/>
-	<title value="Certificazione Anagrafica"/>
+	<name value="ExtRecordCertification"/>
+	<title value="Certificazione del record"/>
 	<status value="draft"/>
 	<description value="Estensione usata per indicare che l'informazione associata è stata certificata (od autocertificata) da una certa entità (persona, organizzazione).  L'estensione è carattrizzata da:\  
 	* una data di certificazione o da una periodo di validità\  
@@ -30,7 +30,7 @@
 	<differential>
 		<element id="Extension">
 			<path value="Extension"/>
-			<short value="Certificazione Anagrafica"/>
+			<short value="Certificazione del record"/>
 			<definition value="Identifica che un certo record paziente, o codice fiscale od indirizzo di residenza è stato certificato da una specifica entità (e.g. MEF)."/>
 		</element>
 		<element id="Extension.extension">
@@ -43,17 +43,17 @@
 				<rules value="open"/>
 			</slicing>
 		</element>
-		<element id="Extension.extension:dataCertificazione">
+		<element id="Extension.extension:when">
 			<path value="Extension.extension"/>
-			<sliceName value="dataCertificazione"/>
+			<sliceName value="when"/>
 			<short value="Data/Periodo  di certificazione"/>
 			<max value="1"/>
 		</element>
-		<element id="Extension.extension:dataCertificazione.url">
+		<element id="Extension.extension:when.url">
 			<path value="Extension.extension.url"/>
-			<fixedUri value="dataCertificazione"/>
+			<fixedUri value="when"/>
 		</element>
-		<element id="Extension.extension:dataCertificazione.value[x]">
+		<element id="Extension.extension:when.value[x]">
 			<path value="Extension.extension.value[x]"/>
 			<type>
 				<code value="dateTime"/>
@@ -84,17 +84,17 @@
 			</binding>
 		</element>
 -->
-		<element id="Extension.extension:certificatore">
+		<element id="Extension.extension:who">
 			<path value="Extension.extension"/>
-			<sliceName value="certificatore"/>
+			<sliceName value="who"/>
 			<short value="Entità Certificante"/>
 			<max value="1"/>
 		</element>
-		<element id="Extension.extension:certificatore.url">
+		<element id="Extension.extension:who.url">
 			<path value="Extension.extension.url"/>
-			<fixedUri value="certificatore"/>
+			<fixedUri value="who"/>
 		</element>
-		<element id="Extension.extension:certificatore.value[x]">
+		<element id="Extension.extension:who.value[x]">
 			<path value="Extension.extension.value[x]"/>
 			<type>
 				<code value="CodeableConcept"/>
@@ -120,15 +120,15 @@
 			</binding>
 		</element>
 -->
-		<element id="Extension.extension:gradoCertificazione">
+		<element id="Extension.extension:rank">
 			<path value="Extension.extension"/>
-			<sliceName value="gradoCertificazione"/>
+			<sliceName value="rank"/>
 		</element>
-		<element id="Extension.extension:gradoCertificazione.url">
+		<element id="Extension.extension:rank.url">
 			<path value="Extension.extension.url"/>
-			<fixedUri value="gradoCertificazione"/>
+			<fixedUri value="rank"/>
 		</element>
-		<element id="Extension.extension:gradoCertificazione.value[x]">
+		<element id="Extension.extension:rank.value[x]">
 			<path value="Extension.extension.value[x]"/>
 			<type>
 				<code value="decimal"/>
@@ -136,7 +136,7 @@
 		</element>
 		<element id="Extension.url">
 			<path value="Extension.url"/>
-			<fixedUri value="http://hl7.it/fhir/StructureDefinition/certificazioneAnagrafica-it"/>
+			<fixedUri value="http://hl7.it/fhir/StructureDefinition/recordCertification"/>
 		</element>
 		<element id="Extension.value[x]">
 			<path value="Extension.value[x]"/>

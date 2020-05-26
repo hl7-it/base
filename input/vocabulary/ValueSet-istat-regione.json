@@ -1,10 +1,10 @@
 {
   "resourceType": "ValueSet",
   "status": "active",
-  "name": "IstatCodiceRegione",
+  "name": "VsIstatRegione",
   "id": "istat-regione",
-  "title": "Codici Regione - ISTAT",
-  "description": "Codici Regione - ISTAT, più sconosciuto",
+  "title": "Codici ISTAT Regione",
+  "description": "Codici ISTAT Regione più sconosciuto",
   "version": "0.1.0",
   "url": "http://hl7.it/fhir/ValueSet/istat-regione",
   "compose": {

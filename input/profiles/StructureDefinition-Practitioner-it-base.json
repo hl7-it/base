@@ -38,6 +38,10 @@
   "differential": {
     "element": [
       {
+        "id": "Practitioner",
+        "path": "Practitioner"
+      },
+      {
         "id": "Practitioner.identifier",
         "path": "Practitioner.identifier",
         "slicing": {
@@ -57,6 +61,7 @@
         "id": "Practitioner.identifier:codiceFiscale",
         "path": "Practitioner.identifier",
         "sliceName": "codiceFiscale",
+        "min": 0,
         "max": "1",
         "patternIdentifier": {
           "system": "http://hl7.it/sid/codiceFiscale"

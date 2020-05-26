@@ -31,7 +31,7 @@
 			<max value="1"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.it/fhir/StructureDefinition/certificazioneAnagrafica-it"/>
+				<profile value="http://hl7.it/fhir/StructureDefinition/recordCertification"/>
 			</type>
 		</element>
 		<!-- OPZIONE 1 -->
@@ -91,7 +91,7 @@
 			<max value="*"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.it/fhir/StructureDefinition/patient-codeableBirthPlace-it"/>
+				<profile value="http://hl7.it/fhir/StructureDefinition/patient-codeableBirthPlace"/>
 			</type>
 			<binding>
 				<strength value="example"/>
@@ -154,7 +154,7 @@
 			<max value="1"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.it/fhir/StructureDefinition/certificazioneAnagrafica-it"/>
+				<profile value="http://hl7.it/fhir/StructureDefinition/recordCertification"/>
 			</type>
 		</element>
 		<element id="Patient.identifier.type">
@@ -162,7 +162,7 @@
 			<mustSupport value="false"/>
 			<binding>
 				<strength value="extensible"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/it-identifier-type"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/identifierType"/>
 			</binding>
 		</element>
 		<!--

@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/codesystem.xsd">
-	<id value="it-identifier-type"/>
-	<meta>
-		<lastUpdated value="2019-11-01T09:29:23.356+11:00"/>
-		<profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-	</meta>
-	<url value="http://hl7.it/fhir/ValueSet/it-identifier-type"/>
+
+	<url value="http://hl7.it/fhir/ValueSet/identifierType"/>
 	<!--
- 
     <system value="urn:ietf:rfc:3986"/> 
     <value value="urn:oid:2.16.840.1.113883.4.642.3.29"/> 
   </identifier>
   -->
 	<version value="4.0.1"/>
-	<name value="ValueSet_IdentifierType_IT"/>
+	<name value="VsIdentifierType"/>
 	<title value="Tipi di identificatori"/>
 	<status value="active"/>
 	<experimental value="false"/>
@@ -25,7 +20,7 @@
 			<value value="http://hl7.it/fhir"/>
 		</telecom>
 	</contact>
-	<description value="Questo value set definisce una serie di codici per rappresentare lo stato civile di una persona. Specializa ed estende il value set http://hl7.org/fhir/ValueSet/marital-status."/>
+	<description value="Value set che descrivie i diversi tipi di identificatori. Include i codici della tabella http://terminology.hl7.org/CodeSystem/v2-0203 piu' 'STP' ed 'ENI' "/>
 	<compose>
 		<include>
 			<system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>

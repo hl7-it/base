@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/codesystem.xsd">
-	<id value="ValueSet-statoCivile"/>
+	<id value="maritalStatus"/>
 	<meta>
 		<lastUpdated value="2019-11-01T09:29:23.356+11:00"/>
 		<profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
 	</meta>
-	<url value="http://hl7.it/fhir/ValueSet/ValueSet-statoCivile"/>
+	<url value="http://hl7.it/fhir/ValueSet/maritalStatus"/>
 	<!--
  
     <system value="urn:ietf:rfc:3986"/> 
@@ -13,7 +13,7 @@
   </identifier>
   -->
 	<version value="4.0.1"/>
-	<name value="StatoCivile"/>
+	<name value="VsMaritalStatus"/>
 	<title value="Stato Civile"/>
 	<status value="active"/>
 	<experimental value="false"/>
@@ -25,7 +25,7 @@
 			<value value="http://hl7.it/fhir"/>
 		</telecom>
 	</contact>
-	<description value="Questo value set definisce una serie di codici per rappresentare lo stato civile di una persona. Specializa ed estende il value set http://hl7.org/fhir/ValueSet/marital-status."/>
+	<description value="Questo value set definisce una serie di codici per rappresentare lo stato civile di una persona. Specializa ed estende il value set http://hl7.org/fhir/ValueSet/marital-status"/>
 	<compose>
 		<include>
 			<system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>

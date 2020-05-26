@@ -34,14 +34,14 @@
 	<!-- This is whatever FHIR version(s) the IG artifacts are targeting (not the version of this file, which should always be 'current release') -->
 	<fhirVersion value="4.0.1"/>
 	<definition>
-		<resource>
+<!-- 		<resource>
 			<reference>
 				<reference value="NamingSystem/it-sid-cf"/>
 			</reference>
 			<name value="Naming System: Codice Fiscale"/>
 			<description value="Naming System per identificare il Codice Fiscale"/>
 			<exampleCanonical value="http://hl7.it/fhir/NamingSystem/it-sid-cf"/>
-		</resource>
+		</resource> -->
 		<resource>
 			<reference>
 				<reference value="Patient/esempio-professione"/>
