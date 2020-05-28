@@ -1,27 +1,18 @@
 {
- "name": "fish",
+ "name": "HL7ITFhirBase",
  "version" : "0.1.0",  
  "canonical" : "http://hl7.it/fhir",
  "url" : "http://hl7.it/fhir",
- "title" : "Fish Implementation Guide",
- "description": "An example of how FSH can be used to create an IG about fish",
+ "title" : "HL7 Italia FHIR Implementation Guide",
+ "description": "HL7 Italia FHIR Implementation Guide: base profiles",
  "dependencies": {
-    "hl7.fhir.r4.core": "4.0.1",
-    "hl7.fhir.it.base": "dev"
+    "hl7.fhir.r4.core": "4.0.1"
  },
  "keywords": [
-   "FSH",
-   "Actual fish", 
-   "SUSHI",
-   "Veterinary Care"
- ],
+   "HL7 Italia",
+   "HL7 IT Base Profiles"
+  ],
  "language": "it",
- "author": "James Tuna",
- "maintainers": [
-   {
-     "name": "Bill Cod",
-     "email": "cod@reef.gov"
-   }
- ],
+ "author": "Giorgio Cangioli",
  "license": "CC0-1.0"
 }
