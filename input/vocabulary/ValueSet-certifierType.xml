@@ -32,6 +32,9 @@
 				<display value="Azienda Sanitaria"/>
 			</concept>
 			<concept>
+				<code value="distretto"/>				
+			</concept>
+			<concept>
 				<code value="self"/>
 				<display value="Soggetto stesso"/>
 			</concept>

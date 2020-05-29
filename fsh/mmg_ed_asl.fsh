@@ -14,7 +14,7 @@ Title:       "Stato Esenzione"
 Description: "Estensione per gestire lo stato di una esenzione"
 //-------------------------------------------------------------------------------------------
 * value[x] only CodeableConcept
-* valueCodeableConcept from StatoEsenzioneV3ActStatus (required)
+* valueCodeableConcept from VsStatoEsenzione (required)
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 //====== Profili =====================================
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -207,22 +207,3 @@ Description: "Esempio MMG"
 * organization = Reference(Organization/ASL-example)
 
 
-//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: MmgPlsRoles
-Id: MmgPlsRoles
-Title: "MMG/PLS"
-Description: "Medico Medicina Generale e Pediatra di Libera Scelta"
-//-------------------------------------------------------------------------------------------
-* it-v3RoleCode#MMG  "medico di medicina generale"
-* it-v3RoleCode#PLS  "pediatra di libera scelta"
-//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-ValueSet: StatoEsenzioneV3ActStatus
-Id: StatoEsenzione-V3ActStatus
-Title: "Stato delle esenzioni (V3ActStatus)."
-Description: "Value Set basato sul vocabolario HL7 V3 ActStatus che descrive lo stato delle esenzioni. Questo value set è adottato da HL7 CDA R2 IG 'DOCUMENTO DI ESENZIONE'"
-//-------------------------------------------------------------------------------------------
-* V3ActStatus#active "attivo" // "Esenzione in corso di validità"
-* V3ActStatus#suspended  "sospeso" // "Esenzione momentaneamente sospesa (ad esempio in attesa del rinnovo di un’iscrizione temporanea)"
-* V3ActStatus#aborted  "abortito" // "Esenzione mai stata valida (ad esempio è stata assegnata per errore e il documento corrispondente era già stato prodotto in stato active)"
-* V3ActStatus#completed "completato" // "Esenzione non più in corso di validità"
-* V3NullFlavor#UNK "sconosciuto"

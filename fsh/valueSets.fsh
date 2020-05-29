@@ -5,6 +5,38 @@ Alias: CS_Estero = http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativ
 Alias: CS_NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
 Alias: CS_ProfessioniIstat = http://terminology.hl7.it/CodeSystem/istat-professioni
 Alias: CS_Esenzioni = http://terminology.hl7.it/CodeSystem/minsan-esenzioni
+Alias: V3ActStatus = http://terminology.hl7.org/CodeSystem/v3-ActStatus
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsMmgPlsRoles
+Id: MmgPlsRoles
+Title: "MMG/PLS"
+Description: "Medico Medicina Generale e Pediatra di Libera Scelta"
+//-------------------------------------------------------------------------------------------
+* it-v3RoleCode#MMG  "medico di medicina generale"
+* it-v3RoleCode#PLS  "pediatra di libera scelta"
+
+
+
+Alias: VsStatoEsenzione = http://hl7.it/fhir/ValueSet/statoEsenzione
+
+
+/*============= begin
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsStatoEsenzione
+Id: statoEsenzione
+Title: "Stato delle esenzioni (V3ActStatus)."
+Description: "Value Set basato sul vocabolario HL7 V3 ActStatus che descrive lo stato delle esenzioni. Questo value set è adottato da HL7 CDA R2 IG 'DOCUMENTO DI ESENZIONE'"
+//-------------------------------------------------------------------------------------------
+* V3ActStatus#active "attivo" // "Esenzione in corso di validità"
+* V3ActStatus#suspended  "sospeso" // "Esenzione momentaneamente sospesa (ad esempio in attesa del rinnovo di un’iscrizione temporanea)"
+* V3ActStatus#aborted  "abortito" // "Esenzione mai stata valida (ad esempio è stata assegnata per errore e il documento corrispondente era già stato prodotto in stato active)"
+* V3ActStatus#completed "completato" // "Esenzione non più in corso di validità"
+* V3NullFlavor#UNK "sconosciuto"
+
+============== END */
+
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsIstatProfessionePaziente

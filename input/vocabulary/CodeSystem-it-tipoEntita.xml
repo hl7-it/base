@@ -40,7 +40,7 @@
 				<display value="Agenzia delle entrate-Riscossione"/>
 				<definition value="Agenzia delle entrate-Riscossione"/>
 			</concept>
-		</concept>
+		</concept>		
 	</concept>
 	<concept>
 		<code value="regione"/>
@@ -55,7 +55,12 @@
 	<concept>
 		<code value="ausl"/>
 		<display value="Azienda Sanitaria"/>
-		<definition value="Azienda Sanitaria"/>
+		<definition value="Azienda Sanitaria. In dipendenza dell'organizzazione regionale della sanità la dizione e le finalità dei 'Azienda Sanitaria' può variare; ed includere delle sue specializzazioni e.g. Azienda Sanitaria Locale vs Azienda Ospedaliera; ASST vs ATS eccetera."/>		
+	</concept>
+	<concept>
+		<code value="distretto"/>
+		<display value="Distretto Socio Sanitario"/>
+		<definition value="Distretto Socio Sanitario. In dipendenza dell'organizzazione regionale della sanità la dizione e le finalità dei 'distretti' può variare"/>
 	</concept>
 	<concept>
 		<code value="self"/>
