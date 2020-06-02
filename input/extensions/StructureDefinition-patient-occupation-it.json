@@ -68,7 +68,7 @@
         "max": "1",
         "binding": {
           "strength": "preferred",
-          "valueSet": "http://hl7.it/fhir/ValueSet/professione-patient-it"
+          "valueSet": "http://hl7.it/fhir/ValueSet/istat-professione"
         }
       }
     ]

@@ -3,7 +3,7 @@
   "status": "active",
   "name": "VsIstatProvincia",
   "id": "istat-provincia",
-  "title": "Codici ISTAT Provincia",
+  "title": "ISTAT - Province",
   "description": "Codici ISTAT Provincia più sconosciuto",
   "version": "0.1.0",
   "url": "http://hl7.it/fhir/ValueSet/istat-provincia",

@@ -59,7 +59,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://hl7.it/fhir/StructureDefinition/Organization-it-ausl"
+              "http://hl7.it/fhir/StructureDefinition/Organization-it-socioSanitaria"
             ]
           }
         ]
@@ -69,7 +69,7 @@
         "path": "PractitionerRole.code",
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.it/fhir/ValueSet/MmgPlsRoles"
+          "valueSet": "http://hl7.it/fhir/ValueSet/mmgOrPls"
         }
       }
     ]

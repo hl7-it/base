@@ -2,11 +2,11 @@
   "resourceType": "ValueSet",
   "status": "active",
   "name": "VsMmgPlsRoles",
-  "id": "MmgPlsRoles",
-  "title": "MMG/PLS",
-  "description": "Medico Medicina Generale e Pediatra di Libera Scelta",
+  "id": "mmgOrPls",
+  "title": "Tipo medico di famiglia",
+  "description": "Tipo medico di famiglia: Medico Medicina Generale o Pediatra di Libera Scelta",
   "version": "0.1.0",
-  "url": "http://hl7.it/fhir/ValueSet/MmgPlsRoles",
+  "url": "http://hl7.it/fhir/ValueSet/mmgOrPls",
   "compose": {
     "include": [
       {

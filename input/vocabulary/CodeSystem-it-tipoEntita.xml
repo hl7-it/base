@@ -40,7 +40,7 @@
 				<display value="Agenzia delle entrate-Riscossione"/>
 				<definition value="Agenzia delle entrate-Riscossione"/>
 			</concept>
-		</concept>		
+		</concept>
 	</concept>
 	<concept>
 		<code value="regione"/>
@@ -53,9 +53,29 @@
 		<definition value="Comune"/>
 	</concept>
 	<concept>
-		<code value="ausl"/>
+		<code value="as"/>
 		<display value="Azienda Sanitaria"/>
-		<definition value="Azienda Sanitaria. In dipendenza dell'organizzazione regionale della sanità la dizione e le finalità dei 'Azienda Sanitaria' può variare; ed includere delle sue specializzazioni e.g. Azienda Sanitaria Locale vs Azienda Ospedaliera; ASST vs ATS eccetera."/>		
+		<definition value="Azienda Sanitaria. In dipendenza dell'organizzazione regionale della sanità la dizione e le finalità dei 'Azienda Sanitaria' può variare; ed includere delle sue specializzazioni e.g. Azienda Sanitaria Locale vs Azienda Ospedaliera; ASST vs ATS eccetera."/>
+		<concept>
+			<code value="ausl"/>
+			<display value="Azienda Sanitaria Locale"/>
+			<definition value="Azienda Sanitaria Locale. In dipendenza dell'organizzazione regionale della sanità la dizione per  'Azienda Sanitaria Locale' può variare: e.g. Azienda Sanitaria Locale (ASL); Azienda Unità Locale Socio Sanitaria (ULSS); Aziende Socio Sanitarie Territoriali (ASST);..."/>
+		</concept>
+		<concept>
+			<code value="ao"/>
+			<display value="Azienda Opedaliera"/>
+			<definition value="Azienda Opedaliera. In dipendenza dell'organizzazione regionale della sanità la dizione e le finalità dei 'Azienda Opedaliera' può variare."/>
+		</concept>
+		<concept>
+			<code value="aou"/>
+			<display value="Azienda Ospedaliera Universitaria"/>
+			<definition value="Azienda Ospedaliera integrata con l'Università. Le Azienda Ospedaliera Universitaria si articolano in due tipologie organizzative: a) aziende ospedaliere costituite in seguito alla trasformazione dei policlinici universitari a gestione diretta, denominate aziende ospedaliere universitarie integrate con il Servizio sanitario nazionale; b) aziende ospedaliere costituite mediante trasformazione dei presidi ospedalieri nei quali insiste la prevalenza del corso di laurea in medicina e chirurgia, anche operanti in strutture di pertinenza dell'università, denominate aziende ospedaliere integrate con l'università."/>
+		</concept>
+				<concept>
+			<code value="irccs"/>
+			<display value="Istituti di Ricovero e Cura a Carattere Scientifico"/>
+			<definition value="IRCCS pubblici (anche costituiti in fondazione). Gli Istituti di Ricovero e Cura a Carattere Scientifico sono ospedali di eccellenza che perseguono finalità di ricerca, prevalentemente clinica e traslazionale, nel campo biomedico ed in quello della organizzazione e gestione dei servizi sanitari ed effettuano prestazioni di ricovero e cura di alta specialità o svolgono altre attività aventi i caratteri di eccellenza"/>
+		</concept>
 	</concept>
 	<concept>
 		<code value="distretto"/>

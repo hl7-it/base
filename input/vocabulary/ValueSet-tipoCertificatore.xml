@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/valueset.xsd">
-	<url value="http://hl7.it/fhir/ValueSet/certifierType"/>
-	<version value="2017-03-29T00:00:00"/>
-	<name value="VsCertifierType"/>
-	<title value="Codice Entità di Certificazione"/>
+<ValueSet xmlns="http://hl7.org/fhir"
+        	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        	xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/valueset.xsd">
+	<url value="http://hl7.it/fhir/ValueSet/tipoCertificatore"/>
+	<name value="VsTipoCertificatore"/>
+	<title value="Tipo certificatore"/>
 	<status value="draft"/>
 	<experimental value="true"/>
-	<description value="Codice Entità di Certificazione"/>
+	<description value="Tipo di Entità (organizzazione o persona) che ha certificato un certo record"/>
 	<immutable value="false"/>
 	<compose>
 		<include>
@@ -28,11 +29,16 @@
 				<display value="Comune"/>
 			</concept>
 			<concept>
-				<code value="ausl"/>
-				<display value="Azienda Sanitaria"/>
+				<code value="as"/>
 			</concept>
 			<concept>
-				<code value="distretto"/>				
+				<code value="ao"/>
+			</concept>
+			<concept>
+				<code value="ausl"/>
+			</concept>
+			<concept>
+				<code value="distretto"/>
 			</concept>
 			<concept>
 				<code value="self"/>

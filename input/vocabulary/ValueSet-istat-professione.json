@@ -2,11 +2,11 @@
   "resourceType": "ValueSet",
   "status": "active",
   "name": "VsIstatProfessionePaziente",
-  "id": "professione-patient-it",
-  "title": "Professione del paziente (ISTAT)",
+  "id": "istat-professione",
+  "title": "ISTAT - Professioni",
   "description": "Classificazione delle professioni",
   "version": "0.1.0",
-  "url": "http://hl7.it/fhir/ValueSet/professione-patient-it",
+  "url": "http://hl7.it/fhir/ValueSet/istat-professione",
   "compose": {
     "include": [
       {

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/codesystem.xsd">
 
-	<url value="http://hl7.it/fhir/ValueSet/identifierType"/>
+	<url value="http://hl7.it/fhir/ValueSet/tipoIdentificatore"/>
 	<!--
     <system value="urn:ietf:rfc:3986"/> 
     <value value="urn:oid:2.16.840.1.113883.4.642.3.29"/> 
   </identifier>
   -->
 	<version value="4.0.1"/>
-	<name value="VsIdentifierType"/>
-	<title value="Tipi di identificatori"/>
+	<name value="VstipoIdentificatore"/>
+	<title value="Tipo identificatore"/>
 	<status value="active"/>
 	<experimental value="false"/>
 	<date value="2019-11-01T09:29:23+11:00"/>

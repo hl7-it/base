@@ -3,7 +3,7 @@
   "status": "active",
   "name": "VsIstatStato",
   "id": "istat-stato",
-  "title": "Codici ISTAT Stato",
+  "title": "ISTAT - Stati",
   "description": "Codici ISTAT Stato più sconosciuto",
   "version": "0.1.0",
   "url": "http://hl7.it/fhir/ValueSet/istat-stato",

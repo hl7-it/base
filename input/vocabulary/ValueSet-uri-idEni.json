@@ -4,7 +4,7 @@
   "name": "UriIdEni",
   "id": "uri-idEni",
   "title": "Identificativi per codici ENI regionali",
-  "description": "Identificativi per codici regionali.",
+  "description": "Identificativi per codici ENI regionali.",
   "version": "0.1.0",
   "url": "http://hl7.it/fhir/ValueSet/uri-idEni",
   "compose": {

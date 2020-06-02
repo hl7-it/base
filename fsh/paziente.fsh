@@ -3,7 +3,7 @@
 Alias: COV_TYP = http://terminology.hl7.org/CodeSystem/v3-ActCode
 Alias: CS_professioni = http://terminology.hl7.it/CodeSystem/istat-professioni
 Alias: CS_titolo = http://example.org/qualification
-Alias: professioniPaziente = http://hl7.it/fhir/ValueSet/professione-patient-it
+Alias: professioniPaziente = http://hl7.it/fhir/ValueSet/istat-professione
 Alias: Translation = http://hl7.org/fhir/StructureDefinition/translation
 
 //=========================

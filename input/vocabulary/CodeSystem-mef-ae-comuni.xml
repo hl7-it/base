@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir C:/Ruby26-x64/msys64/home/giorg/_github/fhir-all-xsd/codesystem.xsd">
-	<id value="AE-codiciCatastali"/>
+	<id value="mef-ae-comuni"/>
 	<meta>
 		<source value="https://www.istat.it/it/archivio/6789"/>
 	</meta>
 	<text>
 		<status value="generated"/>
 		<div xmlns="http://www.w3.org/1999/xhtml"><h1>WARNING: A SCOPO DIMOSTRATIVO</h1>
-		Questo Code System è estratto dalla tabella dei comuni ISTAT</div>
+		Codice assegnato ai comuni dall'Agenzia delle Entrate.</div>
 	</text>
-	<url value="http://terminology.hl7.it/CodeSystem/AE-codiciCatastali"/>
+	<url value="http://terminology.hl7.it/CodeSystem/mef-ae-comuni"/>
 	<version value="31_12_2019"/>
-	<name value="CsAgenziaEntrateCodiciCatastali"/>
-	<title value="Agenzia delle Entrate - Codici Catastali"/>
-	<status value="active"/>
-	<experimental value="false"/>
-	<description value="Code System dimostrativo estratto dalla tabella dei comuni ISTAT"/>
+	<name value="CsAgenziaEntrateComuni"/>
+	<title value="Agenzia delle Entrate - Comuni"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<description value="Codice assegnato ai comuni dall'Agenzia delle Entrate. E' un codice composto da quattro caratteri, il primo dei quali alfabetico e gli altri tre numerici. Il codice è stato assegnato inizialmente seguendo l'ordinamento alfabetico crescente dell'elenco di tutti i comuni di Italia, indipedentemente dalla Provincia di appartenenza. Per i comuni di nuova istituzione viene assegnato il primo codice alfanumerico disponibile. - 2019 - Agenzia delle Entrate. Chiamato anche 'codice nazionale', 'Codice Belfiore' o 'codice amministrativo catastale' o 'Codice catastale'."/>
 	<jurisdiction>
 		<!-- This will drive SNOMED release used -->
 		<coding>

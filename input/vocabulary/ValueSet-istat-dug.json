@@ -3,7 +3,7 @@
   "status": "active",
   "name": "VsIstatDug",
   "id": "istat-dug",
-  "title": "Denominazioni Urbanistiche Generiche (DUG)",
+  "title": "ISTAT - DUG",
   "description": "Registro delle Denominazioni Urbanistiche Generiche (DUG)",
   "version": "0.1.0",
   "url": "http://hl7.it/fhir/ValueSet/istat-dug",

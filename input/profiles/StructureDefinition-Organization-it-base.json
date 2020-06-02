@@ -54,7 +54,11 @@
       {
         "id": "Organization.type",
         "path": "Organization.type",
-        "mustSupport": true
+        "mustSupport": true,
+        "binding": {
+          "strength": "example",
+          "valueSet": "http://hl7.it/fhir/ValueSet/tipoOrganizzazione"
+        }
       },
       {
         "id": "Organization.name",

@@ -4,7 +4,7 @@
   "name": "VsUriIdStp",
   "id": "uri-idStp",
   "title": "Identificativi per codici STP regionali",
-  "description": "Identificativi per codici regionali.",
+  "description": "Identificativi per codici STP regionali.",
   "version": "0.1.0",
   "url": "http://hl7.it/fhir/ValueSet/uri-idStp",
   "compose": {

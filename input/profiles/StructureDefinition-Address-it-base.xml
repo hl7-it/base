@@ -73,10 +73,10 @@
 				<severity value="error"/>
 				<human value="Se Address rappresenta la residenza allora city e line devono essere inclusi"/>
 				<!-- <human value="Address.streetName in an official address SHALL have a value if one of houseNumber|buildingNumberSuffix|additionalLocator has a value"/> -->
-				<expression value="extension.where(url = 'http://hl7.org/fhir/StructureDefinition/official-Address').valueBoolean.where(true).empty() or ( line.exists() and city.exists() )"/>
+				<expression value="extension.where(url = 'http://hl7.org/fhir/StructureDefinition/address-official').valueBoolean.where(true).empty() or ( line.exists() and city.exists() )"/>
 				<!--
 		
-				<xpath value="not(.[f:extension[@url='http://hl7.org/fhir/StructureDefinition/official-Address'][f:valueBoolean/@value='true']][f:line[empty(f:extension[@url='http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName'])][f:extension[@url=('http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber','http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-buildingNumberSuffix','http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator')]]])"/>
+				<xpath value="not(.[f:extension[@url='http://hl7.org/fhir/StructureDefinition/address-official'][f:valueBoolean/@value='true']][f:line[empty(f:extension[@url='http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName'])][f:extension[@url=('http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber','http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-buildingNumberSuffix','http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator')]]])"/>
 				-->
 				<source value="http://hl7.org/fhir/StructureDefinition/Address"/>
 			</constraint>
@@ -84,12 +84,12 @@
 		<element id="Address.extension:residenza">
 			<path value="Address.extension"/>
 			<sliceName value="residenza"/>
-			<short value="Indica se questo è l'indirizzo di residenza"/>
-			<definition value="Mark an address as an 'officially registered' address. In the Italian context that means it is registered as the 'Residenza'"/>
+			<short value="Indica l'indirizzo di residenza"/>
+			<definition value="Indica se questo indirizzo è quello di residenza, come indirizzo 'ufficialmente registrato' address."/>
 			<max value="1"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/StructureDefinition/official-Address"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/"/>
 			</type>
 		</element>
 		<element id="Address.extension:certificazioneIndirizzo">
@@ -226,8 +226,7 @@
 		<element id="Address.district">
 			<path value="Address.district"/>
 			<short value="Nome della Provincia"/>
-			<definition value="The name of the administrative area (county).&#xD;&#xA;For Italian addresses is the name of the Provincia"/>
-			<comment value="District is sometimes known as county, but in some regions 'county' is used in place of city (municipality), so county name should be conveyed in city instead.&#xD;&#xA;In an Italina address this element is used for the population of a &quot;provincia&quot;"/>
+			<definition value="Nome dell'area amministrativa (county).&#xD;&#xA;Per gli indirizzi italiani è usato per indicare la Provincia"/>
 			<alias value="Provincia"/>
 			<example>
 				<label value="General"/>
@@ -249,8 +248,8 @@
 		</element>
 		<element id="Address.state">
 			<path value="Address.state"/>
-			<short value="Sub-unit of country (Regione)."/>
-			<definition value="Sub-unit of a country with limited sovereignty in a federally organized country. A code may be used if codes are in common use (i.e. US 2 letter state codes). &#xD;&#xA;For Italian addresses this element should contain the &quot;Region&quot; name"/>
+			<short value="Sotto-unità dello stato (Regione)."/>
+			<definition value="Sotto-unità dello stato con limitata sovranità in uno stato oragnizzato federalmente.&#xD;&#xA;Nel contesto italiano indica la &quot;Regione&quot;"/>
 			<alias value="Regione"/>
 			<example>
 				<label value="Regione"/>
@@ -291,9 +290,7 @@
 		</element>
 		<element id="Address.country">
 			<path value="Address.country"/>
-			<short value="Stato"/>
-			<definition value="A country (code) for the address.&#xD;&#xA;For Italian Addresses it is the name of the Country"/>
-			<comment value="ISO 3166 3 letter codes can be used in place of a human readable country name.&#xD;&#xA;"/>
+			<short value="Stato"/>			
 			<example>
 				<label value="Nome Stato"/>
 				<valueString value="Italia"/>

@@ -24,7 +24,7 @@
 	<jurisdiction>
 		<!-- This will drive SNOMED release used -->
 		<coding>
-			<system value="urn:iso:std:iso:3166:-2"/>
+			<system value="urn:iso:std:iso:3166"/>
 			<code value="IT"/>
 		</coding>
 	</jurisdiction>
@@ -34,7 +34,7 @@
 	<!-- This is whatever FHIR version(s) the IG artifacts are targeting (not the version of this file, which should always be 'current release') -->
 	<fhirVersion value="4.0.1"/>
 	<definition>
-<!-- 		<resource>
+		<!-- 		<resource>
 			<reference>
 				<reference value="NamingSystem/it-sid-cf"/>
 			</reference>
@@ -96,7 +96,7 @@
 			</reference>
 			<name value="Organization. Esempio di Azienda Sanitaria"/>
 			<description value="Esempio di uso della risorsa Organization per descrivere una Azienda Sanitaria"/>
-			<exampleCanonical value="http://hl7.it/fhir/StructureDefinition/Organization-it-ausl"/>
+			<exampleCanonical value="http://hl7.it/fhir/StructureDefinition/Organization-it-socioSanitaria"/>
 		</resource>
 		<resource>
 			<reference>
@@ -198,6 +198,10 @@
 		</parameter>
 		<parameter>
 			<code value="special-url"/>
+			<value value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritoriali"/>
+		</parameter>
+		<parameter>
+			<code value="special-url"/>
 			<value value="http://terminology.hl7.it/CodeSystem/it-v3RoleCode"/>
 		</parameter>
 		<parameter>
@@ -210,7 +214,7 @@
 		</parameter>
 		<parameter>
 			<code value="special-url"/>
-			<value value="http://hl7.org/fhir/StructureDefinition/official-Address"/>
+			<value value="http://hl7.org/fhir/StructureDefinition/address-official"/>
 		</parameter>
 		<parameter>
 			<code value="special-url"/>
@@ -218,7 +222,7 @@
 		</parameter>
 		<parameter>
 			<code value="special-url"/>
-			<value value="http://terminology.hl7.it/CodeSystem/AE-codiciCatastali"/>
+			<value value="http://terminology.hl7.it/CodeSystem/mef-ae-comuni"/>
 		</parameter>
 		<parameter>
 			<code value="special-url"/>

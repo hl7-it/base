@@ -6,7 +6,7 @@
 			<country value="Italia">
 				<extension url="http://hl7.org/fhir/StructureDefinition/iso21090-SC-coding">
 					<valueCoding>
-						<system value="http://terminology.hl7.it/CodeSystem/AE-codiciCatastali"/>
+						<system value="http://terminology.hl7.it/CodeSystem/mef-ae-comuni"/>
 						<code value="F979"/>
 						<display value="NUORO"/>
 					</valueCoding>
@@ -27,7 +27,7 @@
 	<gender value="male"/>
 	<birthDate value="1971-05-01"/>
 	<address>
-		<extension url="http://hl7.org/fhir/StructureDefinition/official-Address">
+		<extension url="http://hl7.org/fhir/StructureDefinition/address-official">
 			<valueBoolean value="true"/>
 		</extension>
 		<use value="home"/>
@@ -64,7 +64,7 @@
 		<country value="Italia"/>
 	</address>
 	<address>
-		<extension url="http://hl7.org/fhir/StructureDefinition/official-Address">
+		<extension url="http://hl7.org/fhir/StructureDefinition/address-official">
 			<valueBoolean value="false"/>
 		</extension>
 		<use value="home"/>

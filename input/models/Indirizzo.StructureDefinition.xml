@@ -338,7 +338,7 @@
 						<display value="Asti"/>
 					</coding>
 					<coding>
-						<system value="http://terminology.hl7.it/CodeSystem/AE-codiciCatastali"/>
+						<system value="http://terminology.hl7.it/CodeSystem/mef-ae-comuni"/>
 						<code value="A479"/>
 						<display value="Asti"/>
 					</coding>

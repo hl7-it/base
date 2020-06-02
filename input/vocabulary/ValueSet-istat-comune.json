@@ -3,7 +3,7 @@
   "status": "active",
   "name": "VsIstatComune",
   "id": "istat-comune",
-  "title": "Codici ISTAT Comune",
+  "title": "ISTAT - Comuni",
   "description": "Codici ISTAT Comune più sconosciuto",
   "version": "0.1.0",
   "url": "http://hl7.it/fhir/ValueSet/istat-comune",

@@ -6,13 +6,42 @@ Alias: CS_NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
 Alias: CS_ProfessioniIstat = http://terminology.hl7.it/CodeSystem/istat-professioni
 Alias: CS_Esenzioni = http://terminology.hl7.it/CodeSystem/minsan-esenzioni
 Alias: V3ActStatus = http://terminology.hl7.org/CodeSystem/v3-ActStatus
+Alias: CS_tipoEntita = http://terminology.hl7.it/CodeSystem/it-tipoEntita
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsTipoOrganizzazione
+Id: tipoOrganizzazione
+Title: "Tipo organizzazione (esempio)"
+Description: "Tipo di organizzazione: value set di esempio"
+//-------------------------------------------------------------------------------------------
+* CS_tipoEntita#gov
+* CS_tipoEntita#regione
+* CS_tipoEntita#comune
+* CS_tipoEntita#as
+* CS_tipoEntita#ausl
+* CS_tipoEntita#ao
+* CS_tipoEntita#aou
+* CS_tipoEntita#irccs
+* CS_tipoEntita#distretto
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsTipoOrgSocioSanitaria
+Id: tipoOrgSocioSanitaria
+Title: "Tipo organizzazione socio-sanitaria"
+Description: "Tipo di organizzazione socio-sanitaria"
+//-------------------------------------------------------------------------------------------
+* CS_tipoEntita#as
+* CS_tipoEntita#ausl
+* CS_tipoEntita#ao
+* CS_tipoEntita#aou
+* CS_tipoEntita#irccs
+* CS_tipoEntita#distretto
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsMmgPlsRoles
-Id: MmgPlsRoles
-Title: "MMG/PLS"
-Description: "Medico Medicina Generale e Pediatra di Libera Scelta"
+Id: mmgOrPls
+Title: "Tipo medico di famiglia"
+Description: "Tipo medico di famiglia: Medico Medicina Generale o Pediatra di Libera Scelta"
 //-------------------------------------------------------------------------------------------
 * it-v3RoleCode#MMG  "medico di medicina generale"
 * it-v3RoleCode#PLS  "pediatra di libera scelta"
@@ -21,12 +50,11 @@ Description: "Medico Medicina Generale e Pediatra di Libera Scelta"
 
 Alias: VsStatoEsenzione = http://hl7.it/fhir/ValueSet/statoEsenzione
 
-
 /*============= begin
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsStatoEsenzione
 Id: statoEsenzione
-Title: "Stato delle esenzioni (V3ActStatus)."
+Title: "Stato Esenzioni"
 Description: "Value Set basato sul vocabolario HL7 V3 ActStatus che descrive lo stato delle esenzioni. Questo value set è adottato da HL7 CDA R2 IG 'DOCUMENTO DI ESENZIONE'"
 //-------------------------------------------------------------------------------------------
 * V3ActStatus#active "attivo" // "Esenzione in corso di validità"
@@ -40,8 +68,8 @@ Description: "Value Set basato sul vocabolario HL7 V3 ActStatus che descrive lo 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsIstatProfessionePaziente
-Id: professione-patient-it
-Title: "Professione del paziente (ISTAT)"
+Id: istat-professione
+Title: "ISTAT - Professioni"
 Description: "Classificazione delle professioni"
 //-------------------------------------------------------------------------------------------
 * codes from system CS_ProfessioniIstat
@@ -50,19 +78,10 @@ Description: "Classificazione delle professioni"
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsIstatDug
 Id: istat-dug
-Title: "Denominazioni Urbanistiche Generiche (DUG)"
+Title: "ISTAT - DUG"
 Description: "Registro delle Denominazioni Urbanistiche Generiche (DUG)"
 
 * codes from system http://registry.geodati.gov.it/dug
-
-/* ++++++++++++++++++++++++++++++++++++ commentato ++++++++++++++++++++++++++++++++++++++++++
-ValueSet: VsMinisteroSaluteEsenzioni
-Id: minsan-esenzioni
-Title: "Codici Ministeriali Esenzioni"
-Description: "Codici Esenzioni Ministero della Salute"
-
-* codes from system CsMinisteroSaluteEsenzioni
-------------------------------------------------------------------------------------------- */
 
 //=========================
 ValueSet: VsUriIdRegionali
@@ -78,7 +97,7 @@ Description: "Identificativi per anagrafi regionali"
 ValueSet: VsUriIdStp
 Id: uri-idStp
 Title: "Identificativi per codici STP regionali"
-Description: "Identificativi per codici regionali."
+Description: "Identificativi per codici STP regionali."
 * URI#http://hl7.it/sid/stp "Codici STP"
 * URI#http://hl7.it/sid/lazio/stp "Codici STP - Lazio"
 * URI#http://hl7.it/sid/piemonte/stp  "Codici STP - Piemonte"
@@ -90,7 +109,7 @@ Description: "Identificativi per codici regionali."
 ValueSet: UriIdEni
 Id: uri-idEni
 Title: "Identificativi per codici ENI regionali"
-Description: "Identificativi per codici regionali."
+Description: "Identificativi per codici ENI regionali."
 * URI#http://hl7.it/sid/eni "Codici ENI"
 * URI#http://hl7.it/sid/lazio/eni "Codici ENI - Lazio"
 * URI#http://hl7.it/sid/piemonte/eni  "Codici ENI - Piemonte"
@@ -101,7 +120,7 @@ Description: "Identificativi per codici regionali."
 
 ValueSet: VsIstatStato
 Id: istat-stato
-Title: "Codici ISTAT Stato"
+Title: "ISTAT - Stati"
 Description: "Codici ISTAT Stato più sconosciuto"
 //----------------------------------------
 * CS_NullFlavor#UNK "Sconosciuto"
@@ -110,7 +129,7 @@ Description: "Codici ISTAT Stato più sconosciuto"
 
 ValueSet: VsIstatComune
 Id: istat-comune
-Title: "Codici ISTAT Comune"
+Title: "ISTAT - Comuni"
 Description: "Codici ISTAT Comune più sconosciuto"
 //----------------------------------------
 * CS_NullFlavor#UNK "Sconosciuto"
@@ -118,7 +137,7 @@ Description: "Codici ISTAT Comune più sconosciuto"
 
 ValueSet: VsIstatProvincia
 Id: istat-provincia
-Title: "Codici ISTAT Provincia"
+Title: "ISTAT - Province"
 Description: "Codici ISTAT Provincia più sconosciuto"
 //----------------------------------------
 * CS_NullFlavor#UNK "Sconosciuto"
@@ -233,7 +252,7 @@ Description: "Codici ISTAT Provincia più sconosciuto"
 
 ValueSet: VsIstatRegione
 Id: istat-regione
-Title: "Codici ISTAT Regione"
+Title: "ISTAT - Regioni"
 Description: "Codici ISTAT Regione più sconosciuto"
 //----------------------------------------
 * CS_NullFlavor#UNK
@@ -265,7 +284,7 @@ Description: "Codici ISTAT Regione più sconosciuto"
 /* -------
 ValueSet: VsMinisteroSaluteEsenzioni
 Id: minsan-esenzioni
-Title: "Codici Ministeriali Esenzioni"
+Title: "Ministero della Salute - Esenzioni"
 Description: "Codici Esenzioni Ministero della Salute"
 
 * CS_Esenzioni#F01  "PRESTAZIONI A FAVORE DI DETENUTI ED INTERNATI"
