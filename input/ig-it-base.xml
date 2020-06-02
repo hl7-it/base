@@ -186,6 +186,10 @@
 		</parameter>
 		<parameter>
 			<code value="special-url"/>
+			<value value="http://terminology.hl7.it/CodeSystem/minsan-fls-hsp"/>
+		</parameter>
+		<parameter>
+			<code value="special-url"/>
 			<value value="http://terminology.hl7.it/CodeSystem/istat-statoCivile"/>
 		</parameter>
 		<parameter>
