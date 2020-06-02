@@ -89,7 +89,7 @@
 			<max value="1"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/StructureDefinition/"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/address-official"/>
 			</type>
 		</element>
 		<element id="Address.extension:certificazioneIndirizzo">
