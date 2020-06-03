@@ -9,6 +9,20 @@ Alias: V3ActStatus = http://terminology.hl7.org/CodeSystem/v3-ActStatus
 Alias: CS_tipoEntita = http://terminology.hl7.it/CodeSystem/it-tipoEntita
 Alias: UriFls11 = http://terminology.hl7.it/CodeSystem/minsan-fls-hsp
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsTipoCertificatore
+Id: tipoCertificatore
+Title: "Tipo certificatore"
+Description: "Tipo di Entità (organizzazione o persona) che ha certificato un certo record"
+//-------------------------------------------------------------------------------------------
+* CS_tipoEntita#gov
+* CS_tipoEntita#mef
+* CS_tipoEntita#regione
+* CS_tipoEntita#comune
+* CS_tipoEntita#as
+* CS_tipoEntita#asl
+* CS_tipoEntita#distretto
+* CS_tipoEntita#self
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsTipoOrganizzazione
@@ -20,7 +34,7 @@ Description: "Tipo di organizzazione: value set di esempio"
 * CS_tipoEntita#regione
 * CS_tipoEntita#comune
 * CS_tipoEntita#as
-* CS_tipoEntita#ausl
+* CS_tipoEntita#asl
 * CS_tipoEntita#ao
 * CS_tipoEntita#aou
 * CS_tipoEntita#irccs
@@ -33,7 +47,7 @@ Title: "Tipo organizzazione socio-sanitaria"
 Description: "Tipo di organizzazione socio-sanitaria"
 //-------------------------------------------------------------------------------------------
 * CS_tipoEntita#as
-* CS_tipoEntita#ausl
+* CS_tipoEntita#asl
 * CS_tipoEntita#ao
 * CS_tipoEntita#aou
 * CS_tipoEntita#irccs

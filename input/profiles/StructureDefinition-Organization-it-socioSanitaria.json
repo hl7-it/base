@@ -75,14 +75,19 @@
         }
       },
       {
-        "id": "Organization.identifier:strutture",
+        "id": "Organization.identifier:ospedale",
         "path": "Organization.identifier",
-        "sliceName": "strutture",
+        "sliceName": "ospedale",
         "min": 0,
         "max": "1",
         "patternIdentifier": {
           "system": "http://hl7.it/sid/hsp11"
         }
+      },
+      {
+        "id": "Organization.identifier:ospedale.value",
+        "path": "Organization.identifier.value",
+        "min": 1
       },
       {
         "id": "Organization.type",

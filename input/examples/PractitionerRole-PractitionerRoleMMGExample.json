@@ -11,10 +11,23 @@
       "value": "123456789"
     }
   ],
+  "period": {
+    "start": "1997-09-01"
+  },
   "practitioner": {
     "reference": "Practitioner/PractitionerMMGExample"
   },
   "organization": {
     "reference": "Organization/ASL-example"
-  }
+  },
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "MMG",
+          "system": "http://terminology.hl7.it/CodeSystem/it-v3RoleCode"
+        }
+      ]
+    }
+  ]
 }

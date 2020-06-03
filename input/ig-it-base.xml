@@ -55,7 +55,7 @@
 				<reference value="Patient/esempio-CF-residenza"/>
 			</reference>
 			<name value="Patient.  Esempio con Codice Fiscale, Residenza e Domicilio"/>
-			<description value="Istanza di Patient con Codice Fiscale, Residenza e Domicilio"/>
+			<description value="Istanza di Patient con Codice Fiscale (certificato), Residenza e Domicilio"/>
 			<exampleCanonical value="http://hl7.it/fhir/StructureDefinition/Patient-it-base"/>
 		</resource>
 		<resource>
@@ -121,7 +121,22 @@
 			<name value="PractitionerRole. Medico di Medicina Generale"/>
 			<description value="Esempio di uso della risorsa PractitionerRole per rappresentare i dati anagrafici di un medico."/>
 			<exampleCanonical value="http://hl7.it/fhir/StructureDefinition/PractitionerRole-it-mmg"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="PractitionerRole/PractitionerRoleExample"/>
+			</reference>
+			<name value="PractitionerRole. Esempio"/>
+			<description value="Esempio di uso della risorsa PractitionerRole."/>
 			<exampleCanonical value="http://hl7.it/fhir/StructureDefinition/PractitionerRole-it-base"/>
+		</resource>
+			<resource>
+			<reference>
+				<reference value="Practitioner/PractitionerExample"/>
+			</reference>
+			<name value="Practitioner. Esempio"/>
+			<description value="Esempio di uso della risorsa Practitioner."/>
+			<exampleCanonical value="http://hl7.it/fhir/StructureDefinition/Practitioner-it-base"/>
 		</resource>
 		<!-- You don't need to define any groupings.  The IGPublisher will define them for you.  You only need to do so if your IG is 'special' and it's
       inappropriate to use the defaults.  Feel free to provide feedback about the defaults... -->

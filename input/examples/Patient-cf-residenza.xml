@@ -15,6 +15,20 @@
 		</valueAddress>
 	</extension>
 	<identifier>
+		<extension url="http://hl7.it/fhir/StructureDefinition/recordCertification">
+			<extension url="when">
+				<valueDateTime value="2020-04-06"/>
+			</extension>
+			<extension url="who">
+				<valueCodeableConcept>
+					<coding>
+						<system value="http://terminology.hl7.it/CodeSystem/it-tipoEntita"/>
+						<code value="mef"/>
+						<display value="Ministero Economia e Finanze"/>
+					</coding>
+				</valueCodeableConcept>
+			</extension>
+		</extension>
 		<system value="http://hl7.it/sid/codiceFiscale"/>
 		<value value="TSTPSN80A01D612A"/>
 	</identifier>

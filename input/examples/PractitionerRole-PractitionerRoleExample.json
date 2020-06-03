@@ -1,0 +1,24 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "PractitionerRoleExample",
+  "identifier": [
+    {
+      "system": "http://hl7.it/sid/codiceFiscale",
+      "value": "PLLDSR80E47A462P"
+    }
+  ],
+  "period": {
+    "start": "2005-04-15"
+  },
+  "practitioner": {
+    "reference": "Practitioner/PractitionerExample"
+  },
+  "organization": {
+    "reference": "Organization/ASL-example"
+  },
+  "code": [
+    {
+      "text": "impiegata"
+    }
+  ]
+}

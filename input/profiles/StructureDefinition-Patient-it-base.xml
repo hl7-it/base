@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/structuredefinition.xsd">
 	<id value="Patient-it-base"/>
-	<text>
-		<status value="generated"/>
-		<div xmlns="http://www.w3.org/1999/xhtml" lang="IT-it" xml:lang="it-IT">Questo profilo definisce l'uso comune della risorsa FHIR Patient nel contesto Italiano, definendo come alcune tipiche informazioni debbano essere rappresentate in FHIR."</div>
-	</text>
 	<url value="http://hl7.it/fhir/StructureDefinition/Patient-it-base"/>
 	<version value="0.0.1"/>
 	<name value="PatientItBase"/>
@@ -46,6 +42,16 @@
 				<profile value="http://hl7.org/fhir/StructureDefinition/patient-birthPlace"/>
 			</type>
 		</element>
+		<element id="Patient.extension:luogoNascita.valueAddress">
+			<path value="Patient.extension.valueAddress"/>
+			<short value="Indirizzo del luogo di Nascita"/>
+			<definition value="Indirizzo del luogo di Nascita"/>		
+			<type>
+				<code value="Address"/>
+				<profile value="http://hl7.it/fhir/StructureDefinition/Address-it-base"/>
+			</type>	
+		</element>	
+		<!--	
 		<element id="Patient.extension:luogoNascita.valueAddress.city">
 			<path value="Patient.extension.valueAddress.city"/>
 			<short value="Città di nascita. Comune, se in Italia."/>
@@ -82,6 +88,7 @@
 				<valueSet value="http://hl7.it/fhir/ValueSet/istat-stato"/>
 			</binding>
 		</element>
+		-->
 		<!-- OPZIONE 2 -->
 		<element id="Patient.extension:luogoNascitaCodeable">
 			<path value="Patient.extension"/>
@@ -117,7 +124,7 @@
 			<max value="1"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.it/fhir/StructureDefinition/patient-occupation-it"/>				
+				<profile value="http://hl7.it/fhir/StructureDefinition/patient-occupation-it"/>
 			</type>
 			<mustSupport value="false"/>
 		</element>
@@ -135,8 +142,6 @@
 		</element>
 		<element id="Patient.identifier">
 			<path value="Patient.identifier"/>
-			<short value="Identificativo del paziente"/>
-			<definition value="Identificativo del paziente. &#13;&#10; Lo slicing specificato per questo element è di tipo open; questo significa che sono ammessi identificativi che non rispettano le regole definite per le sice specificate.  &#13;&#10; Esempi di possibili sistemi di identificazione sono elencati in https://confluence.hl7.org/display/HI/Identificatori"/>
 			<slicing>
 				<discriminator>
 					<type value="value"/>
@@ -144,6 +149,8 @@
 				</discriminator>
 				<rules value="open"/>
 			</slicing>
+			<short value="Identificativo del paziente"/>
+			<definition value="Identificativo del paziente. &#13;&#10; Lo slicing specificato per questo element è di tipo open; questo significa che sono ammessi identificativi che non rispettano le regole definite per le sice specificate.  &#13;&#10; Esempi di possibili sistemi di identificazione sono elencati in https://confluence.hl7.org/display/HI/Identificatori"/>
 			<mustSupport value="true"/>
 		</element>
 		<element id="Patient.identifier.extension:certificazione">
@@ -188,14 +195,13 @@
 		</element>
 		<element id="Patient.identifier:codiceFiscale.system">
 			<path value="Patient.identifier.system"/>
-			<fixedUri value="http://hl7.it/sid/codiceFiscale"/>
 			<min value="1"/>
+			<fixedUri value="http://hl7.it/sid/codiceFiscale"/>
 			<mustSupport value="true"/>
 		</element>
 		<element id="Patient.identifier:codiceFiscale.value">
 			<path value="Patient.identifier.value"/>
 			<min value="1"/>
-			<mustSupport value="true"/>
 			<constraint>
 				<key value="pat-id-cf-1"/>
 				<severity value="error"/>
@@ -208,6 +214,7 @@
 				<xpath value="matches(@value,'/^(?:[A-Z][AEIOU][AEIOUX]|[B-DF-HJ-NP-TV-Z]{2}[A-Z]){2}(?:[\dLMNP-V]{2}(?:[A-EHLMPR-T](?:[04LQ][1-9MNP-V]|[15MR][\dLMNP-V]|[26NS][0-8LMNP-U])|[DHPS][37PT][0L]|[ACELMRT][37PT][01LM]|[AC-EHLMPR-T][26NS][9V])|(?:[02468LNQSU][048LQU]|[13579MPRTV][26NS])B[26NS][9V])(?:[A-MZ][1-9MNP-V][\dLMNP-V]{2}|[A-M][0L](?:[1-9MNP-V][\dLMNP-V]|[0L][1-9MNP-V]))[A-Z]$/i') "/>
 -->
 			</constraint>
+			<mustSupport value="true"/>
 		</element>
 		<element id="Patient.identifier:anpr">
 			<path value="Patient.identifier"/>
@@ -215,8 +222,8 @@
 		</element>
 		<element id="Patient.identifier:anpr.system">
 			<path value="Patient.identifier.system"/>
-			<fixedUri value="http://hl7.it/sid/anpr"/>
 			<min value="1"/>
+			<fixedUri value="http://hl7.it/sid/anpr"/>
 			<mustSupport value="true"/>
 		</element>
 		<element id="Patient.identifier:idRegionale">
@@ -229,7 +236,7 @@
 			<mustSupport value="true"/>
 			<binding>
 				<strength value="required"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/UriIdRegionali"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/uri-idRegionali"/>
 			</binding>
 		</element>
 		<element id="Patient.identifier:codiceENI">
@@ -253,7 +260,7 @@
 			<mustSupport value="true"/>
 			<binding>
 				<strength value="required"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/UriIdEni"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/uri-idEni"/>
 			</binding>
 		</element>
 		<element id="Patient.identifier:codiceSTP">
@@ -276,7 +283,7 @@
 			<mustSupport value="true"/>
 			<binding>
 				<strength value="required"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/UriIdStp"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/uri-idStp"/>
 			</binding>
 		</element>
 		<element id="Patient.name">
