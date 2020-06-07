@@ -71,23 +71,27 @@ come (**Vocabulary Binding**)
 
 Le principali sezioni di questa guida sono:
 
-  - [Metodologia](methodology.html) – descrive l’approccio metodologico
-    seguito e come leggere questa guida.
+  - [Questa pagina](index.html) – definisce il contesto di questa guida
 
-  - [Background](background.html) - fornisce il contesto di business per
-    questa guida e le informazioni che gli implementatori dovrebbero
-    conoscere prima di leggere il resto dell'IG. (Questa parte potrebbe
-    includere più pagine).
-
-  - [Specifiche di dettaglio](spec.html) – fornisce dettagli tecnici
-    necessari per gli implementatori. (Questa parte potrebbe includere
-    più pagine).
+  - Background - fornisce le informazioni che gli implementatori
+    dovrebbero conoscere prima di leggere il resto dell'IG. Include due
+    pagine:
+    
+      - [Metodologia](methodology.html) – descrive l’approccio
+        metodologico seguito.
+    
+      - [Principi e disegno](design.html) - definisce alcuni principi di
+        disegno e come interpretare correttamente alcuni elementi usati
+        nei profili (e.g. mustSupport, slicing)
 
   - [Indice Artefatti](artifacts.html) – lista tutti gli artefatti FHIR
     inclusi in questa guida
 
   - [Downloads](downloads.html) - consente di scaricare una copia di
     questa guida ed altre informazioni utili
+
+  - [Copyright](copyright.html) – specifica le condizioni d’uso di
+    questa guida e di alcune terminologie referenziate
 
 ### Autori e Contributori
 
@@ -97,6 +101,7 @@ Le principali sezioni di questa guida sono:
 <th>Ruolo</th>
 <th>Nome</th>
 <th>Organizzazione</th>
+<th>Contatto</th>
 </tr>
 </thead>
 <tbody>
@@ -104,20 +109,42 @@ Le principali sezioni di questa guida sono:
 <td>Autore</td>
 <td>Giorgio Cangioli</td>
 <td>Consulente</td>
+<td><span class="underline">giorgio.cangioli_at_gmail.com</span></td>
 </tr>
 <tr class="even">
+<td></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>Contributore</td>
-<td></td>
+<td>Elena Vio</td>
+<td>Arsenàl.IT</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>Contributore</td>
+<td>Ivano Christian Tomainu</td>
+<td>Insiel S.p.A.</td>
 <td></td>
+</tr>
+<tr class="odd">
+<td>Contributore</td>
+<td>Paola Lupieri</td>
+<td>Insiel S.p.A.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Contributore</td>
+<td>Luca Del Col</td>
+<td>IN. VA. S.p.A.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Contributore</td>
+<td>Davide Corallo</td>
+<td>CSI Piemonte</td>
 <td></td>
 </tr>
 </tbody>

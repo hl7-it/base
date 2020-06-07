@@ -7,7 +7,8 @@ Alias: CS_ProfessioniIstat = http://terminology.hl7.it/CodeSystem/istat-professi
 Alias: CS_Esenzioni = http://terminology.hl7.it/CodeSystem/minsan-esenzioni
 Alias: V3ActStatus = http://terminology.hl7.org/CodeSystem/v3-ActStatus
 Alias: CS_tipoEntita = http://terminology.hl7.it/CodeSystem/it-tipoEntita
-Alias: UriFls11 = http://terminology.hl7.it/CodeSystem/minsan-fls-hsp
+Alias: UriFls11 = http://terminology.hl7.it/CodeSystem/minsan-fls
+Alias: UriHsp = http://terminology.hl7.it/CodeSystem/minsan-hsp
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsTipoCertificatore
@@ -295,9 +296,23 @@ Description: "Codici ISTAT Regione più sconosciuto"
 * CS_unitaTerritoriali#19 "Sicilia"
 * CS_unitaTerritoriali#20 "Sardegna"
 
+//----------------------------------------
+ValueSet: VsMinisteroSaluteIdStrutture
+Id: minsan-idStrutture
+Title: "Ministero della Salute - ID Strutture Ricovero"
+Description: "Ministero della Salute - Identificativi Strutture Ricovero (HSP11) [attivi e ritirati]"
+//----------------------------------------
+* codes from system UriHsp
 
 //----------------------------------------
+ValueSet: VsMinisteroSaluteIdStruttureInterne
+Id: minsan-idStruttureInterne
+Title: "Ministero della Salute - ID Strutture Interne di Ricovero"
+Description: "Ministero della Salute - Identificativi Strutture Intene di Ricovero (HSP11) [attivi e ritirati]"
+//----------------------------------------
+* codes from system UriHsp
 
+//----------------------------------------
 ValueSet: VsMinisteroSaluteIdAsl
 Id: minsan-idAsl
 Title: "Ministero della Salute - ID ASL"

@@ -9,6 +9,11 @@
 	<experimental value="true"/>
 	<description value="Modello Logico che definisce il set di dati che caratterizzano una persona identificato come possibile contatto per il paziente."/>
 	<fhirVersion value="4.0.1"/>
+	<mapping>
+		<identity value="fhir-it"/>
+		<uri value="http://hl7.it/fhir"/>
+		<name value="HL7 FHIR IT Profiles"/>
+	</mapping>
 	<kind value="logical"/>
 	<abstract value="true"/>
 	<type value="ContattoPersona"/>
@@ -21,6 +26,10 @@
 			<definition value="Modello Logico che definisce il set di dati che caratterizzano i documenti di Identificazione (e.g. Passaporto, CI)"/>
 			<min value="0"/>
 			<max value="*"/>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.contact"/>
+			</mapping>
 		</element>
 		<element id="ContattoPersona.nome">
 			<path value="ContattoPersona.nome"/>
@@ -32,6 +41,10 @@
 				<code value="HumanName"/>
 				<profile value="http://hl7.org/fhir/StructureDefinition/HumanName"/>
 			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.contact.name"/>
+			</mapping>
 		</element>
 		<element id="ContattoPersona.tipoRelazione">
 			<path value="ContattoPersona.tipoRelazione"/>
@@ -43,6 +56,10 @@
 				<code value="CodeableConcept"/>
 				<profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept"/>
 			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.contact.relationship"/>
+			</mapping>
 		</element>
 		<element id="ContattoPersona.indirizzo">
 			<path value="ContattoPersona.indirizzo"/>
@@ -53,6 +70,10 @@
 			<type>
 				<code value="http://hl7.it/fhir/StructureDefinition/Indirizzo"/>
 			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.contact.address"/>
+			</mapping>
 		</element>
 		<element id="ContattoPersona.recapiti">
 			<path value="ContattoPersona.recapiti"/>
@@ -63,6 +84,10 @@
 			<type>
 				<code value="BackboneElement"/>
 			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.contact.telecom"/>
+			</mapping>
 		</element>
 		<element id="ContattoPersona.recapiti.telefono">
 			<path value="ContattoPersona.recapiti.telefono"/>
@@ -74,6 +99,10 @@
 				<code value="ContactDetail"/>
 				<profile value="http://hl7.org/fhir/StructureDefinition/ContactDetail"/>
 			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.contact.telecom.where(system = 'phone')"/>
+			</mapping>
 		</element>
 		<element id="ContattoPersona.recapiti.eMail">
 			<path value="ContattoPersona.recapiti.eMail"/>
@@ -85,6 +114,10 @@
 				<code value="ContactDetail"/>
 				<profile value="http://hl7.org/fhir/StructureDefinition/ContactDetail"/>
 			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.contact.telecom.where(system = 'email')"/>
+			</mapping>
 		</element>
 		<element id="ContattoPersona.recapiti.pec">
 			<path value="ContattoPersona.recapiti.pec"/>
@@ -96,6 +129,10 @@
 				<code value="ContactDetail"/>
 				<profile value="http://hl7.org/fhir/StructureDefinition/ContactDetail"/>
 			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.contact.telecom.where(system = 'email')"/>
+			</mapping>
 		</element>
 		<element id="ContattoPersona.recapiti.cellulare">
 			<path value="ContattoPersona.recapiti.cellulare"/>
@@ -107,6 +144,10 @@
 				<code value="ContactDetail"/>
 				<profile value="http://hl7.org/fhir/StructureDefinition/ContactDetail"/>
 			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.contact.telecom.where(system = 'mobile')"/>
+			</mapping>
 		</element>
 	</differential>
 </StructureDefinition>

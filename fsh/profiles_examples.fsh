@@ -52,11 +52,11 @@ Description: "Profilo base generico per Organization"
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Profile:  OrganizationSocioSanitaria
+Profile:  OrganizationHcp
 Parent:   OrganizationItBase
-Id:       Organization-it-socioSanitaria
-Title:    "Organization - provider socio sanitario"
-Description: "Profilo base specifico per Organization: include le informazioni minime per descrivere una organizzazione che eroga od è reposnabile per prestazioni socio sanitarie"
+Id:       Organization-it-hcp
+Title:    "Organization - Operatore socio sanitario"
+Description: "Profilo base specifico per Organization: include le informazioni minime per descrivere una organizzazione che eroga od è responsabile per prestazioni socio sanitarie"
 //-------------------------------------------------------------------------------------------
 
 * identifier MS
@@ -64,13 +64,20 @@ Description: "Profilo base specifico per Organization: include le informazioni m
 * identifier ^slicing.discriminator.path = "$this"
 * identifier ^slicing.rules = #open
 * identifier ^slicing.description = "Slice based on the identifier pattern"
-* identifier contains asl 0..1 and ospedale 0..1
+* identifier contains 
+	asl 0..1 and 
+	struttura 0..1 
+	// and strutturaInterna 0..1
 * identifier[asl] MS
-* identifier[asl] ^patternIdentifier.system = http://hl7.it/sid/asl // pattern
+* identifier[asl] ^patternIdentifier.system = http://hl7.it/sid/fls // pattern
 * identifier[asl].value 1..1
 * identifier[asl].value from http://hl7.it/fhir/ValueSet/minsan-idAsl (required)
-* identifier[ospedale] ^patternIdentifier.system = "http://hl7.it/sid/hsp11" // pattern
-* identifier[ospedale].value 1..1
+* identifier[struttura] ^patternIdentifier.system = "http://hl7.it/sid/hsp" // pattern
+* identifier[struttura].value 1..1
+* identifier[struttura].value from http://hl7.it/fhir/ValueSet/minsan-idStrutture (required)
+// * identifier[strutturaInterna] ^patternIdentifier.system = "http://hl7.it/sid/hsp" // pattern
+// * identifier[strutturaInterna].value 1..1
+// * identifier[strutturaInterna].value from http://hl7.it/fhir/ValueSet/minsan-idStruttureInterne (required)
 * active	MS
 * type	MS
 * type from http://hl7.it/fhir/ValueSet/tipoOrgSocioSanitaria (extensible)
@@ -83,7 +90,8 @@ InstanceOf: Organization
 Description: "Organization: esempio Azienda Sanitaria"
 //-------------------------------------------------------------------------------------------
 * identifier.system = "http://hl7.it/sid/asl" 
-* identifier.value = "020101" 
+* identifier.value = "020101"
+* active = 	true
 * type = http://terminology.hl7.it/CodeSystem/it-tipoEntita#asl "Azienda Sanitaria Locale"
 * name = "AZIENDA U.S.L. VALLE D'AOSTA"
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -185,7 +193,7 @@ Description: "Profilo base specifico per PractitionerRole:  include le informazi
 * identifier ^short = "Identificativo del MMG/PLS (e.g. Codice Fiscale, ID Regionale)" //
 * practitioner	^short = "Dettagli del Medico"
 * organization	^short = "Azienda Sanitaria di Appartenenza"
-* organization	only Reference(OrganizationSocioSanitaria)
+* organization	only Reference(OrganizationHcp)
 * code from VsMmgPlsRoles (required)
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

@@ -87,7 +87,7 @@
 			<mustSupport value="true"/>
 			<mapping>
 				<identity value="fhir-it"/>
-				<map value="PractitionerRole.conformsTo('http://hl7.it/fhir/StructureDefinition/PractitionerRole-it-mmg').organization.resolve().conformsTo('http://hl7.it/fhir/StructureDefinition/Organization-it-AziendaSanitaria')"/>
+				<map value="PractitionerRole.conformsTo('http://hl7.it/fhir/StructureDefinition/PractitionerRole-it-mmg').organization.resolve().conformsTo('http://hl7.it/fhir/StructureDefinition/Organization-it-hcp')"/>
 			</mapping>
 		</element>
 	</differential>

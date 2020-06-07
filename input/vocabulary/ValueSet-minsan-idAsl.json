@@ -10,7 +10,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://terminology.hl7.it/CodeSystem/minsan-fls-hsp",
+        "system": "http://terminology.hl7.it/CodeSystem/minsan-fls",
         "concept": [
           {
             "code": "010201",

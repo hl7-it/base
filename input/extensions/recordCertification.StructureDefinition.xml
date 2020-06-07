@@ -6,9 +6,7 @@
 	<name value="ExtRecordCertification"/>
 	<title value="Certificazione del record"/>
 	<status value="draft"/>
-	<description value="Estensione usata per indicare che l'informazione associata è stata certificata (od autocertificata) da una certa entità (persona, organizzazione).  L'estensione è carattrizzata da:\  
-	* una data di certificazione o da una periodo di validità\  
-	* un codice or un riferimento al certificatore."/>
+	<description value="Estensione usata per indicare che l'informazione associata è stata certificata (od autocertificata) da una certa entità (persona, organizzazione).  L'estensione è caratterizzata da: (a) una data di certificazione o da una periodo di validità (b) un codice od un riferimento al certificatore."/>
 	<fhirVersion value="4.0.0"/>
 	<kind value="complex-type"/>
 	<abstract value="false"/>
@@ -42,7 +40,7 @@
 				</discriminator>
 				<rules value="open"/>
 			</slicing>
-		</element>
+		</element>	
 		<element id="Extension.extension:when">
 			<path value="Extension.extension"/>
 			<sliceName value="when"/>

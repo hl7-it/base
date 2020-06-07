@@ -115,6 +115,10 @@
 				<code value="Extension"/>
 				<profile value="http://hl7.org/fhir/StructureDefinition/patient-citizenship"/>
 			</type>
+			<binding>
+				<strength value="example"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/istat-stati"/>
+			</binding>
 		</element>
 		<element id="Patient.extension:professione">
 			<path value="Patient.extension"/>
@@ -622,7 +626,7 @@
 			<sliceName value="mmgPlsAzienda"/>
 			<type>
 				<code value="Reference"/>
-				<targetProfile value="http://hl7.it/fhir/StructureDefinition/Organization-it-socioSanitaria"/>
+				<targetProfile value="http://hl7.it/fhir/StructureDefinition/Organization-it-hcp"/>
 			</type>
 			<mustSupport value="true"/>
 		</element>

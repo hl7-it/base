@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir C:/Ruby26-x64/msys64/home/giorg/_github/fhir-all-xsd/codesystem.xsd">
-	<id value="minsan-fls-hsp"/>
+	<id value="minsan-fls"/>
 	<text>
 		<status value="generated"/>
 		<div xmlns="http://www.w3.org/1999/xhtml"><h1>Elenco Aziende Sanitarie Locali - ASL e Stutture di ricoveri</h1>
@@ -13,19 +13,18 @@
 			Data di ultimo aggiornamento: 17 gennaio 2020
 		</div>
 	</text>
-	<url value="http://terminology.hl7.it/CodeSystem/minsan-fls-hsp"/>
+	<url value="http://terminology.hl7.it/CodeSystem/minsan-fls"/>
 	<version value="17_01_2020"/>
 	<name value="CsMinisteroSaluteFlsHsp"/>
-	<title value="Ministero della Salute - ASL e strutture di ricoveri"/>
+	<title value="Ministero della Salute - ASL"/>
 	<status value="active"/>
 	<experimental value="false"/>
-	<description value="La denominazione, il codice e l'indirizzo delle Elenco Aziende sanitarie locali e Strutture di ricovero italiane. A cura di: Direzione generale della digitalizzazione, del sistema informativo sanitario e della statistica - Ufficio II - Direzione statistica"/>
+	<description value="La denominazione, il codice e l'indirizzo delle Elenco Aziende sanitarie locali. A cura di: Direzione generale della digitalizzazione, del sistema informativo sanitario e della statistica - Ufficio II - Direzione statistica"/>
 	<jurisdiction>
 		<!-- This will drive SNOMED release used -->
 		<coding>
-			<!-- This is the code for universal -->
-			<system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-			<code value="380"/>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="IT"/>
 		</coding>
 	</jurisdiction>
 	<versionNeeded value="true"/>
@@ -36,7 +35,7 @@
 				<valueString value="Tipologia"/>
 			</extension>
 		</code>
-		<uri value="http://terminology.hl7.it/CodeSystem/minsan-asl-ricoveri#type"/>
+		<uri value="http://terminology.hl7.it/CodeSystem/minsan-fls#type"/>
 		<description value="tipo organizzazione"/>
 		<type value="code"/>
 	</property>
@@ -46,7 +45,7 @@
 				<valueString value="Data Inizio validità"/>
 			</extension>
 		</code>
-		<uri value="http://terminology.hl7.it/CodeSystem/minsan-asl-ricoveri#year"/>
+		<uri value="http://terminology.hl7.it/CodeSystem/minsan-fls#year"/>
 		<description value="Ultimo anno validità"/>
 		<type value="dateTime"/>
 	</property>

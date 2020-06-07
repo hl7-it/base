@@ -48,7 +48,7 @@
 			<mapping>
 				<identity value="fhir-it"/>
 				<map value="Address.extension"/>
-				<comment value="I diversi tipi di indirizzo sono caratterizzati dalla valorizzazione di specifci campi: e.g. use='home' per domicilio. In caso sia necessario descivere specificatamente la categoria di indirizzo è prevista una specifica estensione (opzionale)"/>
+				<comment value="I diversi tipi di indirizzo sono caratterizzati dalla valorizzazione di specifici campi: e.g. use='home' per domicilio. In caso sia necessario descivere specificatamente la categoria di indirizzo una specifica estensione (opzionale) può essere aggiunta."/>
 			</mapping>
 		</element>
 		<element id="Indirizzo.periodoValidita">

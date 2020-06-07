@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VsMinisteroSaluteIdStruttureInterne",
+  "id": "minsan-idStruttureInterne",
+  "title": "Ministero della Salute - ID Strutture Interne di Ricovero",
+  "description": "Ministero della Salute - Identificativi Strutture Intene di Ricovero (HSP11) [attivi e ritirati]",
+  "version": "0.1.0",
+  "url": "http://hl7.it/fhir/ValueSet/minsan-idStruttureInterne",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.it/CodeSystem/minsan-hsp"
+      }
+    ]
+  }
+}

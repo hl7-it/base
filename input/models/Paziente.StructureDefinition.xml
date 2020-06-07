@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/structuredefinition.xsd">
+<StructureDefinition xmlns="http://hl7.org/fhir"
+                   	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   	xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/structuredefinition.xsd">
 	<id value="Paziente"/>
 	<url value="http://hl7.it/fhir/StructureDefinition/Paziente"/>
 	<version value="0.0.1"/>
@@ -90,6 +92,10 @@
 				<code value="Identifier"/>
 				<profile value="http://hl7.org/fhir/StructureDefinition/Identifier"/>
 			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.identifier"/>
+			</mapping>
 		</element>
 		<element id="Paziente.identificatori.codiceSanitario">
 			<path value="Paziente.identificatori.codiceSanitario"/>
@@ -102,6 +108,10 @@
 				<code value="Identifier"/>
 				<profile value="http://hl7.org/fhir/StructureDefinition/Identifier"/>
 			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.identifier"/>
+			</mapping>
 		</element>
 		<element id="Paziente.identificatori.codiceSTP">
 			<path value="Paziente.identificatori.codiceSTP"/>
@@ -288,7 +298,7 @@
 				<identity value="fhir-it"/>
 				<map value="Patient.extension('http://hl7.org/fhir/StructureDefinition/birthPlace')"/>
 			</mapping>
-				<mapping>
+			<mapping>
 				<identity value="fhir-it"/>
 				<map value="Patient.extension('http://hl7.it/fhir/StructureDefinition/patient-codeableBirthPlace')"/>
 			</mapping>
@@ -479,6 +489,10 @@
 			<type>
 				<code value="BackboneElement"/>
 			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.contact"/>
+			</mapping>
 		</element>
 		<element id="Paziente.contatti.persona">
 			<path value="Paziente.contatti.persona"/>
@@ -489,6 +503,10 @@
 			<type>
 				<code value="http://hl7.it/fhir/StructureDefinition/ContattoPersona"/>
 			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.contact"/>
+			</mapping>
 		</element>
 		<element id="Paziente.contatti.organizzazione">
 			<path value="Paziente.contatti.organizzazione"/>
@@ -499,6 +517,10 @@
 			<type>
 				<code value="http://hl7.org/fhir/StructureDefinition/Organization"/>
 			</type>
+			<mapping>
+				<identity value="fhir-it"/>
+				<map value="Patient.contact.organization"/>
+			</mapping>
 		</element>
 		<element id="Paziente.cittadinanza">
 			<path value="Paziente.cittadinanza"/>

@@ -59,7 +59,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://hl7.it/fhir/StructureDefinition/Organization-it-socioSanitaria"
+              "http://hl7.it/fhir/StructureDefinition/Organization-it-hcp"
             ]
           }
         ]

@@ -9,7 +9,7 @@
 	<!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
 	<version value="0.0.1"/>
 	<name value="HL7ITFhirBase"/>
-	<title value="HL7 Italia FHIR Implementation Guide"/>
+	<title value="HL7 Italia FHIR Implementation Guide (base)"/>
 	<status value="draft"/>
 	<experimental value="false"/>
 	<publisher value="HL7 Italia"/>
@@ -20,7 +20,7 @@
 			<value value="http://hl7.it"/>
 		</telecom>
 	</contact>
-	<description value="Include un insieme di profili base e modelli logici di riferimento per il contesto Italiano"/>
+	<description value="HL7 Italia FHIR Implementation Guide (base), descrive un insieme di profili base e di modelli logici di riferimento per il contesto Italiano"/>
 	<jurisdiction>
 		<!-- This will drive SNOMED release used -->
 		<coding>
@@ -30,7 +30,7 @@
 	</jurisdiction>
 	<packageId value="hl7.fhir.it.base"/>
 	<!-- This should be changed to 'not-open-source' or another license if appropriate for non-HL7-published content -->
-	<license value="CC0-1.0"/>
+	<license value="CC-BY-SA-4.0"/>
 	<!-- This is whatever FHIR version(s) the IG artifacts are targeting (not the version of this file, which should always be 'current release') -->
 	<fhirVersion value="4.0.1"/>
 	<definition>
@@ -96,7 +96,7 @@
 			</reference>
 			<name value="Organization. Esempio di Azienda Sanitaria"/>
 			<description value="Esempio di uso della risorsa Organization per descrivere una Azienda Sanitaria"/>
-			<exampleCanonical value="http://hl7.it/fhir/StructureDefinition/Organization-it-socioSanitaria"/>
+			<exampleCanonical value="http://hl7.it/fhir/StructureDefinition/Organization-it-hcp"/>
 		</resource>
 		<resource>
 			<reference>
@@ -130,7 +130,7 @@
 			<description value="Esempio di uso della risorsa PractitionerRole."/>
 			<exampleCanonical value="http://hl7.it/fhir/StructureDefinition/PractitionerRole-it-base"/>
 		</resource>
-			<resource>
+		<resource>
 			<reference>
 				<reference value="Practitioner/PractitionerExample"/>
 			</reference>
@@ -176,6 +176,11 @@
 				<generation value="html"/>
 			</page>
 			<page>
+				<nameUrl value="copyright.html"/>
+				<title value="Copyright"/>
+				<generation value="markdown"/>
+			</page>
+			<page>
 				<nameUrl value="changes.html"/>
 				<title value="IG Change History"/>
 				<generation value="html"/>
@@ -201,7 +206,11 @@
 		</parameter>
 		<parameter>
 			<code value="special-url"/>
-			<value value="http://terminology.hl7.it/CodeSystem/minsan-fls-hsp"/>
+			<value value="http://terminology.hl7.it/CodeSystem/minsan-fls"/>
+		</parameter>
+		<parameter>
+			<code value="special-url"/>
+			<value value="http://terminology.hl7.it/CodeSystem/minsan-hsp"/>
 		</parameter>
 		<parameter>
 			<code value="special-url"/>
