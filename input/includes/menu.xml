@@ -18,7 +18,7 @@
 			</li>
 		</ul>
 	</li>
-	<li class="dropdown">
+<!-- 	<li class="dropdown">
 		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Specifiche<b class="caret">
 			</b>
 		</a>
@@ -27,7 +27,7 @@
 				<a href="spec.html">Specifiche di dettaglio</a>
 			</li>
 		</ul>
-	</li>
+	</li> -->
 	<li>
 		<a href="artifacts.html">Indice Artefatti</a>
 	</li>

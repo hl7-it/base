@@ -1,0 +1,24 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VsIstatLuogoNascita",
+  "id": "istat-luogoNascita",
+  "title": "ISTAT - Comune/Stato di Nascita",
+  "description": "Codici ISTAT per Comune o Stato di nascita",
+  "version": "0.1.0",
+  "url": "http://hl7.it/fhir/ValueSet/istat-luogoNascita",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.it/fhir/ValueSet/istat-stato"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.it/fhir/ValueSet/istat-comune"
+        ]
+      }
+    ]
+  }
+}

@@ -45,12 +45,12 @@
 		<element id="Patient.extension:luogoNascita.valueAddress">
 			<path value="Patient.extension.valueAddress"/>
 			<short value="Indirizzo del luogo di Nascita"/>
-			<definition value="Indirizzo del luogo di Nascita"/>		
+			<definition value="Indirizzo del luogo di Nascita"/>
 			<type>
 				<code value="Address"/>
 				<profile value="http://hl7.it/fhir/StructureDefinition/Address-it-base"/>
-			</type>	
-		</element>	
+			</type>
+		</element>
 		<!--	
 		<element id="Patient.extension:luogoNascita.valueAddress.city">
 			<path value="Patient.extension.valueAddress.city"/>
@@ -102,7 +102,7 @@
 			</type>
 			<binding>
 				<strength value="example"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/istat-comuni"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/istat-luogoNascita"/>
 			</binding>
 		</element>
 		<element id="Patient.extension:cittadinanza">
@@ -117,7 +117,7 @@
 			</type>
 			<binding>
 				<strength value="example"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/istat-stati"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/istat-cittadinanza"/>
 			</binding>
 		</element>
 		<element id="Patient.extension:professione">
@@ -130,6 +130,10 @@
 				<code value="Extension"/>
 				<profile value="http://hl7.it/fhir/StructureDefinition/patient-occupation-it"/>
 			</type>
+			<binding>
+				<strength value="preferred"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/istat-professione"/>
+			</binding>
 			<mustSupport value="false"/>
 		</element>
 		<element id="Patient.extension:titoloStudio">
@@ -142,6 +146,10 @@
 				<code value="Extension"/>
 				<profile value="http://hl7.it/fhir/StructureDefinition/patient-qualification-it"/>
 			</type>
+			<binding>
+				<strength value="preferred"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/istat-titoloStudio"/>
+			</binding>
 			<mustSupport value="false"/>
 		</element>
 		<element id="Patient.identifier">
@@ -525,7 +533,7 @@
 			<path value="Patient.maritalStatus"/>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/ValueSet-statoCivile"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/statoCivile"/>
 			</binding>
 		</element>
 		<!--

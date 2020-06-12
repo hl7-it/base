@@ -14,7 +14,7 @@
 					<targets>
 						<datapoint pos="0" key="115"/>
 					</targets>
-					<view ltx="245" lty="-148" rbx="307" rby="-85"/>
+					<view ltx="245" lty="-148" rbx="298" rby="-92"/>
 				</component>
 				<component name="code" library="core" uid="9" kind="3">
 					<properties/>
@@ -26,7 +26,7 @@
 						<datapoint pos="0" key="114"/>
 						<datapoint/>
 					</targets>
-					<view ltx="347" lty="-124" rbx="460" rby="-61"/>
+					<view ltx="347" lty="-124" rbx="450" rby="-68"/>
 				</component>
 				<component name="display" library="core" uid="12" kind="3">
 					<properties/>
@@ -38,7 +38,7 @@
 						<datapoint pos="0" key="129"/>
 						<datapoint/>
 					</targets>
-					<view ltx="347" lty="-69" rbx="460" rby="-6"/>
+					<view ltx="347" lty="-69" rbx="450" rby="-13"/>
 				</component>
 				<component name="Continenti" library="xml" uid="3" kind="14">
 					<properties XSLTTargetEncoding="UTF-8"/>
@@ -93,61 +93,6 @@
 						<wsdl/>
 					</data>
 				</component>
-				<component name="codesystem" library="xml" uid="6" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="1756" lty="-84" rbx="2074" rby="665"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://hl7.org/fhir"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="FileInstance" ns="1" expanded="1">
-								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
-									<entry name="CodeSystem" outkey="1" expanded="1">
-										<entry name="id" outkey="2" expanded="1"/>
-										<entry name="meta" outkey="3"/>
-										<entry name="implicitRules" outkey="4"/>
-										<entry name="language" outkey="5"/>
-										<entry name="text" outkey="6"/>
-										<entry name="contained" outkey="7"/>
-										<entry name="extension" outkey="8"/>
-										<entry name="modifierExtension" outkey="9"/>
-										<entry name="url" outkey="10"/>
-										<entry name="identifier" outkey="11"/>
-										<entry name="version" outkey="12"/>
-										<entry name="name" outkey="13"/>
-										<entry name="title" outkey="14"/>
-										<entry name="status" outkey="15"/>
-										<entry name="experimental" outkey="16"/>
-										<entry name="date" outkey="17"/>
-										<entry name="publisher" outkey="18"/>
-										<entry name="contact" outkey="19"/>
-										<entry name="description" outkey="20"/>
-										<entry name="useContext" outkey="21"/>
-										<entry name="jurisdiction" outkey="22"/>
-										<entry name="purpose" outkey="23"/>
-										<entry name="copyright" outkey="24"/>
-										<entry name="caseSensitive" outkey="25"/>
-										<entry name="valueSet" outkey="26"/>
-										<entry name="hierarchyMeaning" outkey="27"/>
-										<entry name="compositional" outkey="28"/>
-										<entry name="versionNeeded" outkey="29"/>
-										<entry name="content" outkey="30"/>
-										<entry name="supplements" outkey="31"/>
-										<entry name="count" outkey="32"/>
-										<entry name="filter" outkey="33"/>
-										<entry name="property" outkey="34"/>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<document schema="..\..\..\..\fhir-all-xsd/codesystem.xsd" inputinstance="CodeSystem-istat-source.xml" outputinstance="CodeSystem-istat-source.xml" instanceroot="{http://hl7.org/fhir}CodeSystem"/>
-						<wsdl/>
-					</data>
-				</component>
 				<component name="code" library="core" uid="18" kind="3">
 					<properties/>
 					<sources>
@@ -158,7 +103,7 @@
 						<datapoint pos="0" key="175"/>
 						<datapoint/>
 					</targets>
-					<view ltx="336" lty="1054" rbx="449" rby="1117"/>
+					<view ltx="336" lty="1054" rbx="439" rby="1110"/>
 				</component>
 				<component name="display" library="core" uid="17" kind="3">
 					<properties/>
@@ -170,7 +115,7 @@
 						<datapoint pos="0" key="172"/>
 						<datapoint/>
 					</targets>
-					<view ltx="333" lty="1121" rbx="446" rby="1184"/>
+					<view ltx="333" lty="1121" rbx="436" rby="1177"/>
 				</component>
 				<component name="Denominazione_x0020_EN" library="core" uid="21" kind="3">
 					<properties/>
@@ -182,7 +127,7 @@
 						<datapoint pos="0" key="179"/>
 						<datapoint/>
 					</targets>
-					<view ltx="333" lty="1176" rbx="520" rby="1239"/>
+					<view ltx="333" lty="1176" rbx="488" rby="1232"/>
 				</component>
 				<component name="display" library="core" uid="15" kind="3">
 					<properties/>
@@ -194,14 +139,14 @@
 						<datapoint pos="0" key="149"/>
 						<datapoint/>
 					</targets>
-					<view ltx="372" lty="377" rbx="485" rby="440"/>
+					<view ltx="372" lty="377" rbx="475" rby="433"/>
 				</component>
 				<component name="constant" library="core" uid="26" kind="2">
 					<properties/>
 					<targets>
 						<datapoint pos="0" key="220"/>
 					</targets>
-					<view ltx="539" lty="449" rbx="599" rby="469"/>
+					<view ltx="539" lty="449" rbx="591" rby="467"/>
 					<data>
 						<constant value="en" datatype="string"/>
 						<wsdl/>
@@ -212,7 +157,7 @@
 					<targets>
 						<datapoint pos="0" key="196"/>
 					</targets>
-					<view ltx="545" lty="1198" rbx="605" rby="1218"/>
+					<view ltx="545" lty="1198" rbx="597" rby="1216"/>
 					<data>
 						<constant value="en" datatype="string"/>
 						<wsdl/>
@@ -228,7 +173,7 @@
 						<datapoint pos="0" key="146"/>
 						<datapoint/>
 					</targets>
-					<view ltx="372" lty="322" rbx="485" rby="385"/>
+					<view ltx="372" lty="322" rbx="475" rby="378"/>
 				</component>
 				<component name="equal" library="core" uid="13" kind="5">
 					<properties/>
@@ -239,7 +184,7 @@
 					<targets>
 						<datapoint pos="0" key="143"/>
 					</targets>
-					<view ltx="372" lty="249" rbx="434" rby="312"/>
+					<view ltx="372" lty="249" rbx="425" rby="305"/>
 				</component>
 				<component name="equal" library="core" uid="19" kind="5">
 					<properties/>
@@ -250,7 +195,7 @@
 					<targets>
 						<datapoint pos="0" key="170"/>
 					</targets>
-					<view ltx="294" lty="936" rbx="356" rby="999"/>
+					<view ltx="294" lty="936" rbx="347" rby="992"/>
 				</component>
 				<component name="Denominazione_x0020_EN" library="core" uid="22" kind="3">
 					<properties/>
@@ -262,7 +207,7 @@
 						<datapoint pos="0" key="184"/>
 						<datapoint/>
 					</targets>
-					<view ltx="372" lty="432" rbx="559" rby="495"/>
+					<view ltx="372" lty="432" rbx="527" rby="488"/>
 				</component>
 				<component name="Territori_NoFigli" library="xml" uid="4" kind="14">
 					<properties XSLTTargetEncoding="UTF-8"/>
@@ -334,8 +279,72 @@
 						<wsdl/>
 					</data>
 				</component>
+				<component name="fill-properties" library="user" blackbox="0" uid="117" kind="19" visible="0">
+					<view ltx="333" lty="1247" rbx="633" rby="1447"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="MIN" inpkey="527" componentid="112"/>
+							<entry name="AT" inpkey="525" componentid="111"/>
+							<entry name="M49" inpkey="524" componentid="114"/>
+							<entry name="bool" inpkey="528" componentid="110"/>
+							<entry name="SoT" inpkey="529" componentid="113"/>
+							<entry name="parent" inpkey="526" componentid="115"/>
+							<entry name="ISO2" inpkey="570" componentid="119"/>
+							<entry name="ISO3" inpkey="571" componentid="120"/>
+						</root>
+						<root rootindex="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://hl7.org/fhir"/>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="codesystem" ns="1" componentid="105" expanded="1">
+								<entry name="property" outkey="531">
+									<entry name="code" expanded="1"/>
+									<entry name="valueCode" expanded="1"/>
+								</entry>
+							</entry>
+							<entry name="codesystem3" ns="1" componentid="107" expanded="1">
+								<entry name="property" outkey="537">
+									<entry name="code" expanded="1"/>
+									<entry name="valueCode" expanded="1"/>
+								</entry>
+							</entry>
+							<entry name="codesystem4" ns="1" componentid="108" expanded="1">
+								<entry name="property" outkey="539">
+									<entry name="code" expanded="1"/>
+									<entry name="valueCode" expanded="1"/>
+								</entry>
+							</entry>
+							<entry name="codesystem2" ns="1" componentid="106" expanded="1">
+								<entry name="property" outkey="535">
+									<entry name="code" expanded="1"/>
+									<entry name="valueCode" expanded="1"/>
+								</entry>
+							</entry>
+							<entry name="codesystem5" ns="1" componentid="109" expanded="1">
+								<entry name="property" outkey="538">
+									<entry name="code" expanded="1"/>
+									<entry name="valueCode" expanded="1"/>
+								</entry>
+							</entry>
+							<entry name="codesystem6" ns="1" componentid="124" expanded="1">
+								<entry name="property" outkey="572"/>
+							</entry>
+							<entry name="codesystem7" ns="1" componentid="125" expanded="1">
+								<entry name="property" outkey="573"/>
+							</entry>
+						</root>
+					</data>
+				</component>
 				<component name="fill-properties" library="user" blackbox="0" uid="116" kind="19" visible="0">
-					<view ltx="372" lty="504" rbx="680" rby="873"/>
+					<view ltx="372" lty="504" rbx="677" rby="679"/>
 					<data>
 						<root scrollposition="1">
 							<header>
@@ -418,11 +427,92 @@
 						</root>
 					</data>
 				</component>
+				<component name="codesystem" library="xml" uid="6" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="1810" lty="-224" rbx="2128" rby="525"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://hl7.org/fhir"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="CodeSystem" outkey="1" expanded="1">
+										<entry name="id" outkey="2" expanded="1"/>
+										<entry name="meta" outkey="3"/>
+										<entry name="implicitRules" outkey="4"/>
+										<entry name="language" outkey="5"/>
+										<entry name="text" outkey="6"/>
+										<entry name="contained" outkey="7"/>
+										<entry name="extension" outkey="8"/>
+										<entry name="modifierExtension" outkey="9"/>
+										<entry name="url" outkey="10"/>
+										<entry name="identifier" outkey="11"/>
+										<entry name="version" outkey="12"/>
+										<entry name="name" outkey="13"/>
+										<entry name="title" outkey="14"/>
+										<entry name="status" outkey="15"/>
+										<entry name="experimental" outkey="16"/>
+										<entry name="date" outkey="17"/>
+										<entry name="publisher" outkey="18"/>
+										<entry name="contact" outkey="19"/>
+										<entry name="description" outkey="20"/>
+										<entry name="useContext" outkey="21"/>
+										<entry name="jurisdiction" outkey="22"/>
+										<entry name="purpose" outkey="23"/>
+										<entry name="copyright" outkey="24"/>
+										<entry name="caseSensitive" outkey="25"/>
+										<entry name="valueSet" outkey="26"/>
+										<entry name="hierarchyMeaning" outkey="27"/>
+										<entry name="compositional" outkey="28"/>
+										<entry name="versionNeeded" outkey="29"/>
+										<entry name="content" outkey="30"/>
+										<entry name="supplements" outkey="31"/>
+										<entry name="count" outkey="32"/>
+										<entry name="filter" outkey="33"/>
+										<entry name="property" outkey="34"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\..\..\..\fhir-all-xsd/codesystem.xsd" inputinstance="CodeSystem-istat-source.xml" outputinstance="CodeSystem-istat-source.xml" instanceroot="{http://hl7.org/fhir}CodeSystem"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="CodiciEccezioni" library="xml" uid="126" kind="14">
+					<properties/>
+					<view ltx="519" lty="1499" rbx="694" rby="1699"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="dataroot" expanded="1">
+										<entry name="CodiciEccezioni" outkey="582" expanded="1">
+											<entry name="code" outkey="583"/>
+											<entry name="display" outkey="584"/>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="CodiciEccezioni.xsd" inputinstance="CodiciEccezioni.xml" outputinstance="CodiciEccezioni.xml" instanceroot="{}dataroot"/>
+						<wsdl/>
+					</data>
+				</component>
 				<component name="codesystem" library="xml" uid="5" kind="14">
 					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
-					<view ltx="799" lty="-69" rbx="2128" rby="1311"/>
+					<view ltx="799" lty="-69" rbx="2106" rby="1616"/>
 					<data>
-						<root scrollposition="2075">
+						<root scrollposition="1711">
 							<header>
 								<namespaces>
 									<namespace uid="http://hl7.org/fhir"/>
@@ -563,76 +653,20 @@
 												</entry>
 											</entry>
 										</entry>
+										<entry name="concept" inpkey="585" expanded="1" clone="1">
+											<entry name="code" expanded="1">
+												<entry name="value" ns="1" type="attribute" inpkey="586"/>
+											</entry>
+											<entry name="display" expanded="1">
+												<entry name="value" ns="1" type="attribute" inpkey="587"/>
+											</entry>
+										</entry>
 									</entry>
 								</entry>
 							</entry>
 						</root>
 						<document schema="..\..\..\..\fhir-all-xsd/codesystem.xsd" inputinstance="CodeSystem-istat-template.xml" outputinstance="CodeSystem-istat-template.xml" instanceroot="{http://hl7.org/fhir}CodeSystem"/>
 						<wsdl/>
-					</data>
-				</component>
-				<component name="fill-properties" library="user" blackbox="0" uid="117" kind="19" visible="0">
-					<view ltx="333" lty="1247" rbx="633" rby="1447"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="MIN" inpkey="527" componentid="112"/>
-							<entry name="AT" inpkey="525" componentid="111"/>
-							<entry name="M49" inpkey="524" componentid="114"/>
-							<entry name="bool" inpkey="528" componentid="110"/>
-							<entry name="SoT" inpkey="529" componentid="113"/>
-							<entry name="parent" inpkey="526" componentid="115"/>
-							<entry name="ISO2" inpkey="570" componentid="119"/>
-							<entry name="ISO3" inpkey="571" componentid="120"/>
-						</root>
-						<root rootindex="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://hl7.org/fhir"/>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="codesystem" ns="1" componentid="105" expanded="1">
-								<entry name="property" outkey="531">
-									<entry name="code" expanded="1"/>
-									<entry name="valueCode" expanded="1"/>
-								</entry>
-							</entry>
-							<entry name="codesystem3" ns="1" componentid="107" expanded="1">
-								<entry name="property" outkey="537">
-									<entry name="code" expanded="1"/>
-									<entry name="valueCode" expanded="1"/>
-								</entry>
-							</entry>
-							<entry name="codesystem4" ns="1" componentid="108" expanded="1">
-								<entry name="property" outkey="539">
-									<entry name="code" expanded="1"/>
-									<entry name="valueCode" expanded="1"/>
-								</entry>
-							</entry>
-							<entry name="codesystem2" ns="1" componentid="106" expanded="1">
-								<entry name="property" outkey="535">
-									<entry name="code" expanded="1"/>
-									<entry name="valueCode" expanded="1"/>
-								</entry>
-							</entry>
-							<entry name="codesystem5" ns="1" componentid="109" expanded="1">
-								<entry name="property" outkey="538">
-									<entry name="code" expanded="1"/>
-									<entry name="valueCode" expanded="1"/>
-								</entry>
-							</entry>
-							<entry name="codesystem6" ns="1" componentid="124" expanded="1">
-								<entry name="property" outkey="572"/>
-							</entry>
-							<entry name="codesystem7" ns="1" componentid="125" expanded="1">
-								<entry name="property" outkey="573"/>
-							</entry>
-						</root>
 					</data>
 				</component>
 			</children>
@@ -1360,13 +1394,27 @@
 							<edge vertexkey="361" edgekey="576"/>
 						</edges>
 					</vertex>
+					<vertex vertexkey="582">
+						<edges>
+							<edge vertexkey="585" edgekey="588"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="583">
+						<edges>
+							<edge vertexkey="586" edgekey="589"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="584">
+						<edges>
+							<edge vertexkey="587" edgekey="590"/>
+						</edges>
+					</vertex>
 				</vertices>
 			</graph>
 		</structure>
 	</component>
 	<component name="fill-properties" library="user" blackbox="0" uid="94" editable="1" inline="1">
 		<properties/>
-		<description/>
 		<structure>
 			<children>
 				<component name="constant" library="core" uid="96" kind="2">
@@ -1428,7 +1476,7 @@
 					<view ltx="1100" lty="100" rbx="1213" rby="163"/>
 				</component>
 				<component name="document" library="xml" uid="106" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="1664" lty="898" rbx="1964" rby="1114"/>
 					<data>
 						<root>
@@ -1453,7 +1501,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="107" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="1664" lty="366" rbx="1964" rby="582"/>
 					<data>
 						<root>
@@ -1478,7 +1526,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="108" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="1664" lty="632" rbx="1964" rby="848"/>
 					<data>
 						<root>
@@ -1563,7 +1611,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="109" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="1664" lty="1164" rbx="1964" rby="1380"/>
 					<data>
 						<root>
@@ -1626,7 +1674,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="105" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="1664" lty="100" rbx="1964" rby="316"/>
 					<data>
 						<root>

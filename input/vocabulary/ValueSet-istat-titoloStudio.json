@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VsIstatTitoloStudio",
+  "id": "istat-titoloStudio",
+  "title": "ISTAT - Titolo Studio",
+  "description": "Classificazione dei titoli di studio italiani",
+  "version": "0.1.0",
+  "url": "http://hl7.it/fhir/ValueSet/istat-titoloStudio",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.it/CodeSystem/istat-ctsi03"
+      }
+    ]
+  }
+}

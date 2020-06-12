@@ -19,8 +19,9 @@
       "valueCodeableConcept": {
         "coding": [
           {
-            "code": "laurea",
-            "system": "http://example.org/qualification"
+            "code": "72004001",
+            "system": "http://terminology.hl7.it/CodeSystem/istat-ctsi03",
+            "display": "Medicina e chirurgia"
           }
         ]
       }

@@ -1,0 +1,5584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir C:/Ruby26-x64/msys64/home/giorg/_github/fhir-all-xsd/codesystem.xsd">
+	<id value="istat-ctsi03"/>
+	<text>
+		<status value="generated"/>
+		<div xmlns="http://www.w3.org/1999/xhtml"><h1>CLASSIFICAZIONE DEI TITOLI DI STUDIO ITALIANI</h1>
+			L’Istat ha predisposto, per la prima volta in Italia, la Classificazione dei titoli di studio. L’obiettivo è di ricostruire in maniera il più possibile estensiva l’insieme dei titoli di studio emessi in Italia e potenzialmente in possesso della popolazione. In assenza di fonti di tipo normativo-istituzionale, la classificazione è stata costruita principalmente a partire da fonti statistiche. Si è in particolare fatto riferimento: alle rilevazioni sulle scuole secondarie di secondo grado, di competenza Istat, MIUR e INVALSI; alle indagini sull’istruzione universitaria, di competenza Istat e MIUR-URST; ai Censimenti della popolazione italiana.
+			PERIODO DI RIFERIMENTO: ANNO 2003
+			DATA DI PUBBLICAZIONE: 28 OTTOBRE 2005
+		</div>
+	</text>
+	<url value="http://terminology.hl7.it/CodeSystem/istat-ctsi03"/>
+	<version value="28_10_2005"/>
+	<name value="CsIstatTitoliStudio"/>
+	<title value="ISTAT - Classificazione dei titoli di studio italiani"/>
+	<status value="active"/>
+	<experimental value="false"/>
+	<description value="Classificazione dei titoli di studio - ISTAT"/>
+	<jurisdiction>
+		<!-- This will drive SNOMED release used -->
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="IT"/>
+		</coding>
+	</jurisdiction>
+	<versionNeeded value="true"/>
+	<content value="complete"/>
+	<concept>
+		<code value="10000000"/>
+		<display value="LICENZA ELEMENTARE"/>
+	</concept>
+	<concept>
+		<code value="20000000"/>
+		<display value="LICENZA MEDIA"/>
+	</concept>
+	<concept>
+		<code value="30000000"/>
+		<display value="TITOLO DI ISTRUZIONE SECONDARIA SUPERIORE (SCOLASTICA ED EXTRA-SCOLASTICA) CHE NON PERMETTE L'ACCESSO ALL'UNIVERSITÀ (qualifica di istituto professionale, licenza di maestro d'arte, abilitazione all'insegnamento nella scuola materna, diploma di danzatore, diploma di conservatorio)"/>
+	</concept>
+	<concept>
+		<code value="30100000"/>
+		<display value="DIPLOMA DI QUALIFICA DI ISTITUTO PROFESSIONALE"/>
+	</concept>
+	<concept>
+		<code value="30101000"/>
+		<display value="Diploma di qualifica di istituto professionale agrario"/>
+	</concept>
+	<concept>
+		<code value="30101001"/>
+		<display value="Allevatore zootecnico"/>
+	</concept>
+	<concept>
+		<code value="30101002"/>
+		<display value="Assistente di azienda agraria"/>
+	</concept>
+	<concept>
+		<code value="30101003"/>
+		<display value="Esperto conserviere"/>
+	</concept>
+	<concept>
+		<code value="30101004"/>
+		<display value="Esperto agricolo"/>
+	</concept>
+	<concept>
+		<code value="30101005"/>
+		<display value="Esperto agrumicoltore"/>
+	</concept>
+	<concept>
+		<code value="30101006"/>
+		<display value="Esperto casaro"/>
+	</concept>
+	<concept>
+		<code value="30101007"/>
+		<display value="Esperto coltivatore"/>
+	</concept>
+	<concept>
+		<code value="30101008"/>
+		<display value="Esperto floricoltore giardiniere"/>
+	</concept>
+	<concept>
+		<code value="30101009"/>
+		<display value="Esperto forestale e apicoltore"/>
+	</concept>
+	<concept>
+		<code value="30101010"/>
+		<display value="Esperto frutticoltore"/>
+	</concept>
+	<concept>
+		<code value="30101011"/>
+		<display value="Esperto olivicoltore"/>
+	</concept>
+	<concept>
+		<code value="30101012"/>
+		<display value="Esperto orticoltore"/>
+	</concept>
+	<concept>
+		<code value="30101013"/>
+		<display value="Esperto tabacchicoltore tecnologo"/>
+	</concept>
+	<concept>
+		<code value="30101014"/>
+		<display value="Esperto viticoltore cantiniere"/>
+	</concept>
+	<concept>
+		<code value="30101015"/>
+		<display value="Meccanico operatore agricolo"/>
+	</concept>
+	<concept>
+		<code value="30101016"/>
+		<display value="Operatore agricolo"/>
+	</concept>
+	<concept>
+		<code value="30101017"/>
+		<display value="Operatore agro industriale"/>
+	</concept>
+	<concept>
+		<code value="30101018"/>
+		<display value="Operatore agro ambientale"/>
+	</concept>
+	<concept>
+		<code value="30101019"/>
+		<display value="Operatore agri turistico"/>
+	</concept>
+	<concept>
+		<code value="30101020"/>
+		<display value="Cantiniere"/>
+	</concept>
+	<concept>
+		<code value="30101021"/>
+		<display value="Analista agricolo"/>
+	</concept>
+	<concept>
+		<code value="30101022"/>
+		<display value="Avifauna"/>
+	</concept>
+	<concept>
+		<code value="30101023"/>
+		<display value="Esperto in produzioni alimentari"/>
+	</concept>
+	<concept>
+		<code value="30101024"/>
+		<display value="Floricoltore"/>
+	</concept>
+	<concept>
+		<code value="30101025"/>
+		<display value="Ortofrutticoltore"/>
+	</concept>
+	<concept>
+		<code value="30101026"/>
+		<display value="Viticoltore"/>
+	</concept>
+	<concept>
+		<code value="30101027"/>
+		<display value="Vivaista"/>
+	</concept>
+	<concept>
+		<code value="30101999"/>
+		<display value="Altre qualifiche di istituto professionale agrario"/>
+	</concept>
+	<concept>
+		<code value="30102000"/>
+		<display value="Diploma di qualifica di istituto professionale per l'industria e l'artigianato"/>
+	</concept>
+	<concept>
+		<code value="30102001"/>
+		<display value="Addetto manutenzione di elaboratori elettronici"/>
+	</concept>
+	<concept>
+		<code value="30102002"/>
+		<display value="Aggiustatore meccanico"/>
+	</concept>
+	<concept>
+		<code value="30102003"/>
+		<display value="Aiuto scenografo"/>
+	</concept>
+	<concept>
+		<code value="30102004"/>
+		<display value="Animatore"/>
+	</concept>
+	<concept>
+		<code value="30102005"/>
+		<display value="Assistente di tessitura"/>
+	</concept>
+	<concept>
+		<code value="30102006"/>
+		<display value="Assistente edile"/>
+	</concept>
+	<concept>
+		<code value="30102007"/>
+		<display value="Carrozziere d'automezzi"/>
+	</concept>
+	<concept>
+		<code value="30102008"/>
+		<display value="Carrozziere e verniciatore a spruzzo"/>
+	</concept>
+	<concept>
+		<code value="30102009"/>
+		<display value="Ceramista industriale"/>
+	</concept>
+	<concept>
+		<code value="30102010"/>
+		<display value="Chimico cermista"/>
+	</concept>
+	<concept>
+		<code value="30102011"/>
+		<display value="Confezionista industriale"/>
+	</concept>
+	<concept>
+		<code value="30102012"/>
+		<display value="Conduttore caldaie"/>
+	</concept>
+	<concept>
+		<code value="30102013"/>
+		<display value="Congegnatore meccanico"/>
+	</concept>
+	<concept>
+		<code value="30102014"/>
+		<display value="Disegnatore edile"/>
+	</concept>
+	<concept>
+		<code value="30102015"/>
+		<display value="Disegnatore meccanico"/>
+	</concept>
+	<concept>
+		<code value="30102016"/>
+		<display value="Disegnatore meccanico con elaboratore"/>
+	</concept>
+	<concept>
+		<code value="30102017"/>
+		<display value="Disegnatore navale"/>
+	</concept>
+	<concept>
+		<code value="30102018"/>
+		<display value="Disegnatore tecnico del marmo"/>
+	</concept>
+	<concept>
+		<code value="30102019"/>
+		<display value="Ebanista mobiliere"/>
+	</concept>
+	<concept>
+		<code value="30102020"/>
+		<display value="Elettrauto"/>
+	</concept>
+	<concept>
+		<code value="30102021"/>
+		<display value="Elettricista di bordo"/>
+	</concept>
+	<concept>
+		<code value="30102022"/>
+		<display value="Elettricista installatore elettromeccanico"/>
+	</concept>
+	<concept>
+		<code value="30102023"/>
+		<display value="Elettronico industriale"/>
+	</concept>
+	<concept>
+		<code value="30102024"/>
+		<display value="Elettronico per telecomunicazione"/>
+	</concept>
+	<concept>
+		<code value="30102025"/>
+		<display value="Fofografo di scena e reporter"/>
+	</concept>
+	<concept>
+		<code value="30102026"/>
+		<display value="Fotografo generico"/>
+	</concept>
+	<concept>
+		<code value="30102027"/>
+		<display value="Fotoincisore"/>
+	</concept>
+	<concept>
+		<code value="30102028"/>
+		<display value="Fotolitografo"/>
+	</concept>
+	<concept>
+		<code value="30102029"/>
+		<display value="Istallatore di impianti idro termali sanitari e riscaldamento"/>
+	</concept>
+	<concept>
+		<code value="30102030"/>
+		<display value="Istallatore di impianti idraulici e termici"/>
+	</concept>
+	<concept>
+		<code value="30102031"/>
+		<display value="Istallatore di apparecchiature elettriche ed elettroniche"/>
+	</concept>
+	<concept>
+		<code value="30102032"/>
+		<display value="Litoimpressore"/>
+	</concept>
+	<concept>
+		<code value="30102033"/>
+		<display value="Liutaio"/>
+	</concept>
+	<concept>
+		<code value="30102034"/>
+		<display value="Massiofisioterapista"/>
+	</concept>
+	<concept>
+		<code value="30102035"/>
+		<display value="Meccanico fresatore"/>
+	</concept>
+	<concept>
+		<code value="30102036"/>
+		<display value="Meccanico impianti a gas"/>
+	</concept>
+	<concept>
+		<code value="30102037"/>
+		<display value="Meccanico magliere"/>
+	</concept>
+	<concept>
+		<code value="30102038"/>
+		<display value="Meccanico orologiaio"/>
+	</concept>
+	<concept>
+		<code value="30102039"/>
+		<display value="Meccanico riparatore autoveicoli"/>
+	</concept>
+	<concept>
+		<code value="30102040"/>
+		<display value="Meccanico tornitore"/>
+	</concept>
+	<concept>
+		<code value="30102041"/>
+		<display value="Modellista di fonderia"/>
+	</concept>
+	<concept>
+		<code value="30102042"/>
+		<display value="Montatore d'auto"/>
+	</concept>
+	<concept>
+		<code value="30102043"/>
+		<display value="Montatore riparatore apparecchi radio tv"/>
+	</concept>
+	<concept>
+		<code value="30102044"/>
+		<display value="Montatore riparatore impianti telefonici"/>
+	</concept>
+	<concept>
+		<code value="30102045"/>
+		<display value="Muratore"/>
+	</concept>
+	<concept>
+		<code value="30102046"/>
+		<display value="Operatore meccanico odontotecnico"/>
+	</concept>
+	<concept>
+		<code value="30102047"/>
+		<display value="Operatore macchine utensili"/>
+	</concept>
+	<concept>
+		<code value="30102048"/>
+		<display value="Operatore chimico"/>
+	</concept>
+	<concept>
+		<code value="30102049"/>
+		<display value="Operatore e cameramen"/>
+	</concept>
+	<concept>
+		<code value="30102050"/>
+		<display value="Operatore della moda"/>
+	</concept>
+	<concept>
+		<code value="30102051"/>
+		<display value="Operatore chimico biologico"/>
+	</concept>
+	<concept>
+		<code value="30102052"/>
+		<display value="Operatore edile"/>
+	</concept>
+	<concept>
+		<code value="30102053"/>
+		<display value="Operatore elettrico"/>
+	</concept>
+	<concept>
+		<code value="30102054"/>
+		<display value="Operatore elettronico"/>
+	</concept>
+	<concept>
+		<code value="30102055"/>
+		<display value="Operatore meccanico"/>
+	</concept>
+	<concept>
+		<code value="30102056"/>
+		<display value="Operatore meccanico orafo"/>
+	</concept>
+	<concept>
+		<code value="30102057"/>
+		<display value="Operatore meccanico ottico"/>
+	</concept>
+	<concept>
+		<code value="30102058"/>
+		<display value="Preparatore analista laboratorio chimico biologico"/>
+	</concept>
+	<concept>
+		<code value="30102059"/>
+		<display value="Programmatore"/>
+	</concept>
+	<concept>
+		<code value="30102060"/>
+		<display value="Segretario produzione edizione"/>
+	</concept>
+	<concept>
+		<code value="30102061"/>
+		<display value="Siderurgico"/>
+	</concept>
+	<concept>
+		<code value="30102062"/>
+		<display value="Tipocompositore"/>
+	</concept>
+	<concept>
+		<code value="30102063"/>
+		<display value="Tipoimpressore"/>
+	</concept>
+	<concept>
+		<code value="30102064"/>
+		<display value="Tornitore"/>
+	</concept>
+	<concept>
+		<code value="30102065"/>
+		<display value="Elettricista addetto impianti siderurgici"/>
+	</concept>
+	<concept>
+		<code value="30102066"/>
+		<display value="Assistente di filatura"/>
+	</concept>
+	<concept>
+		<code value="30102067"/>
+		<display value="Operatore della comunicazione audiovisiva"/>
+	</concept>
+	<concept>
+		<code value="30102068"/>
+		<display value="Operatore delle telecomunicazioni"/>
+	</concept>
+	<concept>
+		<code value="30102069"/>
+		<display value="Operatore termico"/>
+	</concept>
+	<concept>
+		<code value="30102070"/>
+		<display value="Operatore industria mobile e arredamento"/>
+	</concept>
+	<concept>
+		<code value="30102071"/>
+		<display value="Operatore dell'artigianato del marmo"/>
+	</concept>
+	<concept>
+		<code value="30102072"/>
+		<display value="Operatore dell'industrie ceramiche"/>
+	</concept>
+	<concept>
+		<code value="30102073"/>
+		<display value="Operatore per l'industria grafica"/>
+	</concept>
+	<concept>
+		<code value="30102074"/>
+		<display value="Operatore fotografico"/>
+	</concept>
+	<concept>
+		<code value="30102075"/>
+		<display value="Meccanico addetto alle macchine utensili a controllo numerico"/>
+	</concept>
+	<concept>
+		<code value="30102076"/>
+		<display value="Operatore dell'industria del marmo"/>
+	</concept>
+	<concept>
+		<code value="30102077"/>
+		<display value="Operatore dell'industria dolciaria"/>
+	</concept>
+	<concept>
+		<code value="30102078"/>
+		<display value="Operatore dell'industria molitoria"/>
+	</concept>
+	<concept>
+		<code value="30102079"/>
+		<display value="Apparecchiatore elettronico"/>
+	</concept>
+	<concept>
+		<code value="30102080"/>
+		<display value="Tecnico di sistemi digitali per procedure automatizzate"/>
+	</concept>
+	<concept>
+		<code value="30102081"/>
+		<display value="Meccanico addetto ai circuiti fluidodinamici"/>
+	</concept>
+	<concept>
+		<code value="30102082"/>
+		<display value="Meccanico armaiolo"/>
+	</concept>
+	<concept>
+		<code value="30102083"/>
+		<display value="Meccanico siderurgico"/>
+	</concept>
+	<concept>
+		<code value="30102084"/>
+		<display value="Meccanico strumentista"/>
+	</concept>
+	<concept>
+		<code value="30102085"/>
+		<display value="Arredatore e tecnico espositore"/>
+	</concept>
+	<concept>
+		<code value="30102086"/>
+		<display value="Decoratore procellana e ceramica"/>
+	</concept>
+	<concept>
+		<code value="30102087"/>
+		<display value="Disegnatore animatore"/>
+	</concept>
+	<concept>
+		<code value="30102088"/>
+		<display value="Disegnatore scenografo"/>
+	</concept>
+	<concept>
+		<code value="30102089"/>
+		<display value="Fonico"/>
+	</concept>
+	<concept>
+		<code value="30102090"/>
+		<display value="Fotoriproduttore"/>
+	</concept>
+	<concept>
+		<code value="30102091"/>
+		<display value="Addetto conservazione distribuzione prodotti alimentari"/>
+	</concept>
+	<concept>
+		<code value="30102092"/>
+		<display value="Specialista del marmo in architettura"/>
+	</concept>
+	<concept>
+		<code value="30102093"/>
+		<display value="Addetta agli uffici per l'architettura e l'arredamento"/>
+	</concept>
+	<concept>
+		<code value="30102094"/>
+		<display value="Disegnatrice grafico pubblicitaria"/>
+	</concept>
+	<concept>
+		<code value="30102095"/>
+		<display value="Figurinista"/>
+	</concept>
+	<concept>
+		<code value="30102096"/>
+		<display value="Modellista confezionista"/>
+	</concept>
+	<concept>
+		<code value="30102097"/>
+		<display value="Operatore grafico pubblicitario"/>
+	</concept>
+	<concept>
+		<code value="30102098"/>
+		<display value="Biancherista"/>
+	</concept>
+	<concept>
+		<code value="30102099"/>
+		<display value="Conduttore di macchine agricole"/>
+	</concept>
+	<concept>
+		<code value="30102100"/>
+		<display value="Galvanotecnico"/>
+	</concept>
+	<concept>
+		<code value="30102101"/>
+		<display value="Ferraiolo"/>
+	</concept>
+	<concept>
+		<code value="30102102"/>
+		<display value="Tracciatore di sala"/>
+	</concept>
+	<concept>
+		<code value="30102103"/>
+		<display value="Legatore di libri"/>
+	</concept>
+	<concept>
+		<code value="30102104"/>
+		<display value="Linotipista"/>
+	</concept>
+	<concept>
+		<code value="30102999"/>
+		<display value="Altre qualifiche di istituto professionale per l'industria e l'artigianato"/>
+	</concept>
+	<concept>
+		<code value="30103000"/>
+		<display value="Diploma di qualifica di istituto professionale marinaro"/>
+	</concept>
+	<concept>
+		<code value="30103001"/>
+		<display value="Frigorista di bordo"/>
+	</concept>
+	<concept>
+		<code value="30103002"/>
+		<display value="Meccanico navale"/>
+	</concept>
+	<concept>
+		<code value="30103003"/>
+		<display value="Padrone marittimo traffico e pesca"/>
+	</concept>
+	<concept>
+		<code value="30103004"/>
+		<display value="Radiotelegrafista di bordo"/>
+	</concept>
+	<concept>
+		<code value="30103005"/>
+		<display value="Operatore del mare"/>
+	</concept>
+	<concept>
+		<code value="30103006"/>
+		<display value="Operatote termico ad indirizzo marittimo"/>
+	</concept>
+	<concept>
+		<code value="30103007"/>
+		<display value="Addetto ai servizi alberghieri di cucina di bordo"/>
+	</concept>
+	<concept>
+		<code value="30103008"/>
+		<display value="Addetto ai servizi sala e bar di bordo"/>
+	</concept>
+	<concept>
+		<code value="30103009"/>
+		<display value="Tracciatore navale"/>
+	</concept>
+	<concept>
+		<code value="30103999"/>
+		<display value="Altre qualifiche di istituto professionale marinaro"/>
+	</concept>
+	<concept>
+		<code value="40102006"/>
+		<display value="Tecnico industrie chimiche"/>
+	</concept>
+	<concept>
+		<code value="40102007"/>
+		<display value="Tecnico delle industrie elettriche elettroniche"/>
+	</concept>
+	<concept>
+		<code value="40102008"/>
+		<display value="Tecnico industrie grafiche"/>
+	</concept>
+	<concept>
+		<code value="40102009"/>
+		<display value="Tecnico industrie meccaniche"/>
+	</concept>
+	<concept>
+		<code value="40102010"/>
+		<display value="Tecnico industrie meccaniche autoveicoli"/>
+	</concept>
+	<concept>
+		<code value="40102011"/>
+		<display value="Tecnico lavorazioni ceramiche"/>
+	</concept>
+	<concept>
+		<code value="40102012"/>
+		<display value="Tecnico industria mobile e arredamento"/>
+	</concept>
+	<concept>
+		<code value="40102013"/>
+		<display value="Tecnico laboratorio chimico biologico"/>
+	</concept>
+	<concept>
+		<code value="40102014"/>
+		<display value="Tecnico di radiologia medica"/>
+	</concept>
+	<concept>
+		<code value="40102015"/>
+		<display value="Tecnico dei sistemi energetici"/>
+	</concept>
+	<concept>
+		<code value="40102016"/>
+		<display value="Tecnico abbigliamento e moda"/>
+	</concept>
+	<concept>
+		<code value="40102017"/>
+		<display value="Tecnico gestione aziendale"/>
+	</concept>
+	<concept>
+		<code value="40102018"/>
+		<display value="Tecnico servizi ristorazione e servizi turistici"/>
+	</concept>
+	<concept>
+		<code value="40102019"/>
+		<display value="Tecnico servizi sociali"/>
+	</concept>
+	<concept>
+		<code value="40102020"/>
+		<display value="Tecnico produz. immagini fotografiche"/>
+	</concept>
+	<concept>
+		<code value="40102021"/>
+		<display value="Tecnico dell'edilizia"/>
+	</concept>
+	<concept>
+		<code value="40102022"/>
+		<display value="Tecnico di liuteria"/>
+	</concept>
+	<concept>
+		<code value="40102023"/>
+		<display value="Tecnico dell'industria audiovisiva"/>
+	</concept>
+	<concept>
+		<code value="40102024"/>
+		<display value="Tecnico dell'industria orafa"/>
+	</concept>
+	<concept>
+		<code value="40102025"/>
+		<display value="Tecnico del marmo"/>
+	</concept>
+	<concept>
+		<code value="40102999"/>
+		<display value="Altri diplomi di istruzione secondaria superiore ad indirizzo professionale per l'industria e l'artigianato"/>
+	</concept>
+	<concept>
+		<code value="40103000"/>
+		<display value="Diploma di istruzione secondaria superiore ad indirizzo professionale marinaro"/>
+	</concept>
+	<concept>
+		<code value="40103001"/>
+		<display value="Tecnico della pesca, cultura ittica e ambiente marino"/>
+	</concept>
+	<concept>
+		<code value="40103002"/>
+		<display value="Tecnico dei sistemi energetici"/>
+	</concept>
+	<concept>
+		<code value="40103003"/>
+		<display value="Tecnico abbigliamento e moda"/>
+	</concept>
+	<concept>
+		<code value="40103004"/>
+		<display value="Tecnico delle industrie elettriche ed elettroniche"/>
+	</concept>
+	<concept>
+		<code value="40103999"/>
+		<display value="Altri diplomi di istruzione secondaria superiore ad indirizzo professionale marinaro"/>
+	</concept>
+	<concept>
+		<code value="40104000"/>
+		<display value="Diploma di istruzione secondaria superiore ad indirizzo professionale per il commercio"/>
+	</concept>
+	<concept>
+		<code value="40104001"/>
+		<display value="Analista contabile"/>
+	</concept>
+	<concept>
+		<code value="40104002"/>
+		<display value="Operatore commerciale"/>
+	</concept>
+	<concept>
+		<code value="40104003"/>
+		<display value="Operatore commerciale prodotti alimentari"/>
+	</concept>
+	<concept>
+		<code value="40104004"/>
+		<display value="Operatore turistico"/>
+	</concept>
+	<concept>
+		<code value="40104005"/>
+		<display value="Segretario amministrazione"/>
+	</concept>
+	<concept>
+		<code value="40104006"/>
+		<display value="Dirigenti di comunità"/>
+	</concept>
+	<concept>
+		<code value="40104007"/>
+		<display value="Agrotecnico"/>
+	</concept>
+	<concept>
+		<code value="40104008"/>
+		<display value="Tecnico gestione aziendale"/>
+	</concept>
+	<concept>
+		<code value="40104009"/>
+		<display value="Tecnico industrie meccaniche"/>
+	</concept>
+	<concept>
+		<code value="40104010"/>
+		<display value="Tecnico abbigliamento e moda"/>
+	</concept>
+	<concept>
+		<code value="40104011"/>
+		<display value="Tecnico servizi ristorazione e servizi turistici"/>
+	</concept>
+	<concept>
+		<code value="40104012"/>
+		<display value="Odontotecnico"/>
+	</concept>
+	<concept>
+		<code value="40104013"/>
+		<display value="Tecnico chimico e biologico"/>
+	</concept>
+	<concept>
+		<code value="40104014"/>
+		<display value="Tecnico della grafica pubblicitaria"/>
+	</concept>
+	<concept>
+		<code value="40104999"/>
+		<display value="Altri diplomi di istruzione secondaria superiore ad indirizzo professionale per il commercio"/>
+	</concept>
+	<concept>
+		<code value="40105000"/>
+		<display value="Diploma di istruzione secondaria superiore ad indirizzo professionale alberghiero"/>
+	</concept>
+	<concept>
+		<code value="40105001"/>
+		<display value="Tecnico servizi ristorazione e servizi turistici"/>
+	</concept>
+	<concept>
+		<code value="40105002"/>
+		<display value="Agrotecnico"/>
+	</concept>
+	<concept>
+		<code value="40105003"/>
+		<display value="Tecnico gestione aziendale"/>
+	</concept>
+	<concept>
+		<code value="40105004"/>
+		<display value="Tecnico industrie meccaniche"/>
+	</concept>
+	<concept>
+		<code value="40105005"/>
+		<display value="Tecnico abbigliamento e moda"/>
+	</concept>
+	<concept>
+		<code value="40105006"/>
+		<display value="Dirigenti di comunità"/>
+	</concept>
+	<concept>
+		<code value="40105007"/>
+		<display value="Tecnico dell'arte bianca"/>
+	</concept>
+	<concept>
+		<code value="40105999"/>
+		<display value="Altri diplomi di istruzione secondaria superiore ad indirizzo professionale alberghiero"/>
+	</concept>
+	<concept>
+		<code value="40106000"/>
+		<display value="Diploma di istruzione secondaria superiore ad indirizzo professionale femminile/per i servizi sociali"/>
+	</concept>
+	<concept>
+		<code value="40106001"/>
+		<display value="Assist. comunità infantile"/>
+	</concept>
+	<concept>
+		<code value="40106002"/>
+		<display value="Disegnatrice stilista moda"/>
+	</concept>
+	<concept>
+		<code value="40106003"/>
+		<display value="Dirigenti di comunità"/>
+	</concept>
+	<concept>
+		<code value="40201006"/>
+		<display value="Valorizzazione produzione animale"/>
+	</concept>
+	<concept>
+		<code value="40201007"/>
+		<display value="Vivaismo colture produttive"/>
+	</concept>
+	<concept>
+		<code value="40201008"/>
+		<display value="Produzioni biologiche e risorse naturali"/>
+	</concept>
+	<concept>
+		<code value="40201999"/>
+		<display value="Altri diplomi di istruzione secondaria superiore ad indirizzo tecnico agrario"/>
+	</concept>
+	<concept>
+		<code value="40202000"/>
+		<display value="Diploma di istruzione secondaria superiore ad indirizzo tecnico industriale"/>
+	</concept>
+	<concept>
+		<code value="40202001"/>
+		<display value="Arti fotografiche"/>
+	</concept>
+	<concept>
+		<code value="40202002"/>
+		<display value="Chimica conciara"/>
+	</concept>
+	<concept>
+		<code value="40202003"/>
+		<display value="Chimica industriale"/>
+	</concept>
+	<concept>
+		<code value="40202004"/>
+		<display value="Chimica nucleare"/>
+	</concept>
+	<concept>
+		<code value="40202005"/>
+		<display value="Confezione industriale"/>
+	</concept>
+	<concept>
+		<code value="40202006"/>
+		<display value="Costruzioni aeronautiche"/>
+	</concept>
+	<concept>
+		<code value="40202007"/>
+		<display value="Cronometria"/>
+	</concept>
+	<concept>
+		<code value="40202008"/>
+		<display value="Disegni di tessuti"/>
+	</concept>
+	<concept>
+		<code value="40202009"/>
+		<display value="Edilizia"/>
+	</concept>
+	<concept>
+		<code value="40202010"/>
+		<display value="Elettronica industriale"/>
+	</concept>
+	<concept>
+		<code value="40202011"/>
+		<display value="Eletttrotecnica"/>
+	</concept>
+	<concept>
+		<code value="40202012"/>
+		<display value="Energia nucleare"/>
+	</concept>
+	<concept>
+		<code value="40202013"/>
+		<display value="Fisica industriale"/>
+	</concept>
+	<concept>
+		<code value="40202014"/>
+		<display value="Industria cartaria"/>
+	</concept>
+	<concept>
+		<code value="40202015"/>
+		<display value="Industria cerealicola"/>
+	</concept>
+	<concept>
+		<code value="40202016"/>
+		<display value="Industria metalmeccanica"/>
+	</concept>
+	<concept>
+		<code value="40202017"/>
+		<display value="Industria meccanica"/>
+	</concept>
+	<concept>
+		<code value="40202018"/>
+		<display value="Industria mineraria"/>
+	</concept>
+	<concept>
+		<code value="40202019"/>
+		<display value="Industria navalmeccanica"/>
+	</concept>
+	<concept>
+		<code value="40202020"/>
+		<display value="Industria ottica"/>
+	</concept>
+	<concept>
+		<code value="40202021"/>
+		<display value="Industria tessile"/>
+	</concept>
+	<concept>
+		<code value="40202022"/>
+		<display value="Industria tintoria"/>
+	</concept>
+	<concept>
+		<code value="40202023"/>
+		<display value="Informatica"/>
+	</concept>
+	<concept>
+		<code value="40202024"/>
+		<display value="Maglieria"/>
+	</concept>
+	<concept>
+		<code value="40202025"/>
+		<display value="Materie plastiche"/>
+	</concept>
+	<concept>
+		<code value="40202026"/>
+		<display value="Meccanica"/>
+	</concept>
+	<concept>
+		<code value="40202027"/>
+		<display value="Meccanica di precisione"/>
+	</concept>
+	<concept>
+		<code value="40202028"/>
+		<display value="Metallurgia"/>
+	</concept>
+	<concept>
+		<code value="40202029"/>
+		<display value="Tecnologie alimentari"/>
+	</concept>
+	<concept>
+		<code value="40202030"/>
+		<display value="Elettronica e telecomunicazioni"/>
+	</concept>
+	<concept>
+		<code value="40202031"/>
+		<display value="Termotenica"/>
+	</concept>
+	<concept>
+		<code value="40202032"/>
+		<display value="Chimico biologico"/>
+	</concept>
+	<concept>
+		<code value="40202033"/>
+		<display value="Elettrotecnica ed automazione"/>
+	</concept>
+	<concept>
+		<code value="40202034"/>
+		<display value="Tessile"/>
+	</concept>
+	<concept>
+		<code value="40202035"/>
+		<display value="Arte della grafica pubblicitaria"/>
+	</concept>
+	<concept>
+		<code value="40202036"/>
+		<display value="Agro-industriale"/>
+	</concept>
+	<concept>
+		<code value="40202037"/>
+		<display value="Navigazione aerea"/>
+	</concept>
+	<concept>
+		<code value="40202038"/>
+		<display value="Assistenza navigazione aerea"/>
+	</concept>
+	<concept>
+		<code value="40202039"/>
+		<display value="Arti grafiche"/>
+	</concept>
+	<concept>
+		<code value="40202040"/>
+		<display value="Economico aziendale amministrativo"/>
+	</concept>
+	<concept>
+		<code value="40202041"/>
+		<display value="Geometri"/>
+	</concept>
+	<concept>
+		<code value="40202042"/>
+		<display value="Linguistico"/>
+	</concept>
+	<concept>
+		<code value="40202043"/>
+		<display value="Scientifico"/>
+	</concept>
+	<concept>
+		<code value="40202044"/>
+		<display value="Tecnologico meccanico"/>
+	</concept>
+	<concept>
+		<code value="40202045"/>
+		<display value="Biologico sanitario"/>
+	</concept>
+	<concept>
+		<code value="40202046"/>
+		<display value="Ambiente"/>
+	</concept>
+	<concept>
+		<code value="40202047"/>
+		<display value="Area sistema moda"/>
+	</concept>
+	<concept>
+		<code value="40202048"/>
+		<display value="Tecnico  per l'abbigliamento"/>
+	</concept>
+	<concept>
+		<code value="40202999"/>
+		<display value="Altri diplomi di istruzione secondaria superiore ad indirizzo tecnico industriale"/>
+	</concept>
+	<concept>
+		<code value="40203000"/>
+		<display value="Diploma di istruzione secondaria superiore ad indirizzo tecnico nautico"/>
+	</concept>
+	<concept>
+		<code value="40203001"/>
+		<display value="Capitani"/>
+	</concept>
+	<concept>
+		<code value="40203002"/>
+		<display value="Macchinisti"/>
+	</concept>
+	<concept>
+		<code value="40203003"/>
+		<display value="Costruttori navali"/>
+	</concept>
+	<concept>
+		<code value="40203004"/>
+		<display value="Amministrativo"/>
+	</concept>
+	<concept>
+		<code value="40203005"/>
+		<display value="Mercantile"/>
+	</concept>
+	<concept>
+		<code value="40203006"/>
+		<display value="Geometri"/>
+	</concept>
+	<concept>
+		<code value="40203007"/>
+		<display value="Imprenditore marittimo"/>
+	</concept>
+	<concept>
+		<code value="40203008"/>
+		<display value="Trasporti marittimi"/>
+	</concept>
+	<concept>
+		<code value="40203009"/>
+		<display value="Tecnico  del mare"/>
+	</concept>
+	<concept>
+		<code value="40203999"/>
+		<display value="Altri diplomi di istruzione secondaria superiore ad indirizzo tecnico nautico"/>
+	</concept>
+	<concept>
+		<code value="40204000"/>
+		<display value="Diploma di istruzione secondaria superiore ad indirizzo tecnico aereonautico"/>
+	</concept>
+	<concept>
+		<code value="40204001"/>
+		<display value="Navigazione aerea"/>
+	</concept>
+	<concept>
+		<code value="40204002"/>
+		<display value="Assistenza navigazione aerea"/>
+	</concept>
+	<concept>
+		<code value="40204999"/>
+		<display value="Altri diplomi di istruzione secondaria superiore ad indirizzo tecnico aeronautico"/>
+	</concept>
+	<concept>
+		<code value="40205000"/>
+		<display value="Diploma di istruzione secondaria superiore ad indirizzo tecnico commerciale"/>
+	</concept>
+	<concept>
+		<code value="40205001"/>
+		<display value="Amministrativo"/>
+	</concept>
+	<concept>
+		<code value="40205002"/>
+		<display value="Mercantile"/>
+	</concept>
+	<concept>
+		<code value="40205003"/>
+		<display value="Programmatori"/>
+	</concept>
+	<concept>
+		<code value="40205004"/>
+		<display value="Commercio con l'estero"/>
+	</concept>
+	<concept>
+		<code value="40205005"/>
+		<display value="Amministrazione industriale"/>
+	</concept>
+	<concept>
+		<code value="40205006"/>
+		<display value="Mercantile per l'amministrazione Industriale"/>
+	</concept>
+	<concept>
+		<code value="40205007"/>
+		<display value="Arte della grafica pubblicitaria"/>
+	</concept>
+	<concept>
+		<code value="40205008"/>
+		<display value="Biologico chimico"/>
+	</concept>
+	<concept>
+		<code value="40205009"/>
+		<display value="Costruzioni"/>
+	</concept>
+	<concept>
+		<code value="40205010"/>
+		<display value="Economico aziendale amministrativo"/>
+	</concept>
+	<concept>
+		<code value="40205011"/>
+		<display value="Elettrotecnica ed automazione"/>
+	</concept>
+	<concept>
+		<code value="40205012"/>
+		<display value="Geometri"/>
+	</concept>
+	<concept>
+		<code value="40205013"/>
+		<display value="Giuridico economico aziendale"/>
+	</concept>
+	<concept>
+		<code value="40205014"/>
+		<display value="Informatico elettronico"/>
+	</concept>
+	<concept>
+		<code value="40205015"/>
+		<display value="Linguistico"/>
+	</concept>
+	<concept>
+		<code value="40205016"/>
+		<display value="Matematico scientifico"/>
+	</concept>
+	<concept>
+		<code value="40205017"/>
+		<display value="Periti aziendali corrispondenti in lingue estere"/>
+	</concept>
+	<concept>
+		<code value="40205018"/>
+		<display value="Scientifico"/>
+	</concept>
+	<concept>
+		<code value="40205019"/>
+		<display value="Dirigenti di comunità"/>
+	</concept>
+	<concept>
+		<code value="40205020"/>
+		<display value="Edile"/>
+	</concept>
+	<concept>
+		<code value="40205021"/>
+		<display value="Turismo"/>
+	</concept>
+	<concept>
+		<code value="40205022"/>
+		<display value="Psico- socio-pedagogico"/>
+	</concept>
+	<concept>
+		<code value="40205023"/>
+		<display value="Tecnologie telematiche multimediali"/>
+	</concept>
+	<concept>
+		<code value="40205999"/>
+		<display value="Altri diplomi di istruzione secondaria superiore ad indirizzo tecnico commerciale"/>
+	</concept>
+	<concept>
+		<code value="40206000"/>
+		<display value="Diploma di istruzione secondaria superiore ad indirizzo tecnico per geometri"/>
+	</concept>
+	<concept>
+		<code value="40206001"/>
+		<display value="Geometri"/>
+	</concept>
+	<concept>
+		<code value="40206002"/>
+		<display value="Amministrativo"/>
+	</concept>
+	<concept>
+		<code value="40206003"/>
+		<display value="Costruzioni"/>
+	</concept>
+	<concept>
+		<code value="40206004"/>
+		<display value="Giuridico economico aziendale"/>
+	</concept>
+	<concept>
+		<code value="40206005"/>
+		<display value="Programmatori"/>
+	</concept>
+	<concept>
+		<code value="40206006"/>
+		<display value="Edile"/>
+	</concept>
+	<concept>
+		<code value="40206999"/>
+		<display value="Altri diplomi di istruzione secondaria superiore ad indirizzo tecnico per geometri"/>
+	</concept>
+	<concept>
+		<code value="40207000"/>
+		<display value="Diploma di istruzione secondaria superiore ad indirizzo tecnico per il turismo"/>
+	</concept>
+	<concept>
+		<code value="40207001"/>
+		<display value="Turismo"/>
+	</concept>
+	<concept>
+		<code value="40207002"/>
+		<display value="Linguistico"/>
+	</concept>
+	<concept>
+		<code value="40207003"/>
+		<display value="Economico aziendale turistico"/>
+	</concept>
+	<concept>
+		<code value="40207999"/>
+		<display value="Altri diplomi di istruzione secondaria superiore ad indirizzo tecnico per il turismo"/>
+	</concept>
+	<concept>
+		<code value="40208000"/>
+		<display value="Diploma di istruzione secondaria superiore ad indirizzo perito aziendale e corrispondente in lingue estere"/>
+	</concept>
+	<concept>
+		<code value="40208001"/>
+		<display value="Linguistico aziendale turistico"/>
+	</concept>
+	<concept>
+		<code value="40208999"/>
+		<display value="Altri diplomi di istruzione secondaria superiore ad indirizzo perito aziendale e corrispondente in lingue estere"/>
+	</concept>
+	<concept>
+		<code value="40209000"/>
+		<display value="Diploma di istruzione secondaria superiore ad indirizzo tecnico femminile"/>
+	</concept>
+	<concept>
+		<code value="40209001"/>
+		<display value="Indirizzo generale"/>
+	</concept>
+	<concept>
+		<code value="40209002"/>
+		<display value="Econome dietiste"/>
+	</concept>
+	<concept>
+		<code value="40209003"/>
+		<display value="Dirigenti di comunità"/>
+	</concept>
+	<concept>
+		<code value="40209004"/>
+		<display value="Tecnico dei servizi sociali"/>
+	</concept>
+	<concept>
+		<code value="40209005"/>
+		<display value="Linguistico"/>
+	</concept>
+	<concept>
+		<code value="40209006"/>
+		<display value="Periti aziendali corrispondenti in lingue estere"/>
+	</concept>
+	<concept>
+		<code value="40209007"/>
+		<display value="Biologico chimico"/>
+	</concept>
+	<concept>
+		<code value="40209008"/>
+		<display value="Scientifico"/>
+	</concept>
+	<concept>
+		<code value="40209009"/>
+		<display value="Psico- socio-pedagogico"/>
+	</concept>
+	<concept>
+		<code value="40209010"/>
+		<display value="Giuridico economico aziendale"/>
+	</concept>
+	<concept>
+		<code value="40209011"/>
+		<display value="Nuove opportunità integrate"/>
+	</concept>
+	<concept>
+		<code value="40209012"/>
+		<display value="Salute"/>
+	</concept>
+	<concept>
+		<code value="40209999"/>
+		<display value="Altri diplomi di istruzione secondaria superiore ad indirizzo tecnico femminile e per attività sociali"/>
+	</concept>
+	<concept>
+		<code value="40300000"/>
+		<display value="ISTRUZIONE MAGISTRALE"/>
+	</concept>
+	<concept>
+		<code value="40301000"/>
+		<display value="Diploma di istruzione secondaria superiore di Scuola magistrale"/>
+	</concept>
+	<concept>
+		<code value="40301001"/>
+		<display value="Assistente comunità infantile"/>
+	</concept>
+	<concept>
+		<code value="40301002"/>
+		<display value="Tecnico servizi sociali"/>
+	</concept>
+	<concept>
+		<code value="30104000"/>
+		<display value="Diploma di qualifica di istituto professionale per il commercio"/>
+	</concept>
+	<concept>
+		<code value="30104001"/>
+		<display value="Accompagnatore turistico"/>
+	</concept>
+	<concept>
+		<code value="30104002"/>
+		<display value="Addetto uffici assicurativi"/>
+	</concept>
+	<concept>
+		<code value="30104003"/>
+		<display value="Addetto uffici turistici"/>
+	</concept>
+	<concept>
+		<code value="30104004"/>
+		<display value="Addetto conservazione distribuzione prodotti alimentari"/>
+	</concept>
+	<concept>
+		<code value="30104005"/>
+		<display value="Addetto contabilità azienda"/>
+	</concept>
+	<concept>
+		<code value="30104006"/>
+		<display value="Addetto segreteria azienda"/>
+	</concept>
+	<concept>
+		<code value="30104007"/>
+		<display value="Addetto aziende spedizione trasporto"/>
+	</concept>
+	<concept>
+		<code value="30104008"/>
+		<display value="Applicati servizi amm.vi"/>
+	</concept>
+	<concept>
+		<code value="30104009"/>
+		<display value="Centralinista telefonico"/>
+	</concept>
+	<concept>
+		<code value="30104010"/>
+		<display value="Operatore ai servizi di cucina"/>
+	</concept>
+	<concept>
+		<code value="30104011"/>
+		<display value="Operatore ai servizi di sala bar"/>
+	</concept>
+	<concept>
+		<code value="30104012"/>
+		<display value="Operatore ai servizi di segreteria ricevimento"/>
+	</concept>
+	<concept>
+		<code value="30104013"/>
+		<display value="Operatore alla gestione aziendale"/>
+	</concept>
+	<concept>
+		<code value="30104014"/>
+		<display value="Operatore dell'impresa turistica"/>
+	</concept>
+	<concept>
+		<code value="30104015"/>
+		<display value="Stenodattilografo"/>
+	</concept>
+	<concept>
+		<code value="30104999"/>
+		<display value="Altre qualifiche di istituto professionale per il commercio"/>
+	</concept>
+	<concept>
+		<code value="30105000"/>
+		<display value="Diploma di qualifica di istituto professionale alberghiero"/>
+	</concept>
+	<concept>
+		<code value="30105001"/>
+		<display value="Addetto ai servizi alberghieri di cucina"/>
+	</concept>
+	<concept>
+		<code value="30105002"/>
+		<display value="Addetto servizi alberghieri sala e bar"/>
+	</concept>
+	<concept>
+		<code value="30105003"/>
+		<display value="Addetto alla portineria d'albergo"/>
+	</concept>
+	<concept>
+		<code value="30105004"/>
+		<display value="Addetto segreteria amministrazione d'albergo"/>
+	</concept>
+	<concept>
+		<code value="30105005"/>
+		<display value="Operatore servizi ristorazione (cucina)"/>
+	</concept>
+	<concept>
+		<code value="30105006"/>
+		<display value="Operatore servizi ristorazione (sala bar)"/>
+	</concept>
+	<concept>
+		<code value="30105007"/>
+		<display value="Operatore dei servizi di ricevimento"/>
+	</concept>
+	<concept>
+		<code value="30105999"/>
+		<display value="Altre qualifiche di istituto professionale alberghiero"/>
+	</concept>
+	<concept>
+		<code value="30106000"/>
+		<display value="Diploma di qualifica di istituto professionale femminile/per i servizi sociali"/>
+	</concept>
+	<concept>
+		<code value="30106001"/>
+		<display value="Addetta agli uffici del settore pubblicitario"/>
+	</concept>
+	<concept>
+		<code value="30106002"/>
+		<display value="Addetta agli uffici per l'architettura e l'arredamento"/>
+	</concept>
+	<concept>
+		<code value="30106003"/>
+		<display value="Addetta ai servizi ausiliari di alberghi e pensioni"/>
+	</concept>
+	<concept>
+		<code value="30106004"/>
+		<display value="Addetta ai servizi di assistenza familiare e sociale"/>
+	</concept>
+	<concept>
+		<code value="30106005"/>
+		<display value="Addetta alla vendita e alla vetrina"/>
+	</concept>
+	<concept>
+		<code value="30106006"/>
+		<display value="Assistente per l'infanzia"/>
+	</concept>
+	<concept>
+		<code value="30106007"/>
+		<display value="Cosmetista estetista"/>
+	</concept>
+	<concept>
+		<code value="30106008"/>
+		<display value="Disegnatrice grafico pubblicitaria"/>
+	</concept>
+	<concept>
+		<code value="30106009"/>
+		<display value="Figurinista"/>
+	</concept>
+	<concept>
+		<code value="30106010"/>
+		<display value="Maglierista"/>
+	</concept>
+	<concept>
+		<code value="30106011"/>
+		<display value="Preparatrice di laboratorio chimico biologico"/>
+	</concept>
+	<concept>
+		<code value="30106012"/>
+		<display value="Sarta per donna e bambini"/>
+	</concept>
+	<concept>
+		<code value="30106013"/>
+		<display value="Operatore dei servizi sociali"/>
+	</concept>
+	<concept>
+		<code value="30106014"/>
+		<display value="Modellista confezionista"/>
+	</concept>
+	<concept>
+		<code value="30106015"/>
+		<display value="Operatore grafico pubblicitario"/>
+	</concept>
+	<concept>
+		<code value="30106999"/>
+		<display value="Altre qualifiche di istituto professionale femminile"/>
+	</concept>
+	<concept>
+		<code value="30301000"/>
+		<display value="DIPLOMA DI ABILITAZIONE ALL'INSEGNAMENTO NELLA SCUOLA MATERNA"/>
+	</concept>
+	<concept>
+		<code value="30600000"/>
+		<display value="ISTRUZIONE ARTISTICA"/>
+	</concept>
+	<concept>
+		<code value="30601000"/>
+		<display value="LICENZA DI MAESTRO D'ARTE"/>
+	</concept>
+	<concept>
+		<code value="30601001"/>
+		<display value="Arte dei metalli"/>
+	</concept>
+	<concept>
+		<code value="30601002"/>
+		<display value="Arte dei metalli ed orificeria"/>
+	</concept>
+	<concept>
+		<code value="30601003"/>
+		<display value="Arte dei rivestimenti ceramici edilizi"/>
+	</concept>
+	<concept>
+		<code value="30601004"/>
+		<display value="Arte dell'alabastro"/>
+	</concept>
+	<concept>
+		<code value="30601005"/>
+		<display value="Arte della ceramica"/>
+	</concept>
+	<concept>
+		<code value="30601006"/>
+		<display value="Arte grafica pubblicitaria e fotografia"/>
+	</concept>
+	<concept>
+		<code value="30601007"/>
+		<display value="Arte della porcellana"/>
+	</concept>
+	<concept>
+		<code value="30601008"/>
+		<display value="Arte dell'arredamento"/>
+	</concept>
+	<concept>
+		<code value="30601009"/>
+		<display value="Arte della stampa"/>
+	</concept>
+	<concept>
+		<code value="30601010"/>
+		<display value="Arte del corallo"/>
+	</concept>
+	<concept>
+		<code value="30601011"/>
+		<display value="Arte del gres"/>
+	</concept>
+	<concept>
+		<code value="30601012"/>
+		<display value="Arte del legno"/>
+	</concept>
+	<concept>
+		<code value="30601013"/>
+		<display value="Arte del legno e restauro del mobile antico"/>
+	</concept>
+	<concept>
+		<code value="30601014"/>
+		<display value="Arte del merletto e ricamo"/>
+	</concept>
+	<concept>
+		<code value="30601015"/>
+		<display value="Arte del mobile"/>
+	</concept>
+	<concept>
+		<code value="30601016"/>
+		<display value="Arte del mosaico"/>
+	</concept>
+	<concept>
+		<code value="30601017"/>
+		<display value="Arte del tessuto"/>
+	</concept>
+	<concept>
+		<code value="30601018"/>
+		<display value="Arte del vetro"/>
+	</concept>
+	<concept>
+		<code value="30601019"/>
+		<display value="Arte del vetro e cristallo"/>
+	</concept>
+	<concept>
+		<code value="30601020"/>
+		<display value="Arte delle pietre dure"/>
+	</concept>
+	<concept>
+		<code value="30601021"/>
+		<display value="Arte pubblicitaria"/>
+	</concept>
+	<concept>
+		<code value="30601022"/>
+		<display value="Arti grafiche"/>
+	</concept>
+	<concept>
+		<code value="30601023"/>
+		<display value="Calcografia"/>
+	</concept>
+	<concept>
+		<code value="30601024"/>
+		<display value="Comunicazioni visive"/>
+	</concept>
+	<concept>
+		<code value="30601025"/>
+		<display value="Decorazione pittorica"/>
+	</concept>
+	<concept>
+		<code value="30601026"/>
+		<display value="Decorazione plastica"/>
+	</concept>
+	<concept>
+		<code value="30601027"/>
+		<display value="Design per ambiente"/>
+	</concept>
+	<concept>
+		<code value="30601028"/>
+		<display value="Disegnatori d'architettura"/>
+	</concept>
+	<concept>
+		<code value="30601029"/>
+		<display value="Disegnatori architettura e arredamento"/>
+	</concept>
+	<concept>
+		<code value="30601030"/>
+		<display value="Disegno animato"/>
+	</concept>
+	<concept>
+		<code value="30601031"/>
+		<display value="Arte della Fotografia"/>
+	</concept>
+	<concept>
+		<code value="30601032"/>
+		<display value="Litografia"/>
+	</concept>
+	<concept>
+		<code value="30601033"/>
+		<display value="Arte della Moda e costume"/>
+	</concept>
+	<concept>
+		<code value="30601034"/>
+		<display value="Oreficeria"/>
+	</concept>
+	<concept>
+		<code value="30601035"/>
+		<display value="Restauro ceramico"/>
+	</concept>
+	<concept>
+		<code value="30601036"/>
+		<display value="Rilegatura artistica e restauro del libro"/>
+	</concept>
+	<concept>
+		<code value="30601037"/>
+		<display value="Scenotecnica"/>
+	</concept>
+	<concept>
+		<code value="30601038"/>
+		<display value="Tecnologia ceramica"/>
+	</concept>
+	<concept>
+		<code value="30601039"/>
+		<display value="Xilografia"/>
+	</concept>
+	<concept>
+		<code value="30601040"/>
+		<display value="Operatore di liuteria"/>
+	</concept>
+	<concept>
+		<code value="30601999"/>
+		<display value="Altre licenze di maestro d'arte"/>
+	</concept>
+	<concept>
+		<code value="30606000"/>
+		<display value="DIPLOMA DI CONSERVATORIO MUSICALE"/>
+	</concept>
+	<concept>
+		<code value="30606001"/>
+		<display value="Arpa"/>
+	</concept>
+	<concept>
+		<code value="30606002"/>
+		<display value="Basso tuba"/>
+	</concept>
+	<concept>
+		<code value="30606003"/>
+		<display value="Biblioteconomia e bibliografia musicale"/>
+	</concept>
+	<concept>
+		<code value="30606004"/>
+		<display value="Canto"/>
+	</concept>
+	<concept>
+		<code value="30606005"/>
+		<display value="Chitarra"/>
+	</concept>
+	<concept>
+		<code value="30606006"/>
+		<display value="Clarinetto"/>
+	</concept>
+	<concept>
+		<code value="30606007"/>
+		<display value="Clavicembalo, clavicordo e fortepiano"/>
+	</concept>
+	<concept>
+		<code value="30606008"/>
+		<display value="Composizione"/>
+	</concept>
+	<concept>
+		<code value="30606009"/>
+		<display value="Contrabbasso"/>
+	</concept>
+	<concept>
+		<code value="30606010"/>
+		<display value="Corno"/>
+	</concept>
+	<concept>
+		<code value="30606011"/>
+		<display value="Didattica della Musica"/>
+	</concept>
+	<concept>
+		<code value="30606012"/>
+		<display value="Direzione d'Orchestra"/>
+	</concept>
+	<concept>
+		<code value="30606013"/>
+		<display value="Fagotto"/>
+	</concept>
+	<concept>
+		<code value="30606014"/>
+		<display value="Fisarmonica"/>
+	</concept>
+	<concept>
+		<code value="30606015"/>
+		<display value="Flauto"/>
+	</concept>
+	<concept>
+		<code value="30606016"/>
+		<display value="Flauto dolce"/>
+	</concept>
+	<concept>
+		<code value="30606017"/>
+		<display value="Jazz"/>
+	</concept>
+	<concept>
+		<code value="30606018"/>
+		<display value="Lettura della partitura"/>
+	</concept>
+	<concept>
+		<code value="30606019"/>
+		<display value="Lied ed oratorio"/>
+	</concept>
+	<concept>
+		<code value="30606020"/>
+		<display value="Liuto"/>
+	</concept>
+	<concept>
+		<code value="30606021"/>
+		<display value="Maestro sostituto collaboratore"/>
+	</concept>
+	<concept>
+		<code value="30606022"/>
+		<display value="Mandolino"/>
+	</concept>
+	<concept>
+		<code value="30606023"/>
+		<display value="Musica corale e direzione coro"/>
+	</concept>
+	<concept>
+		<code value="30606024"/>
+		<display value="Musica da camera"/>
+	</concept>
+	<concept>
+		<code value="30606025"/>
+		<display value="Musica elettronica"/>
+	</concept>
+	<concept>
+		<code value="30606026"/>
+		<display value="Musica vocale da camera"/>
+	</concept>
+	<concept>
+		<code value="30606027"/>
+		<display value="Musicologia"/>
+	</concept>
+	<concept>
+		<code value="30606028"/>
+		<display value="Oboe"/>
+	</concept>
+	<concept>
+		<code value="30606029"/>
+		<display value="Organo e composizione organistica"/>
+	</concept>
+	<concept>
+		<code value="30606030"/>
+		<display value="Pianoforte"/>
+	</concept>
+	<concept>
+		<code value="30606031"/>
+		<display value="Prepolifonia"/>
+	</concept>
+	<concept>
+		<code value="30606032"/>
+		<display value="Saxofono"/>
+	</concept>
+	<concept>
+		<code value="30606033"/>
+		<display value="Strumentazione per banda"/>
+	</concept>
+	<concept>
+		<code value="30606034"/>
+		<display value="Strumenti a percussione"/>
+	</concept>
+	<concept>
+		<code value="30606035"/>
+		<display value="Teoria della musica"/>
+	</concept>
+	<concept>
+		<code value="30606036"/>
+		<display value="Tromba e trombone"/>
+	</concept>
+	<concept>
+		<code value="30606037"/>
+		<display value="Viola"/>
+	</concept>
+	<concept>
+		<code value="30606038"/>
+		<display value="Viola da gamba"/>
+	</concept>
+	<concept>
+		<code value="30606039"/>
+		<display value="Violino"/>
+	</concept>
+	<concept>
+		<code value="30606040"/>
+		<display value="Violoncello"/>
+	</concept>
+	<concept>
+		<code value="30606999"/>
+		<display value="Altri diplomi di Conservatorio e Istituto musicale pareggiato"/>
+	</concept>
+	<concept>
+		<code value="30607000"/>
+		<display value="DIPLOMA DI DANZATORE"/>
+	</concept>
+	<concept>
+		<code value="30999999"/>
+		<display value="Altri titoli di istruzione secondaria superiore (scolastica ed extra-scolastica) che non permettono l'accesso all'università"/>
+	</concept>
+	<concept>
+		<code value="40000000"/>
+		<display value="DIPLOMA DI ISTRUZIONE SECONDARIA SUPERIORE  CHE PERMETTE L'ACCESSO ALL'UNIVERSITA'"/>
+	</concept>
+	<concept>
+		<code value="40100000"/>
+		<display value="DIPLOMA DI ISTRUZIONE SECONDARIA SUPERIORE AD INDIRIZZO PROFESSIONALE"/>
+	</concept>
+	<concept>
+		<code value="40101000"/>
+		<display value="Diploma di istruzione secondaria superiore ad indirizzo professionale agrario"/>
+	</concept>
+	<concept>
+		<code value="40101001"/>
+		<display value="Agrotecnico"/>
+	</concept>
+	<concept>
+		<code value="40101002"/>
+		<display value="Tecnico chimico e biologo"/>
+	</concept>
+	<concept>
+		<code value="40101003"/>
+		<display value="Tecnico gestione aziendale"/>
+	</concept>
+	<concept>
+		<code value="40101004"/>
+		<display value="Tecnico servizi ristorazione e servizi turistici"/>
+	</concept>
+	<concept>
+		<code value="40101999"/>
+		<display value="Altri diplomi di istruzione secondaria superiore ad indirizzo professionale agrario"/>
+	</concept>
+	<concept>
+		<code value="40102000"/>
+		<display value="Diploma di istruzione secondaria superiore ad indirizzo professionale per l'industria e l'artigianato"/>
+	</concept>
+	<concept>
+		<code value="40102001"/>
+		<display value="Chimico industrie ceramiche"/>
+	</concept>
+	<concept>
+		<code value="40102002"/>
+		<display value="Odontotecnico"/>
+	</concept>
+	<concept>
+		<code value="40102003"/>
+		<display value="Ottico"/>
+	</concept>
+	<concept>
+		<code value="40102004"/>
+		<display value="Tecnica della grafica pubblicitaria"/>
+	</concept>
+	<concept>
+		<code value="40102005"/>
+		<display value="Tecnico cinema televisione"/>
+	</concept>
+	<concept>
+		<code value="40106004"/>
+		<display value="Tecnico dei sistemi energetici"/>
+	</concept>
+	<concept>
+		<code value="40106005"/>
+		<display value="Tecnico abbigliamento e moda"/>
+	</concept>
+	<concept>
+		<code value="40106006"/>
+		<display value="Tecnico delle industrie elettriche ed elettroniche"/>
+	</concept>
+	<concept>
+		<code value="40106007"/>
+		<display value="Tecnico gestione aziendale"/>
+	</concept>
+	<concept>
+		<code value="40106008"/>
+		<display value="Tecnico servizi ristorazione e servizi turistici"/>
+	</concept>
+	<concept>
+		<code value="40106009"/>
+		<display value="Tecnico servizi sociali"/>
+	</concept>
+	<concept>
+		<code value="40106010"/>
+		<display value="Tecnico chimico e biologico"/>
+	</concept>
+	<concept>
+		<code value="40106011"/>
+		<display value="Tecnico della grafica pubblicitaria"/>
+	</concept>
+	<concept>
+		<code value="40106999"/>
+		<display value="Altri diplomi di istruzione secondaria superiore ad indirizzo professionale femminile"/>
+	</concept>
+	<concept>
+		<code value="40107000"/>
+		<display value="Diploma di istruzione secondaria superiore ad indirizzo professionale cinematografia e televisione"/>
+	</concept>
+	<concept>
+		<code value="40108000"/>
+		<display value="Diploma di istruzione secondaria superiore ad indirizzo professionale per l'industria edile"/>
+	</concept>
+	<concept>
+		<code value="40108001"/>
+		<display value="Tecnica della grafica pubblicitaria"/>
+	</concept>
+	<concept>
+		<code value="40108002"/>
+		<display value="Tecnico dei sistemi energetici"/>
+	</concept>
+	<concept>
+		<code value="40108003"/>
+		<display value="Tecnico delle industrie elettriche ed elettroniche"/>
+	</concept>
+	<concept>
+		<code value="40108999"/>
+		<display value="Altri diplomi di istruzione secondaria superiore ad indirizzo professionale edile"/>
+	</concept>
+	<concept>
+		<code value="40200000"/>
+		<display value="DIPLOMA DI ISTRUZIONE SECONDARIA SUPERIORE AD INDIRIZZO TECNICO"/>
+	</concept>
+	<concept>
+		<code value="40201000"/>
+		<display value="Diploma di istruzione secondaria superiore ad indirizzo tecnico agrario"/>
+	</concept>
+	<concept>
+		<code value="40201001"/>
+		<display value="Indirizzo generale"/>
+	</concept>
+	<concept>
+		<code value="40201002"/>
+		<display value="Viticoltura ed enologia"/>
+	</concept>
+	<concept>
+		<code value="40201003"/>
+		<display value="Cerere Unitario-Moduli vari"/>
+	</concept>
+	<concept>
+		<code value="40201004"/>
+		<display value="Progetto Brocca"/>
+	</concept>
+	<concept>
+		<code value="40201005"/>
+		<display value="Agro ambientale, industriale, territoriale"/>
+	</concept>
+	<concept>
+		<code value="50604003"/>
+		<display value="Progettazione e tecnologia ceramica"/>
+	</concept>
+	<concept>
+		<code value="50604999"/>
+		<display value="Altri diplomi di istituto superiore di industrie artistiche"/>
+	</concept>
+	<concept>
+		<code value="50605000"/>
+		<display value="Diploma di Accademia nazionale di arte drammatica"/>
+	</concept>
+	<concept>
+		<code value="50605001"/>
+		<display value="Recitazione teatrale"/>
+	</concept>
+	<concept>
+		<code value="50605002"/>
+		<display value="Regia teatrale"/>
+	</concept>
+	<concept>
+		<code value="50605003"/>
+		<display value="Pedagogia e didattica del teatro"/>
+	</concept>
+	<concept>
+		<code value="50605999"/>
+		<display value="Altri diplomi di Accademia nazionale di arte drammatica"/>
+	</concept>
+	<concept>
+		<code value="50606000"/>
+		<display value="Diploma di Conservatorio musicale e Istituto musicale pareggiato"/>
+	</concept>
+	<concept>
+		<code value="50606001"/>
+		<display value="Arpa"/>
+	</concept>
+	<concept>
+		<code value="50606002"/>
+		<display value="Basso tuba"/>
+	</concept>
+	<concept>
+		<code value="50606003"/>
+		<display value="Biblioteconomia e bibliografia musicale"/>
+	</concept>
+	<concept>
+		<code value="50606004"/>
+		<display value="Canto"/>
+	</concept>
+	<concept>
+		<code value="50606005"/>
+		<display value="Chitarra"/>
+	</concept>
+	<concept>
+		<code value="50606006"/>
+		<display value="Clarinetto"/>
+	</concept>
+	<concept>
+		<code value="50606007"/>
+		<display value="Clavicembalo, clavicordo e fortepiano"/>
+	</concept>
+	<concept>
+		<code value="50606008"/>
+		<display value="Composizione"/>
+	</concept>
+	<concept>
+		<code value="50606009"/>
+		<display value="Contrabbasso"/>
+	</concept>
+	<concept>
+		<code value="50606010"/>
+		<display value="Corno"/>
+	</concept>
+	<concept>
+		<code value="50606011"/>
+		<display value="Didattica della Musica"/>
+	</concept>
+	<concept>
+		<code value="50606012"/>
+		<display value="Direzione d'Orchestra"/>
+	</concept>
+	<concept>
+		<code value="50606013"/>
+		<display value="Fagotto"/>
+	</concept>
+	<concept>
+		<code value="50606014"/>
+		<display value="Fisarmonica"/>
+	</concept>
+	<concept>
+		<code value="50606015"/>
+		<display value="Flauto"/>
+	</concept>
+	<concept>
+		<code value="50606016"/>
+		<display value="Flauto dolce"/>
+	</concept>
+	<concept>
+		<code value="50606017"/>
+		<display value="Jazz"/>
+	</concept>
+	<concept>
+		<code value="50606018"/>
+		<display value="Lettura della partitura - Scuola sperimentale"/>
+	</concept>
+	<concept>
+		<code value="50606019"/>
+		<display value="Lied ed oratorio"/>
+	</concept>
+	<concept>
+		<code value="50606020"/>
+		<display value="Liuto"/>
+	</concept>
+	<concept>
+		<code value="50606021"/>
+		<display value="Maestro sostituto collaboratore"/>
+	</concept>
+	<concept>
+		<code value="50606022"/>
+		<display value="Mandolino"/>
+	</concept>
+	<concept>
+		<code value="50606023"/>
+		<display value="Musica corale e direzione coro"/>
+	</concept>
+	<concept>
+		<code value="50606024"/>
+		<display value="Musica da camera - Scuola sperimentale"/>
+	</concept>
+	<concept>
+		<code value="50606025"/>
+		<display value="Musica elettronica"/>
+	</concept>
+	<concept>
+		<code value="50606026"/>
+		<display value="Musica vocale da camera"/>
+	</concept>
+	<concept>
+		<code value="50606027"/>
+		<display value="Musicologia"/>
+	</concept>
+	<concept>
+		<code value="50606028"/>
+		<display value="Oboe"/>
+	</concept>
+	<concept>
+		<code value="50606029"/>
+		<display value="Organo e composizione organistica"/>
+	</concept>
+	<concept>
+		<code value="50606030"/>
+		<display value="Pianoforte"/>
+	</concept>
+	<concept>
+		<code value="50606031"/>
+		<display value="Prepolifonia"/>
+	</concept>
+	<concept>
+		<code value="50606032"/>
+		<display value="Saxofono"/>
+	</concept>
+	<concept>
+		<code value="50606033"/>
+		<display value="Strumentazione per banda"/>
+	</concept>
+	<concept>
+		<code value="50606034"/>
+		<display value="Strumenti a percussione"/>
+	</concept>
+	<concept>
+		<code value="50606035"/>
+		<display value="Teoria della musica"/>
+	</concept>
+	<concept>
+		<code value="50606036"/>
+		<display value="Tromba e trombone"/>
+	</concept>
+	<concept>
+		<code value="50606037"/>
+		<display value="Viola"/>
+	</concept>
+	<concept>
+		<code value="50606038"/>
+		<display value="Viola da gamba"/>
+	</concept>
+	<concept>
+		<code value="50606039"/>
+		<display value="Violino"/>
+	</concept>
+	<concept>
+		<code value="50606040"/>
+		<display value="Violoncello"/>
+	</concept>
+	<concept>
+		<code value="50606041"/>
+		<display value="Discipline musicali"/>
+	</concept>
+	<concept>
+		<code value="50606999"/>
+		<display value="Altri diplomi di Conservatorio e Istituto musicale pareggiato"/>
+	</concept>
+	<concept>
+		<code value="50607000"/>
+		<display value="Diploma di perfezionamento accademia di danza"/>
+	</concept>
+	<concept>
+		<code value="50607001"/>
+		<display value="Insegnante di danza"/>
+	</concept>
+	<concept>
+		<code value="50607002"/>
+		<display value="Solista di danza"/>
+	</concept>
+	<concept>
+		<code value="50607003"/>
+		<display value="Compositore di danza"/>
+	</concept>
+	<concept>
+		<code value="50607999"/>
+		<display value="Altri diplomi di Accademia di danza"/>
+	</concept>
+	<concept>
+		<code value="50700000"/>
+		<display value="DIPLOMA DI SCUOLA SUPERIORE PER INTERPRETE E TRADUTTORE"/>
+	</concept>
+	<concept>
+		<code value="50700001"/>
+		<display value="Diploma di interprete e traduttore"/>
+	</concept>
+	<concept>
+		<code value="50700002"/>
+		<display value="Diploma di interprete"/>
+	</concept>
+	<concept>
+		<code value="50700003"/>
+		<display value="Diploma di traduttore"/>
+	</concept>
+	<concept>
+		<code value="50700999"/>
+		<display value="Altri diplomi di scuola per interprete e treduttore"/>
+	</concept>
+	<concept>
+		<code value="50800000"/>
+		<display value="DIPLOMA DI SCUOLA DI ARCHIVISTICA PALEOGRAFIA E DIPLOMATICA"/>
+	</concept>
+	<concept>
+		<code value="50999999"/>
+		<display value="Altri diplomi terziari extra-universitari"/>
+	</concept>
+	<concept>
+		<code value="60000000"/>
+		<display value="DIPLOMA UNIVERSITARIO"/>
+	</concept>
+	<concept>
+		<code value="60001000"/>
+		<display value="Gruppo scientifico"/>
+	</concept>
+	<concept>
+		<code value="60001001"/>
+		<display value="Matematica"/>
+	</concept>
+	<concept>
+		<code value="60001002"/>
+		<display value="Metodologie fisiche"/>
+	</concept>
+	<concept>
+		<code value="60001003"/>
+		<display value="Scienza dei materiali"/>
+	</concept>
+	<concept>
+		<code value="60001004"/>
+		<display value="Informatica"/>
+	</concept>
+	<concept>
+		<code value="60001005"/>
+		<display value="Ottica tecnica"/>
+	</concept>
+	<concept>
+		<code value="60001006"/>
+		<display value="Gestione dei rischi naturali"/>
+	</concept>
+	<concept>
+		<code value="60001007"/>
+		<display value="Scienza dei media e della comunicazione"/>
+	</concept>
+	<concept>
+		<code value="60001008"/>
+		<display value="Informatica"/>
+	</concept>
+	<concept>
+		<code value="60001999"/>
+		<display value="Altri diplomi del gruppo scientifico"/>
+	</concept>
+	<concept>
+		<code value="60002000"/>
+		<display value="Gruppo chimico farmaceutico"/>
+	</concept>
+	<concept>
+		<code value="60002001"/>
+		<display value="Chimica"/>
+	</concept>
+	<concept>
+		<code value="60002002"/>
+		<display value="Scienze e tecniche cartarie"/>
+	</concept>
+	<concept>
+		<code value="60002003"/>
+		<display value="Tecniche erboristiche"/>
+	</concept>
+	<concept>
+		<code value="60002004"/>
+		<display value="Controllo di qualità nel settore industriale farmaceutico"/>
+	</concept>
+	<concept>
+		<code value="60002005"/>
+		<display value="Informazione scientifica sul farmaco"/>
+	</concept>
+	<concept>
+		<code value="60002006"/>
+		<display value="Tecnologie farmaceutiche"/>
+	</concept>
+	<concept>
+		<code value="60002007"/>
+		<display value="Analisi chimico biologiche"/>
+	</concept>
+	<concept>
+		<code value="60002008"/>
+		<display value="Erboristeria"/>
+	</concept>
+	<concept>
+		<code value="60002009"/>
+		<display value="Scienze e tecniche cartarie"/>
+	</concept>
+	<concept>
+		<code value="60002999"/>
+		<display value="Altri diplomi del gruppo chimico farmaceutico"/>
+	</concept>
+	<concept>
+		<code value="60003000"/>
+		<display value="Gruppo geo-biologico"/>
+	</concept>
+	<concept>
+		<code value="60003001"/>
+		<display value="Valutazione e controllo ambientale"/>
+	</concept>
+	<concept>
+		<code value="60003002"/>
+		<display value="Tecnico dello sviluppo ecocompatibile"/>
+	</concept>
+	<concept>
+		<code value="60003003"/>
+		<display value="Geologo"/>
+	</concept>
+	<concept>
+		<code value="60003004"/>
+		<display value="Biotecnologie"/>
+	</concept>
+	<concept>
+		<code value="60003005"/>
+		<display value="Biologia"/>
+	</concept>
+	<concept>
+		<code value="60003006"/>
+		<display value="Geologo &quot;Tecnico del monitoraggio geoambientale&quot;"/>
+	</concept>
+	<concept>
+		<code value="60003007"/>
+		<display value="Operatore tecnico ambientale"/>
+	</concept>
+	<concept>
+		<code value="60003008"/>
+		<display value="Scienze ambientali"/>
+	</concept>
+	<concept>
+		<code value="60003009"/>
+		<display value="Prospettore geologico"/>
+	</concept>
+	<concept>
+		<code value="60003010"/>
+		<display value="Biotecnologie industriali"/>
+	</concept>
+	<concept>
+		<code value="60003011"/>
+		<display value="Geologia per la protezione dell'ambiente"/>
+	</concept>
+	<concept>
+		<code value="60003012"/>
+		<display value="Geologia e sismologia"/>
+	</concept>
+	<concept>
+		<code value="60003013"/>
+		<display value="Tecnici in biologia del mare"/>
+	</concept>
+	<concept>
+		<code value="60003999"/>
+		<display value="Altri diplomi del gruppo geo biologico"/>
+	</concept>
+	<concept>
+		<code value="60004000"/>
+		<display value="Gruppo medico"/>
+	</concept>
+	<concept>
+		<code value="60004001"/>
+		<display value="Dietologia e dietetica applicata"/>
+	</concept>
+	<concept>
+		<code value="60004002"/>
+		<display value="Fisioterapista"/>
+	</concept>
+	<concept>
+		<code value="60004003"/>
+		<display value="Igienista dentale"/>
+	</concept>
+	<concept>
+		<code value="60004004"/>
+		<display value="Logopedia"/>
+	</concept>
+	<concept>
+		<code value="60004005"/>
+		<display value="Ortottista ed assistente in oftalmologia"/>
+	</concept>
+	<concept>
+		<code value="60004006"/>
+		<display value="Ostetrica/o"/>
+	</concept>
+	<concept>
+		<code value="60004007"/>
+		<display value="Podologo"/>
+	</concept>
+	<concept>
+		<code value="60004008"/>
+		<display value="Riabilitazione psichiatrica e psicosociale"/>
+	</concept>
+	<concept>
+		<code value="60004009"/>
+		<display value="Scienze infermieristiche"/>
+	</concept>
+	<concept>
+		<code value="60004010"/>
+		<display value="Tecnico di neurofisiopatologia"/>
+	</concept>
+	<concept>
+		<code value="60004011"/>
+		<display value="Tecnico di audiometria ed audioprotesi"/>
+	</concept>
+	<concept>
+		<code value="60004012"/>
+		<display value="Tecnico di laboratorio biomedico"/>
+	</concept>
+	<concept>
+		<code value="60004013"/>
+		<display value="Tecnico sanitario di radiologia medica"/>
+	</concept>
+	<concept>
+		<code value="60004014"/>
+		<display value="Terapista della riabilitazione della neuro e psicomotricità dell'età evolutiva"/>
+	</concept>
+	<concept>
+		<code value="60004015"/>
+		<display value="Terapista della riabilitazione"/>
+	</concept>
+	<concept>
+		<code value="60004016"/>
+		<display value="Tecnico ortopedico"/>
+	</concept>
+	<concept>
+		<code value="60004017"/>
+		<display value="Tecnico audiometrista"/>
+	</concept>
+	<concept>
+		<code value="60004018"/>
+		<display value="Tecnico audioprotesista"/>
+	</concept>
+	<concept>
+		<code value="60004019"/>
+		<display value="Dietista"/>
+	</concept>
+	<concept>
+		<code value="60004020"/>
+		<display value="Tecnico sanitario di laboratorio biomedico"/>
+	</concept>
+	<concept>
+		<code value="60004021"/>
+		<display value="Informatori medico scientifici"/>
+	</concept>
+	<concept>
+		<code value="60004022"/>
+		<display value="Infermiere"/>
+	</concept>
+	<concept>
+		<code value="60004023"/>
+		<display value="Logopedista"/>
+	</concept>
+	<concept>
+		<code value="60004024"/>
+		<display value="Tecnici in biotecnologie"/>
+	</concept>
+	<concept>
+		<code value="60004025"/>
+		<display value="Terapista della neuro e psicomotricità dell'età evolutiva"/>
+	</concept>
+	<concept>
+		<code value="60004026"/>
+		<display value="Tecnico di igiene ambientale e del lavoro"/>
+	</concept>
+	<concept>
+		<code value="60004027"/>
+		<display value="Tecnico dell'educazione e della riabilitazione psichiatrica e psicosociale"/>
+	</concept>
+	<concept>
+		<code value="60004028"/>
+		<display value="Disegno anatomico"/>
+	</concept>
+	<concept>
+		<code value="60004029"/>
+		<display value="Tecnico sanitario per la prevenzione ambientale e dei luoghi lavorativi"/>
+	</concept>
+	<concept>
+		<code value="60004030"/>
+		<display value="Assistenza nefrologica e tecniche dialitiche"/>
+	</concept>
+	<concept>
+		<code value="60004031"/>
+		<display value="Assistenza sociale psichiatrica"/>
+	</concept>
+	<concept>
+		<code value="60004032"/>
+		<display value="Dietologia e dietetica applicata"/>
+	</concept>
+	<concept>
+		<code value="60004033"/>
+		<display value="Dirigenti dell'assistenza infermieristica"/>
+	</concept>
+	<concept>
+		<code value="60004034"/>
+		<display value="Dirigenti e docenti di scienze infermieristiche"/>
+	</concept>
+	<concept>
+		<code value="60004035"/>
+		<display value="Discipline infermieristiche"/>
+	</concept>
+	<concept>
+		<code value="60004036"/>
+		<display value="Disegno anatomico"/>
+	</concept>
+	<concept>
+		<code value="60004037"/>
+		<display value="Educazione sanitaria"/>
+	</concept>
+	<concept>
+		<code value="60004038"/>
+		<display value="Fisica sanitaria"/>
+	</concept>
+	<concept>
+		<code value="60004039"/>
+		<display value="Giornalismo medico scientifico"/>
+	</concept>
+	<concept>
+		<code value="60004040"/>
+		<display value="Igienisti dentali"/>
+	</concept>
+	<concept>
+		<code value="60004041"/>
+		<display value="Neurofisiopatologia"/>
+	</concept>
+	<concept>
+		<code value="60004042"/>
+		<display value="Ortottista assistente in oftalmologia"/>
+	</concept>
+	<concept>
+		<code value="60004043"/>
+		<display value="Strumentisti di sala operatoria"/>
+	</concept>
+	<concept>
+		<code value="60004044"/>
+		<display value="Tecnici con funzioni ispettive per la tutela della salute nei luoghi di lavoro"/>
+	</concept>
+	<concept>
+		<code value="60004045"/>
+		<display value="Tecnici cosmetici"/>
+	</concept>
+	<concept>
+		<code value="60004046"/>
+		<display value="Tecnici della riabilitazione"/>
+	</concept>
+	<concept>
+		<code value="60004047"/>
+		<display value="Tecnici della riabilitazione psichiatrica e psicosociale"/>
+	</concept>
+	<concept>
+		<code value="60004048"/>
+		<display value="Tecnici dermoestetisti"/>
+	</concept>
+	<concept>
+		<code value="60004049"/>
+		<display value="Tecnici di anatomia patologica e citoistologia"/>
+	</concept>
+	<concept>
+		<code value="60004050"/>
+		<display value="Tecnici di anestesia e rianimazione"/>
+	</concept>
+	<concept>
+		<code value="60004051"/>
+		<display value="Tecnici di audiometria e protesizzazione acustica"/>
+	</concept>
+	<concept>
+		<code value="60004052"/>
+		<display value="Tecnici di colpocitologia"/>
+	</concept>
+	<concept>
+		<code value="60004053"/>
+		<display value="Tecnici di fisiopatologia cardiocircolatoria"/>
+	</concept>
+	<concept>
+		<code value="60004054"/>
+		<display value="Tecnici di logopedia e foniatria"/>
+	</concept>
+	<concept>
+		<code value="60004055"/>
+		<display value="Tecnici di neurofisiopatologia"/>
+	</concept>
+	<concept>
+		<code value="60004056"/>
+		<display value="Tecnici di radiologia medica"/>
+	</concept>
+	<concept>
+		<code value="60004057"/>
+		<display value="Tecnici di terapia intensiva chirurgica"/>
+	</concept>
+	<concept>
+		<code value="60004058"/>
+		<display value="Tecnici in biotecnologie"/>
+	</concept>
+	<concept>
+		<code value="60004059"/>
+		<display value="Tecnici ortodermisti"/>
+	</concept>
+	<concept>
+		<code value="60004060"/>
+		<display value="Tecnico di audiometria"/>
+	</concept>
+	<concept>
+		<code value="60004061"/>
+		<display value="Tecnico di igiene ambientale e del lavoro"/>
+	</concept>
+	<concept>
+		<code value="60004062"/>
+		<display value="Tecnico di laboratorio biomedico"/>
+	</concept>
+	<concept>
+		<code value="60004063"/>
+		<display value="Terapia enterostomale per infermieri professionali"/>
+	</concept>
+	<concept>
+		<code value="60004064"/>
+		<display value="Terapia fisica e riabilitativa"/>
+	</concept>
+	<concept>
+		<code value="60004065"/>
+		<display value="Terapisti della riabilitazione"/>
+	</concept>
+	<concept>
+		<code value="60004066"/>
+		<display value="Terapia della riabilitazione e terapia occupazionale"/>
+	</concept>
+	<concept>
+		<code value="60004067"/>
+		<display value="Terapisti della riabilitazione della neuro e psicomotricità dell'età evolutiva"/>
+	</concept>
+	<concept>
+		<code value="60004068"/>
+		<display value="Terapisti della riabilitazione specializzati in chinesiterapia"/>
+	</concept>
+	<concept>
+		<code value="60004069"/>
+		<display value="Scuola di ostetricia"/>
+	</concept>
+	<concept>
+		<code value="60004070"/>
+		<display value="Scuola Infermieri"/>
+	</concept>
+	<concept>
+		<code value="60004071"/>
+		<display value="Tecnico di dietologia e dietetica applicata"/>
+	</concept>
+	<concept>
+		<code value="60004072"/>
+		<display value="Tecnici di logopedia"/>
+	</concept>
+	<concept>
+		<code value="60004073"/>
+		<display value="Terapisti della riabilitazione dell'apparato motore"/>
+	</concept>
+	<concept>
+		<code value="60004074"/>
+		<display value="Audioprotesisti"/>
+	</concept>
+	<concept>
+		<code value="60004999"/>
+		<display value="Altri diplomi del gruppo medico"/>
+	</concept>
+	<concept>
+		<code value="60005000"/>
+		<display value="Gruppo ingegneria"/>
+	</concept>
+	<concept>
+		<code value="60005001"/>
+		<display value="Edilizia"/>
+	</concept>
+	<concept>
+		<code value="60005002"/>
+		<display value="Ingegneria aerospaziale"/>
+	</concept>
+	<concept>
+		<code value="60005003"/>
+		<display value="Ingegneria biomedica"/>
+	</concept>
+	<concept>
+		<code value="60005004"/>
+		<display value="Ingegneria chimica"/>
+	</concept>
+	<concept>
+		<code value="60005005"/>
+		<display value="Ingegneria dell'ambiente e delle risorse"/>
+	</concept>
+	<concept>
+		<code value="60005006"/>
+		<display value="Ingegneria dell'automazione"/>
+	</concept>
+	<concept>
+		<code value="60005007"/>
+		<display value="Ingegneria delle infrastrutture"/>
+	</concept>
+	<concept>
+		<code value="60005008"/>
+		<display value="Ingegneria delle telecomunicazioni"/>
+	</concept>
+	<concept>
+		<code value="60005009"/>
+		<display value="Ingegneria elettrica"/>
+	</concept>
+	<concept>
+		<code value="60005010"/>
+		<display value="Ingegneria elettronica"/>
+	</concept>
+	<concept>
+		<code value="60005011"/>
+		<display value="Ingegneria energetica"/>
+	</concept>
+	<concept>
+		<code value="60005012"/>
+		<display value="Ingegneria informatica"/>
+	</concept>
+	<concept>
+		<code value="60005013"/>
+		<display value="Ingegneria informatica e automatica"/>
+	</concept>
+	<concept>
+		<code value="60005014"/>
+		<display value="Ingegneria logistica e della produzione"/>
+	</concept>
+	<concept>
+		<code value="60005015"/>
+		<display value="Ingegneria meccanica"/>
+	</concept>
+	<concept>
+		<code value="60005016"/>
+		<display value="Sistemi informativi territoriali"/>
+	</concept>
+	<concept>
+		<code value="60005017"/>
+		<display value="Produzione industriale (DU europeo)"/>
+	</concept>
+	<concept>
+		<code value="60005018"/>
+		<display value="Ingegneria edile"/>
+	</concept>
+	<concept>
+		<code value="60005019"/>
+		<display value="Ingegneria delle strutture"/>
+	</concept>
+	<concept>
+		<code value="60005020"/>
+		<display value="Ingegneria meccanica"/>
+	</concept>
+	<concept>
+		<code value="60005021"/>
+		<display value="Ingegneria dei materiali"/>
+	</concept>
+	<concept>
+		<code value="60005022"/>
+		<display value="Ingegneria delle materie plastiche"/>
+	</concept>
+	<concept>
+		<code value="60005023"/>
+		<display value="Ingegneria industriale"/>
+	</concept>
+	<concept>
+		<code value="60005024"/>
+		<display value="Tecnologie industriali e dei materiali"/>
+	</concept>
+	<concept>
+		<code value="60005025"/>
+		<display value="Ingegneria per l'ambiente e il territorio"/>
+	</concept>
+	<concept>
+		<code value="60005026"/>
+		<display value="Ingegneria dell'autoveicolo"/>
+	</concept>
+	<concept>
+		<code value="60005027"/>
+		<display value="Matematica per le scienze dell'ingegneria"/>
+	</concept>
+	<concept>
+		<code value="60005028"/>
+		<display value="Ingegneria civile"/>
+	</concept>
+	<concept>
+		<code value="60005029"/>
+		<display value="Progettazione per la nautica da diporto"/>
+	</concept>
+	<concept>
+		<code value="60005030"/>
+		<display value="Strumentazione industriale"/>
+	</concept>
+	<concept>
+		<code value="60005031"/>
+		<display value="Tecnologia ceramica"/>
+	</concept>
+	<concept>
+		<code value="60005032"/>
+		<display value="Topografia applicata"/>
+	</concept>
+	<concept>
+		<code value="60005033"/>
+		<display value="Esperti della produzione industriale"/>
+	</concept>
+	<concept>
+		<code value="60005034"/>
+		<display value="Tecniche per la protezione ambientale e per la sicurezza nei luoghi di lavoro"/>
+	</concept>
+	<concept>
+		<code value="60005035"/>
+		<display value="Topografo esperto"/>
+	</concept>
+	<concept>
+		<code value="60005036"/>
+		<display value="Tecnico superiore di elettronica"/>
+	</concept>
+	<concept>
+		<code value="60005037"/>
+		<display value="Programmatori ed analisti"/>
+	</concept>
+	<concept>
+		<code value="60005038"/>
+		<display value="Tecnologia protezione ambiente e sicurezza"/>
+	</concept>
+	<concept>
+		<code value="60005039"/>
+		<display value="Impianti tecnici e frigoriferi"/>
+	</concept>
+	<concept>
+		<code value="60005040"/>
+		<display value="Tecnologie tessili"/>
+	</concept>
+	<concept>
+		<code value="60005041"/>
+		<display value="Telecomunicazioni"/>
+	</concept>
+	<concept>
+		<code value="60005042"/>
+		<display value="Tecnici per il risparmio energetico"/>
+	</concept>
+	<concept>
+		<code value="60005043"/>
+		<display value="Scienza ed ingegneria dei materiali"/>
+	</concept>
+	<concept>
+		<code value="60005999"/>
+		<display value="Altri diplomi del gruppo ingegneria"/>
+	</concept>
+	<concept>
+		<code value="60006000"/>
+		<display value="Gruppo architettura"/>
+	</concept>
+	<concept>
+		<code value="60006001"/>
+		<display value="Disegno industriale"/>
+	</concept>
+	<concept>
+		<code value="60006002"/>
+		<display value="Tecniche e arti della stampa"/>
+	</concept>
+	<concept>
+		<code value="60006003"/>
+		<display value="Realizzazione, riqualificazione e gestione degli spazi verdi"/>
+	</concept>
+	<concept>
+		<code value="60006004"/>
+		<display value="Materiali per la manutenzione del costruito antico e moderno"/>
+	</concept>
+	<concept>
+		<code value="60006005"/>
+		<display value="Rilevamento e rappresentazione dei beni architettonici"/>
+	</concept>
+	<concept>
+		<code value="60006006"/>
+		<display value="Scienze e arti della stampa"/>
+	</concept>
+	<concept>
+		<code value="60006999"/>
+		<display value="Altri diplomi del gruppo architettura"/>
+	</concept>
+	<concept>
+		<code value="60007000"/>
+		<display value="Gruppo agrario"/>
+	</concept>
+	<concept>
+		<code value="60007001"/>
+		<display value="Gestione tecnica e amministrativa in agricoltura"/>
+	</concept>
+	<concept>
+		<code value="60007002"/>
+		<display value="Igiene e sanità animale"/>
+	</concept>
+	<concept>
+		<code value="60007003"/>
+		<display value="Produzioni agrarie tropicali e subtropicali"/>
+	</concept>
+	<concept>
+		<code value="60007004"/>
+		<display value="Produzioni animali"/>
+	</concept>
+	<concept>
+		<code value="60007005"/>
+		<display value="Produzioni vegetali"/>
+	</concept>
+	<concept>
+		<code value="60007006"/>
+		<display value="Tecniche forestali"/>
+	</concept>
+	<concept>
+		<code value="60007007"/>
+		<display value="Tecniche forestali e tecnologie del legno"/>
+	</concept>
+	<concept>
+		<code value="60007008"/>
+		<display value="Tecnologie alimentari"/>
+	</concept>
+	<concept>
+		<code value="60007009"/>
+		<display value="Biotecnologie agro industriali"/>
+	</concept>
+	<concept>
+		<code value="60007010"/>
+		<display value="Viticoltura ed enologia"/>
+	</concept>
+	<concept>
+		<code value="60007011"/>
+		<display value="Tecnologie agroalimentari"/>
+	</concept>
+	<concept>
+		<code value="60007012"/>
+		<display value="Gestione delle imprese della pesca"/>
+	</concept>
+	<concept>
+		<code value="60007013"/>
+		<display value="Agriturismo"/>
+	</concept>
+	<concept>
+		<code value="60007014"/>
+		<display value="Agrometeorologia"/>
+	</concept>
+	<concept>
+		<code value="60007015"/>
+		<display value="Tecnica enologica"/>
+	</concept>
+	<concept>
+		<code value="60007016"/>
+		<display value="Tecniche di laboratorio per le industrie agro alimentari"/>
+	</concept>
+	<concept>
+		<code value="60007017"/>
+		<display value="Tecnologie della produzione della carne"/>
+	</concept>
+	<concept>
+		<code value="60007018"/>
+		<display value="Tecnica faunistica"/>
+	</concept>
+	<concept>
+		<code value="60007019"/>
+		<display value="Maricoltura, pesca e trasformazione pesca"/>
+	</concept>
+	<concept>
+		<code value="60007999"/>
+		<display value="Altri diplomi del gruppo agrario"/>
+	</concept>
+	<concept>
+		<code value="60008000"/>
+		<display value="Gruppo economico-statistico"/>
+	</concept>
+	<concept>
+		<code value="60008001"/>
+		<display value="Amministrazione aziendale"/>
+	</concept>
+	<concept>
+		<code value="60008002"/>
+		<display value="Commercio estero"/>
+	</concept>
+	<concept>
+		<code value="60008003"/>
+		<display value="Economia delle amministrazioni pubbliche"/>
+	</concept>
+	<concept>
+		<code value="60008004"/>
+		<display value="Economia delle imprese cooperative e delle organizzazioni nonprofit"/>
+	</concept>
+	<concept>
+		<code value="60008005"/>
+		<display value="Economia e amministrazione delle imprese"/>
+	</concept>
+	<concept>
+		<code value="60008006"/>
+		<display value="Economia e amministrazione delle imprese alimentari"/>
+	</concept>
+	<concept>
+		<code value="60008007"/>
+		<display value="Economia e gestione dei servizi turistici"/>
+	</concept>
+	<concept>
+		<code value="60008008"/>
+		<display value="Gestione delle amministrazioni pubbliche"/>
+	</concept>
+	<concept>
+		<code value="60008009"/>
+		<display value="Gestione delle imprese alimentari"/>
+	</concept>
+	<concept>
+		<code value="60008010"/>
+		<display value="Marketing e comunicazione d'azienda"/>
+	</concept>
+	<concept>
+		<code value="60008011"/>
+		<display value="Statistica"/>
+	</concept>
+	<concept>
+		<code value="60008012"/>
+		<display value="Statistica e informatica per la gestione delle imprese"/>
+	</concept>
+	<concept>
+		<code value="60008013"/>
+		<display value="Statistica e informatica per le amministrazioni pubbliche"/>
+	</concept>
+	<concept>
+		<code value="60008014"/>
+		<display value="Scienze assicurative"/>
+	</concept>
+	<concept>
+		<code value="60008015"/>
+		<display value="Economia applicata"/>
+	</concept>
+	<concept>
+		<code value="60008016"/>
+		<display value="Metodi quantitativi per l'economia"/>
+	</concept>
+	<concept>
+		<code value="60008017"/>
+		<display value="Moneta e finanza"/>
+	</concept>
+	<concept>
+		<code value="60008018"/>
+		<display value="Economia e gestione dei servizi ambientali"/>
+	</concept>
+	<concept>
+		<code value="60008019"/>
+		<display value="Operatore del turismo culturale"/>
+	</concept>
+	<concept>
+		<code value="60008020"/>
+		<display value="Statistica (corso biennale)"/>
+	</concept>
+	<concept>
+		<code value="60008021"/>
+		<display value="Economia ed ingegneria della qualità"/>
+	</concept>
+	<concept>
+		<code value="60008022"/>
+		<display value="Banca e finanza"/>
+	</concept>
+	<concept>
+		<code value="60008023"/>
+		<display value="Economia dell'ambiente"/>
+	</concept>
+	<concept>
+		<code value="60008024"/>
+		<display value="Amministrazione"/>
+	</concept>
+	<concept>
+		<code value="60008025"/>
+		<display value="Economia e amministrazione dell'azienda pubblica"/>
+	</concept>
+	<concept>
+		<code value="60008026"/>
+		<display value="Economia e amministrazione delle imprese agricole"/>
+	</concept>
+	<concept>
+		<code value="60008027"/>
+		<display value="Economia e gestione delle arti e delle attività culturali"/>
+	</concept>
+	<concept>
+		<code value="60008028"/>
+		<display value="Operatore turistico"/>
+	</concept>
+	<concept>
+		<code value="60008029"/>
+		<display value="Tecniche finanziarie e assicurative"/>
+	</concept>
+	<concept>
+		<code value="60008030"/>
+		<display value="Economia, gestione e tutela dell'ambiente"/>
+	</concept>
+	<concept>
+		<code value="60008031"/>
+		<display value="Scienze bancarie"/>
+	</concept>
+	<concept>
+		<code value="60008032"/>
+		<display value="Economia del sistema agro alimentare e dell'ambiente"/>
+	</concept>
+	<concept>
+		<code value="60008033"/>
+		<display value="Esperti in lingue nel settore del commercio estero"/>
+	</concept>
+	<concept>
+		<code value="60008034"/>
+		<display value="Operatori economici dei servizi turistici"/>
+	</concept>
+	<concept>
+		<code value="60008035"/>
+		<display value="Operatori economici nel sistema turistico"/>
+	</concept>
+	<concept>
+		<code value="60008036"/>
+		<display value="Scienze turistiche"/>
+	</concept>
+	<concept>
+		<code value="60008037"/>
+		<display value="Amministrazione e controllo aziendale"/>
+	</concept>
+	<concept>
+		<code value="60008038"/>
+		<display value="Economia e merceologia alimentare"/>
+	</concept>
+	<concept>
+		<code value="60008039"/>
+		<display value="Studi turistici"/>
+	</concept>
+	<concept>
+		<code value="60008040"/>
+		<display value="Operatori turistici"/>
+	</concept>
+	<concept>
+		<code value="60008041"/>
+		<display value="Esperti di statistica informatica"/>
+	</concept>
+	<concept>
+		<code value="60008042"/>
+		<display value="Tecnici dell'amministrazione aziendale"/>
+	</concept>
+	<concept>
+		<code value="60008999"/>
+		<display value="Altri diplomi del gruppo economico statistico"/>
+	</concept>
+	<concept>
+		<code value="60009000"/>
+		<display value="Gruppo politico-sociale"/>
+	</concept>
+	<concept>
+		<code value="60009001"/>
+		<display value="Giornalismo"/>
+	</concept>
+	<concept>
+		<code value="60009002"/>
+		<display value="Servizio sociale"/>
+	</concept>
+	<concept>
+		<code value="60009003"/>
+		<display value="Tecnica pubblicitaria"/>
+	</concept>
+	<concept>
+		<code value="60009004"/>
+		<display value="Operatore della sicurezza e del controllo sociale"/>
+	</concept>
+	<concept>
+		<code value="60009005"/>
+		<display value="Tecnico audiovisivo e multimediale"/>
+	</concept>
+	<concept>
+		<code value="60009006"/>
+		<display value="Scienze organizzative e gestionali"/>
+	</concept>
+	<concept>
+		<code value="60009007"/>
+		<display value="Tecnologo della comunicazione audiovisiva e multimediale"/>
+	</concept>
+	<concept>
+		<code value="60009008"/>
+		<display value="Relazioni pubbliche"/>
+	</concept>
+	<concept>
+		<code value="60009009"/>
+		<display value="Coordinamento delle attività di protezione civile"/>
+	</concept>
+	<concept>
+		<code value="60009010"/>
+		<display value="Assistenti sociali"/>
+	</concept>
+	<concept>
+		<code value="60009011"/>
+		<display value="Scienze politiche e sociali"/>
+	</concept>
+	<concept>
+		<code value="60009012"/>
+		<display value="Scuola servizio sociale"/>
+	</concept>
+	<concept>
+		<code value="60009013"/>
+		<display value="Tecnica pubblicitaria"/>
+	</concept>
+	<concept>
+		<code value="60009014"/>
+		<display value="Relazioni pubbliche"/>
+	</concept>
+	<concept>
+		<code value="60009999"/>
+		<display value="Altri diplomi del gruppo politico sociale"/>
+	</concept>
+	<concept>
+		<code value="60010000"/>
+		<display value="Gruppo giuridico"/>
+	</concept>
+	<concept>
+		<code value="60010001"/>
+		<display value="Consulente del lavoro"/>
+	</concept>
+	<concept>
+		<code value="60010002"/>
+		<display value="Operatore giudiziario"/>
+	</concept>
+	<concept>
+		<code value="60010003"/>
+		<display value="Operatore giuridico d'impresa"/>
+	</concept>
+	<concept>
+		<code value="60010004"/>
+		<display value="Operatore della pubblica amministrazione"/>
+	</concept>
+	<concept>
+		<code value="60010005"/>
+		<display value="Relazioni industriali"/>
+	</concept>
+	<concept>
+		<code value="60010006"/>
+		<display value="Scienze strategiche"/>
+	</concept>
+	<concept>
+		<code value="60010007"/>
+		<display value="Scienze criminologiche applicate"/>
+	</concept>
+	<concept>
+		<code value="60010008"/>
+		<display value="Operatore immobiliare"/>
+	</concept>
+	<concept>
+		<code value="60010009"/>
+		<display value="Consulenti del lavoro"/>
+	</concept>
+	<concept>
+		<code value="60010010"/>
+		<display value="Pubblica amministrazione e governo locale"/>
+	</concept>
+	<concept>
+		<code value="60010999"/>
+		<display value="Altri diplomi del gruppo giuridico"/>
+	</concept>
+	<concept>
+		<code value="60011000"/>
+		<display value="Gruppo letterario"/>
+	</concept>
+	<concept>
+		<code value="60011001"/>
+		<display value="Archivisti paleografi"/>
+	</concept>
+	<concept>
+		<code value="60011002"/>
+		<display value="Bibliotecari"/>
+	</concept>
+	<concept>
+		<code value="60011003"/>
+		<display value="Conservatori di manoscritti"/>
+	</concept>
+	<concept>
+		<code value="60011004"/>
+		<display value="Operatori/conservatori dei beni culturali"/>
+	</concept>
+	<concept>
+		<code value="60011005"/>
+		<display value="Operatore di costume e moda"/>
+	</concept>
+	<concept>
+		<code value="60011006"/>
+		<display value="Paleografia e filologia musicale"/>
+	</concept>
+	<concept>
+		<code value="60011007"/>
+		<display value="Storia e didattica della musica"/>
+	</concept>
+	<concept>
+		<code value="60011008"/>
+		<display value="Consulenza grafologica"/>
+	</concept>
+	<concept>
+		<code value="60011009"/>
+		<display value="Tecnico per la diagnostica applicata al restauro e conservazione dei beni culturali"/>
+	</concept>
+	<concept>
+		<code value="60011010"/>
+		<display value="Operatore dei beni culturali"/>
+	</concept>
+	<concept>
+		<code value="60011011"/>
+		<display value="Operatore didattico dei beni culturali"/>
+	</concept>
+	<concept>
+		<code value="60011012"/>
+		<display value="Tecniche artistiche e dello spettacolo"/>
+	</concept>
+	<concept>
+		<code value="60011013"/>
+		<display value="Metodologie e tecniche di restauro dei beni librari e documentari"/>
+	</concept>
+	<concept>
+		<code value="60011014"/>
+		<display value="Beni culturali per operatori turistici"/>
+	</concept>
+	<concept>
+		<code value="60011015"/>
+		<display value="Archivisti"/>
+	</concept>
+	<concept>
+		<code value="60011016"/>
+		<display value="Costume e moda"/>
+	</concept>
+	<concept>
+		<code value="60011017"/>
+		<display value="Operatori tecnico scientifici per i beni culturali e ambientali"/>
+	</concept>
+	<concept>
+		<code value="60011018"/>
+		<display value="Studi grafologici"/>
+	</concept>
+	<concept>
+		<code value="60011999"/>
+		<display value="Altri diplomi del gruppo letterario"/>
+	</concept>
+	<concept>
+		<code value="60012000"/>
+		<display value="Gruppo linguistico"/>
+	</concept>
+	<concept>
+		<code value="60012001"/>
+		<display value="Traduttori e interpreti"/>
+	</concept>
+	<concept>
+		<code value="60012002"/>
+		<display value="Traduttore ed interprete e corrispondente in lingue estere"/>
+	</concept>
+	<concept>
+		<code value="60012003"/>
+		<display value="Esperto linguistico d'impresa"/>
+	</concept>
+	<concept>
+		<code value="60012004"/>
+		<display value="Lingue straniere con specializzazione turistico culturale"/>
+	</concept>
+	<concept>
+		<code value="60012999"/>
+		<display value="Altri diplomi del gruppo linguistico"/>
+	</concept>
+	<concept>
+		<code value="60013000"/>
+		<display value="Gruppo insegnamento"/>
+	</concept>
+	<concept>
+		<code value="60013001"/>
+		<display value="Insegnamento della lingua italiana a stranieri"/>
+	</concept>
+	<concept>
+		<code value="60013002"/>
+		<display value="Abilitazione alla vigilanza nelle scuole elementari"/>
+	</concept>
+	<concept>
+		<code value="60013003"/>
+		<display value="Educatore nelle comunità infantili"/>
+	</concept>
+	<concept>
+		<code value="60013004"/>
+		<display value="Tecnico di laboratorio della formazione"/>
+	</concept>
+	<concept>
+		<code value="60013005"/>
+		<display value="Educatore e divulgatore ambientale"/>
+	</concept>
+	<concept>
+		<code value="60013006"/>
+		<display value="Educatori professionali"/>
+	</concept>
+	<concept>
+		<code value="60013007"/>
+		<display value="Educatori di comunità"/>
+	</concept>
+	<concept>
+		<code value="60013008"/>
+		<display value="Educatori professionali"/>
+	</concept>
+	<concept>
+		<code value="60013009"/>
+		<display value="Educatori di comunità"/>
+	</concept>
+	<concept>
+		<code value="60013999"/>
+		<display value="Altri diplomi del gruppo insegnamento"/>
+	</concept>
+	<concept>
+		<code value="60014000"/>
+		<display value="Gruppo psicologico"/>
+	</concept>
+	<concept>
+		<code value="60014001"/>
+		<display value="Assistenti educativi di prima infanzia"/>
+	</concept>
+	<concept>
+		<code value="60014999"/>
+		<display value="Altri diplomi del gruppo psicologico"/>
+	</concept>
+	<concept>
+		<code value="60015000"/>
+		<display value="Gruppo educazione fisica"/>
+	</concept>
+	<concept>
+		<code value="60015001"/>
+		<display value="Educazione fisica"/>
+	</concept>
+	<concept>
+		<code value="60015002"/>
+		<display value="Attività motorie"/>
+	</concept>
+	<concept>
+		<code value="60015999"/>
+		<display value="Altri diplomi del gruppo educazione fisica"/>
+	</concept>
+	<concept>
+		<code value="60999999"/>
+		<display value="Altri diplomi universitari"/>
+	</concept>
+	<concept>
+		<code value="70000000"/>
+		<display value="LAUREA - Vecchio o nuovo ordinamento (corsi di durata compresa tra i 2 e i 6 anni)"/>
+	</concept>
+	<concept>
+		<code value="71000000"/>
+		<display value="LAUREA DI PRIMO LIVELLO - Nuovo ordinamento (corsi di 3 anni)"/>
+	</concept>
+	<concept>
+		<code value="71001000"/>
+		<display value="Gruppo scientifico"/>
+	</concept>
+	<concept>
+		<code value="71001001"/>
+		<display value="Scienze matematiche"/>
+	</concept>
+	<concept>
+		<code value="71001002"/>
+		<display value="Scienze e tecnologie fisiche"/>
+	</concept>
+	<concept>
+		<code value="71001003"/>
+		<display value="Scienze e tecnologie informatiche"/>
+	</concept>
+	<concept>
+		<code value="71001999"/>
+		<display value="Altre lauree di primo livello del guppo scientifico"/>
+	</concept>
+	<concept>
+		<code value="71002000"/>
+		<display value="Gruppo chimico farmaceutico"/>
+	</concept>
+	<concept>
+		<code value="71002001"/>
+		<display value="Scienze e tecnologie chimiche"/>
+	</concept>
+	<concept>
+		<code value="71002002"/>
+		<display value="Scienze e tecnologie farmaceutiche"/>
+	</concept>
+	<concept>
+		<code value="71002990"/>
+		<display value="Altre lauree di primo livello del guppo chimico farmaceutico"/>
+	</concept>
+	<concept>
+		<code value="71003000"/>
+		<display value="Gruppo geo-biologico"/>
+	</concept>
+	<concept>
+		<code value="71003001"/>
+		<display value="Biotecnologie"/>
+	</concept>
+	<concept>
+		<code value="71003002"/>
+		<display value="Scienze biologiche"/>
+	</concept>
+	<concept>
+		<code value="71003003"/>
+		<display value="Scienze della terra"/>
+	</concept>
+	<concept>
+		<code value="71003004"/>
+		<display value="Scienze e tecnologie per l'ambiente e la natura"/>
+	</concept>
+	<concept>
+		<code value="71003005"/>
+		<display value="Scienze geografiche"/>
+	</concept>
+	<concept>
+		<code value="71003990"/>
+		<display value="Altre lauree di primo livello del guppo geo biologico"/>
+	</concept>
+	<concept>
+		<code value="71004000"/>
+		<display value="Gruppo medico"/>
+	</concept>
+	<concept>
+		<code value="71004001"/>
+		<display value="Professioni sanitarie infermieristiche e professione sanitaria ostestrica"/>
+	</concept>
+	<concept>
+		<code value="71004002"/>
+		<display value="Professioni sanitarie della riabilitazione"/>
+	</concept>
+	<concept>
+		<code value="71004003"/>
+		<display value="Professioni sanitarie tecniche"/>
+	</concept>
+	<concept>
+		<code value="71004004"/>
+		<display value="Professioni sanitarie della prevenzione"/>
+	</concept>
+	<concept>
+		<code value="71004999"/>
+		<display value="Altre lauree di primo livello del guppo medico"/>
+	</concept>
+	<concept>
+		<code value="71005000"/>
+		<display value="Gruppo ingegneria"/>
+	</concept>
+	<concept>
+		<code value="71005001"/>
+		<display value="Ingegneria civile e ambientale"/>
+	</concept>
+	<concept>
+		<code value="71005002"/>
+		<display value="Ingegneria dell'informazione"/>
+	</concept>
+	<concept>
+		<code value="71005003"/>
+		<display value="Ingegneria industriale"/>
+	</concept>
+	<concept>
+		<code value="71005999"/>
+		<display value="Altre lauree di primo livello del guppo ingegneria"/>
+	</concept>
+	<concept>
+		<code value="71006000"/>
+		<display value="Gruppo architettura"/>
+	</concept>
+	<concept>
+		<code value="71006001"/>
+		<display value="Scienze dell'architettura e dell'ingegneria edile"/>
+	</concept>
+	<concept>
+		<code value="71011000"/>
+		<display value="Gruppo letterario"/>
+	</concept>
+	<concept>
+		<code value="71011001"/>
+		<display value="Lettere"/>
+	</concept>
+	<concept>
+		<code value="71011002"/>
+		<display value="Scienze dei beni culturali"/>
+	</concept>
+	<concept>
+		<code value="71011003"/>
+		<display value="Scienze e tecnologie delle arti figurative, della musica, dello spettacolo e della moda"/>
+	</concept>
+	<concept>
+		<code value="71011004"/>
+		<display value="Filosofia"/>
+	</concept>
+	<concept>
+		<code value="71011005"/>
+		<display value="Scienze storiche"/>
+	</concept>
+	<concept>
+		<code value="71011006"/>
+		<display value="Tecnologie per la conservazione e il restauro dei beni culturali"/>
+	</concept>
+	<concept>
+		<code value="71011999"/>
+		<display value="Altre lauree di primo livello del guppo letterario"/>
+	</concept>
+	<concept>
+		<code value="71012000"/>
+		<display value="Gruppo linguistico"/>
+	</concept>
+	<concept>
+		<code value="71012001"/>
+		<display value="Scienze della mediazione linguistica"/>
+	</concept>
+	<concept>
+		<code value="71012002"/>
+		<display value="Lingue e culture moderne"/>
+	</concept>
+	<concept>
+		<code value="71012999"/>
+		<display value="Altre lauree di primo livello del guppo linguistico"/>
+	</concept>
+	<concept>
+		<code value="71013000"/>
+		<display value="Gruppo insegnamento"/>
+	</concept>
+	<concept>
+		<code value="71013001"/>
+		<display value="Scienze dell'educazione e della formazione"/>
+	</concept>
+	<concept>
+		<code value="71013999"/>
+		<display value="Altre lauree di primo livello del guppo insegnamento"/>
+	</concept>
+	<concept>
+		<code value="71014000"/>
+		<display value="Gruppo psicologico"/>
+	</concept>
+	<concept>
+		<code value="71014001"/>
+		<display value="Scienze e tecniche psicologiche"/>
+	</concept>
+	<concept>
+		<code value="71014999"/>
+		<display value="Altre lauree di primo livello del guppo psicologico"/>
+	</concept>
+	<concept>
+		<code value="71015000"/>
+		<display value="Gruppo educazione fisica"/>
+	</concept>
+	<concept>
+		<code value="71015001"/>
+		<display value="Scienze delle attività motorie e sportive"/>
+	</concept>
+	<concept>
+		<code value="71015999"/>
+		<display value="Altre lauree di primo livello del guppo educazione fisica"/>
+	</concept>
+	<concept>
+		<code value="71016000"/>
+		<display value="Gruppo difesa e sicurezza"/>
+	</concept>
+	<concept>
+		<code value="71016001"/>
+		<display value="Scienze della difesa e della sicurezza"/>
+	</concept>
+	<concept>
+		<code value="71016999"/>
+		<display value="Altre lauree di primo livello del guppo difesa e sicurezza"/>
+	</concept>
+	<concept>
+		<code value="71999999"/>
+		<display value="Altre lauree di primo livello"/>
+	</concept>
+	<concept>
+		<code value="72000000"/>
+		<display value="DIPLOMA DI LAUREA - Vecchio ordinamento (corsi di 4/6 anni)"/>
+	</concept>
+	<concept>
+		<code value="72001000"/>
+		<display value="Gruppo scientifico"/>
+	</concept>
+	<concept>
+		<code value="72001001"/>
+		<display value="Matematica"/>
+	</concept>
+	<concept>
+		<code value="72001002"/>
+		<display value="Fisica"/>
+	</concept>
+	<concept>
+		<code value="72001003"/>
+		<display value="Astronomia"/>
+	</concept>
+	<concept>
+		<code value="72001004"/>
+		<display value="Scienza dei materiali"/>
+	</concept>
+	<concept>
+		<code value="72001005"/>
+		<display value="Discipline nautiche"/>
+	</concept>
+	<concept>
+		<code value="72001006"/>
+		<display value="Informatica"/>
+	</concept>
+	<concept>
+		<code value="72001007"/>
+		<display value="Scienze dell'informazione"/>
+	</concept>
+	<concept>
+		<code value="72001008"/>
+		<display value="Scienze nautiche"/>
+	</concept>
+	<concept>
+		<code value="72001998"/>
+		<display value="Matematica e Fisica"/>
+	</concept>
+	<concept>
+		<code value="72001999"/>
+		<display value="Altri diplomi di laurea del gruppo scientifico"/>
+	</concept>
+	<concept>
+		<code value="72002000"/>
+		<display value="Gruppo chimico farmaceutico"/>
+	</concept>
+	<concept>
+		<code value="72002001"/>
+		<display value="Chimica"/>
+	</concept>
+	<concept>
+		<code value="72002002"/>
+		<display value="Chimica industriale"/>
+	</concept>
+	<concept>
+		<code value="72002003"/>
+		<display value="Farmacia"/>
+	</concept>
+	<concept>
+		<code value="72002004"/>
+		<display value="Chimica e tecnologia farmaceutiche"/>
+	</concept>
+	<concept>
+		<code value="72002005"/>
+		<display value="Biotecnologie farmaceutiche"/>
+	</concept>
+	<concept>
+		<code value="72002999"/>
+		<display value="Altri diplomi di laurea del gruppo chimico farmaceutico"/>
+	</concept>
+	<concept>
+		<code value="72003000"/>
+		<display value="Gruppo geo-biologico"/>
+	</concept>
+	<concept>
+		<code value="72003001"/>
+		<display value="Scienze geologiche"/>
+	</concept>
+	<concept>
+		<code value="72003002"/>
+		<display value="Scienze naturali"/>
+	</concept>
+	<concept>
+		<code value="72003003"/>
+		<display value="Scienze biologiche"/>
+	</concept>
+	<concept>
+		<code value="72003004"/>
+		<display value="Scienze ambientali"/>
+	</concept>
+	<concept>
+		<code value="72003005"/>
+		<display value="Biotecnologie"/>
+	</concept>
+	<concept>
+		<code value="72003006"/>
+		<display value="Biotecnologie industriali"/>
+	</concept>
+	<concept>
+		<code value="72003007"/>
+		<display value="Biotecnologie veterinarie"/>
+	</concept>
+	<concept>
+		<code value="72003008"/>
+		<display value="Biotecnologie mediche"/>
+	</concept>
+	<concept>
+		<code value="72003009"/>
+		<display value="Biotecnologie agrarie vegetali"/>
+	</concept>
+	<concept>
+		<code value="72003999"/>
+		<display value="Altri diplomi di laurea del gruppo geo biologico"/>
+	</concept>
+	<concept>
+		<code value="72004000"/>
+		<display value="Gruppo medico"/>
+	</concept>
+	<concept>
+		<code value="72004001"/>
+		<display value="Medicina e chirurgia"/>
+	</concept>
+	<concept>
+		<code value="72004002"/>
+		<display value="Odontoiatria e protesi dentaria"/>
+	</concept>
+	<concept>
+		<code value="72004003"/>
+		<display value="Scienze della programmazione sanitaria"/>
+	</concept>
+	<concept>
+		<code value="72004999"/>
+		<display value="Altri diplomi di laurea del gruppo medico"/>
+	</concept>
+	<concept>
+		<code value="72005000"/>
+		<display value="Gruppo ingegneria"/>
+	</concept>
+	<concept>
+		<code value="72005002"/>
+		<display value="Ingegneria mineraria"/>
+	</concept>
+	<concept>
+		<code value="72005003"/>
+		<display value="Ingegneria meccanica"/>
+	</concept>
+	<concept>
+		<code value="72005004"/>
+		<display value="Ingegneria elettrotecnica"/>
+	</concept>
+	<concept>
+		<code value="72005005"/>
+		<display value="Ingegneria elettronica"/>
+	</concept>
+	<concept>
+		<code value="72005006"/>
+		<display value="Ingegneria nucleare"/>
+	</concept>
+	<concept>
+		<code value="72005007"/>
+		<display value="Ingegneria chimica"/>
+	</concept>
+	<concept>
+		<code value="72005008"/>
+		<display value="Ingegneria navale e meccanica"/>
+	</concept>
+	<concept>
+		<code value="72005009"/>
+		<display value="Ingegneria aerospaziale"/>
+	</concept>
+	<concept>
+		<code value="72005010"/>
+		<display value="Ingegneria civile"/>
+	</concept>
+	<concept>
+		<code value="72005011"/>
+		<display value="Ingegneria delle tecnologie industriali"/>
+	</concept>
+	<concept>
+		<code value="72005012"/>
+		<display value="Ingegneria civile per la difesa del suolo e pianificazione territoriale"/>
+	</concept>
+	<concept>
+		<code value="72005013"/>
+		<display value="Ingegneria forestale"/>
+	</concept>
+	<concept>
+		<code value="72005014"/>
+		<display value="Ingegneria dei materiali"/>
+	</concept>
+	<concept>
+		<code value="72005015"/>
+		<display value="Ingegneria informatica"/>
+	</concept>
+	<concept>
+		<code value="72005016"/>
+		<display value="Ingegneria elettrica"/>
+	</concept>
+	<concept>
+		<code value="72005017"/>
+		<display value="Ingegneria delle telecomunicazioni"/>
+	</concept>
+	<concept>
+		<code value="72005018"/>
+		<display value="Ingegneria gestionale"/>
+	</concept>
+	<concept>
+		<code value="72005019"/>
+		<display value="Ingegneria per l'ambiente e il territorio"/>
+	</concept>
+	<concept>
+		<code value="72005020"/>
+		<display value="Ingegneria edile"/>
+	</concept>
+	<concept>
+		<code value="72005021"/>
+		<display value="Ingegneria navale"/>
+	</concept>
+	<concept>
+		<code value="72005022"/>
+		<display value="Ingegneria biomedica"/>
+	</concept>
+	<concept>
+		<code value="72005023"/>
+		<display value="Ingegneria delle comunicazioni"/>
+	</concept>
+	<concept>
+		<code value="72005024"/>
+		<display value="Ingegneria industriale"/>
+	</concept>
+	<concept>
+		<code value="72005026"/>
+		<display value="Ingegneria aeronautica"/>
+	</concept>
+	<concept>
+		<code value="72005027"/>
+		<display value="Ingegneria civile difesa suolo"/>
+	</concept>
+	<concept>
+		<code value="72005029"/>
+		<display value="Ingegneria medica"/>
+	</concept>
+	<concept>
+		<code value="72005030"/>
+		<display value="Ingegneria dell'autoveicolo"/>
+	</concept>
+	<concept>
+		<code value="72005031"/>
+		<display value="Scienze matematiche per l'ingegneria"/>
+	</concept>
+	<concept>
+		<code value="72005032"/>
+		<display value="Ingegneria edile architettura"/>
+	</concept>
+	<concept>
+		<code value="72005999"/>
+		<display value="Altri diplomi di laurea del gruppo ingegneria"/>
+	</concept>
+	<concept>
+		<code value="72006000"/>
+		<display value="Gruppo architettura"/>
+	</concept>
+	<concept>
+		<code value="72006001"/>
+		<display value="Architettura"/>
+	</concept>
+	<concept>
+		<code value="72006002"/>
+		<display value="Urbanistica"/>
+	</concept>
+	<concept>
+		<code value="72006003"/>
+		<display value="Disegno industriale"/>
+	</concept>
+	<concept>
+		<code value="72006004"/>
+		<display value="Pianificazione territoriale ed urbanistica"/>
+	</concept>
+	<concept>
+		<code value="72006005"/>
+		<display value="Storia e conservazione dei beni architettonici e ambientali"/>
+	</concept>
+	<concept>
+		<code value="72006006"/>
+		<display value="Pianificazione territoriale, urbanistica ed ambientale"/>
+	</concept>
+	<concept>
+		<code value="72006007"/>
+		<display value="Arti visive"/>
+	</concept>
+	<concept>
+		<code value="72006008"/>
+		<display value="Cultura e tecnica del teatro"/>
+	</concept>
+	<concept>
+		<code value="72006999"/>
+		<display value="Altri diplomi di laurea del gruppo architettura"/>
+	</concept>
+	<concept>
+		<code value="72007000"/>
+		<display value="Gruppo agrario"/>
+	</concept>
+	<concept>
+		<code value="72007001"/>
+		<display value="Scienze agrarie"/>
+	</concept>
+	<concept>
+		<code value="72007002"/>
+		<display value="Scienze forestali"/>
+	</concept>
+	<concept>
+		<code value="72007003"/>
+		<display value="Scienze forestali ed ambientali"/>
+	</concept>
+	<concept>
+		<code value="72007004"/>
+		<display value="Medicina veterinaria"/>
+	</concept>
+	<concept>
+		<code value="72007005"/>
+		<display value="Scienze della produzione animale"/>
+	</concept>
+	<concept>
+		<code value="72007006"/>
+		<display value="Scienze delle preparazioni alimentari"/>
+	</concept>
+	<concept>
+		<code value="72007007"/>
+		<display value="Scienze agrarie tropicali e sub tropicali"/>
+	</concept>
+	<concept>
+		<code value="72007008"/>
+		<display value="Scienze e tecnologie alimentari"/>
+	</concept>
+	<concept>
+		<code value="72007009"/>
+		<display value="Scienze e tecnologie agrarie"/>
+	</concept>
+	<concept>
+		<code value="72007010"/>
+		<display value="Biotecnologie agro industriali"/>
+	</concept>
+	<concept>
+		<code value="72007011"/>
+		<display value="Scienze e tecnologie delle produzioni animali"/>
+	</concept>
+	<concept>
+		<code value="72007012"/>
+		<display value="Agricoltura tropicale e subtropicale"/>
+	</concept>
+	<concept>
+		<code value="72007999"/>
+		<display value="Altri diplomi di laurea del gruppo agrario"/>
+	</concept>
+	<concept>
+		<code value="72008000"/>
+		<display value="Gruppo economico-statistico"/>
+	</concept>
+	<concept>
+		<code value="72008001"/>
+		<display value="Economia e commercio"/>
+	</concept>
+	<concept>
+		<code value="72008002"/>
+		<display value="Scienze economiche"/>
+	</concept>
+	<concept>
+		<code value="72008003"/>
+		<display value="Scienze economiche e bancarie"/>
+	</concept>
+	<concept>
+		<code value="72008004"/>
+		<display value="Scienze statistiche e demografiche"/>
+	</concept>
+	<concept>
+		<code value="72008005"/>
+		<display value="Scienze statistiche demografiche e sociali"/>
+	</concept>
+	<concept>
+		<code value="72008006"/>
+		<display value="Scienze statistiche ed attuariali"/>
+	</concept>
+	<concept>
+		<code value="72008007"/>
+		<display value="Scienze statistiche ed economiche"/>
+	</concept>
+	<concept>
+		<code value="72008008"/>
+		<display value="Economia aziendale"/>
+	</concept>
+	<concept>
+		<code value="72008009"/>
+		<display value="Economia bancaria"/>
+	</concept>
+	<concept>
+		<code value="72008010"/>
+		<display value="Economia politica"/>
+	</concept>
+	<concept>
+		<code value="72008011"/>
+		<display value="Economia delle istituzioni e dei mercati finanziari"/>
+	</concept>
+	<concept>
+		<code value="72008012"/>
+		<display value="Economia delle amministrazioni pubbliche e delle istituzioni internazionali"/>
+	</concept>
+	<concept>
+		<code value="72008013"/>
+		<display value="Economia e legislazione per l'impresa"/>
+	</concept>
+	<concept>
+		<code value="72008014"/>
+		<display value="Economia del turismo"/>
+	</concept>
+	<concept>
+		<code value="72008015"/>
+		<display value="Statistica e informatica per l'azienda"/>
+	</concept>
+	<concept>
+		<code value="72008016"/>
+		<display value="Scienze economiche e sociali"/>
+	</concept>
+	<concept>
+		<code value="72008017"/>
+		<display value="Discipline economiche e sociali"/>
+	</concept>
+	<concept>
+		<code value="72008018"/>
+		<display value="Commercio internazionale e mercati valutari"/>
+	</concept>
+	<concept>
+		<code value="72008019"/>
+		<display value="Economia marittima e dei trasporti"/>
+	</concept>
+	<concept>
+		<code value="72008020"/>
+		<display value="Economia bancaria, finanziaria e assicurativa"/>
+	</concept>
+	<concept>
+		<code value="72008021"/>
+		<display value="Economia ambientale"/>
+	</concept>
+	<concept>
+		<code value="72008022"/>
+		<display value="Economia assicurativa e previdenziale"/>
+	</concept>
+	<concept>
+		<code value="72008023"/>
+		<display value="Statistica"/>
+	</concept>
+	<concept>
+		<code value="72008024"/>
+		<display value="Economia del commercio internazionale e dei mercati valutari"/>
+	</concept>
+	<concept>
+		<code value="72008025"/>
+		<display value="Economia bancaria e assicurativa"/>
+	</concept>
+	<concept>
+		<code value="72008026"/>
+		<display value="Economia e finanza"/>
+	</concept>
+	<concept>
+		<code value="72008027"/>
+		<display value="Economia industriale"/>
+	</concept>
+	<concept>
+		<code value="72008028"/>
+		<display value="Economia e gestione dei servizi"/>
+	</concept>
+	<concept>
+		<code value="72008029"/>
+		<display value="Economia per le arti, la cultura e la comunicazione"/>
+	</concept>
+	<concept>
+		<code value="72008030"/>
+		<display value="Scienze economiche, statistiche e sociali"/>
+	</concept>
+	<concept>
+		<code value="72008031"/>
+		<display value="Scienze turistiche"/>
+	</concept>
+	<concept>
+		<code value="72008032"/>
+		<display value="Marketing"/>
+	</concept>
+	<concept>
+		<code value="72008996"/>
+		<display value="Scienze coloniali"/>
+	</concept>
+	<concept>
+		<code value="72008997"/>
+		<display value="Scienze bancarie e assicurative"/>
+	</concept>
+	<concept>
+		<code value="72008998"/>
+		<display value="Scienze economiche e marittime"/>
+	</concept>
+	<concept>
+		<code value="72008999"/>
+		<display value="Altri diplomi di laurea del gruppo economico statistico"/>
+	</concept>
+	<concept>
+		<code value="72009000"/>
+		<display value="Gruppo politico-sociale"/>
+	</concept>
+	<concept>
+		<code value="72009001"/>
+		<display value="Scienze politiche"/>
+	</concept>
+	<concept>
+		<code value="72009002"/>
+		<display value="Sociologia"/>
+	</concept>
+	<concept>
+		<code value="72009003"/>
+		<display value="Scienze internazionali e diplomatiche"/>
+	</concept>
+	<concept>
+		<code value="72009004"/>
+		<display value="Scienze della comunicazione"/>
+	</concept>
+	<concept>
+		<code value="72009005"/>
+		<display value="Relazioni pubbliche"/>
+	</concept>
+	<concept>
+		<code value="72009006"/>
+		<display value="Politica del territorio"/>
+	</concept>
+	<concept>
+		<code value="72009007"/>
+		<display value="Servizio sociale"/>
+	</concept>
+	<concept>
+		<code value="72009996"/>
+		<display value="Scienze politiche per l'Oriente"/>
+	</concept>
+	<concept>
+		<code value="72009997"/>
+		<display value="Scienze politiche per l'Europa occidentale"/>
+	</concept>
+	<concept>
+		<code value="72009998"/>
+		<display value="Scienze politiche per l'Europa orientale"/>
+	</concept>
+	<concept>
+		<code value="72009999"/>
+		<display value="Altri diplomi di laurea del gruppo politico sociale"/>
+	</concept>
+	<concept>
+		<code value="72010000"/>
+		<display value="Gruppo giuridico"/>
+	</concept>
+	<concept>
+		<code value="72010001"/>
+		<display value="Giurisprudenza"/>
+	</concept>
+	<concept>
+		<code value="72010002"/>
+		<display value="Scienze dell'amministrazione"/>
+	</concept>
+	<concept>
+		<code value="72010003"/>
+		<display value="Scienze strategiche"/>
+	</concept>
+	<concept>
+		<code value="72010999"/>
+		<display value="Altri diplomi di laurea del gruppo giuridico"/>
+	</concept>
+	<concept>
+		<code value="72011000"/>
+		<display value="Gruppo letterario"/>
+	</concept>
+	<concept>
+		<code value="72011001"/>
+		<display value="Lettere"/>
+	</concept>
+	<concept>
+		<code value="72011002"/>
+		<display value="Materie letterarie"/>
+	</concept>
+	<concept>
+		<code value="72011003"/>
+		<display value="Filosofia"/>
+	</concept>
+	<concept>
+		<code value="72011004"/>
+		<display value="Geografia"/>
+	</concept>
+	<concept>
+		<code value="72011005"/>
+		<display value="Discipline dell'arte, della musica e dello spettacolo"/>
+	</concept>
+	<concept>
+		<code value="72011006"/>
+		<display value="Storia"/>
+	</concept>
+	<concept>
+		<code value="72011007"/>
+		<display value="Conservazione dei beni culturali"/>
+	</concept>
+	<concept>
+		<code value="72011008"/>
+		<display value="Studi islamici"/>
+	</concept>
+	<concept>
+		<code value="72011009"/>
+		<display value="Filologia e storia dell'Europa orientale"/>
+	</concept>
+	<concept>
+		<code value="72011010"/>
+		<display value="Musicologia"/>
+	</concept>
+	<concept>
+		<code value="72011011"/>
+		<display value="Studi comparatistici"/>
+	</concept>
+	<concept>
+		<code value="72011012"/>
+		<display value="Storia e conservazione dei beni culturali"/>
+	</concept>
+	<concept>
+		<code value="72011013"/>
+		<display value="Scienze della cultura"/>
+	</concept>
+	<concept>
+		<code value="72011014"/>
+		<display value="Filologie, storia e cultura dei Paesi islamici"/>
+	</concept>
+	<concept>
+		<code value="72011015"/>
+		<display value="Lingue e culture dell'Europa orientale"/>
+	</concept>
+	<concept>
+		<code value="72011016"/>
+		<display value="Archivisti paleografi"/>
+	</concept>
+	<concept>
+		<code value="72011017"/>
+		<display value="Bibliotecari"/>
+	</concept>
+	<concept>
+		<code value="72011018"/>
+		<display value="Conservatore di manoscritti"/>
+	</concept>
+	<concept>
+		<code value="72011998"/>
+		<display value="Storia e filosofia"/>
+	</concept>
+	<concept>
+		<code value="72011997"/>
+		<display value="Teologia (Università Gregoriana)"/>
+	</concept>
+	<concept>
+		<code value="72011999"/>
+		<display value="Altri diplomi di laurea del gruppo letterario"/>
+	</concept>
+	<concept>
+		<code value="72012000"/>
+		<display value="Gruppo linguistico"/>
+	</concept>
+	<concept>
+		<code value="72012001"/>
+		<display value="Lingue e letterature straniere moderne"/>
+	</concept>
+	<concept>
+		<code value="72012002"/>
+		<display value="Lingue e letterature straniere"/>
+	</concept>
+	<concept>
+		<code value="72012003"/>
+		<display value="Lingue e civiltà orientali"/>
+	</concept>
+	<concept>
+		<code value="72012004"/>
+		<display value="Lingue e letterature orientali"/>
+	</concept>
+	<concept>
+		<code value="72012005"/>
+		<display value="Traduzione ed interpretazione"/>
+	</concept>
+	<concept>
+		<code value="72012006"/>
+		<display value="Interprete"/>
+	</concept>
+	<concept>
+		<code value="72012007"/>
+		<display value="Traduttore"/>
+	</concept>
+	<concept>
+		<code value="72012008"/>
+		<display value="Lingue e culture europee"/>
+	</concept>
+	<concept>
+		<code value="72012009"/>
+		<display value="Lingue e letterature dell'Europa orientale"/>
+	</concept>
+	<concept>
+		<code value="72012010"/>
+		<display value="Lingua e cultura italiana"/>
+	</concept>
+	<concept>
+		<code value="72012011"/>
+		<display value="Comunicazione internazionale"/>
+	</concept>
+	<concept>
+		<code value="72012012"/>
+		<display value="Scienze e tecniche dell'interculturalità"/>
+	</concept>
+	<concept>
+		<code value="72012013"/>
+		<display value="Lingue culture ed istituzioni dei paesi del mediterraneo"/>
+	</concept>
+	<concept>
+		<code value="72012994"/>
+		<display value="Lingue, letterature e istituzioni dell'Europa occidentale"/>
+	</concept>
+	<concept>
+		<code value="72012995"/>
+		<display value="Lingue, letterature e istituzioni dell'Europa orientale"/>
+	</concept>
+	<concept>
+		<code value="72012996"/>
+		<display value="Lingue e letterature slave"/>
+	</concept>
+	<concept>
+		<code value="72012997"/>
+		<display value="Lingue e letterature straniere (europee)"/>
+	</concept>
+	<concept>
+		<code value="72012998"/>
+		<display value="Lingue e letterature europee"/>
+	</concept>
+	<concept>
+		<code value="72012999"/>
+		<display value="Altri diplomi di laurea del gruppo linguistico"/>
+	</concept>
+	<concept>
+		<code value="72013000"/>
+		<display value="Gruppo insegnamento"/>
+	</concept>
+	<concept>
+		<code value="72013001"/>
+		<display value="Pedagogia"/>
+	</concept>
+	<concept>
+		<code value="72013002"/>
+		<display value="Scienze dell'educazione"/>
+	</concept>
+	<concept>
+		<code value="72013003"/>
+		<display value="Scienze della formazione primaria"/>
+	</concept>
+	<concept>
+		<code value="72013999"/>
+		<display value="Altri diplomi di laurea del gruppo insegnamento"/>
+	</concept>
+	<concept>
+		<code value="72014000"/>
+		<display value="Gruppo psicologico"/>
+	</concept>
+	<concept>
+		<code value="72014001"/>
+		<display value="Psicologia"/>
+	</concept>
+	<concept>
+		<code value="72014999"/>
+		<display value="Altri diplomi di laurea del gruppo psicologico"/>
+	</concept>
+	<concept>
+		<code value="72015000"/>
+		<display value="Gruppo educazione fisica"/>
+	</concept>
+	<concept>
+		<code value="72015001"/>
+		<display value="Scienze motorie"/>
+	</concept>
+	<concept>
+		<code value="72015999"/>
+		<display value="Altri diplomi di laurea del gruppo educazione fisica"/>
+	</concept>
+	<concept>
+		<code value="72999999"/>
+		<display value="Altri diplomi di laurea  (vecchio ordinamento)"/>
+	</concept>
+	<concept>
+		<code value="73000000"/>
+		<display value="LAUREA SPECIALISTICA A CICLO UNICO - Nuovo ordinamento (corsi di 5/6 anni)"/>
+	</concept>
+	<concept>
+		<code value="73002000"/>
+		<display value="Gruppo chimico farmaceutico"/>
+	</concept>
+	<concept>
+		<code value="73002001"/>
+		<display value="Farmacia e farmacia industriale"/>
+	</concept>
+	<concept>
+		<code value="73002999"/>
+		<display value="Altre lauree specialistiche del gruppo chimico farmaceutico"/>
+	</concept>
+	<concept>
+		<code value="73004000"/>
+		<display value="Gruppo medico"/>
+	</concept>
+	<concept>
+		<code value="73004001"/>
+		<display value="Medicina e chirurgia"/>
+	</concept>
+	<concept>
+		<code value="73004002"/>
+		<display value="Odontoiatria e protesi dentaria"/>
+	</concept>
+	<concept>
+		<code value="73004999"/>
+		<display value="Altre lauree specialistiche del gruppo medico"/>
+	</concept>
+	<concept>
+		<code value="73006000"/>
+		<display value="Gruppo architettura"/>
+	</concept>
+	<concept>
+		<code value="73006001"/>
+		<display value="Architettura e ingegneria edile"/>
+	</concept>
+	<concept>
+		<code value="73006999"/>
+		<display value="Altre lauree specialistiche del gruppo architettura"/>
+	</concept>
+	<concept>
+		<code value="73007000"/>
+		<display value="Gruppo agrario"/>
+	</concept>
+	<concept>
+		<code value="73007001"/>
+		<display value="Medicina veterinaria"/>
+	</concept>
+	<concept>
+		<code value="73007999"/>
+		<display value="Altre lauree specialistiche del gruppo agrario"/>
+	</concept>
+	<concept>
+		<code value="73999999"/>
+		<display value="Altre lauree specialistiche a ciclo unico"/>
+	</concept>
+	<concept>
+		<code value="74000000"/>
+		<display value="LAUREA SPECIALISTICA - Nuovo ordinamento (corsi di secondo livello di 2 anni)"/>
+	</concept>
+	<concept>
+		<code value="74001000"/>
+		<display value="Gruppo scientifico"/>
+	</concept>
+	<concept>
+		<code value="74001001"/>
+		<display value="Fisica"/>
+	</concept>
+	<concept>
+		<code value="74001002"/>
+		<display value="Informatica"/>
+	</concept>
+	<concept>
+		<code value="74001003"/>
+		<display value="Informatica per le discipline umanistiche"/>
+	</concept>
+	<concept>
+		<code value="74001999"/>
+		<display value="Altri diplomi di laurea del gruppo scientifico"/>
+	</concept>
+	<concept>
+		<code value="74002000"/>
+		<display value="Gruppo chimico farmaceutico"/>
+	</concept>
+	<concept>
+		<code value="74002001"/>
+		<display value="Scienze chimiche"/>
+	</concept>
+	<concept>
+		<code value="74002002"/>
+		<display value="Scienze e tecnologie della chimica industriale"/>
+	</concept>
+	<concept>
+		<code value="74002999"/>
+		<display value="Altri diplomi del gruppo chimico farmaceutico"/>
+	</concept>
+	<concept>
+		<code value="74003000"/>
+		<display value="Gruppo geo-biologico"/>
+	</concept>
+	<concept>
+		<code value="74003001"/>
+		<display value="Biologia"/>
+	</concept>
+	<concept>
+		<code value="74003002"/>
+		<display value="Biotecnologie industriali"/>
+	</concept>
+	<concept>
+		<code value="74003003"/>
+		<display value="Scienze e tecnologie per l'ambiente e il territorio"/>
+	</concept>
+	<concept>
+		<code value="74003004"/>
+		<display value="Scienze geologiche"/>
+	</concept>
+	<concept>
+		<code value="74003999"/>
+		<display value="Altri diplomi di laurea del gruppo geo biologico"/>
+	</concept>
+	<concept>
+		<code value="74004000"/>
+		<display value="Gruppo medico"/>
+	</concept>
+	<concept>
+		<code value="74004001"/>
+		<display value="Scienze della nutrizione umana"/>
+	</concept>
+	<concept>
+		<code value="74004999"/>
+		<display value="Altre lauree di primo livello del guppo medico"/>
+	</concept>
+	<concept>
+		<code value="74005000"/>
+		<display value="Gruppo ingegneria"/>
+	</concept>
+	<concept>
+		<code value="74005001"/>
+		<display value="Ingegneria dell'automazione"/>
+	</concept>
+	<concept>
+		<code value="74005002"/>
+		<display value="Ingegneria delle telecomunicazioni"/>
+	</concept>
+	<concept>
+		<code value="74005003"/>
+		<display value="Ingegneria elettronica"/>
+	</concept>
+	<concept>
+		<code value="74005004"/>
+		<display value="ingegneria gestionale"/>
+	</concept>
+	<concept>
+		<code value="74005005"/>
+		<display value="Ingegneria informatica"/>
+	</concept>
+	<concept>
+		<code value="74005006"/>
+		<display value="Ingegneria per l'ambiente e il territorio"/>
+	</concept>
+	<concept>
+		<code value="74005007"/>
+		<display value="Ingegneria civile"/>
+	</concept>
+	<concept>
+		<code value="74005008"/>
+		<display value="Ingegneria elettrica"/>
+	</concept>
+	<concept>
+		<code value="74005009"/>
+		<display value="Ingegneria energetica e nucleare"/>
+	</concept>
+	<concept>
+		<code value="40301999"/>
+		<display value="Altri diplomi di istruzione secondaria superiore di scuola magistrale"/>
+	</concept>
+	<concept>
+		<code value="40302000"/>
+		<display value="Diploma di istruzione secondaria superiore di Istituto magistrale"/>
+	</concept>
+	<concept>
+		<code value="40302001"/>
+		<display value="Magistrale"/>
+	</concept>
+	<concept>
+		<code value="40302002"/>
+		<display value="Biologico chimico"/>
+	</concept>
+	<concept>
+		<code value="40302003"/>
+		<display value="Linguistico"/>
+	</concept>
+	<concept>
+		<code value="40302004"/>
+		<display value="Psico-socio-pedagogico"/>
+	</concept>
+	<concept>
+		<code value="40302005"/>
+		<display value="Classico"/>
+	</concept>
+	<concept>
+		<code value="40302006"/>
+		<display value="Scientifico"/>
+	</concept>
+	<concept>
+		<code value="40302007"/>
+		<display value="Dirigenti di comunità"/>
+	</concept>
+	<concept>
+		<code value="40302008"/>
+		<display value="Liceo sociale"/>
+	</concept>
+	<concept>
+		<code value="40302009"/>
+		<display value="Pedagogico musicale"/>
+	</concept>
+	<concept>
+		<code value="40302010"/>
+		<display value="Socio-ambientale"/>
+	</concept>
+	<concept>
+		<code value="40302011"/>
+		<display value="Scienze umane"/>
+	</concept>
+	<concept>
+		<code value="40302012"/>
+		<display value="Scienze delle formazione"/>
+	</concept>
+	<concept>
+		<code value="40302999"/>
+		<display value="Altri diplomi di istruzione secondaria superiore di istituto magistrale"/>
+	</concept>
+	<concept>
+		<code value="40500000"/>
+		<display value="DIPLOMA DI ISTRUZIONE SECONDARIA SUPERIORE LICEALE"/>
+	</concept>
+	<concept>
+		<code value="40501000"/>
+		<display value="Diploma di istruzione secondaria superiore di Liceo scientifico"/>
+	</concept>
+	<concept>
+		<code value="40501001"/>
+		<display value="Scientifico"/>
+	</concept>
+	<concept>
+		<code value="40501002"/>
+		<display value="Artistico"/>
+	</concept>
+	<concept>
+		<code value="40501003"/>
+		<display value="Biologico chimico"/>
+	</concept>
+	<concept>
+		<code value="40501004"/>
+		<display value="Classico"/>
+	</concept>
+	<concept>
+		<code value="40501005"/>
+		<display value="Amministrativo"/>
+	</concept>
+	<concept>
+		<code value="40501006"/>
+		<display value="Giuridico economico aziendale"/>
+	</concept>
+	<concept>
+		<code value="40501007"/>
+		<display value="Matematico"/>
+	</concept>
+	<concept>
+		<code value="40501008"/>
+		<display value="Linguistico"/>
+	</concept>
+	<concept>
+		<code value="40501009"/>
+		<display value="Magistrale"/>
+	</concept>
+	<concept>
+		<code value="40501010"/>
+		<display value="Psico-socio-pedagogico"/>
+	</concept>
+	<concept>
+		<code value="40501011"/>
+		<display value="Turismo"/>
+	</concept>
+	<concept>
+		<code value="40501012"/>
+		<display value="Informatico-telematico"/>
+	</concept>
+	<concept>
+		<code value="40501013"/>
+		<display value="Scientifico ambientale"/>
+	</concept>
+	<concept>
+		<code value="40501014"/>
+		<display value="Scientifico-economico"/>
+	</concept>
+	<concept>
+		<code value="40501015"/>
+		<display value="Scientifico tecnologico"/>
+	</concept>
+	<concept>
+		<code value="40501016"/>
+		<display value="Liceo della comunicazione"/>
+	</concept>
+	<concept>
+		<code value="40501999"/>
+		<display value="Altri diplomi di istruzione secondaria superiore di liceo scientifico"/>
+	</concept>
+	<concept>
+		<code value="40502000"/>
+		<display value="Diploma di istruzione secondaria superiore di Liceo classico"/>
+	</concept>
+	<concept>
+		<code value="40502001"/>
+		<display value="Classico"/>
+	</concept>
+	<concept>
+		<code value="40502002"/>
+		<display value="Architettura e arredo"/>
+	</concept>
+	<concept>
+		<code value="40502003"/>
+		<display value="Arte e restauro"/>
+	</concept>
+	<concept>
+		<code value="40502004"/>
+		<display value="Artistico"/>
+	</concept>
+	<concept>
+		<code value="40502005"/>
+		<display value="Conservazione, catalogazione beni culturali"/>
+	</concept>
+	<concept>
+		<code value="40502006"/>
+		<display value="Giuridico economico aziendale"/>
+	</concept>
+	<concept>
+		<code value="40502007"/>
+		<display value="Linguistico"/>
+	</concept>
+	<concept>
+		<code value="40502008"/>
+		<display value="Magistrale"/>
+	</concept>
+	<concept>
+		<code value="40502009"/>
+		<display value="Psico-socio-pedagogico"/>
+	</concept>
+	<concept>
+		<code value="40502010"/>
+		<display value="Scientifico"/>
+	</concept>
+	<concept>
+		<code value="40502011"/>
+		<display value="Matematico"/>
+	</concept>
+	<concept>
+		<code value="40502999"/>
+		<display value="Altri diplomi di istruzione secondaria superiore di liceo classico"/>
+	</concept>
+	<concept>
+		<code value="40503000"/>
+		<display value="Diploma di istruzione secondaria superiore di Liceo linguistico"/>
+	</concept>
+	<concept>
+		<code value="40503001"/>
+		<display value="Linguistico"/>
+	</concept>
+	<concept>
+		<code value="40503002"/>
+		<display value="Informatica e comunicazione"/>
+	</concept>
+	<concept>
+		<code value="40503003"/>
+		<display value="Artistico"/>
+	</concept>
+	<concept>
+		<code value="40503004"/>
+		<display value="Classico"/>
+	</concept>
+	<concept>
+		<code value="40503005"/>
+		<display value="Giuridico economico aziendale"/>
+	</concept>
+	<concept>
+		<code value="40503006"/>
+		<display value="Magistrale"/>
+	</concept>
+	<concept>
+		<code value="40503007"/>
+		<display value="Psico-socio-pedagogico"/>
+	</concept>
+	<concept>
+		<code value="40503008"/>
+		<display value="Scientifico-linguistico"/>
+	</concept>
+	<concept>
+		<code value="40503999"/>
+		<display value="Altri diplomi di istruzione secondaria superiore di liceo linguistico"/>
+	</concept>
+	<concept>
+		<code value="40600000"/>
+		<display value="ISTRUZIONE ARTISTICA"/>
+	</concept>
+	<concept>
+		<code value="40601000"/>
+		<display value="Diploma di istruzione secondaria superiore ad indirizzo d'arte applicata"/>
+	</concept>
+	<concept>
+		<code value="40601001"/>
+		<display value="Arte dei metalli"/>
+	</concept>
+	<concept>
+		<code value="40601002"/>
+		<display value="Arte dei metalli ed orificeria"/>
+	</concept>
+	<concept>
+		<code value="40601003"/>
+		<display value="Arte dei rivestimenti ceramici edilizi"/>
+	</concept>
+	<concept>
+		<code value="40601004"/>
+		<display value="Arte dell'alabastro"/>
+	</concept>
+	<concept>
+		<code value="40601005"/>
+		<display value="Arte della ceramica"/>
+	</concept>
+	<concept>
+		<code value="40601006"/>
+		<display value="Arte grafica pubblicitaria e fotografia"/>
+	</concept>
+	<concept>
+		<code value="40601007"/>
+		<display value="Arte della porcellana"/>
+	</concept>
+	<concept>
+		<code value="40601008"/>
+		<display value="Arte dell'arredamento"/>
+	</concept>
+	<concept>
+		<code value="40601009"/>
+		<display value="Arte della stampa"/>
+	</concept>
+	<concept>
+		<code value="40601010"/>
+		<display value="Arte del corallo"/>
+	</concept>
+	<concept>
+		<code value="40601011"/>
+		<display value="Arte del gres"/>
+	</concept>
+	<concept>
+		<code value="40601012"/>
+		<display value="Arte del legno"/>
+	</concept>
+	<concept>
+		<code value="40601013"/>
+		<display value="Arte del legno e restauro del mobile antico"/>
+	</concept>
+	<concept>
+		<code value="40601014"/>
+		<display value="Arte del merletto e ricamo"/>
+	</concept>
+	<concept>
+		<code value="40601015"/>
+		<display value="Arte del mobile"/>
+	</concept>
+	<concept>
+		<code value="40601016"/>
+		<display value="Arte del mosaico"/>
+	</concept>
+	<concept>
+		<code value="40601017"/>
+		<display value="Arte del tessuto"/>
+	</concept>
+	<concept>
+		<code value="40601018"/>
+		<display value="Arte del vetro"/>
+	</concept>
+	<concept>
+		<code value="40601019"/>
+		<display value="Arte del vetro e cristallo"/>
+	</concept>
+	<concept>
+		<code value="40601020"/>
+		<display value="Arte delle pietre dure"/>
+	</concept>
+	<concept>
+		<code value="40601021"/>
+		<display value="Arte e restauro"/>
+	</concept>
+	<concept>
+		<code value="40601022"/>
+		<display value="Arte pubblicitaria"/>
+	</concept>
+	<concept>
+		<code value="40601023"/>
+		<display value="Arti grafiche"/>
+	</concept>
+	<concept>
+		<code value="40601024"/>
+		<display value="Calcografia"/>
+	</concept>
+	<concept>
+		<code value="40601025"/>
+		<display value="Comunicazioni visive"/>
+	</concept>
+	<concept>
+		<code value="40601026"/>
+		<display value="Decorazione pittorica"/>
+	</concept>
+	<concept>
+		<code value="40601027"/>
+		<display value="Decorazione plastica"/>
+	</concept>
+	<concept>
+		<code value="40601028"/>
+		<display value="Design per ambiente"/>
+	</concept>
+	<concept>
+		<code value="40601029"/>
+		<display value="Disegnatori d'architettura"/>
+	</concept>
+	<concept>
+		<code value="40601030"/>
+		<display value="Disegnatori architettura e arredamento"/>
+	</concept>
+	<concept>
+		<code value="40601031"/>
+		<display value="Disegno animato"/>
+	</concept>
+	<concept>
+		<code value="40601032"/>
+		<display value="Disegno industriale"/>
+	</concept>
+	<concept>
+		<code value="40601033"/>
+		<display value="Fotografia artistica"/>
+	</concept>
+	<concept>
+		<code value="40601034"/>
+		<display value="Litografia"/>
+	</concept>
+	<concept>
+		<code value="40601035"/>
+		<display value="Moda e costume"/>
+	</concept>
+	<concept>
+		<code value="40601036"/>
+		<display value="Oreficeria"/>
+	</concept>
+	<concept>
+		<code value="40601037"/>
+		<display value="Progetto design"/>
+	</concept>
+	<concept>
+		<code value="40601038"/>
+		<display value="Restauro ceramico"/>
+	</concept>
+	<concept>
+		<code value="40601039"/>
+		<display value="Rilegatura artistica e restauro del libro"/>
+	</concept>
+	<concept>
+		<code value="40601040"/>
+		<display value="Rilievo e catalogazione"/>
+	</concept>
+	<concept>
+		<code value="40601041"/>
+		<display value="Scenotecnica"/>
+	</concept>
+	<concept>
+		<code value="40601042"/>
+		<display value="Tecnologia ceramica"/>
+	</concept>
+	<concept>
+		<code value="40601043"/>
+		<display value="Xilografia"/>
+	</concept>
+	<concept>
+		<code value="40601044"/>
+		<display value="Tecnico dell'industria audiovisiva"/>
+	</concept>
+	<concept>
+		<code value="40601999"/>
+		<display value="Altri diplomi di istruzione secondaria superiore ad indirizzo d'arte applicata"/>
+	</concept>
+	<concept>
+		<code value="40602000"/>
+		<display value="Diploma di istruzione secondaria superiore ad indirizzo artistico"/>
+	</concept>
+	<concept>
+		<code value="40602001"/>
+		<display value="Sezione accademia"/>
+	</concept>
+	<concept>
+		<code value="40602002"/>
+		<display value="Sezione architettura"/>
+	</concept>
+	<concept>
+		<code value="40602003"/>
+		<display value="Indirizzo artistico musicale"/>
+	</concept>
+	<concept>
+		<code value="40602004"/>
+		<display value="Archeologico"/>
+	</concept>
+	<concept>
+		<code value="40602005"/>
+		<display value="Architettura e arredo"/>
+	</concept>
+	<concept>
+		<code value="40602006"/>
+		<display value="Arti visive"/>
+	</concept>
+	<concept>
+		<code value="40602007"/>
+		<display value="Conservazione e restauro"/>
+	</concept>
+	<concept>
+		<code value="40602008"/>
+		<display value="Artistico"/>
+	</concept>
+	<concept>
+		<code value="40602009"/>
+		<display value="Conservazione, catalogazione beni culturali"/>
+	</concept>
+	<concept>
+		<code value="40602010"/>
+		<display value="Figurativo"/>
+	</concept>
+	<concept>
+		<code value="40602011"/>
+		<display value="Grafica"/>
+	</concept>
+	<concept>
+		<code value="40602012"/>
+		<display value="Pittura e decorazione pittorica"/>
+	</concept>
+	<concept>
+		<code value="40602013"/>
+		<display value="Scultura e decorazione plastica"/>
+	</concept>
+	<concept>
+		<code value="40602014"/>
+		<display value="Artistico musicale"/>
+	</concept>
+	<concept>
+		<code value="40602015"/>
+		<display value="Composizione e progettazione"/>
+	</concept>
+	<concept>
+		<code value="40602016"/>
+		<display value="Coreutico"/>
+	</concept>
+	<concept>
+		<code value="40602017"/>
+		<display value="Arte del vetro e del cristallo"/>
+	</concept>
+	<concept>
+		<code value="40602018"/>
+		<display value="Arte e spettacolo"/>
+	</concept>
+	<concept>
+		<code value="40602999"/>
+		<display value="Altri diplomi di istruzione secondaria superiore ad indirizzo artistico"/>
+	</concept>
+	<concept>
+		<code value="40999999"/>
+		<display value="Altri diplomi di istruzione secondaria superiore che permettono l'accesso all'università"/>
+	</concept>
+	<concept>
+		<code value="50000000"/>
+		<display value="DIPLOMA TERZIARIO EXTRA-UNIVERSITARIO"/>
+	</concept>
+	<concept>
+		<code value="50600000"/>
+		<display value="ISTRUZIONE ARTISTICA"/>
+	</concept>
+	<concept>
+		<code value="50603000"/>
+		<display value="Diploma di Accademia di belle arti"/>
+	</concept>
+	<concept>
+		<code value="50603001"/>
+		<display value="Scultura"/>
+	</concept>
+	<concept>
+		<code value="50603002"/>
+		<display value="Pittura"/>
+	</concept>
+	<concept>
+		<code value="50603003"/>
+		<display value="Scenografia"/>
+	</concept>
+	<concept>
+		<code value="50603004"/>
+		<display value="Decorazione"/>
+	</concept>
+	<concept>
+		<code value="50603005"/>
+		<display value="Arti visive e discipline dello spettacolo"/>
+	</concept>
+	<concept>
+		<code value="50603999"/>
+		<display value="Altri diplomi di accademia di belle arti"/>
+	</concept>
+	<concept>
+		<code value="50604000"/>
+		<display value="Diploma di Istituto superiore di industrie artistiche"/>
+	</concept>
+	<concept>
+		<code value="50604001"/>
+		<display value="Disegno industriale"/>
+	</concept>
+	<concept>
+		<code value="50604002"/>
+		<display value="Progettazione grafica"/>
+	</concept>
+	<concept>
+		<code value="71006002"/>
+		<display value="Urbanistica e scienze della pianificazione territoriale e ambientale"/>
+	</concept>
+	<concept>
+		<code value="71006003"/>
+		<display value="Disegno industriale"/>
+	</concept>
+	<concept>
+		<code value="71006999"/>
+		<display value="Altre lauree di primo livello del guppo architettura"/>
+	</concept>
+	<concept>
+		<code value="71007000"/>
+		<display value="Gruppo agrario"/>
+	</concept>
+	<concept>
+		<code value="71007001"/>
+		<display value="Scienze e tecnologie agrarie, agroalimentari e forestali"/>
+	</concept>
+	<concept>
+		<code value="71007002"/>
+		<display value="Scienze e tecnologie zootecniche e delle produzioni animali"/>
+	</concept>
+	<concept>
+		<code value="71007999"/>
+		<display value="Altre lauree di primo livello del guppo agrario"/>
+	</concept>
+	<concept>
+		<code value="71008000"/>
+		<display value="Gruppo economico-statistico"/>
+	</concept>
+	<concept>
+		<code value="71008001"/>
+		<display value="Scienze dell'economia e della gestione aziendale"/>
+	</concept>
+	<concept>
+		<code value="71008002"/>
+		<display value="Scienze economiche"/>
+	</concept>
+	<concept>
+		<code value="71008003"/>
+		<display value="Scienze statistiche"/>
+	</concept>
+	<concept>
+		<code value="71008999"/>
+		<display value="Altre lauree di primo livello del guppo economico statistico"/>
+	</concept>
+	<concept>
+		<code value="71009000"/>
+		<display value="Gruppo politico-sociale"/>
+	</concept>
+	<concept>
+		<code value="71009001"/>
+		<display value="Scienze del servizio sociale"/>
+	</concept>
+	<concept>
+		<code value="71009002"/>
+		<display value="Scienze della comunicazione"/>
+	</concept>
+	<concept>
+		<code value="71009003"/>
+		<display value="Scienze politiche e delle relazioni internazionali"/>
+	</concept>
+	<concept>
+		<code value="71009004"/>
+		<display value="Scienze dell'amministrazione"/>
+	</concept>
+	<concept>
+		<code value="71009005"/>
+		<display value="Scienze sociali per la cooperazione, lo sviluppo e la pace"/>
+	</concept>
+	<concept>
+		<code value="71009006"/>
+		<display value="Scienze sociologiche"/>
+	</concept>
+	<concept>
+		<code value="71009007"/>
+		<display value="Scienze del turismo"/>
+	</concept>
+	<concept>
+		<code value="71009999"/>
+		<display value="Altre lauree di primo livello del guppo politico sociale"/>
+	</concept>
+	<concept>
+		<code value="71010000"/>
+		<display value="Gruppo giuridico"/>
+	</concept>
+	<concept>
+		<code value="71010001"/>
+		<display value="Scienze dei servizi giuridici"/>
+	</concept>
+	<concept>
+		<code value="71010002"/>
+		<display value="Scienze giuridiche"/>
+	</concept>
+	<concept>
+		<code value="71010999"/>
+		<display value="Altre lauree di primo livello del guppo giuridico"/>
+	</concept>
+	<concept>
+		<code value="74005010"/>
+		<display value="Ingegneria meccanica"/>
+	</concept>
+	<concept>
+		<code value="74005999"/>
+		<display value="Altre lauree specialistiche del gruppo ingegneria"/>
+	</concept>
+	<concept>
+		<code value="74006000"/>
+		<display value="Gruppo architettura"/>
+	</concept>
+	<concept>
+		<code value="74006001"/>
+		<display value="Architettura e ingegneria edile"/>
+	</concept>
+	<concept>
+		<code value="74006999"/>
+		<display value="Altre lauree specialistiche del gruppo architettura"/>
+	</concept>
+	<concept>
+		<code value="74007000"/>
+		<display value="Gruppo agrario"/>
+	</concept>
+	<concept>
+		<code value="74007001"/>
+		<display value="Scienze e gestione della risorse rurali e forestali"/>
+	</concept>
+	<concept>
+		<code value="74007002"/>
+		<display value="Scienze e tecnologie agrarie"/>
+	</concept>
+	<concept>
+		<code value="74007003"/>
+		<display value="Scienze e tecnologie agrozootecniche"/>
+	</concept>
+	<concept>
+		<code value="74007999"/>
+		<display value="Altre lauree specialistiche del gruppo agrario"/>
+	</concept>
+	<concept>
+		<code value="74008000"/>
+		<display value="Gruppo economico-statistico"/>
+	</concept>
+	<concept>
+		<code value="74008001"/>
+		<display value="Scienze dell'ecomomia"/>
+	</concept>
+	<concept>
+		<code value="74008002"/>
+		<display value="Scienze ecomomico-aziendali"/>
+	</concept>
+	<concept>
+		<code value="74008003"/>
+		<display value="Statistica economica, finanziaria e attuariale"/>
+	</concept>
+	<concept>
+		<code value="74008999"/>
+		<display value="Altre lauree specialistiche del gruppo economico-statistico"/>
+	</concept>
+	<concept>
+		<code value="74009000"/>
+		<display value="Gruppo politico-sociale"/>
+	</concept>
+	<concept>
+		<code value="74009001"/>
+		<display value="Tecniche e metodi per la società dell'informazione"/>
+	</concept>
+	<concept>
+		<code value="74009002"/>
+		<display value="Scienze dei beni culturali"/>
+	</concept>
+	<concept>
+		<code value="74009003"/>
+		<display value="Metodi per l'analisi valutativa dei sistemi complessi"/>
+	</concept>
+	<concept>
+		<code value="74009004"/>
+		<display value="Programmazione e gestione delle politiche e dei servizi sociali"/>
+	</concept>
+	<concept>
+		<code value="74009005"/>
+		<display value="Scienze della comunicazione sociale e istituzionale"/>
+	</concept>
+	<concept>
+		<code value="74009006"/>
+		<display value="Scienze delle pubbliche amministrazioni"/>
+	</concept>
+	<concept>
+		<code value="74009007"/>
+		<display value="Sociologia"/>
+	</concept>
+	<concept>
+		<code value="74009008"/>
+		<display value="Studi europei"/>
+	</concept>
+	<concept>
+		<code value="74009999"/>
+		<display value="Altri diplomi di laurea del gruppo politico sociale"/>
+	</concept>
+	<concept>
+		<code value="74011000"/>
+		<display value="Gruppo letterario"/>
+	</concept>
+	<concept>
+		<code value="74011001"/>
+		<display value="Archeologia"/>
+	</concept>
+	<concept>
+		<code value="74011002"/>
+		<display value="Archivistica e biblioteconomia"/>
+	</concept>
+	<concept>
+		<code value="74011003"/>
+		<display value="Filologia e letterature dell'antichità"/>
+	</concept>
+	<concept>
+		<code value="74011004"/>
+		<display value="Filologia moderna"/>
+	</concept>
+	<concept>
+		<code value="74011005"/>
+		<display value="Filosofia teoretica, morale, politica ed estetica"/>
+	</concept>
+	<concept>
+		<code value="74011006"/>
+		<display value="Musicologia e beni musicali"/>
+	</concept>
+	<concept>
+		<code value="74011007"/>
+		<display value="Scienze dello spettacolo e della produzione multimediale"/>
+	</concept>
+	<concept>
+		<code value="74011008"/>
+		<display value="Storia antica"/>
+	</concept>
+	<concept>
+		<code value="74011009"/>
+		<display value="Storia contemporanea"/>
+	</concept>
+	<concept>
+		<code value="74011010"/>
+		<display value="Storia dell'arte"/>
+	</concept>
+	<concept>
+		<code value="74011011"/>
+		<display value="Storia della filosofia"/>
+	</concept>
+	<concept>
+		<code value="74011012"/>
+		<display value="Storia medievale"/>
+	</concept>
+	<concept>
+		<code value="74011999"/>
+		<display value="Altri diplomi di laurea del gruppo letterario"/>
+	</concept>
+	<concept>
+		<code value="74012000"/>
+		<display value="Gruppo linguistico"/>
+	</concept>
+	<concept>
+		<code value="74012001"/>
+		<display value="Traduzione letteraria e traduzione tecnico-scientifica"/>
+	</concept>
+	<concept>
+		<code value="74012002"/>
+		<display value="Interpretariato di conferenza"/>
+	</concept>
+	<concept>
+		<code value="74012003"/>
+		<display value="Lingue e letterature moderne euroamericane"/>
+	</concept>
+	<concept>
+		<code value="74012004"/>
+		<display value="Linguistica"/>
+	</concept>
+	<concept>
+		<code value="74012999"/>
+		<display value="Altri diplomi di laurea del gruppo linguistico"/>
+	</concept>
+	<concept>
+		<code value="74013000"/>
+		<display value="Gruppo insegnamento"/>
+	</concept>
+	<concept>
+		<code value="74013001"/>
+		<display value="Programmazione e gestione dei servizi educativi e formativi"/>
+	</concept>
+	<concept>
+		<code value="74013002"/>
+		<display value="Scienze dell'educazione degli adulti e della formazione continua"/>
+	</concept>
+	<concept>
+		<code value="74013003"/>
+		<display value="Scienze pedagogiche"/>
+	</concept>
+	<concept>
+		<code value="74013999"/>
+		<display value="Altri diplomi di laurea del gruppo insegnamento"/>
+	</concept>
+	<concept>
+		<code value="74014000"/>
+		<display value="Gruppo psicologico"/>
+	</concept>
+	<concept>
+		<code value="74014001"/>
+		<display value="Psicologia"/>
+	</concept>
+	<concept>
+		<code value="74014999"/>
+		<display value="Altri diplomi di laurea del gruppo psicologico"/>
+	</concept>
+	<concept>
+		<code value="74016000"/>
+		<display value="Gruppo difesa e sicurezza"/>
+	</concept>
+	<concept>
+		<code value="74016001"/>
+		<display value="Scienze della difesa e della sicurezza"/>
+	</concept>
+	<concept>
+		<code value="74016999"/>
+		<display value="Altri diplomi di laurea del gruppo difesa e sicurezza"/>
+	</concept>
+	<concept>
+		<code value="74999999"/>
+		<display value="Altre lauree specialistiche"/>
+	</concept>
+	<concept>
+		<code value="80000000"/>
+		<display value="TITOLO DI STUDIO POST-LAUREA"/>
+	</concept>
+	<concept>
+		<code value="81000000"/>
+		<display value="MASTER UNIVERSITARIO DI PRIMO LIVELLO"/>
+	</concept>
+	<concept>
+		<code value="82000000"/>
+		<display value="MASTER UNIVERSITARIO DI SECONDO LIVELLO"/>
+	</concept>
+	<concept>
+		<code value="83000000"/>
+		<display value="DIPLOMA DI SPECIALIZZAZIONE"/>
+	</concept>
+	<concept>
+		<code value="90000000"/>
+		<display value="TITOLO DI DOTTORE DI RICERCA"/>
+	</concept>
+</CodeSystem>

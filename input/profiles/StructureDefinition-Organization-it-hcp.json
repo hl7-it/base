@@ -75,6 +75,25 @@
         }
       },
       {
+        "id": "Organization.identifier:aziendaOspedaliera",
+        "path": "Organization.identifier",
+        "sliceName": "aziendaOspedaliera",
+        "min": 0,
+        "max": "1",
+        "patternIdentifier": {
+          "system": "http://hl7.it/sid/hsp"
+        }
+      },
+      {
+        "id": "Organization.identifier:aziendaOspedaliera.value",
+        "path": "Organization.identifier.value",
+        "min": 1,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.it/fhir/ValueSet/minsan-idAziendeOspedaliere"
+        }
+      },
+      {
         "id": "Organization.identifier:struttura",
         "path": "Organization.identifier",
         "sliceName": "struttura",

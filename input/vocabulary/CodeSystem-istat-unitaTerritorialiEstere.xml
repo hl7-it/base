@@ -6,110 +6,31 @@
 	</meta>
 	<text>
 		<status value="generated"/>
-		<div xmlns="http://www.w3.org/1999/xhtml">
-			<h1>ISTAT - CODICI DELLE UNITA’ TERRITORIALI ESTERE</h1>
-		Aggiornamento al 1° gennaio 2020. <p>Ai fini statistici l’Istat pubblica, con cadenza annuale e con riferimento alla data del 31 dicembre, la lista dei Paesi esteri (Stati e Territori), dal 2017 resa coerente con l’elenco dei Luoghi previsti dal Regolamento Ue 2017/543 (cfr. Allegato).</p>
-			<p>
-Ulteriori aggiornamenti possono essere diffusi in periodi diversi da quello previsto, per garantire la tempestiva divulgazione delle informazioni sulle unità territoriali interessate da variazione.
-L’elenco dei Paesi esteri, con i relativi codici, viene aggiornato a seguito delle variazioni che avvengono nella configurazione geopolitica mondiale; determinano aggiornamenti, ad esempio, la nascita di un nuovo Stato, la cessazione di uno Stato preesistente, ecc.</p>
-			<p>
-I Paesi esteri sono raggruppati per continente e per area geopolitica di appartenenza. Nel caso dell’Europa, in particolare, si distingue tra Paesi membri dell’Unione Europea e altri Paesi europei.
-Nota: nell’ “Elenco codici e denominazioni delle unità territoriali estere” aggiornato al 31 dicembre 2019 è registrato il cambio denominazione denominazione della ex Repubblica Jugoslava di Macedonia in Repubblica della Macedonia del Nord</p>
-		</div>
+		<div xmlns="http://www.w3.org/1999/xhtml"><h1>ISTAT - CODICI DELLE UNITA’ TERRITORIALI ESTERE</h1>
+			Aggiornamento al 1° gennaio 2020. <p>Ai fini statistici l’Istat pubblica, con cadenza annuale e con riferimento alla data del 31 dicembre, la lista dei Paesi esteri (Stati e Territori), dal 2017 resa coerente con l’elenco dei Luoghi previsti dal Regolamento Ue 2017/543 (cfr. Allegato).</p><p>
+				Ulteriori aggiornamenti possono essere diffusi in periodi diversi da quello previsto, per garantire la tempestiva divulgazione delle informazioni sulle unità territoriali interessate da variazione.
+				L’elenco dei Paesi esteri, con i relativi codici, viene aggiornato a seguito delle variazioni che avvengono nella configurazione geopolitica mondiale; determinano aggiornamenti, ad esempio, la nascita di un nuovo Stato, la cessazione di uno Stato preesistente, ecc.</p><p>
+				I Paesi esteri sono raggruppati per continente e per area geopolitica di appartenenza. Nel caso dell’Europa, in particolare, si distingue tra Paesi membri dell’Unione Europea e altri Paesi europei.
+				Nota: nell’ “Elenco codici e denominazioni delle unità territoriali estere” aggiornato al 31 dicembre 2019 è registrato il cambio denominazione denominazione della ex Repubblica Jugoslava di Macedonia in Repubblica della Macedonia del Nord</p></div>
 	</text>
 	<url value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere"/>
 	<version value="31_12_2019"/>
-	<name value="CsIstatUnitaTerritoraliEstere"/>
-	<title value="ISTAT - Unità territoriali estere"/>
+	<name value="ISTAT_Estero"/>
+	<title value="ISTAT - CODICI DELLE UNITA’ TERRITORIALI ESTERE"/>
 	<status value="active"/>
 	<experimental value="false"/>
 	<description value="Aggiornamento al 1° gennaio 2020. Ai fini statistici l’Istat pubblica, con cadenza annuale e con riferimento alla data del 31 dicembre, la lista dei Paesi esteri (Stati e Territori), dal 2017 resa coerente con l’elenco dei Luoghi previsti dal Regolamento Ue 2017/543 (cfr. Allegato). Ulteriori aggiornamenti possono essere diffusi in periodi diversi da quello previsto, per garantire la tempestiva divulgazione delle informazioni sulle unità territoriali interessate da variazione. L’elenco dei Paesi esteri, con i relativi codici, viene aggiornato a seguito delle variazioni che avvengono nella configurazione geopolitica mondiale; determinano aggiornamenti, ad esempio, la nascita di un nuovo Stato, la cessazione di uno Stato preesistente, ecc. I Paesi esteri sono raggruppati per continente e per area geopolitica di appartenenza. Nel caso dell’Europa, in particolare, si distingue tra Paesi membri dell’Unione Europea e altri Paesi europei. Nota: nell’ “Elenco codici e denominazioni delle unità territoriali estere” aggiornato al 31 dicembre 2019 è registrato il cambio denominazione denominazione della ex Repubblica Jugoslava di Macedonia in Repubblica della Macedonia del Nord"/>
 	<jurisdiction>
 		<!-- This will drive SNOMED release used -->
 		<coding>
+			<!-- This is the code for universal -->
 			<system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
 			<code value="380"/>
 		</coding>
 	</jurisdiction>
 	<versionNeeded value="true"/>
 	<content value="complete"/>
-	
-	<!-- Formato Vecchio
 	<property>
-		<extension url="http://hl7.org/fhir/StructureDefinition/rendered-value">
-			<valueString value="Stato(S)/Territorio(T)"/>
-		</extension>
-		<code value="SoT"/>
-		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere#SoT"/>
-		<description value="(S) Stato: ente primario e originario, autonomo e indipendente da ogni altra entità politica la cui sovranità si estende al suo territorio. (T)Territorio: Area geografica dipendente da uno Stato. - 2019- Istat, Eurostat"/>
-		<type value="code"/>
-	</property>
-	<property>
-		<extension url="http://hl7.org/fhir/StructureDefinition/rendered-value">
-			<valueString value="Codice Ministeriale"/>
-		</extension>
-		<code value="codice-MIN"/>
-		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere#codice-MIN"/>
-		<description value="Codice identificativo dello Stato/Territorio rilasciato dal Ministero dell'Interno ai fini dell'Anagrafe Nazionale della Popolazione Residente (ANPR) - 2019- Ministero dell'Interno"/>
-		<type value="code"/>
-	</property>
-	<property>
-		<extension url="http://hl7.org/fhir/StructureDefinition/rendered-value">
-			<valueString value="Codice AT"/>
-		</extension>
-		<code value="codice-AT">
-
-		</code>
-		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere#codice-AT"/>
-		<description value="Codice assegnato dall'Agenzia delle Entrate allo Stato/Territorio, composto da quattro caratteri, il primo dei quali alfabetico (Z) e gli altri tre numerici. Per gli Stati e i territori per i quali il codice non è disponibile si riporta la dicitura 'n.d'. L'Agenzia non prevede un codice per lo Stato 'Italia'. - 2019 - Agenzia delle Entrate"/>
-		<type value="code"/>
-	</property>
-	<property>
-		<extension url="http://hl7.org/fhir/StructureDefinition/rendered-value">
-			<valueString value="Codice UNSD M49"/>
-		</extension>
-		<code value="codice-M49">
-
-		</code>
-		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere#codice-M49"/>
-		<description value="Codice di tre caratteri in formato numerico, valido nel range 1-999.Il codice UNSD M49 (Standard country or area codes for statistical use) è assegnato dalla Divisione di Statistica del Segretariato delle Nazioni Unite. Per gli Stati per i quali il codice non è disponibile si riporta la dicitura 'n.d.' - 2019- Divisione di Statistica del Segretariato delle Nazioni Unite."/>
-		<type value="code"/>
-	</property>
-	<property>
-		<extension url="http://hl7.org/fhir/StructureDefinition/rendered-value">
-			<valueString value="Codice ISO alpha-2"/>
-		</extension>
-		<code value="codice-ISO-2">
-
-		</code>
-		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere#codice-ISO-2"/>
-		<description value="Codice di due caratteri in formato alfanumerico. Per gli Stati e i territori il cui codice non è disponibile si riporta la dicitura 'n.d.'. L'ISO 3166 è una codifica geografica standard assegnata dall'Organizzazione Internazionale per le Standardizzazioni (ISO) agli Stati, ai Territori dipendenti e alle principali suddivisioni amministrative dei Paesi. - 2019 - International Organization for Standardization, classificazione ISO 3166-1 Alpha2"/>
-		<type value="code"/>
-	</property>
-	<property>
-		<extension url="http://hl7.org/fhir/StructureDefinition/rendered-value">
-			<valueString value="Codice ISO alpha-3"/>
-		</extension>
-		<code value="codice-ISO-3">
-
-		</code>
-		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere#codice-ISO-2"/>
-		<description value="Codice di tre caratteri in formato alfanumerico. Per gli Stati e i territori il cui codice non è disponibile si riporta la dicitura 'n.d.'. L'ISO 3166 è una codifica geografica standard assegnata dall'Organizzazione Internazionale per le Standardizzazioni (ISO) agli Stati, ai Territori dipendenti e alle principali suddivisioni amministrative dei Paesi. - 2019 - International Organization for Standardization, classificazione ISO 3166-1 Alpha3"/>
-		<type value="code"/>
-	</property>
-	<property>
-		<extension url="http://hl7.org/fhir/StructureDefinition/rendered-value">
-			<valueString value="Codice ISO padre"/>
-		</extension>
-		<code value="parent-ISO-code">
-
-		</code>
-		<uri value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere#parent-ISO-code"/>
-		<description value="Codice ISO 3166 alpha3 dello Stato (tre caratteri, formato alfanumerico) che estende la sua sovranità sul Territorio (T) - 2019 - International Organization for Standardization, classificazione ISO 3166-1 Alpha3"/>
-		<type value="code"/>
-	</property>
-	-->
-<property>
 		<code value="SoT">
 			<extension url="http://hl7.org/fhir/StructureDefinition/rendered-value">
 				<valueString value="Stato(S)/Territorio(T)"/>
@@ -179,7 +100,6 @@ Nota: nell’ “Elenco codici e denominazioni delle unità territoriali estere�
 		<description value="Codice ISO 3166 alpha3 dello Stato (tre caratteri, formato alfanumerico) che estende la sua sovranità sul Territorio (T) - 2019 - International Organization for Standardization, classificazione ISO 3166-1 Alpha3"/>
 		<type value="code"/>
 	</property>
-
 	<concept>
 		<code value="1"/>
 		<display value="Europa"/>
@@ -7559,5 +7479,17 @@ Nota: nell’ “Elenco codici e denominazioni delle unità territoriali estere�
 				</property>
 			</concept>
 		</concept>
+	</concept>
+	<concept>
+		<code value="998"/>
+		<display value="Altro/Non indicato/In corso di definizione"/>
+	</concept>
+	<concept>
+		<code value="999"/>
+		<display value="Apolide"/>
+	</concept>
+	<concept>
+		<code value="888"/>
+		<display value="Non cittadini riconosciuti"/>
 	</concept>
 </CodeSystem>

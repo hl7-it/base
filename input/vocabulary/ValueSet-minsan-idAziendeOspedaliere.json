@@ -1,0 +1,239 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VsMinisteroSaluteIdAziendeOspedaliere",
+  "id": "minsan-idAziendeOspedaliere",
+  "title": "Ministero della Salute - ID Aziende Ospedaliere",
+  "description": "Ministero della Salute - Aziende Ospedaliere (HSP11) [attivi e ritirati]",
+  "version": "0.1.0",
+  "url": "http://hl7.it/fhir/ValueSet/minsan-idAziendeOspedaliere",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.it/CodeSystem/minsan-hsp",
+        "concept": [
+          {
+            "code": "010906",
+            "display": "AZ. OSPEDAL. S. CROCE E CARLE"
+          },
+          {
+            "code": "010907",
+            "display": "AZ. SS.ANTONIO E BIAGIO E C.ARRIGO"
+          },
+          {
+            "code": "010908",
+            "display": "OSPEDALE MAURIZIANO UMBERTO I - TORINO"
+          },
+          {
+            "code": "030701",
+            "display": "ASST GRANDE OSPEDALE METROPOLITANO NIGUA"
+          },
+          {
+            "code": "030702",
+            "display": "ASST SANTI PAOLO E CARLO"
+          },
+          {
+            "code": "030703",
+            "display": "ASST FATEBENEFRATELLI SACCO"
+          },
+          {
+            "code": "030704",
+            "display": "ASST SPEC.ORT.TRAUMATOLOGICO G.PINI/CTO"
+          },
+          {
+            "code": "030705",
+            "display": "ASST OVEST MILANESE"
+          },
+          {
+            "code": "030706",
+            "display": "ASST RHODENSE"
+          },
+          {
+            "code": "030707",
+            "display": "ASST NORD MILANO"
+          },
+          {
+            "code": "030708",
+            "display": "ASST MELEGNANO E DELLA MARTESANA"
+          },
+          {
+            "code": "030709",
+            "display": "ASST DI LODI"
+          },
+          {
+            "code": "030710",
+            "display": "ASST DEI SETTE LAGHI"
+          },
+          {
+            "code": "030711",
+            "display": "ASST DELLA VALLE OLONA"
+          },
+          {
+            "code": "030712",
+            "display": "ASST LARIANA"
+          },
+          {
+            "code": "030713",
+            "display": "ASST DELLA VALTELLINA E DELL'ALTO LARIO"
+          },
+          {
+            "code": "030714",
+            "display": "ASST DELLA VALCAMONICA"
+          },
+          {
+            "code": "030715",
+            "display": "ASST DI LECCO"
+          },
+          {
+            "code": "030716",
+            "display": "ASST DI MONZA"
+          },
+          {
+            "code": "030717",
+            "display": "ASST DI VIMERCATE"
+          },
+          {
+            "code": "030718",
+            "display": "ASST PAPA GIOVANNI XXIII"
+          },
+          {
+            "code": "030719",
+            "display": "ASST DI BERGAMO OVEST"
+          },
+          {
+            "code": "030720",
+            "display": "ASST DI BERGAMO EST"
+          },
+          {
+            "code": "030721",
+            "display": "ASST DEGLI SPEDALI CIVILI DI BRESCIA"
+          },
+          {
+            "code": "030722",
+            "display": "ASST DELLA FRANCIACORTA"
+          },
+          {
+            "code": "030723",
+            "display": "ASST DEL GARDA"
+          },
+          {
+            "code": "030724",
+            "display": "ASST DI CREMONA"
+          },
+          {
+            "code": "030725",
+            "display": "ASST DI MANTOVA"
+          },
+          {
+            "code": "030726",
+            "display": "ASST DI CREMA"
+          },
+          {
+            "code": "030727",
+            "display": "ASST DI PAVIA"
+          },
+          {
+            "code": "050901",
+            "display": "AZIENDA OSPEDALIERA DI PADOVA"
+          },
+          {
+            "code": "080903",
+            "display": "AZIENDA OSPEDALIERA DI REGGIO EMILIA"
+          },
+          {
+            "code": "100901",
+            "display": "AZIENDA OSPEDALIERA DI PERUGIA"
+          },
+          {
+            "code": "100902",
+            "display": "AZIENDA OSPEDALIERA 'S. MARIA' - TERNI"
+          },
+          {
+            "code": "110901",
+            "display": "A.O. OSPEDALI RIUNITI MARCHE NORD"
+          },
+          {
+            "code": "110905",
+            "display": "A.O.U.OSPEDALI RIUNITI - ANCONA"
+          },
+          {
+            "code": "120901",
+            "display": "AZ.OSP.SAN CAMILLO-FORLANINI"
+          },
+          {
+            "code": "120902",
+            "display": "AZIENDA OSP. S.GIOVANNI/ADDOLORATA ROMA"
+          },
+          {
+            "code": "150901",
+            "display": "AZIENDA OSPEDALIERA 'A. CARDARELLI'"
+          },
+          {
+            "code": "150902",
+            "display": "A.O.SANTOBONO-PAUSILIPON"
+          },
+          {
+            "code": "150903",
+            "display": "A.zienda Ospedaliera dei Colli"
+          },
+          {
+            "code": "150905",
+            "display": "AZIENDA OSPEDALIERA S.G. MOSCATI"
+          },
+          {
+            "code": "150906",
+            "display": "AZIENDA OSPEDALE `G.RUMMO`"
+          },
+          {
+            "code": "150907",
+            "display": "A.O. SANT'ANNA E SAN SEBASTIANO  CASERTA"
+          },
+          {
+            "code": "170901",
+            "display": "AZIENDA OSPEDALIERA REGIONALE 'S. CARLO'"
+          },
+          {
+            "code": "180912",
+            "display": "AZIENDA OSPEDALIERA DI COSENZA"
+          },
+          {
+            "code": "180913",
+            "display": "Azienda Ospedaliera Pugliese De Lellis"
+          },
+          {
+            "code": "180914",
+            "display": "A.O. MATER DOMINI CATANZARO"
+          },
+          {
+            "code": "180915",
+            "display": "Azienda Osp.  Bianchi-Melacrino-Morelli"
+          },
+          {
+            "code": "190921",
+            "display": "A.O. per l'Emergenza Cannizzaro"
+          },
+          {
+            "code": "190922",
+            "display": "ARNAS GARIBALDI"
+          },
+          {
+            "code": "190924",
+            "display": "aorpapardopiemonte"
+          },
+          {
+            "code": "190926",
+            "display": "A.O.R Villa Sofia Cervello"
+          },
+          {
+            "code": "190927",
+            "display": "Azienda Ospedaliera 'Civico-Di Cristina-"
+          },
+          {
+            "code": "200904",
+            "display": "AZIENDA OSPEDALIERA G.BROTZU"
+          }
+        ]
+      }
+    ]
+  }
+}

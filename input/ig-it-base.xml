@@ -7,7 +7,7 @@
   </extension>-->
 	<url value="http://hl7.it/fhir/ImplementationGuide/ig-it-base"/>
 	<!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
-	<version value="0.0.1"/>
+	<version value="0.1.0"/>
 	<name value="HL7ITFhirBase"/>
 	<title value="HL7 Italia FHIR Implementation Guide (base)"/>
 	<status value="draft"/>
@@ -196,6 +196,10 @@
 			<code value="releaselabel"/>
 			<value value="CI Build"/>
 		</parameter>
+		<!-- <parameter>
+			<code value="releaselabel"/>
+			<value value="PC Ballot"/>
+		</parameter> -->
 		<parameter>
 			<code value="find-other-resources"/>
 			<value value="true"/>
@@ -239,6 +243,10 @@
 		<parameter>
 			<code value="special-url"/>
 			<value value="http://terminology.hl7.it/CodeSystem/istat-professioni"/>
+		</parameter>
+		<parameter>
+			<code value="special-url"/>
+			<value value="http://terminology.hl7.it/CodeSystem/istat-ctsi03"/>
 		</parameter>
 		<parameter>
 			<code value="special-url"/>

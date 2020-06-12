@@ -12,11 +12,19 @@ sviluppati da [HL7 Italia](http://hl7.it), identificati come ***Profili
 FHIR IT Base***, e le principali risorse (e.g. modelli logici, value
 set, code system) da usarsi trasversalmente in vari scenari di uso.
 
-I *Profili FHIR IT base* hanno come loro principalmente scopo quello di
-facilitare una rappresentazione comune di informazioni tipicamente usate
-nel contesto italiano.
+I profili proposti sono stati sviluppati a partire da una serie di
+***Modelli Logici***, rappresentati come HL7 FHIR logical model, inclusi
+in questa guida che fungeranno da guida per altre possibili
+rappresentazioni non FHIR.
 
-In questo senso questi profili:
+Una esplicita mappatura fra gli elementi dei modelli logici e la loro
+rappresentazione in FHIR è fornita in questa guida nel tab *Mapping*.
+
+### Caveat
+
+I *Profili FHIR IT base* presenti in questa guida hanno come loro
+principalmente scopo quello di facilitare una rappresentazione comune di
+informazioni tipicamente usate nel contesto italiano. In questo senso:
 
   - non pretendono di rappresentare ogni possibile informazione
     associabile alle classi rappresentate e potenzialmente di interesse
@@ -28,13 +36,11 @@ Future guide definiranno ulteriori vincoli da applicarsi a questi
 profili per specifici casi d'uso (e.g. Patient Summary; accesso del
 Paziente alle proprie informazioni).
 
-I profili proposti sono stati sviluppati a partire da una serie di
-***Modelli Logici***, rappresentati come HL7 FHIR logical model, inclusi
-in questa guida che fungeranno da guida per altre possibili
-rappresentazioni non FHIR.
-
-Una esplicita mappatura fra gli elementi dei modelli logici e la loro
-rappresentazione in FHIR è fornita in questa guida nel tab *Mapping*.
+Le terminologie (i.e. i code system) di terze parti (e.g. tabelle ISTAT,
+codici ministeriali) incluse in questa versione della guida sono fornite
+per fini esplicativi, non costituiscono un riferimento ufficiale per le
+terminologie in oggetto. Le condizioni di uso per le terminologie
+esterne usate sono descritte in [Copyright](copyright.html).
 
 ### Contenuti della guida
 
@@ -109,7 +115,7 @@ Le principali sezioni di questa guida sono:
 <td>Autore</td>
 <td>Giorgio Cangioli</td>
 <td>Consulente</td>
-<td><span class="underline">giorgio.cangioli_at_gmail.com</span></td>
+<td>giorgio.cangioli_at_gmail.com</td>
 </tr>
 <tr class="even">
 <td></td>
@@ -121,31 +127,43 @@ Le principali sezioni di questa guida sono:
 <td>Contributore</td>
 <td>Elena Vio</td>
 <td>Arsenàl.IT</td>
-<td></td>
+<td>evio_at_consorzioarsenal.it</td>
 </tr>
 <tr class="even">
 <td>Contributore</td>
 <td>Ivano Christian Tomainu</td>
 <td>Insiel S.p.A.</td>
-<td></td>
+<td>ivano.tomainu_at_insiel.it</td>
 </tr>
 <tr class="odd">
 <td>Contributore</td>
 <td>Paola Lupieri</td>
 <td>Insiel S.p.A.</td>
-<td></td>
+<td>paola.lupieri_at_insiel.it</td>
+</tr>
+<tr class="even">
+<td>Contributore</td>
+<td>Stefano Terreni</td>
+<td>Insiel S.p.A.</td>
+<td>stefano.terreni_at_insiel.it</td>
+</tr>
+<tr class="odd">
+<td>Contributore</td>
+<td>Flavio Mucchiut</td>
+<td>Insiel S.p.A.</td>
+<td>flavio.mucchiut_at_insiel.it</td>
 </tr>
 <tr class="even">
 <td>Contributore</td>
 <td>Luca Del Col</td>
 <td>IN. VA. S.p.A.</td>
-<td></td>
+<td>ldelcol_at_invallee.it</td>
 </tr>
 <tr class="odd">
 <td>Contributore</td>
 <td>Davide Corallo</td>
 <td>CSI Piemonte</td>
-<td></td>
+<td>davide.corallo_at_csi.it</td>
 </tr>
 </tbody>
 </table>

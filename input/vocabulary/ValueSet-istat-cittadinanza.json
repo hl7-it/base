@@ -1,12 +1,12 @@
 {
   "resourceType": "ValueSet",
   "status": "active",
-  "name": "VsIstatStato",
-  "id": "istat-stato",
-  "title": "ISTAT - Stati",
-  "description": "Codici ISTAT Stato",
+  "name": "VsIstatCittadinanza",
+  "id": "istat-cittadinanza",
+  "title": "ISTAT - Cittadinanza",
+  "description": "Codici ISTAT Cittadinanza; Eurostat. Regolamento 2017/543 del 22 marzo 2017",
   "version": "0.1.0",
-  "url": "http://hl7.it/fhir/ValueSet/istat-stato",
+  "url": "http://hl7.it/fhir/ValueSet/istat-cittadinanza",
   "compose": {
     "include": [
       {
@@ -801,52 +801,8 @@
             "display": "Vanuatu"
           },
           {
-            "code": "902",
-            "display": "Nuova Caledonia"
-          },
-          {
-            "code": "904",
-            "display": "Saint-Martin (FR)"
-          },
-          {
             "code": "905",
             "display": "Sahara occidentale"
-          },
-          {
-            "code": "906",
-            "display": "Saint-Barthélemy"
-          },
-          {
-            "code": "908",
-            "display": "Bermuda"
-          },
-          {
-            "code": "909",
-            "display": "Isole Cook (NZ)"
-          },
-          {
-            "code": "910",
-            "display": "Gibilterra"
-          },
-          {
-            "code": "911",
-            "display": "Isole Cayman"
-          },
-          {
-            "code": "917",
-            "display": "Anguilla"
-          },
-          {
-            "code": "920",
-            "display": "Polinesia francese"
-          },
-          {
-            "code": "924",
-            "display": "Isole Fær Øer"
-          },
-          {
-            "code": "925",
-            "display": "Jersey"
           },
           {
             "code": "926",
@@ -857,64 +813,20 @@
             "display": "Sint Maarten (NL)"
           },
           {
-            "code": "934",
-            "display": "Groenlandia"
-          },
-          {
-            "code": "939",
-            "display": "Sark"
-          },
-          {
-            "code": "940",
-            "display": "Guernsey"
-          },
-          {
-            "code": "958",
-            "display": "Isole Falkland (Malvine)"
-          },
-          {
-            "code": "959",
-            "display": "Isola di Man"
-          },
-          {
-            "code": "964",
-            "display": "Montserrat"
-          },
-          {
             "code": "966",
             "display": "Curaçao"
           },
           {
-            "code": "972",
-            "display": "Isole Pitcairn"
-          },
-          {
-            "code": "980",
-            "display": "Saint Pierre e Miquelon"
-          },
-          {
-            "code": "983",
-            "display": "Sant'Elena"
-          },
-          {
-            "code": "988",
-            "display": "Terre australi e antartiche francesi"
-          },
-          {
-            "code": "992",
-            "display": "Isole Turks e Caicos"
-          },
-          {
-            "code": "994",
-            "display": "Isole Vergini britanniche"
-          },
-          {
-            "code": "997",
-            "display": "Wallis e Futuna"
+            "code": "888",
+            "display": "Non cittadini riconosciuti"
           },
           {
             "code": "998",
             "display": "Altro/Non indicato/In corso di definizione"
+          },
+          {
+            "code": "999",
+            "display": "Apolide"
           }
         ]
       }

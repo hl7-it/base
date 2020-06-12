@@ -7,6 +7,15 @@ Alias: dataAbsentReason = http://hl7.org/fhir/StructureDefinition/data-absent-re
 Alias: CS_V3ItRoles = http://terminology.hl7.it/CodeSystem/it-v3RoleCode
 Alias: StatoEsenzioneCoverage = http://hl7.it/fhir/StructureDefinition/coverage-exceptionStatus
 // Alias: PractitionerMMG = http://hl7.it/fhir/StructureDefinition/Practitioner-mmg-it
+
+
+Alias: CS_professioni = http://terminology.hl7.it/CodeSystem/istat-professioni
+Alias: CS_TitoloStudio = http://terminology.hl7.it/CodeSystem/istat-ctsi03
+Alias: professioniPaziente = http://hl7.it/fhir/ValueSet/istat-professione
+Alias: titoloStudio = http://hl7.it/fhir/ValueSet/istat-titoloStudio
+Alias: Translation = http://hl7.org/fhir/StructureDefinition/translation
+
+
 //=========================
 //====== Estensione =====================================
 Extension:   StatoEsenzioneCoverage
@@ -65,13 +74,17 @@ Description: "Profilo base specifico per Organization: include le informazioni m
 * identifier ^slicing.rules = #open
 * identifier ^slicing.description = "Slice based on the identifier pattern"
 * identifier contains 
-	asl 0..1 and 
-	struttura 0..1 
+	asl 0..1 
+	and aziendaOspedaliera 0..1 
+	and struttura 0..1 
 	// and strutturaInterna 0..1
 * identifier[asl] MS
 * identifier[asl] ^patternIdentifier.system = http://hl7.it/sid/fls // pattern
 * identifier[asl].value 1..1
 * identifier[asl].value from http://hl7.it/fhir/ValueSet/minsan-idAsl (required)
+* identifier[aziendaOspedaliera] ^patternIdentifier.system = "http://hl7.it/sid/hsp" // pattern
+* identifier[aziendaOspedaliera].value 1..1
+* identifier[aziendaOspedaliera].value from http://hl7.it/fhir/ValueSet/minsan-idAziendeOspedaliere (required)
 * identifier[struttura] ^patternIdentifier.system = "http://hl7.it/sid/hsp" // pattern
 * identifier[struttura].value 1..1
 * identifier[struttura].value from http://hl7.it/fhir/ValueSet/minsan-idStrutture (required)
@@ -235,13 +248,11 @@ Description: "Esempio Practitioner"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-//============== ALIAS ===============
 
-Alias: COV_TYP = http://terminology.hl7.org/CodeSystem/v3-ActCode
-Alias: CS_professioni = http://terminology.hl7.it/CodeSystem/istat-professioni
-Alias: CS_titolo = http://example.org/qualification
-Alias: professioniPaziente = http://hl7.it/fhir/ValueSet/istat-professione
-Alias: Translation = http://hl7.org/fhir/StructureDefinition/translation
+
+
+
+
 
 //=========================
 
@@ -252,7 +263,7 @@ Title:       "Professione del paziente"
 Description: "Estensione per gestire la professione del paziente come CodeableConcept"
 //-------------------------------------------------------------------------------------------
 * value[x] only CodeableConcept
-* valueCodeableConcept from professioniPaziente (preferred)
+* valueCodeableConcept from professioniPaziente (example)
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Extension:   ExtTitoloStudioPaziente
@@ -261,7 +272,7 @@ Title:       "Titolo di Studio del paziente"
 Description: "Estensione per gestire il Titolo di studio del paziente come CodeableConcept"
 //-------------------------------------------------------------------------------------------
 * value[x] only CodeableConcept
-// * valueCodeableConcept from StatoEsenzioneV3ActStatus (required)
+* valueCodeableConcept from titoloStudio (example)
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -270,7 +281,7 @@ Instance: esempio-professione
 InstanceOf: Patient
 Description: "Patient: professione e titolo di studio"
 * extension[ExtProfessionePaziente].valueCodeableConcept = CS_professioni#2.4.1 "Medici"
-* extension[ExtTitoloStudioPaziente].valueCodeableConcept = CS_titolo#laurea
+* extension[ExtTitoloStudioPaziente].valueCodeableConcept = CS_TitoloStudio#72004001 "Medicina e chirurgia"
 * identifier[0].system = "http://hl7.it/sid/codiceFiscale"
 * identifier[0].value = "RSSMRT57D12D612R"
 * name.family = "Rossi"

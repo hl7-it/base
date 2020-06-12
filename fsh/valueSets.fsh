@@ -4,6 +4,7 @@ Alias: CS_unitaTerritoriali = http://terminology.hl7.it/CodeSystem/istat-unitaAm
 Alias: CS_Estero = http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere
 Alias: CS_NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
 Alias: CS_ProfessioniIstat = http://terminology.hl7.it/CodeSystem/istat-professioni
+Alias: CS_TitoloStudioIstat = http://terminology.hl7.it/CodeSystem/istat-ctsi03
 Alias: CS_Esenzioni = http://terminology.hl7.it/CodeSystem/minsan-esenzioni
 Alias: V3ActStatus = http://terminology.hl7.org/CodeSystem/v3-ActStatus
 Alias: CS_tipoEntita = http://terminology.hl7.it/CodeSystem/it-tipoEntita
@@ -82,6 +83,13 @@ Description: "Value Set basato sul vocabolario HL7 V3 ActStatus che descrive lo 
 
 ============== END */
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ValueSet: VsIstatTitoloStudio
+Id: istat-titoloStudio
+Title: "ISTAT - Titolo Studio"
+Description: "Classificazione dei titoli di studio italiani"
+//-------------------------------------------------------------------------------------------
+* codes from system CS_TitoloStudioIstat
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsIstatProfessionePaziente
@@ -135,166 +143,8 @@ Description: "Identificativi per codici ENI regionali."
 //=========================
 
 
-ValueSet: VsIstatStato
-Id: istat-stato
-Title: "ISTAT - Stati"
-Description: "Codici ISTAT Stato più sconosciuto"
-//----------------------------------------
-* CS_NullFlavor#UNK "Sconosciuto"
-* codes from system CS_Estero
 
 
-ValueSet: VsIstatComune
-Id: istat-comune
-Title: "ISTAT - Comuni"
-Description: "Codici ISTAT Comune più sconosciuto"
-//----------------------------------------
-* CS_NullFlavor#UNK "Sconosciuto"
-* codes from system CS_unitaTerritoriali
-
-ValueSet: VsIstatProvincia
-Id: istat-provincia
-Title: "ISTAT - Province"
-Description: "Codici ISTAT Provincia più sconosciuto"
-//----------------------------------------
-* CS_NullFlavor#UNK "Sconosciuto"
-* CS_unitaTerritoriali#002 "Vercelli"
-* CS_unitaTerritoriali#003 "Novara"
-* CS_unitaTerritoriali#004 "Cuneo"
-* CS_unitaTerritoriali#005 "Asti"
-* CS_unitaTerritoriali#006 "Alessandria"
-* CS_unitaTerritoriali#007 "Valle d&apos;Aosta/Vallée d&apos;Aoste"
-* CS_unitaTerritoriali#008 "Imperia"
-* CS_unitaTerritoriali#009 "Savona"
-* CS_unitaTerritoriali#011 "La Spezia"
-* CS_unitaTerritoriali#012 "Varese"
-* CS_unitaTerritoriali#013 "Como"
-* CS_unitaTerritoriali#014 "Sondrio"
-* CS_unitaTerritoriali#016 "Bergamo"
-* CS_unitaTerritoriali#017 "Brescia"
-* CS_unitaTerritoriali#018 "Pavia"
-* CS_unitaTerritoriali#019 "Cremona"
-* CS_unitaTerritoriali#020 "Mantova"
-* CS_unitaTerritoriali#021 "Bolzano/Bozen"
-* CS_unitaTerritoriali#022 "Trento"
-* CS_unitaTerritoriali#023 "Verona"
-* CS_unitaTerritoriali#024 "Vicenza"
-* CS_unitaTerritoriali#025 "Belluno"
-* CS_unitaTerritoriali#026 "Treviso"
-* CS_unitaTerritoriali#028 "Padova"
-* CS_unitaTerritoriali#029 "Rovigo"
-* CS_unitaTerritoriali#030 "Udine"
-* CS_unitaTerritoriali#031 "Gorizia"
-* CS_unitaTerritoriali#032 "Trieste"
-* CS_unitaTerritoriali#033 "Piacenza"
-* CS_unitaTerritoriali#034 "Parma"
-* CS_unitaTerritoriali#035 "Reggio nell&apos;Emilia"
-* CS_unitaTerritoriali#036 "Modena"
-* CS_unitaTerritoriali#038 "Ferrara"
-* CS_unitaTerritoriali#039 "Ravenna"
-* CS_unitaTerritoriali#040 "Forlì-Cesena"
-* CS_unitaTerritoriali#041 "Pesaro e Urbino"
-* CS_unitaTerritoriali#042 "Ancona"
-* CS_unitaTerritoriali#043 "Macerata"
-* CS_unitaTerritoriali#044 "Ascoli Piceno"
-* CS_unitaTerritoriali#045 "Massa-Carrara"
-* CS_unitaTerritoriali#046 "Lucca"
-* CS_unitaTerritoriali#047 "Pistoia"
-* CS_unitaTerritoriali#049 "Livorno"
-* CS_unitaTerritoriali#050 "Pisa"
-* CS_unitaTerritoriali#051 "Arezzo"
-* CS_unitaTerritoriali#052 "Siena"
-* CS_unitaTerritoriali#053 "Grosseto"
-* CS_unitaTerritoriali#054 "Perugia"
-* CS_unitaTerritoriali#055 "Terni"
-* CS_unitaTerritoriali#056 "Viterbo"
-* CS_unitaTerritoriali#057 "Rieti"
-* CS_unitaTerritoriali#059 "Latina"
-* CS_unitaTerritoriali#060 "Frosinone"
-* CS_unitaTerritoriali#061 "Caserta"
-* CS_unitaTerritoriali#062 "Benevento"
-* CS_unitaTerritoriali#064 "Avellino"
-* CS_unitaTerritoriali#065 "Salerno"
-* CS_unitaTerritoriali#066 "L&apos;Aquila"
-* CS_unitaTerritoriali#067 "Teramo"
-* CS_unitaTerritoriali#068 "Pescara"
-* CS_unitaTerritoriali#069 "Chieti"
-* CS_unitaTerritoriali#070 "Campobasso"
-* CS_unitaTerritoriali#071 "Foggia"
-* CS_unitaTerritoriali#073 "Taranto"
-* CS_unitaTerritoriali#074 "Brindisi"
-* CS_unitaTerritoriali#075 "Lecce"
-* CS_unitaTerritoriali#076 "Potenza"
-* CS_unitaTerritoriali#077 "Matera"
-* CS_unitaTerritoriali#078 "Cosenza"
-* CS_unitaTerritoriali#079 "Catanzaro"
-* CS_unitaTerritoriali#081 "Trapani"
-* CS_unitaTerritoriali#084 "Agrigento"
-* CS_unitaTerritoriali#085 "Caltanissetta"
-* CS_unitaTerritoriali#086 "Enna"
-* CS_unitaTerritoriali#088 "Ragusa"
-* CS_unitaTerritoriali#089 "Siracusa"
-* CS_unitaTerritoriali#090 "Sassari"
-* CS_unitaTerritoriali#091 "Nuoro"
-* CS_unitaTerritoriali#093 "Pordenone"
-* CS_unitaTerritoriali#094 "Isernia"
-* CS_unitaTerritoriali#095 "Oristano"
-* CS_unitaTerritoriali#096 "Biella"
-* CS_unitaTerritoriali#097 "Lecco"
-* CS_unitaTerritoriali#098 "Lodi"
-* CS_unitaTerritoriali#099 "Rimini"
-* CS_unitaTerritoriali#100 "Prato"
-* CS_unitaTerritoriali#101 "Crotone"
-* CS_unitaTerritoriali#102 "Vibo Valentia"
-* CS_unitaTerritoriali#103 "Verbano-Cusio-Ossola"
-* CS_unitaTerritoriali#108 "Monza e della Brianza"
-* CS_unitaTerritoriali#109 "Fermo"
-* CS_unitaTerritoriali#110 "Barletta-Andria-Trani"
-* CS_unitaTerritoriali#111 "Sud Sardegna"
-* CS_unitaTerritoriali#201 "Torino"
-* CS_unitaTerritoriali#210 "Genova"
-* CS_unitaTerritoriali#215 "Milano"
-* CS_unitaTerritoriali#227 "Venezia"
-* CS_unitaTerritoriali#237 "Bologna"
-* CS_unitaTerritoriali#248 "Firenze"
-* CS_unitaTerritoriali#258 "Roma"
-* CS_unitaTerritoriali#263 "Napoli"
-* CS_unitaTerritoriali#272 "Bari"
-* CS_unitaTerritoriali#280 "Reggio Calabria"
-* CS_unitaTerritoriali#282 "Palermo"
-* CS_unitaTerritoriali#283 "Messina"
-* CS_unitaTerritoriali#287 "Catania"
-* CS_unitaTerritoriali#292 "Cagliari"
-
-
-ValueSet: VsIstatRegione
-Id: istat-regione
-Title: "ISTAT - Regioni"
-Description: "Codici ISTAT Regione più sconosciuto"
-//----------------------------------------
-* CS_NullFlavor#UNK
-
-* CS_unitaTerritoriali#01 "Piemonte"
-* CS_unitaTerritoriali#02 "Valle d'Aosta/Vallée d'Aoste"
-* CS_unitaTerritoriali#03 "Lombardia"
-* CS_unitaTerritoriali#04 "Trentino-Alto Adige/Südtirol"
-* CS_unitaTerritoriali#04 "Trentino-Alto Adige/Südtirol"
-* CS_unitaTerritoriali#05 "Veneto"
-* CS_unitaTerritoriali#06 "Friuli-Venezia Giulia"
-* CS_unitaTerritoriali#07 "Liguria"
-* CS_unitaTerritoriali#08 "Emilia-Romagna"
-* CS_unitaTerritoriali#09 "Toscana"
-* CS_unitaTerritoriali#10 "Umbria"
-* CS_unitaTerritoriali#11 "Marche"
-* CS_unitaTerritoriali#12 "Lazio"
-* CS_unitaTerritoriali#13 "Abruzzo"
-* CS_unitaTerritoriali#14 "Molise"
-* CS_unitaTerritoriali#15 "Campania"
-* CS_unitaTerritoriali#16 "Puglia"
-* CS_unitaTerritoriali#17 "Basilicata"
-* CS_unitaTerritoriali#18 "Calabria"
-* CS_unitaTerritoriali#19 "Sicilia"
-* CS_unitaTerritoriali#20 "Sardegna"
 
 //----------------------------------------
 ValueSet: VsMinisteroSaluteIdStrutture
@@ -308,9 +158,98 @@ Description: "Ministero della Salute - Identificativi Strutture Ricovero (HSP11)
 ValueSet: VsMinisteroSaluteIdStruttureInterne
 Id: minsan-idStruttureInterne
 Title: "Ministero della Salute - ID Strutture Interne di Ricovero"
-Description: "Ministero della Salute - Identificativi Strutture Intene di Ricovero (HSP11) [attivi e ritirati]"
+Description: "Ministero della Salute - Identificativi Strutture Interne di Ricovero (HSP11) [attivi e ritirati]"
 //----------------------------------------
 * codes from system UriHsp
+
+//----------------------------------------
+ValueSet: VsMinisteroSaluteIdAziendeOspedaliere
+Id: minsan-idAziendeOspedaliere
+Title: "Ministero della Salute - ID Aziende Ospedaliere"
+Description: "Ministero della Salute - Aziende Ospedaliere (HSP11) [attivi e ritirati]"
+//----------------------------------------
+* UriHsp#010906 "AZ. OSPEDAL. S. CROCE E CARLE"
+* UriHsp#010907 "AZ. SS.ANTONIO E BIAGIO E C.ARRIGO"
+* UriHsp#010908 "OSPEDALE MAURIZIANO UMBERTO I - TORINO"
+* UriHsp#030701 "ASST GRANDE OSPEDALE METROPOLITANO NIGUA"
+* UriHsp#030702 "ASST SANTI PAOLO E CARLO"
+* UriHsp#030703 "ASST FATEBENEFRATELLI SACCO"
+* UriHsp#030704 "ASST SPEC.ORT.TRAUMATOLOGICO G.PINI/CTO"
+* UriHsp#030705 "ASST OVEST MILANESE"
+* UriHsp#030706 "ASST RHODENSE"
+* UriHsp#030707 "ASST NORD MILANO"
+* UriHsp#030708 "ASST MELEGNANO E DELLA MARTESANA"
+* UriHsp#030709 "ASST DI LODI"
+* UriHsp#030710 "ASST DEI SETTE LAGHI"
+* UriHsp#030711 "ASST DELLA VALLE OLONA"
+* UriHsp#030712 "ASST LARIANA"
+* UriHsp#030713 "ASST DELLA VALTELLINA E DELL'ALTO LARIO"
+* UriHsp#030714 "ASST DELLA VALCAMONICA"
+* UriHsp#030715 "ASST DI LECCO"
+* UriHsp#030716 "ASST DI MONZA"
+* UriHsp#030717 "ASST DI VIMERCATE"
+* UriHsp#030718 "ASST PAPA GIOVANNI XXIII"
+* UriHsp#030719 "ASST DI BERGAMO OVEST"
+* UriHsp#030720 "ASST DI BERGAMO EST"
+* UriHsp#030721 "ASST DEGLI SPEDALI CIVILI DI BRESCIA"
+* UriHsp#030722 "ASST DELLA FRANCIACORTA"
+* UriHsp#030723 "ASST DEL GARDA"
+* UriHsp#030724 "ASST DI CREMONA"
+* UriHsp#030725 "ASST DI MANTOVA"
+* UriHsp#030726 "ASST DI CREMA"
+* UriHsp#030727 "ASST DI PAVIA"
+* UriHsp#050901 "AZIENDA OSPEDALIERA DI PADOVA"
+* UriHsp#080903 "AZIENDA OSPEDALIERA DI REGGIO EMILIA"
+* UriHsp#100901 "AZIENDA OSPEDALIERA DI PERUGIA"
+* UriHsp#100902 "AZIENDA OSPEDALIERA 'S. MARIA' - TERNI"
+* UriHsp#110901 "A.O. OSPEDALI RIUNITI MARCHE NORD"
+* UriHsp#110905 "A.O.U.OSPEDALI RIUNITI - ANCONA"
+* UriHsp#120901 "AZ.OSP.SAN CAMILLO-FORLANINI"
+* UriHsp#120902 "AZIENDA OSP. S.GIOVANNI/ADDOLORATA ROMA"
+* UriHsp#150901 "AZIENDA OSPEDALIERA 'A. CARDARELLI'"
+* UriHsp#150902 "A.O.SANTOBONO-PAUSILIPON"
+* UriHsp#150903 "A.zienda Ospedaliera dei Colli"
+* UriHsp#150905 "AZIENDA OSPEDALIERA S.G. MOSCATI"
+* UriHsp#150906 "AZIENDA OSPEDALE `G.RUMMO`"
+* UriHsp#150907 "A.O. SANT'ANNA E SAN SEBASTIANO  CASERTA"
+* UriHsp#170901 "AZIENDA OSPEDALIERA REGIONALE 'S. CARLO'"
+* UriHsp#180912 "AZIENDA OSPEDALIERA DI COSENZA"
+* UriHsp#180913 "Azienda Ospedaliera Pugliese De Lellis"
+* UriHsp#180914 "A.O. MATER DOMINI CATANZARO"
+* UriHsp#180915 "Azienda Osp.  Bianchi-Melacrino-Morelli"
+* UriHsp#190921 "A.O. per l'Emergenza Cannizzaro"
+* UriHsp#190922 "ARNAS GARIBALDI"
+* UriHsp#190924 "aorpapardopiemonte"
+* UriHsp#190926 "A.O.R Villa Sofia Cervello"
+* UriHsp#190927 "Azienda Ospedaliera 'Civico-Di Cristina-"
+* UriHsp#200904 "AZIENDA OSPEDALIERA G.BROTZU"
+
+
+//----------------------------------------
+ValueSet: VsMinisteroSaluteIdAOU
+Id: minsan-idAou
+Title: "Ministero della Salute - ID Aziende Ospedaliere Universitarie"
+Description: "Ministero della Salute - Azienda Ospedaliera integrata con l'Università (HSP11) [attivi e ritirati]"
+//----------------------------------------
+// * codes from system UriHsp where type = "2.2"
+* UriHsp#010904 "AZIENDA OSPEDALIERO UNIVERSITARIA S.LUIG"
+* UriHsp#010905 "AZIENDA OSPED. NOVARA E GALLIATE"
+* UriHsp#010909 "AOU CITTA' DELLA SALUTE E DELLA SCIENZA"
+* UriHsp#050912 "AZ.OSP.UNIVERSITARIA INTEGRATA VERONA"
+* UriHsp#080902 "AZIENDA OSPEDALIERO-UNIVERSITARIA DI PAR"
+* UriHsp#080904 "AZIENDA OSPEDALIERO-UNIVERSITARIA DI MOD"
+* UriHsp#080908 "AZIENDA OSPEDALIERO-UNIVERSITARIA DI BOL"
+* UriHsp#080909 "AZIENDA OSPEDALIERO-UNIVERSITARIA DI FER"
+* UriHsp#090901 "AZIENDA OSPEDALIERO-UNIVERSITARIA PISANA"
+* UriHsp#090902 "AZIENDA OSPEDALIERA UNIVERSITARIA SENESE"
+* UriHsp#090903 "AZ. OSPEDALIERO - UNIVERSITARIA CAREGGI"
+* UriHsp#090904 "AZIENDA OSPEDALIERA MEYER"
+* UriHsp#120919 "AZIENDA OSPEDALIERA SANT`ANDREA"
+* UriHsp#120920 "AZ. OSP. UNIV. POLICLINICO TOR VERGATA"
+* UriHsp#150904 "A.O.OO.RR.S.GIOVANNI DI DIO E RUGGI D`AR"
+* UriHsp#160910 "AO UNIV. 'OO RR FOGGIA'"
+
+
 
 //----------------------------------------
 ValueSet: VsMinisteroSaluteIdAsl
