@@ -16,7 +16,7 @@
 	<url value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere"/>
 	<version value="31_12_2019"/>
 	<name value="ISTAT_Estero"/>
-	<title value="ISTAT - CODICI DELLE UNITA’ TERRITORIALI ESTERE"/>
+	<title value="ISTAT - Codici delle unità territoriali estere"/>
 	<status value="active"/>
 	<experimental value="false"/>
 	<description value="Aggiornamento al 1° gennaio 2020. Ai fini statistici l’Istat pubblica, con cadenza annuale e con riferimento alla data del 31 dicembre, la lista dei Paesi esteri (Stati e Territori), dal 2017 resa coerente con l’elenco dei Luoghi previsti dal Regolamento Ue 2017/543 (cfr. Allegato). Ulteriori aggiornamenti possono essere diffusi in periodi diversi da quello previsto, per garantire la tempestiva divulgazione delle informazioni sulle unità territoriali interessate da variazione. L’elenco dei Paesi esteri, con i relativi codici, viene aggiornato a seguito delle variazioni che avvengono nella configurazione geopolitica mondiale; determinano aggiornamenti, ad esempio, la nascita di un nuovo Stato, la cessazione di uno Stato preesistente, ecc. I Paesi esteri sono raggruppati per continente e per area geopolitica di appartenenza. Nel caso dell’Europa, in particolare, si distingue tra Paesi membri dell’Unione Europea e altri Paesi europei. Nota: nell’ “Elenco codici e denominazioni delle unità territoriali estere” aggiornato al 31 dicembre 2019 è registrato il cambio denominazione denominazione della ex Repubblica Jugoslava di Macedonia in Repubblica della Macedonia del Nord"/>

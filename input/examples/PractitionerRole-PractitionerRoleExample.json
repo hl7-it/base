@@ -14,7 +14,7 @@
     "reference": "Practitioner/PractitionerExample"
   },
   "organization": {
-    "reference": "Organization/ASL-example"
+    "reference": "Organization/asl-020101"
   },
   "code": [
     {

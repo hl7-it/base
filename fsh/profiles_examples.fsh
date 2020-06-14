@@ -14,6 +14,7 @@ Alias: CS_TitoloStudio = http://terminology.hl7.it/CodeSystem/istat-ctsi03
 Alias: professioniPaziente = http://hl7.it/fhir/ValueSet/istat-professione
 Alias: titoloStudio = http://hl7.it/fhir/ValueSet/istat-titoloStudio
 Alias: Translation = http://hl7.org/fhir/StructureDefinition/translation
+Alias: ISO_SC_coding = http://hl7.org/fhir/StructureDefinition/iso21090-SC-coding
 
 
 //=========================
@@ -39,7 +40,7 @@ Description: "Esempio Esenzione"
 * status = 	http://hl7.org/fhir/ValueSet/fm-status#active
 * type = COV_TYP#PUBLICPOL
 * beneficiary = Reference(Patient/esempio-CF-residenza)
-* payor = Reference(Organization/ASL-example)
+* payor = Reference(Organization/asl-020101)
 * costToBeneficiary.valueMoney.extension[0].url = dataAbsentReason
 * costToBeneficiary.valueMoney.extension[0].valueCode = #not-applicable
 * costToBeneficiary.exception.extension[0].url = StatoEsenzioneCoverage
@@ -64,33 +65,56 @@ Description: "Profilo base generico per Organization"
 Profile:  OrganizationHcp
 Parent:   OrganizationItBase
 Id:       Organization-it-hcp
-Title:    "Organization - Operatore socio sanitario"
-Description: "Profilo base specifico per Organization: include le informazioni minime per descrivere una organizzazione che eroga od è responsabile per prestazioni socio sanitarie"
+Title:    "Organization - Operatore sanitario/socio sanitario"
+Description: "Profilo base specifico per Organization: include le informazioni minime per descrivere una organizzazione che eroga od è responsabile per prestazioni sanitarie o socio sanitarie"
 //-------------------------------------------------------------------------------------------
 
 * identifier MS
-* identifier ^slicing.discriminator.type = #pattern
-* identifier ^slicing.discriminator.path = "$this"
+* identifier ^slicing.discriminator[0].type = #value
+* identifier ^slicing.discriminator[0].path = "$this.system"
+* identifier ^slicing.discriminator[1].type = #value
+* identifier ^slicing.discriminator[1].path = "$this.value"
 * identifier ^slicing.rules = #open
 * identifier ^slicing.description = "Slice based on the identifier pattern"
+* identifier.system 1..1 MS
+* identifier.value 1..1 MS
 * identifier contains 
 	asl 0..1 
+	and aslRegione 0..1
 	and aziendaOspedaliera 0..1 
 	and struttura 0..1 
-	// and strutturaInterna 0..1
-* identifier[asl] MS
-* identifier[asl] ^patternIdentifier.system = http://hl7.it/sid/fls // pattern
-* identifier[asl].value 1..1
+	and partitaIva 0..1
+	and codiceFiscale 0..1
+	and strutturaInterna 0..1
+
+* identifier[asl] ^short = "Identitificativo Azienda Sanitaria Locale (FLS 11 - 6 char)"
+* identifier[asl].system = "http://hl7.it/sid/fls" (exactly) // pattern
+// * identifier[asl].value 1..1
 * identifier[asl].value from http://hl7.it/fhir/ValueSet/minsan-idAsl (required)
-* identifier[aziendaOspedaliera] ^patternIdentifier.system = "http://hl7.it/sid/hsp" // pattern
-* identifier[aziendaOspedaliera].value 1..1
+
+* identifier[aslRegione].system from http://hl7.it/fhir/ValueSet/uri-idAslRegione // pattern
+* identifier[aslRegione] ^short = "Identitificativo Azienda Sanitaria Locale (FLS 11 - 3 char)"
+// * identifier[aslRegione].value 1..1
+
+// * identifier[aziendaOspedaliera] ^patternIdentifier.system = "http://hl7.it/sid/hsp" // pattern
+* identifier[aziendaOspedaliera].system = "http://hl7.it/sid/hsp" (exactly)  // pattern
+* identifier[aziendaOspedaliera] ^short = "Identitificativo Azienda Ospedaliera (HSP 11)"
+
+
+//* identifier[aziendaOspedaliera].value 1..1
 * identifier[aziendaOspedaliera].value from http://hl7.it/fhir/ValueSet/minsan-idAziendeOspedaliere (required)
-* identifier[struttura] ^patternIdentifier.system = "http://hl7.it/sid/hsp" // pattern
-* identifier[struttura].value 1..1
+* identifier[struttura].system = "http://hl7.it/sid/hsp" (exactly) // pattern
+* identifier[struttura] ^short = "Identitificativo Struttura di Ricovero (HSP 11)"
+//* identifier[struttura].value 1..1
 * identifier[struttura].value from http://hl7.it/fhir/ValueSet/minsan-idStrutture (required)
-// * identifier[strutturaInterna] ^patternIdentifier.system = "http://hl7.it/sid/hsp" // pattern
+* identifier[strutturaInterna].system = "http://hl7.it/sid/hsp" (exactly) // pattern
 // * identifier[strutturaInterna].value 1..1
-// * identifier[strutturaInterna].value from http://hl7.it/fhir/ValueSet/minsan-idStruttureInterne (required)
+* identifier[strutturaInterna].value from http://hl7.it/fhir/ValueSet/minsan-idStruttureInterne (required)
+* identifier[partitaIva].system = "http://hl7.it/sid/partitaIva" (exactly)  // pattern
+* identifier[partitaIva] ^short = "Partita IVA Organizzazione"
+* identifier[codiceFiscale].system = "http://hl7.it/sid/codiceFiscale" (exactly)  // pattern
+* identifier[codiceFiscale] ^short = "Codice Fiscale Organizzazione"
+
 * active	MS
 * type	MS
 * type from http://hl7.it/fhir/ValueSet/tipoOrgSocioSanitaria (extensible)
@@ -98,15 +122,44 @@ Description: "Profilo base specifico per Organization: include le informazioni m
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Instance: ASL-example
+Instance: asl-020101
 InstanceOf: Organization
 Description: "Organization: esempio Azienda Sanitaria"
+// 2020	
 //-------------------------------------------------------------------------------------------
-* identifier.system = "http://hl7.it/sid/asl" 
-* identifier.value = "020101"
+* identifier[0].system = "http://hl7.it/sid/fls" 
+* identifier[0].value = "020101"
+* identifier[1].system = "http://hl7.it/sid/vda/asl" 
+* identifier[1].value = "101"
+* identifier[2].system = "http://hl7.it/sid/partitaIva" 
+* identifier[2].value = "00177330073"
+* identifier[3].system = "http://hl7.it/sid/codiceFiscale" 
+* identifier[3].value = "91001750073"
 * active = 	true
 * type = http://terminology.hl7.it/CodeSystem/it-tipoEntita#asl "Azienda Sanitaria Locale"
 * name = "AZIENDA U.S.L. VALLE D'AOSTA"
+
+* telecom[0].system = #phone
+* telecom[0].value = "(0165) 5431"
+* telecom[1].system = #fax
+* telecom[1].value = "(0165) 544587"
+* telecom[2].system = #email
+* telecom[2].value = "mailto: protocollo@pec.ausl.vda.it"
+* telecom[3].system = #url
+* telecom[3].value = "http://www.ausl.vda.it"
+
+* address[0].line = "VIA GUIDO REY 1"
+* address[0].city = "AOSTA"
+* address[0].city.extension[0].url = ISO_SC_coding
+* address[0].city.extension[0].valueCoding = CS_unitaTerritoriali#007003 "AOSTA"    
+* address[0].district = "AO"
+* address[0].state = "VALLE D'AOSTA"
+* address[0].state.extension[0].url = ISO_SC_coding
+* address[0].state.extension[0].valueCoding = CsMinsanRegioni#020 "VALLE D'AOSTA"
+* address[0].postalCode = "11100"
+* address[0].country = "IT"
+
+
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -220,7 +273,7 @@ Description: "Esempio MMG"
 * identifier[1].value = "123456789"
 * period.start = "1997-09-01"
 * practitioner = Reference(Practitioner/PractitionerMMGExample)
-* organization = Reference(Organization/ASL-example)
+* organization = Reference(Organization/asl-020101)
 * code = CS_V3ItRoles#MMG
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -232,7 +285,7 @@ Description: "Esempio PractitionerRole"
 * identifier[0].value = "PLLDSR80E47A462P"
 * period.start = "2005-04-15"
 * practitioner = Reference(Practitioner/PractitionerExample)
-* organization = Reference(Organization/ASL-example)
+* organization = Reference(Organization/asl-020101)
 * code.text = "impiegata"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

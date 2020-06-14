@@ -1,0 +1,85 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VsUriIdAslRegione",
+  "id": "uri-idAslRegione",
+  "title": "Identificativi regionali per ASL (3 char)",
+  "description": "Identificativi regionali per ASL a 3 caratteri, come da file ministeriale",
+  "version": "0.1.0",
+  "url": "http://hl7.it/fhir/ValueSet/uri-idAslRegione",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "concept": [
+          {
+            "code": "http://hl7.it/sid/abruzzo/asl"
+          },
+          {
+            "code": "http://hl7.it/sid/basilicata/asl"
+          },
+          {
+            "code": "http://hl7.it/sid/calabria/asl"
+          },
+          {
+            "code": "http://hl7.it/sid/campania/asl"
+          },
+          {
+            "code": "http://hl7.it/sid/rer/asl"
+          },
+          {
+            "code": "http://hl7.it/sid/fvg/asl"
+          },
+          {
+            "code": "http://hl7.it/sid/lazio/asl"
+          },
+          {
+            "code": "http://hl7.it/sid/liguria/asl"
+          },
+          {
+            "code": "http://hl7.it/sid/lombardia/asl"
+          },
+          {
+            "code": "http://hl7.it/sid/marche/asl"
+          },
+          {
+            "code": "http://hl7.it/sid/molise/asl"
+          },
+          {
+            "code": "http://hl7.it/sid/piemonte/asl"
+          },
+          {
+            "code": "http://hl7.it/sid/puglia/asl"
+          },
+          {
+            "code": "http://hl7.it/sid/sardegna/asl"
+          },
+          {
+            "code": "http://hl7.it/sid/sicilia/asl"
+          },
+          {
+            "code": "http://hl7.it/sid/toscana/asl"
+          },
+          {
+            "code": "http://hl7.it/sid/taa/asl"
+          },
+          {
+            "code": "http://hl7.it/sid/apb/asl"
+          },
+          {
+            "code": "http://hl7.it/sid/pat/asl"
+          },
+          {
+            "code": "http://hl7.it/sid/umbria/asl"
+          },
+          {
+            "code": "http://hl7.it/sid/vda/asl"
+          },
+          {
+            "code": "http://hl7.it/sid/veneto/asl"
+          }
+        ]
+      }
+    ]
+  }
+}

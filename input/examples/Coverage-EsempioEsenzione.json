@@ -15,7 +15,7 @@
   },
   "payor": [
     {
-      "reference": "Organization/ASL-example"
+      "reference": "Organization/asl-020101"
     }
   ],
   "costToBeneficiary": [

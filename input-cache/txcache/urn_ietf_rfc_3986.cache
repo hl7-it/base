@@ -477,3 +477,512 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "http://hl7.it/sid/abruzzo/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/basilicata/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/calabria/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/campania/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/rer/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/fvg/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/lazio/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/liguria/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/lombardia/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/marche/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/molise/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/piemonte/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/puglia/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/sardegna/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/sicilia/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/toscana/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/taa/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/apb/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/pat/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/umbria/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/vda/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/veneto/asl"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:8754a314-82a5-4018-bf6b-f2adaf434eb6",
+    "timestamp" : "2020-06-13T13:37:13.271Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "urn:ietf:rfc:3986|n/a"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:ietf:rfc:3986",
+  "code" : "http://hl7.it/sid/fls"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "http://hl7.it/sid/abruzzo/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/basilicata/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/calabria/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/campania/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/rer/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/fvg/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/lazio/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/liguria/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/lombardia/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/marche/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/molise/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/piemonte/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/puglia/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/sardegna/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/sicilia/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/toscana/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/taa/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/apb/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/pat/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/umbria/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/vda/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/veneto/asl"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (urn:ietf:rfc:3986#http://hl7.it/sid/fls) is not  valid"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:ietf:rfc:3986",
+  "code" : "http://hl7.it/sid/vda/asl"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "http://hl7.it/sid/abruzzo/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/basilicata/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/calabria/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/campania/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/rer/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/fvg/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/lazio/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/liguria/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/lombardia/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/marche/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/molise/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/piemonte/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/puglia/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/sardegna/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/sicilia/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/toscana/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/taa/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/apb/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/pat/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/umbria/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/vda/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/veneto/asl"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:ietf:rfc:3986",
+  "code" : "http://hl7.it/sid/partitaIva"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "http://hl7.it/sid/abruzzo/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/basilicata/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/calabria/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/campania/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/rer/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/fvg/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/lazio/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/liguria/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/lombardia/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/marche/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/molise/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/piemonte/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/puglia/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/sardegna/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/sicilia/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/toscana/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/taa/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/apb/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/pat/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/umbria/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/vda/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/veneto/asl"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (urn:ietf:rfc:3986#http://hl7.it/sid/partitaIva) is not  valid"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:ietf:rfc:3986",
+  "code" : "http://hl7.it/sid/codiceFiscale"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "http://hl7.it/sid/abruzzo/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/basilicata/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/calabria/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/campania/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/rer/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/fvg/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/lazio/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/liguria/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/lombardia/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/marche/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/molise/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/piemonte/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/puglia/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/sardegna/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/sicilia/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/toscana/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/taa/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/apb/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/pat/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/umbria/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/vda/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/veneto/asl"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (urn:ietf:rfc:3986#http://hl7.it/sid/codiceFiscale) is not  valid"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:ietf:rfc:3986",
+  "code" : "http://hl7.it/sid/vda/asl"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "http://hl7.it/sid/abruzzo/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/basilicata/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/calabria/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/campania/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/rer/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/fvg/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/lazio/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/liguria/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/lombardia/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/marche/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/molise/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/piemonte/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/puglia/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/sardegna/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/sicilia/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/toscana/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/taa/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/apb/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/pat/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/umbria/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/vda/asl"
+      },
+      {
+        "code" : "http://hl7.it/sid/veneto/asl"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"true", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

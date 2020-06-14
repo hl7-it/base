@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VsMinsanregione",
+  "id": "minsan-regione",
+  "title": "Ministero della Salute - Codici Regionali",
+  "description": "Ministero della Salute - Codici Regionali usati nei file FLS11. La regione Trentino Alto-Adige è rappresentata dalle province autonome di cui è composta.",
+  "version": "0.1.0",
+  "url": "http://hl7.it/fhir/ValueSet/minsan-regione",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.it/CodeSystem/minsan-regione"
+      }
+    ]
+  }
+}

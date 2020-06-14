@@ -92,10 +92,10 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="Organization/ASL-example"/>
+				<reference value="Organization/asl-020101"/>
 			</reference>
-			<name value="Organization. Esempio di Azienda Sanitaria"/>
-			<description value="Esempio di uso della risorsa Organization per descrivere una Azienda Sanitaria"/>
+			<name value="Organization. Esempio di Azienda Sanitaria Locale"/>
+			<description value="Esempio di uso della risorsa Organization per descrivere una Azienda Sanitaria Locale"/>
 			<exampleCanonical value="http://hl7.it/fhir/StructureDefinition/Organization-it-hcp"/>
 		</resource>
 		<resource>
@@ -207,6 +207,10 @@
 		<parameter>
 			<code value="special-url"/>
 			<value value="http://terminology.hl7.it/CodeSystem/administrative-gender"/>
+		</parameter>
+		<parameter>
+			<code value="special-url"/>
+			<value value="http://terminology.hl7.it/CodeSystem/minsan-regione"/>
 		</parameter>
 		<parameter>
 			<code value="special-url"/>

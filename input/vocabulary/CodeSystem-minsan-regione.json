@@ -1,0 +1,97 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "CsMinsanRegioni",
+  "id": "minsan-regione",
+  "title": "Ministero della Salute - Codici Regioni / PPAA",
+  "description": "Ministero della Salute - Codici Regioni / Province Autonome usati nei file FLS11.",
+  "version": "0.1.0",
+  "url": "http://terminology.hl7.it/CodeSystem/minsan-regione",
+  "concept": [
+    {
+      "code": "010",
+      "display": "PIEMONTE"
+    },
+    {
+      "code": "020",
+      "display": "VALLE D'AOSTA"
+    },
+    {
+      "code": "030",
+      "display": "LOMBARDIA"
+    },
+    {
+      "code": "041",
+      "display": "PROV. AUTON. BOLZANO"
+    },
+    {
+      "code": "042",
+      "display": "PROV. AUTON. TRENTO"
+    },
+    {
+      "code": "050",
+      "display": "VENETO"
+    },
+    {
+      "code": "060",
+      "display": "FRIULI VENEZIA GIULIA"
+    },
+    {
+      "code": "070",
+      "display": "LIGURIA"
+    },
+    {
+      "code": "080",
+      "display": "EMILIA ROMAGNA"
+    },
+    {
+      "code": "090",
+      "display": "TOSCANA"
+    },
+    {
+      "code": "100",
+      "display": "UMBRIA"
+    },
+    {
+      "code": "110",
+      "display": "MARCHE"
+    },
+    {
+      "code": "120",
+      "display": "LAZIO"
+    },
+    {
+      "code": "130",
+      "display": "ABRUZZO"
+    },
+    {
+      "code": "140",
+      "display": "MOLISE"
+    },
+    {
+      "code": "150",
+      "display": "CAMPANIA"
+    },
+    {
+      "code": "160",
+      "display": "PUGLIA"
+    },
+    {
+      "code": "170",
+      "display": "BASILICATA"
+    },
+    {
+      "code": "180",
+      "display": "CALABRIA"
+    },
+    {
+      "code": "190",
+      "display": "SICILIA"
+    },
+    {
+      "code": "200",
+      "display": "SARDEGNA"
+    }
+  ]
+}

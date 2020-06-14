@@ -19,6 +19,9 @@
             "code": "asl"
           },
           {
+            "code": "ric"
+          },
+          {
             "code": "ao"
           },
           {
@@ -26,6 +29,15 @@
           },
           {
             "code": "irccs"
+          },
+          {
+            "code": "irccs-pub"
+          },
+          {
+            "code": "irccs-priv"
+          },
+          {
+            "code": "irccs-fond"
           },
           {
             "code": "distretto"

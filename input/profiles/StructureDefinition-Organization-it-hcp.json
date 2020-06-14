@@ -4,9 +4,9 @@
   "url": "http://hl7.it/fhir/StructureDefinition/Organization-it-hcp",
   "version": "0.1.0",
   "name": "OrganizationHcp",
-  "title": "Organization - Operatore socio sanitario",
+  "title": "Organization - Operatore sanitario/socio sanitario",
   "status": "active",
-  "description": "Profilo base specifico per Organization: include le informazioni minime per descrivere una organizzazione che eroga od è responsabile per prestazioni socio sanitarie",
+  "description": "Profilo base specifico per Organization: include le informazioni minime per descrivere una organizzazione che eroga od è responsabile per prestazioni sanitarie o socio sanitarie",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -47,8 +47,12 @@
         "slicing": {
           "discriminator": [
             {
-              "type": "pattern",
-              "path": "$this"
+              "type": "value",
+              "path": "$this.system"
+            },
+            {
+              "type": "value",
+              "path": "$this.value"
             }
           ],
           "rules": "open",
@@ -56,38 +60,70 @@
         }
       },
       {
+        "id": "Organization.identifier.system",
+        "path": "Organization.identifier.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.identifier.value",
+        "path": "Organization.identifier.value",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
         "id": "Organization.identifier:asl",
         "path": "Organization.identifier",
         "sliceName": "asl",
+        "short": "Identitificativo Azienda Sanitaria Locale (FLS 11 - 6 char)",
         "min": 0,
-        "max": "1",
-        "patternIdentifier": {
-          "system": "http://hl7.it/sid/fls"
-        }
+        "max": "1"
+      },
+      {
+        "id": "Organization.identifier:asl.system",
+        "path": "Organization.identifier.system",
+        "fixedUri": "http://hl7.it/sid/fls"
       },
       {
         "id": "Organization.identifier:asl.value",
         "path": "Organization.identifier.value",
-        "min": 1,
         "binding": {
           "strength": "required",
           "valueSet": "http://hl7.it/fhir/ValueSet/minsan-idAsl"
         }
       },
       {
+        "id": "Organization.identifier:aslRegione",
+        "path": "Organization.identifier",
+        "sliceName": "aslRegione",
+        "short": "Identitificativo Azienda Sanitaria Locale (FLS 11 - 3 char)",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Organization.identifier:aslRegione.system",
+        "path": "Organization.identifier.system",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.it/fhir/ValueSet/uri-idAslRegione"
+        }
+      },
+      {
         "id": "Organization.identifier:aziendaOspedaliera",
         "path": "Organization.identifier",
         "sliceName": "aziendaOspedaliera",
+        "short": "Identitificativo Azienda Ospedaliera (HSP 11)",
         "min": 0,
-        "max": "1",
-        "patternIdentifier": {
-          "system": "http://hl7.it/sid/hsp"
-        }
+        "max": "1"
+      },
+      {
+        "id": "Organization.identifier:aziendaOspedaliera.system",
+        "path": "Organization.identifier.system",
+        "fixedUri": "http://hl7.it/sid/hsp"
       },
       {
         "id": "Organization.identifier:aziendaOspedaliera.value",
         "path": "Organization.identifier.value",
-        "min": 1,
         "binding": {
           "strength": "required",
           "valueSet": "http://hl7.it/fhir/ValueSet/minsan-idAziendeOspedaliere"
@@ -97,19 +133,67 @@
         "id": "Organization.identifier:struttura",
         "path": "Organization.identifier",
         "sliceName": "struttura",
+        "short": "Identitificativo Struttura di Ricovero (HSP 11)",
         "min": 0,
-        "max": "1",
-        "patternIdentifier": {
-          "system": "http://hl7.it/sid/hsp"
-        }
+        "max": "1"
+      },
+      {
+        "id": "Organization.identifier:struttura.system",
+        "path": "Organization.identifier.system",
+        "fixedUri": "http://hl7.it/sid/hsp"
       },
       {
         "id": "Organization.identifier:struttura.value",
         "path": "Organization.identifier.value",
-        "min": 1,
         "binding": {
           "strength": "required",
           "valueSet": "http://hl7.it/fhir/ValueSet/minsan-idStrutture"
+        }
+      },
+      {
+        "id": "Organization.identifier:partitaIva",
+        "path": "Organization.identifier",
+        "sliceName": "partitaIva",
+        "short": "Partita IVA Organizzazione",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Organization.identifier:partitaIva.system",
+        "path": "Organization.identifier.system",
+        "fixedUri": "http://hl7.it/sid/partitaIva"
+      },
+      {
+        "id": "Organization.identifier:codiceFiscale",
+        "path": "Organization.identifier",
+        "sliceName": "codiceFiscale",
+        "short": "Codice Fiscale Organizzazione",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Organization.identifier:codiceFiscale.system",
+        "path": "Organization.identifier.system",
+        "fixedUri": "http://hl7.it/sid/codiceFiscale"
+      },
+      {
+        "id": "Organization.identifier:strutturaInterna",
+        "path": "Organization.identifier",
+        "sliceName": "strutturaInterna",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Organization.identifier:strutturaInterna.system",
+        "path": "Organization.identifier.system",
+        "fixedUri": "http://hl7.it/sid/hsp"
+      },
+      {
+        "id": "Organization.identifier:strutturaInterna.value",
+        "path": "Organization.identifier.value",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.it/fhir/ValueSet/minsan-idStruttureInterne"
         }
       },
       {
