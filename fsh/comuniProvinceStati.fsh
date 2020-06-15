@@ -8721,36 +8721,3 @@ Description: "Ministero della Salute - Identificativi ASL (FLS11) [attivi e riti
 * UriFls11#200107 "CARBONIA"
 * UriFls11#200108 "CAGLIARI"
 * UriFls11#200201 "AZIENDA PER LA TUTELA DELLA SALUTE"
-
-ValueSet: VsIstatRegione
-Id: istat-regione
-Title: "ISTAT - Regioni"
-Description: "Codici ISTAT Regione più sconosciuto"
-//----------------------------------------
-* CS_NullFlavor#UNK
-* CS_unitaTerritoriali#01 "Piemonte"
-* CS_unitaTerritoriali#02 "Valle d'Aosta/Vallée d'Aoste"
-* CS_unitaTerritoriali#03 "Lombardia"
-* CS_unitaTerritoriali#04 "Trentino-Alto Adige/Südtirol"
-* CS_unitaTerritoriali#04 "Trentino-Alto Adige/Südtirol"
-* CS_unitaTerritoriali#05 "Veneto"
-* CS_unitaTerritoriali#06 "Friuli-Venezia Giulia"
-* CS_unitaTerritoriali#07 "Liguria"
-* CS_unitaTerritoriali#08 "Emilia-Romagna"
-* CS_unitaTerritoriali#09 "Toscana"
-* CS_unitaTerritoriali#10 "Umbria"
-* CS_unitaTerritoriali#11 "Marche"
-* CS_unitaTerritoriali#12 "Lazio"
-* CS_unitaTerritoriali#13 "Abruzzo"
-* CS_unitaTerritoriali#14 "Molise"
-* CS_unitaTerritoriali#15 "Campania"
-* CS_unitaTerritoriali#16 "Puglia"
-* CS_unitaTerritoriali#17 "Basilicata"
-* CS_unitaTerritoriali#18 "Calabria"
-* CS_unitaTerritoriali#19 "Sicilia"
-* CS_unitaTerritoriali#20 "Sardegna"
-
-
-
-
-

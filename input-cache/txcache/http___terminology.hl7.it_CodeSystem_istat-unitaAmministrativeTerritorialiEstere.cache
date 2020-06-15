@@ -1,0 +1,4025 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "concept" : [{
+        "code" : "100",
+        "display" : "Italia"
+      },
+      {
+        "code" : "201",
+        "display" : "Albania"
+      },
+      {
+        "code" : "202",
+        "display" : "Andorra"
+      },
+      {
+        "code" : "203",
+        "display" : "Austria"
+      },
+      {
+        "code" : "206",
+        "display" : "Belgio"
+      },
+      {
+        "code" : "209",
+        "display" : "Bulgaria"
+      },
+      {
+        "code" : "212",
+        "display" : "Danimarca"
+      },
+      {
+        "code" : "214",
+        "display" : "Finlandia"
+      },
+      {
+        "code" : "215",
+        "display" : "Francia"
+      },
+      {
+        "code" : "216",
+        "display" : "Germania"
+      },
+      {
+        "code" : "219",
+        "display" : "Regno Unito"
+      },
+      {
+        "code" : "220",
+        "display" : "Grecia"
+      },
+      {
+        "code" : "221",
+        "display" : "Irlanda"
+      },
+      {
+        "code" : "223",
+        "display" : "Islanda"
+      },
+      {
+        "code" : "225",
+        "display" : "Liechtenstein"
+      },
+      {
+        "code" : "226",
+        "display" : "Lussemburgo"
+      },
+      {
+        "code" : "227",
+        "display" : "Malta"
+      },
+      {
+        "code" : "229",
+        "display" : "Monaco"
+      },
+      {
+        "code" : "231",
+        "display" : "Norvegia"
+      },
+      {
+        "code" : "232",
+        "display" : "Paesi Bassi"
+      },
+      {
+        "code" : "233",
+        "display" : "Polonia"
+      },
+      {
+        "code" : "234",
+        "display" : "Portogallo"
+      },
+      {
+        "code" : "235",
+        "display" : "Romania"
+      },
+      {
+        "code" : "236",
+        "display" : "San Marino"
+      },
+      {
+        "code" : "239",
+        "display" : "Spagna"
+      },
+      {
+        "code" : "240",
+        "display" : "Svezia"
+      },
+      {
+        "code" : "241",
+        "display" : "Svizzera"
+      },
+      {
+        "code" : "243",
+        "display" : "Ucraina"
+      },
+      {
+        "code" : "244",
+        "display" : "Ungheria"
+      },
+      {
+        "code" : "245",
+        "display" : "Federazione russa"
+      },
+      {
+        "code" : "246",
+        "display" : "Stato della Città del Vaticano"
+      },
+      {
+        "code" : "247",
+        "display" : "Estonia"
+      },
+      {
+        "code" : "248",
+        "display" : "Lettonia"
+      },
+      {
+        "code" : "249",
+        "display" : "Lituania"
+      },
+      {
+        "code" : "250",
+        "display" : "Croazia"
+      },
+      {
+        "code" : "251",
+        "display" : "Slovenia"
+      },
+      {
+        "code" : "252",
+        "display" : "Bosnia-Erzegovina"
+      },
+      {
+        "code" : "253",
+        "display" : "Macedonia del Nord"
+      },
+      {
+        "code" : "254",
+        "display" : "Moldova"
+      },
+      {
+        "code" : "255",
+        "display" : "Slovacchia"
+      },
+      {
+        "code" : "256",
+        "display" : "Bielorussia"
+      },
+      {
+        "code" : "257",
+        "display" : "Repubblica ceca"
+      },
+      {
+        "code" : "270",
+        "display" : "Montenegro"
+      },
+      {
+        "code" : "271",
+        "display" : "Serbia"
+      },
+      {
+        "code" : "272",
+        "display" : "Kosovo"
+      },
+      {
+        "code" : "301",
+        "display" : "Afghanistan"
+      },
+      {
+        "code" : "302",
+        "display" : "Arabia Saudita"
+      },
+      {
+        "code" : "304",
+        "display" : "Bahrein"
+      },
+      {
+        "code" : "305",
+        "display" : "Bangladesh"
+      },
+      {
+        "code" : "306",
+        "display" : "Bhutan"
+      },
+      {
+        "code" : "307",
+        "display" : "Myanmar/Birmania"
+      },
+      {
+        "code" : "309",
+        "display" : "Brunei Darussalam"
+      },
+      {
+        "code" : "310",
+        "display" : "Cambogia"
+      },
+      {
+        "code" : "311",
+        "display" : "Sri Lanka"
+      },
+      {
+        "code" : "314",
+        "display" : "Cina"
+      },
+      {
+        "code" : "315",
+        "display" : "Cipro"
+      },
+      {
+        "code" : "319",
+        "display" : "Corea del Nord"
+      },
+      {
+        "code" : "320",
+        "display" : "Corea del Sud"
+      },
+      {
+        "code" : "322",
+        "display" : "Emirati Arabi Uniti"
+      },
+      {
+        "code" : "323",
+        "display" : "Filippine"
+      },
+      {
+        "code" : "324",
+        "display" : "Palestina"
+      },
+      {
+        "code" : "326",
+        "display" : "Giappone"
+      },
+      {
+        "code" : "327",
+        "display" : "Giordania"
+      },
+      {
+        "code" : "330",
+        "display" : "India"
+      },
+      {
+        "code" : "331",
+        "display" : "Indonesia"
+      },
+      {
+        "code" : "332",
+        "display" : "Iran"
+      },
+      {
+        "code" : "333",
+        "display" : "Iraq"
+      },
+      {
+        "code" : "334",
+        "display" : "Israele"
+      },
+      {
+        "code" : "335",
+        "display" : "Kuwait"
+      },
+      {
+        "code" : "336",
+        "display" : "Laos"
+      },
+      {
+        "code" : "337",
+        "display" : "Libano"
+      },
+      {
+        "code" : "338",
+        "display" : "Timor Leste"
+      },
+      {
+        "code" : "339",
+        "display" : "Maldive"
+      },
+      {
+        "code" : "340",
+        "display" : "Malaysia"
+      },
+      {
+        "code" : "341",
+        "display" : "Mongolia"
+      },
+      {
+        "code" : "342",
+        "display" : "Nepal"
+      },
+      {
+        "code" : "343",
+        "display" : "Oman"
+      },
+      {
+        "code" : "344",
+        "display" : "Pakistan"
+      },
+      {
+        "code" : "345",
+        "display" : "Qatar"
+      },
+      {
+        "code" : "346",
+        "display" : "Singapore"
+      },
+      {
+        "code" : "348",
+        "display" : "Siria"
+      },
+      {
+        "code" : "349",
+        "display" : "Thailandia"
+      },
+      {
+        "code" : "351",
+        "display" : "Turchia"
+      },
+      {
+        "code" : "353",
+        "display" : "Vietnam"
+      },
+      {
+        "code" : "354",
+        "display" : "Yemen"
+      },
+      {
+        "code" : "356",
+        "display" : "Kazakhstan"
+      },
+      {
+        "code" : "357",
+        "display" : "Uzbekistan"
+      },
+      {
+        "code" : "358",
+        "display" : "Armenia"
+      },
+      {
+        "code" : "359",
+        "display" : "Azerbaigian"
+      },
+      {
+        "code" : "360",
+        "display" : "Georgia"
+      },
+      {
+        "code" : "361",
+        "display" : "Kirghizistan"
+      },
+      {
+        "code" : "362",
+        "display" : "Tagikistan"
+      },
+      {
+        "code" : "363",
+        "display" : "Taiwan"
+      },
+      {
+        "code" : "364",
+        "display" : "Turkmenistan"
+      },
+      {
+        "code" : "401",
+        "display" : "Algeria"
+      },
+      {
+        "code" : "402",
+        "display" : "Angola"
+      },
+      {
+        "code" : "404",
+        "display" : "Costa d'Avorio"
+      },
+      {
+        "code" : "406",
+        "display" : "Benin"
+      },
+      {
+        "code" : "408",
+        "display" : "Botswana"
+      },
+      {
+        "code" : "409",
+        "display" : "Burkina Faso"
+      },
+      {
+        "code" : "410",
+        "display" : "Burundi"
+      },
+      {
+        "code" : "411",
+        "display" : "Camerun"
+      },
+      {
+        "code" : "413",
+        "display" : "Capo Verde"
+      },
+      {
+        "code" : "414",
+        "display" : "Repubblica Centrafricana"
+      },
+      {
+        "code" : "415",
+        "display" : "Ciad"
+      },
+      {
+        "code" : "417",
+        "display" : "Comore"
+      },
+      {
+        "code" : "418",
+        "display" : "Congo"
+      },
+      {
+        "code" : "419",
+        "display" : "Egitto"
+      },
+      {
+        "code" : "420",
+        "display" : "Etiopia"
+      },
+      {
+        "code" : "421",
+        "display" : "Gabon"
+      },
+      {
+        "code" : "422",
+        "display" : "Gambia"
+      },
+      {
+        "code" : "423",
+        "display" : "Ghana"
+      },
+      {
+        "code" : "424",
+        "display" : "Gibuti"
+      },
+      {
+        "code" : "425",
+        "display" : "Guinea"
+      },
+      {
+        "code" : "426",
+        "display" : "Guinea-Bissau"
+      },
+      {
+        "code" : "427",
+        "display" : "Guinea equatoriale"
+      },
+      {
+        "code" : "428",
+        "display" : "Kenya"
+      },
+      {
+        "code" : "429",
+        "display" : "Lesotho"
+      },
+      {
+        "code" : "430",
+        "display" : "Liberia"
+      },
+      {
+        "code" : "431",
+        "display" : "Libia"
+      },
+      {
+        "code" : "432",
+        "display" : "Madagascar"
+      },
+      {
+        "code" : "434",
+        "display" : "Malawi"
+      },
+      {
+        "code" : "435",
+        "display" : "Mali"
+      },
+      {
+        "code" : "436",
+        "display" : "Marocco"
+      },
+      {
+        "code" : "437",
+        "display" : "Mauritania"
+      },
+      {
+        "code" : "438",
+        "display" : "Maurizio"
+      },
+      {
+        "code" : "440",
+        "display" : "Mozambico"
+      },
+      {
+        "code" : "441",
+        "display" : "Namibia"
+      },
+      {
+        "code" : "442",
+        "display" : "Niger"
+      },
+      {
+        "code" : "443",
+        "display" : "Nigeria"
+      },
+      {
+        "code" : "446",
+        "display" : "Ruanda"
+      },
+      {
+        "code" : "448",
+        "display" : "Sao Tomé e Principe"
+      },
+      {
+        "code" : "449",
+        "display" : "Seychelles"
+      },
+      {
+        "code" : "450",
+        "display" : "Senegal"
+      },
+      {
+        "code" : "451",
+        "display" : "Sierra Leone"
+      },
+      {
+        "code" : "453",
+        "display" : "Somalia"
+      },
+      {
+        "code" : "454",
+        "display" : "Sudafrica"
+      },
+      {
+        "code" : "455",
+        "display" : "Sudan"
+      },
+      {
+        "code" : "456",
+        "display" : "Eswatini"
+      },
+      {
+        "code" : "457",
+        "display" : "Tanzania"
+      },
+      {
+        "code" : "458",
+        "display" : "Togo"
+      },
+      {
+        "code" : "460",
+        "display" : "Tunisia"
+      },
+      {
+        "code" : "461",
+        "display" : "Uganda"
+      },
+      {
+        "code" : "463",
+        "display" : "Repubblica Democratica del Congo"
+      },
+      {
+        "code" : "464",
+        "display" : "Zambia"
+      },
+      {
+        "code" : "465",
+        "display" : "Zimbabwe"
+      },
+      {
+        "code" : "466",
+        "display" : "Eritrea"
+      },
+      {
+        "code" : "467",
+        "display" : "Sud Sudan"
+      },
+      {
+        "code" : "503",
+        "display" : "Antigua e Barbuda"
+      },
+      {
+        "code" : "505",
+        "display" : "Bahamas"
+      },
+      {
+        "code" : "506",
+        "display" : "Barbados"
+      },
+      {
+        "code" : "507",
+        "display" : "Belize"
+      },
+      {
+        "code" : "509",
+        "display" : "Canada"
+      },
+      {
+        "code" : "513",
+        "display" : "Costa Rica"
+      },
+      {
+        "code" : "514",
+        "display" : "Cuba"
+      },
+      {
+        "code" : "515",
+        "display" : "Dominica"
+      },
+      {
+        "code" : "516",
+        "display" : "Repubblica Dominicana"
+      },
+      {
+        "code" : "517",
+        "display" : "El Salvador"
+      },
+      {
+        "code" : "518",
+        "display" : "Giamaica"
+      },
+      {
+        "code" : "519",
+        "display" : "Grenada"
+      },
+      {
+        "code" : "523",
+        "display" : "Guatemala"
+      },
+      {
+        "code" : "524",
+        "display" : "Haiti"
+      },
+      {
+        "code" : "525",
+        "display" : "Honduras"
+      },
+      {
+        "code" : "527",
+        "display" : "Messico"
+      },
+      {
+        "code" : "529",
+        "display" : "Nicaragua"
+      },
+      {
+        "code" : "530",
+        "display" : "Panama"
+      },
+      {
+        "code" : "532",
+        "display" : "Santa Lucia"
+      },
+      {
+        "code" : "533",
+        "display" : "Saint Vincent e Grenadine"
+      },
+      {
+        "code" : "534",
+        "display" : "Saint Kitts e Nevis"
+      },
+      {
+        "code" : "536",
+        "display" : "Stati Uniti d'America"
+      },
+      {
+        "code" : "602",
+        "display" : "Argentina"
+      },
+      {
+        "code" : "604",
+        "display" : "Bolivia"
+      },
+      {
+        "code" : "605",
+        "display" : "Brasile"
+      },
+      {
+        "code" : "606",
+        "display" : "Cile"
+      },
+      {
+        "code" : "608",
+        "display" : "Colombia"
+      },
+      {
+        "code" : "609",
+        "display" : "Ecuador"
+      },
+      {
+        "code" : "612",
+        "display" : "Guyana"
+      },
+      {
+        "code" : "614",
+        "display" : "Paraguay"
+      },
+      {
+        "code" : "615",
+        "display" : "Perù"
+      },
+      {
+        "code" : "616",
+        "display" : "Suriname"
+      },
+      {
+        "code" : "617",
+        "display" : "Trinidad e Tobago"
+      },
+      {
+        "code" : "618",
+        "display" : "Uruguay"
+      },
+      {
+        "code" : "619",
+        "display" : "Venezuela"
+      },
+      {
+        "code" : "701",
+        "display" : "Australia"
+      },
+      {
+        "code" : "703",
+        "display" : "Figi"
+      },
+      {
+        "code" : "708",
+        "display" : "Kiribati"
+      },
+      {
+        "code" : "712",
+        "display" : "Isole Marshall"
+      },
+      {
+        "code" : "713",
+        "display" : "Stati Federati di Micronesia"
+      },
+      {
+        "code" : "715",
+        "display" : "Nauru"
+      },
+      {
+        "code" : "719",
+        "display" : "Nuova Zelanda"
+      },
+      {
+        "code" : "720",
+        "display" : "Palau"
+      },
+      {
+        "code" : "721",
+        "display" : "Papua Nuova Guinea"
+      },
+      {
+        "code" : "725",
+        "display" : "Isole Salomone"
+      },
+      {
+        "code" : "727",
+        "display" : "Samoa"
+      },
+      {
+        "code" : "730",
+        "display" : "Tonga"
+      },
+      {
+        "code" : "731",
+        "display" : "Tuvalu"
+      },
+      {
+        "code" : "732",
+        "display" : "Vanuatu"
+      },
+      {
+        "code" : "905",
+        "display" : "Sahara occidentale"
+      },
+      {
+        "code" : "926",
+        "display" : "Aruba"
+      },
+      {
+        "code" : "928",
+        "display" : "Sint Maarten (NL)"
+      },
+      {
+        "code" : "966",
+        "display" : "Curaçao"
+      },
+      {
+        "code" : "888",
+        "display" : "Non cittadini riconosciuti"
+      },
+      {
+        "code" : "998",
+        "display" : "Altro/Non indicato/In corso di definizione"
+      },
+      {
+        "code" : "999",
+        "display" : "Apolide"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+      "concept" : [{
+        "code" : "100",
+        "display" : "Italia"
+      },
+      {
+        "code" : "201",
+        "display" : "Albania"
+      },
+      {
+        "code" : "202",
+        "display" : "Andorra"
+      },
+      {
+        "code" : "203",
+        "display" : "Austria"
+      },
+      {
+        "code" : "206",
+        "display" : "Belgio"
+      },
+      {
+        "code" : "209",
+        "display" : "Bulgaria"
+      },
+      {
+        "code" : "212",
+        "display" : "Danimarca"
+      },
+      {
+        "code" : "214",
+        "display" : "Finlandia"
+      },
+      {
+        "code" : "215",
+        "display" : "Francia"
+      },
+      {
+        "code" : "216",
+        "display" : "Germania"
+      },
+      {
+        "code" : "219",
+        "display" : "Regno Unito"
+      },
+      {
+        "code" : "220",
+        "display" : "Grecia"
+      },
+      {
+        "code" : "221",
+        "display" : "Irlanda"
+      },
+      {
+        "code" : "223",
+        "display" : "Islanda"
+      },
+      {
+        "code" : "225",
+        "display" : "Liechtenstein"
+      },
+      {
+        "code" : "226",
+        "display" : "Lussemburgo"
+      },
+      {
+        "code" : "227",
+        "display" : "Malta"
+      },
+      {
+        "code" : "229",
+        "display" : "Monaco"
+      },
+      {
+        "code" : "231",
+        "display" : "Norvegia"
+      },
+      {
+        "code" : "232",
+        "display" : "Paesi Bassi"
+      },
+      {
+        "code" : "233",
+        "display" : "Polonia"
+      },
+      {
+        "code" : "234",
+        "display" : "Portogallo"
+      },
+      {
+        "code" : "235",
+        "display" : "Romania"
+      },
+      {
+        "code" : "236",
+        "display" : "San Marino"
+      },
+      {
+        "code" : "239",
+        "display" : "Spagna"
+      },
+      {
+        "code" : "240",
+        "display" : "Svezia"
+      },
+      {
+        "code" : "241",
+        "display" : "Svizzera"
+      },
+      {
+        "code" : "243",
+        "display" : "Ucraina"
+      },
+      {
+        "code" : "244",
+        "display" : "Ungheria"
+      },
+      {
+        "code" : "245",
+        "display" : "Federazione russa"
+      },
+      {
+        "code" : "246",
+        "display" : "Stato della Città del Vaticano"
+      },
+      {
+        "code" : "247",
+        "display" : "Estonia"
+      },
+      {
+        "code" : "248",
+        "display" : "Lettonia"
+      },
+      {
+        "code" : "249",
+        "display" : "Lituania"
+      },
+      {
+        "code" : "250",
+        "display" : "Croazia"
+      },
+      {
+        "code" : "251",
+        "display" : "Slovenia"
+      },
+      {
+        "code" : "252",
+        "display" : "Bosnia-Erzegovina"
+      },
+      {
+        "code" : "253",
+        "display" : "Macedonia del Nord"
+      },
+      {
+        "code" : "254",
+        "display" : "Moldova"
+      },
+      {
+        "code" : "255",
+        "display" : "Slovacchia"
+      },
+      {
+        "code" : "256",
+        "display" : "Bielorussia"
+      },
+      {
+        "code" : "257",
+        "display" : "Repubblica ceca"
+      },
+      {
+        "code" : "270",
+        "display" : "Montenegro"
+      },
+      {
+        "code" : "271",
+        "display" : "Serbia"
+      },
+      {
+        "code" : "272",
+        "display" : "Kosovo"
+      },
+      {
+        "code" : "301",
+        "display" : "Afghanistan"
+      },
+      {
+        "code" : "302",
+        "display" : "Arabia Saudita"
+      },
+      {
+        "code" : "304",
+        "display" : "Bahrein"
+      },
+      {
+        "code" : "305",
+        "display" : "Bangladesh"
+      },
+      {
+        "code" : "306",
+        "display" : "Bhutan"
+      },
+      {
+        "code" : "307",
+        "display" : "Myanmar/Birmania"
+      },
+      {
+        "code" : "309",
+        "display" : "Brunei Darussalam"
+      },
+      {
+        "code" : "310",
+        "display" : "Cambogia"
+      },
+      {
+        "code" : "311",
+        "display" : "Sri Lanka"
+      },
+      {
+        "code" : "314",
+        "display" : "Cina"
+      },
+      {
+        "code" : "315",
+        "display" : "Cipro"
+      },
+      {
+        "code" : "319",
+        "display" : "Corea del Nord"
+      },
+      {
+        "code" : "320",
+        "display" : "Corea del Sud"
+      },
+      {
+        "code" : "322",
+        "display" : "Emirati Arabi Uniti"
+      },
+      {
+        "code" : "323",
+        "display" : "Filippine"
+      },
+      {
+        "code" : "324",
+        "display" : "Palestina"
+      },
+      {
+        "code" : "326",
+        "display" : "Giappone"
+      },
+      {
+        "code" : "327",
+        "display" : "Giordania"
+      },
+      {
+        "code" : "330",
+        "display" : "India"
+      },
+      {
+        "code" : "331",
+        "display" : "Indonesia"
+      },
+      {
+        "code" : "332",
+        "display" : "Iran"
+      },
+      {
+        "code" : "333",
+        "display" : "Iraq"
+      },
+      {
+        "code" : "334",
+        "display" : "Israele"
+      },
+      {
+        "code" : "335",
+        "display" : "Kuwait"
+      },
+      {
+        "code" : "336",
+        "display" : "Laos"
+      },
+      {
+        "code" : "337",
+        "display" : "Libano"
+      },
+      {
+        "code" : "338",
+        "display" : "Timor Leste"
+      },
+      {
+        "code" : "339",
+        "display" : "Maldive"
+      },
+      {
+        "code" : "340",
+        "display" : "Malaysia"
+      },
+      {
+        "code" : "341",
+        "display" : "Mongolia"
+      },
+      {
+        "code" : "342",
+        "display" : "Nepal"
+      },
+      {
+        "code" : "343",
+        "display" : "Oman"
+      },
+      {
+        "code" : "344",
+        "display" : "Pakistan"
+      },
+      {
+        "code" : "345",
+        "display" : "Qatar"
+      },
+      {
+        "code" : "346",
+        "display" : "Singapore"
+      },
+      {
+        "code" : "348",
+        "display" : "Siria"
+      },
+      {
+        "code" : "349",
+        "display" : "Thailandia"
+      },
+      {
+        "code" : "351",
+        "display" : "Turchia"
+      },
+      {
+        "code" : "353",
+        "display" : "Vietnam"
+      },
+      {
+        "code" : "354",
+        "display" : "Yemen"
+      },
+      {
+        "code" : "356",
+        "display" : "Kazakhstan"
+      },
+      {
+        "code" : "357",
+        "display" : "Uzbekistan"
+      },
+      {
+        "code" : "358",
+        "display" : "Armenia"
+      },
+      {
+        "code" : "359",
+        "display" : "Azerbaigian"
+      },
+      {
+        "code" : "360",
+        "display" : "Georgia"
+      },
+      {
+        "code" : "361",
+        "display" : "Kirghizistan"
+      },
+      {
+        "code" : "362",
+        "display" : "Tagikistan"
+      },
+      {
+        "code" : "363",
+        "display" : "Taiwan"
+      },
+      {
+        "code" : "364",
+        "display" : "Turkmenistan"
+      },
+      {
+        "code" : "401",
+        "display" : "Algeria"
+      },
+      {
+        "code" : "402",
+        "display" : "Angola"
+      },
+      {
+        "code" : "404",
+        "display" : "Costa d'Avorio"
+      },
+      {
+        "code" : "406",
+        "display" : "Benin"
+      },
+      {
+        "code" : "408",
+        "display" : "Botswana"
+      },
+      {
+        "code" : "409",
+        "display" : "Burkina Faso"
+      },
+      {
+        "code" : "410",
+        "display" : "Burundi"
+      },
+      {
+        "code" : "411",
+        "display" : "Camerun"
+      },
+      {
+        "code" : "413",
+        "display" : "Capo Verde"
+      },
+      {
+        "code" : "414",
+        "display" : "Repubblica Centrafricana"
+      },
+      {
+        "code" : "415",
+        "display" : "Ciad"
+      },
+      {
+        "code" : "417",
+        "display" : "Comore"
+      },
+      {
+        "code" : "418",
+        "display" : "Congo"
+      },
+      {
+        "code" : "419",
+        "display" : "Egitto"
+      },
+      {
+        "code" : "420",
+        "display" : "Etiopia"
+      },
+      {
+        "code" : "421",
+        "display" : "Gabon"
+      },
+      {
+        "code" : "422",
+        "display" : "Gambia"
+      },
+      {
+        "code" : "423",
+        "display" : "Ghana"
+      },
+      {
+        "code" : "424",
+        "display" : "Gibuti"
+      },
+      {
+        "code" : "425",
+        "display" : "Guinea"
+      },
+      {
+        "code" : "426",
+        "display" : "Guinea-Bissau"
+      },
+      {
+        "code" : "427",
+        "display" : "Guinea equatoriale"
+      },
+      {
+        "code" : "428",
+        "display" : "Kenya"
+      },
+      {
+        "code" : "429",
+        "display" : "Lesotho"
+      },
+      {
+        "code" : "430",
+        "display" : "Liberia"
+      },
+      {
+        "code" : "431",
+        "display" : "Libia"
+      },
+      {
+        "code" : "432",
+        "display" : "Madagascar"
+      },
+      {
+        "code" : "434",
+        "display" : "Malawi"
+      },
+      {
+        "code" : "435",
+        "display" : "Mali"
+      },
+      {
+        "code" : "436",
+        "display" : "Marocco"
+      },
+      {
+        "code" : "437",
+        "display" : "Mauritania"
+      },
+      {
+        "code" : "438",
+        "display" : "Maurizio"
+      },
+      {
+        "code" : "440",
+        "display" : "Mozambico"
+      },
+      {
+        "code" : "441",
+        "display" : "Namibia"
+      },
+      {
+        "code" : "442",
+        "display" : "Niger"
+      },
+      {
+        "code" : "443",
+        "display" : "Nigeria"
+      },
+      {
+        "code" : "446",
+        "display" : "Ruanda"
+      },
+      {
+        "code" : "448",
+        "display" : "Sao Tomé e Principe"
+      },
+      {
+        "code" : "449",
+        "display" : "Seychelles"
+      },
+      {
+        "code" : "450",
+        "display" : "Senegal"
+      },
+      {
+        "code" : "451",
+        "display" : "Sierra Leone"
+      },
+      {
+        "code" : "453",
+        "display" : "Somalia"
+      },
+      {
+        "code" : "454",
+        "display" : "Sudafrica"
+      },
+      {
+        "code" : "455",
+        "display" : "Sudan"
+      },
+      {
+        "code" : "456",
+        "display" : "Eswatini"
+      },
+      {
+        "code" : "457",
+        "display" : "Tanzania"
+      },
+      {
+        "code" : "458",
+        "display" : "Togo"
+      },
+      {
+        "code" : "460",
+        "display" : "Tunisia"
+      },
+      {
+        "code" : "461",
+        "display" : "Uganda"
+      },
+      {
+        "code" : "463",
+        "display" : "Repubblica Democratica del Congo"
+      },
+      {
+        "code" : "464",
+        "display" : "Zambia"
+      },
+      {
+        "code" : "465",
+        "display" : "Zimbabwe"
+      },
+      {
+        "code" : "466",
+        "display" : "Eritrea"
+      },
+      {
+        "code" : "467",
+        "display" : "Sud Sudan"
+      },
+      {
+        "code" : "503",
+        "display" : "Antigua e Barbuda"
+      },
+      {
+        "code" : "505",
+        "display" : "Bahamas"
+      },
+      {
+        "code" : "506",
+        "display" : "Barbados"
+      },
+      {
+        "code" : "507",
+        "display" : "Belize"
+      },
+      {
+        "code" : "509",
+        "display" : "Canada"
+      },
+      {
+        "code" : "513",
+        "display" : "Costa Rica"
+      },
+      {
+        "code" : "514",
+        "display" : "Cuba"
+      },
+      {
+        "code" : "515",
+        "display" : "Dominica"
+      },
+      {
+        "code" : "516",
+        "display" : "Repubblica Dominicana"
+      },
+      {
+        "code" : "517",
+        "display" : "El Salvador"
+      },
+      {
+        "code" : "518",
+        "display" : "Giamaica"
+      },
+      {
+        "code" : "519",
+        "display" : "Grenada"
+      },
+      {
+        "code" : "523",
+        "display" : "Guatemala"
+      },
+      {
+        "code" : "524",
+        "display" : "Haiti"
+      },
+      {
+        "code" : "525",
+        "display" : "Honduras"
+      },
+      {
+        "code" : "527",
+        "display" : "Messico"
+      },
+      {
+        "code" : "529",
+        "display" : "Nicaragua"
+      },
+      {
+        "code" : "530",
+        "display" : "Panama"
+      },
+      {
+        "code" : "532",
+        "display" : "Santa Lucia"
+      },
+      {
+        "code" : "533",
+        "display" : "Saint Vincent e Grenadine"
+      },
+      {
+        "code" : "534",
+        "display" : "Saint Kitts e Nevis"
+      },
+      {
+        "code" : "536",
+        "display" : "Stati Uniti d'America"
+      },
+      {
+        "code" : "602",
+        "display" : "Argentina"
+      },
+      {
+        "code" : "604",
+        "display" : "Bolivia"
+      },
+      {
+        "code" : "605",
+        "display" : "Brasile"
+      },
+      {
+        "code" : "606",
+        "display" : "Cile"
+      },
+      {
+        "code" : "608",
+        "display" : "Colombia"
+      },
+      {
+        "code" : "609",
+        "display" : "Ecuador"
+      },
+      {
+        "code" : "612",
+        "display" : "Guyana"
+      },
+      {
+        "code" : "614",
+        "display" : "Paraguay"
+      },
+      {
+        "code" : "615",
+        "display" : "Perù"
+      },
+      {
+        "code" : "616",
+        "display" : "Suriname"
+      },
+      {
+        "code" : "617",
+        "display" : "Trinidad e Tobago"
+      },
+      {
+        "code" : "618",
+        "display" : "Uruguay"
+      },
+      {
+        "code" : "619",
+        "display" : "Venezuela"
+      },
+      {
+        "code" : "701",
+        "display" : "Australia"
+      },
+      {
+        "code" : "703",
+        "display" : "Figi"
+      },
+      {
+        "code" : "708",
+        "display" : "Kiribati"
+      },
+      {
+        "code" : "712",
+        "display" : "Isole Marshall"
+      },
+      {
+        "code" : "713",
+        "display" : "Stati Federati di Micronesia"
+      },
+      {
+        "code" : "715",
+        "display" : "Nauru"
+      },
+      {
+        "code" : "719",
+        "display" : "Nuova Zelanda"
+      },
+      {
+        "code" : "720",
+        "display" : "Palau"
+      },
+      {
+        "code" : "721",
+        "display" : "Papua Nuova Guinea"
+      },
+      {
+        "code" : "725",
+        "display" : "Isole Salomone"
+      },
+      {
+        "code" : "727",
+        "display" : "Samoa"
+      },
+      {
+        "code" : "730",
+        "display" : "Tonga"
+      },
+      {
+        "code" : "731",
+        "display" : "Tuvalu"
+      },
+      {
+        "code" : "732",
+        "display" : "Vanuatu"
+      },
+      {
+        "code" : "902",
+        "display" : "Nuova Caledonia"
+      },
+      {
+        "code" : "904",
+        "display" : "Saint-Martin (FR)"
+      },
+      {
+        "code" : "905",
+        "display" : "Sahara occidentale"
+      },
+      {
+        "code" : "906",
+        "display" : "Saint-Barthélemy"
+      },
+      {
+        "code" : "908",
+        "display" : "Bermuda"
+      },
+      {
+        "code" : "909",
+        "display" : "Isole Cook (NZ)"
+      },
+      {
+        "code" : "910",
+        "display" : "Gibilterra"
+      },
+      {
+        "code" : "911",
+        "display" : "Isole Cayman"
+      },
+      {
+        "code" : "917",
+        "display" : "Anguilla"
+      },
+      {
+        "code" : "920",
+        "display" : "Polinesia francese"
+      },
+      {
+        "code" : "924",
+        "display" : "Isole Fær Øer"
+      },
+      {
+        "code" : "925",
+        "display" : "Jersey"
+      },
+      {
+        "code" : "926",
+        "display" : "Aruba"
+      },
+      {
+        "code" : "928",
+        "display" : "Sint Maarten (NL)"
+      },
+      {
+        "code" : "934",
+        "display" : "Groenlandia"
+      },
+      {
+        "code" : "939",
+        "display" : "Sark"
+      },
+      {
+        "code" : "940",
+        "display" : "Guernsey"
+      },
+      {
+        "code" : "958",
+        "display" : "Isole Falkland (Malvine)"
+      },
+      {
+        "code" : "959",
+        "display" : "Isola di Man"
+      },
+      {
+        "code" : "964",
+        "display" : "Montserrat"
+      },
+      {
+        "code" : "966",
+        "display" : "Curaçao"
+      },
+      {
+        "code" : "972",
+        "display" : "Isole Pitcairn"
+      },
+      {
+        "code" : "980",
+        "display" : "Saint Pierre e Miquelon"
+      },
+      {
+        "code" : "983",
+        "display" : "Sant'Elena"
+      },
+      {
+        "code" : "988",
+        "display" : "Terre australi e antartiche francesi"
+      },
+      {
+        "code" : "992",
+        "display" : "Isole Turks e Caicos"
+      },
+      {
+        "code" : "994",
+        "display" : "Isole Vergini britanniche"
+      },
+      {
+        "code" : "997",
+        "display" : "Wallis e Futuna"
+      },
+      {
+        "code" : "998",
+        "display" : "Altro/Non indicato/In corso di definizione"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "100"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "201"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "202"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "203"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "206"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "209"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "212"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "214"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "215"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "216"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "219"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "220"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "221"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "223"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "225"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "226"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "227"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "229"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "231"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "232"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "233"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "234"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "235"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "236"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "239"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "240"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "241"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "243"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "244"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "245"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "246"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "247"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "248"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "249"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "250"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "251"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "252"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "253"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "254"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "255"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "256"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "257"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "270"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "271"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "272"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "301"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "302"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "304"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "305"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "306"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "307"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "309"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "310"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "311"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "314"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "315"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "319"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "320"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "322"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "323"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "324"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "326"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "327"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "330"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "331"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "332"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "333"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "334"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "335"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "336"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "337"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "338"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "339"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "340"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "341"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "342"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "343"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "344"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "345"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "346"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "348"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "349"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "351"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "353"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "354"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "356"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "357"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "358"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "359"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "360"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "361"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "362"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "363"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "364"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "401"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "402"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "404"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "406"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "408"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "409"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "410"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "411"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "413"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "414"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "415"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "417"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "418"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "419"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "420"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "421"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "422"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "423"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "424"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "425"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "426"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "427"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "428"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "429"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "430"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "431"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "432"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "434"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "435"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "436"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "437"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "438"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "440"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "441"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "442"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "443"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "446"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "448"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "449"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "450"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "451"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "453"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "454"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "455"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "456"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "457"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "458"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "460"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "461"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "463"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "464"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "465"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "466"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "467"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "503"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "505"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "506"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "507"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "509"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "513"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "514"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "515"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "516"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "517"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "518"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "519"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "523"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "524"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "525"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "527"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "529"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "530"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "532"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "533"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "534"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "536"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "602"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "604"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "605"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "606"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "608"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "609"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "612"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "614"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "615"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "616"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "617"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "618"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "619"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "701"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "703"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "708"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "712"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "713"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "715"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "719"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "720"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "721"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "725"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "727"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "730"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "731"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "732"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "905"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "926"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "928"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "966"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "888"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "998"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "999"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "902"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "904"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "906"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "908"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "909"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "910"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "911"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "917"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "920"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "924"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "925"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "934"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "939"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "940"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "958"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "959"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "964"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "972"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "980"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "983"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "988"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "992"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "994"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere",
+  "code" : "997"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Attempt to use Terminology server when no Terminology server is available"
+}
+-------------------------------------------------------------------------------------

@@ -38,10 +38,6 @@
   "differential": {
     "element": [
       {
-        "id": "PractitionerRole",
-        "path": "PractitionerRole"
-      },
-      {
         "id": "PractitionerRole.identifier",
         "path": "PractitionerRole.identifier",
         "short": "Identificativo del MMG/PLS (e.g. Codice Fiscale, ID Regionale)"

@@ -38,10 +38,6 @@
   "differential": {
     "element": [
       {
-        "id": "Organization",
-        "path": "Organization"
-      },
-      {
         "id": "Organization.identifier",
         "path": "Organization.identifier",
         "mustSupport": true

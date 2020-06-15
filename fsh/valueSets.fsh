@@ -188,17 +188,21 @@ Description: "Identificativi per codici ENI regionali."
 
 
 
-
 //----------------------------------------
+/*
 ValueSet: VsMinisteroSaluteIdStrutture
 Id: minsan-idStrutture
 Title: "Ministero della Salute - ID Strutture Ricovero"
 Description: "Ministero della Salute - Identificativi Strutture Ricovero (HSP11) [attivi e ritirati]"
-//----------------------------------------
+*/
+/*----------------------------------------
 * codes from system UriHsp
-* exclude codes from valueset VsMinisteroSaluteIdAziendeOspedaliere
-* exclude codes from valueset VsMinisteroSaluteIdStruttureInterne
+// exclude not yet implemented by sushi and publisher
+// * exclude codes from valueset VsMinisteroSaluteIdAziendeOspedaliere
+// * exclude codes from valueset VsMinisteroSaluteIdStruttureInterne
 
+
+-- */
 //----------------------------------------
 ValueSet: VsMinisteroSaluteIdStruttureInterne
 Id: minsan-idStruttureInterne

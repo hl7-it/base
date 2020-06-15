@@ -38,10 +38,6 @@
   "differential": {
     "element": [
       {
-        "id": "Practitioner",
-        "path": "Practitioner"
-      },
-      {
         "id": "Practitioner.identifier",
         "path": "Practitioner.identifier",
         "slicing": {
