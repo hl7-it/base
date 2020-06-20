@@ -19,7 +19,7 @@
             "code": "asl"
           },
           {
-            "code": "ric"
+            "code": "ric-hsp"
           },
           {
             "code": "ao"
@@ -40,7 +40,25 @@
             "code": "irccs-fond"
           },
           {
-            "code": "distretto"
+            "code": "ente-ric-hsp"
+          },
+          {
+            "code": "osp-dir"
+          },
+          {
+            "code": "pol-univ"
+          },
+          {
+            "code": "cc-priv"
+          },
+          {
+            "code": "cc-priv-a"
+          },
+          {
+            "code": "cc-priv-na"
+          },
+          {
+            "code": "dist-san"
           }
         ]
       }

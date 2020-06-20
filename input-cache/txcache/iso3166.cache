@@ -19,16 +19,6 @@ v: {
 {"code" : {
   "system" : "urn:iso:std:iso:3166",
   "code" : "IT"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Italy",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "urn:iso:std:iso:3166",
-  "code" : "IT"
 }, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -48,6 +38,16 @@ v: {
     }]
   }
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Italy",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:iso:std:iso:3166",
+  "code" : "IT"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Italy",
   "severity" : null,

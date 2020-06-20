@@ -67,20 +67,21 @@
 			<definition value="Azienda Sanitaria Locale. In dipendenza dell'organizzazione regionale della sanità la dizione per  'Azienda Sanitaria Locale' può variare: e.g. Azienda Sanitaria Locale (ASL); Azienda Unità Locale Socio Sanitaria (ULSS);... Sono identificate dal Ministero della Salute dall'anagrafe delle ASL (FLS 11)."/>
 		</concept>
 		<concept>
-			<code value="ric"/>
-			<display value="Strutture di Ricovero"/>
-			<definition value="Strutture che erogano assistenza ospedaliera. L’assistenza ospedaliera garantisce il ricovero presso gli ospedali pubblici e privati accreditati per la diagnosi e la cura delle malattie acute o di lunga durata che non possono essere affrontate ambulatorialmente o a domicilio. Sono identificate dal Ministero della Salute dall'anagrafe delle Strutture di Ricovero (HSP 11)."/>
-			<concept>
-				<!-- 	Codice Tipo struttura	Descrizione tipo struttura
-			1	Ospedale a gestione diretta
+			<code value="ric-hsp"/>
+			<!-- 	DA AGGIUNGERE
+			Codice Tipo struttura	Descrizione tipo struttura
 			2.1	Azienda Ospedaliera universitaria integrata con il Servizio Sanitario Nazionale
 			2.2	Azienda Ospedaliera integrata con l'Università
-			2.3	Policlinico universitario privato
 			4	Ospedale classificato o assimilato ai sensi dell'art. 1, ultimo comma, della Legge 132/1968
-			5.1	Casa di cura privata accreditata
-			5.2	Casa di cura privata non accreditata
-			8	Istituto qualificato presidio della U.S.L.
-			9	Ente di ricerca -->
+			8	Istituto qualificato presidio della U.S.L. -->
+			<display value="Strutture di Ricovero (HSP)"/>
+			<definition value="Strutture che erogano assistenza ospedaliera. L’assistenza ospedaliera garantisce il ricovero presso gli ospedali pubblici e privati accreditati per la diagnosi e la cura delle malattie acute o di lunga durata che non possono essere affrontate ambulatorialmente o a domicilio. Sono identificate dal Ministero della Salute dall'anagrafe delle Strutture di Ricovero (HSP 11)."/>
+			<concept>
+				<code value="osp-dir"/>
+				<display value="Ospedale a gestione diretta"/>
+				<definition value="Ospedale a gestione diretta. Codice HSP 1"/>
+			</concept>
+			<concept>
 				<code value="ao"/>
 				<display value="Azienda Opedaliera"/>
 				<definition value="Azienda Opedaliera. In dipendenza dell'organizzazione regionale della sanità la dizione e le finalità dei 'Azienda Opedaliera' può variare."/>
@@ -89,6 +90,26 @@
 				<code value="aou"/>
 				<display value="Azienda Ospedaliera Universitaria"/>
 				<definition value="Azienda Ospedaliera integrata con l'Università. Le Azienda Ospedaliera Universitaria si articolano in due tipologie organizzative: a) aziende ospedaliere costituite in seguito alla trasformazione dei policlinici universitari a gestione diretta, denominate aziende ospedaliere universitarie integrate con il Servizio sanitario nazionale; b) aziende ospedaliere costituite mediante trasformazione dei presidi ospedalieri nei quali insiste la prevalenza del corso di laurea in medicina e chirurgia, anche operanti in strutture di pertinenza dell'università, denominate aziende ospedaliere integrate con l'università."/>
+			</concept>
+			<concept>
+				<code value="pol-univ"/>
+				<display value="Policlinico universitario privato"/>
+				<definition value="Policlinico universitario privato. Codice HSP 2.3"/>
+			</concept>
+			<concept>
+				<code value="cc-priv"/>
+				<display value="Casa di cura privata"/>
+				<definition value="Casa di cura privata"/>
+				<concept>
+					<code value="cc-priv-a"/>
+					<display value="Casa di cura privata accreditata"/>
+					<definition value="Casa di cura privata accreditata. Codice HSP 5.1"/>
+				</concept>
+				<concept>
+					<code value="cc-priv-na"/>
+					<display value="Casa di cura privata non accreditata"/>
+					<definition value="Casa di cura privata non accreditata.Codice HSP 5.2"/>
+				</concept>
 			</concept>
 			<concept>
 				<code value="irccs"/>
@@ -110,16 +131,25 @@
 					<definition value="Istituti di Ricovero e Cura a Carattere Scientifico di diritto pubblico trasformati in fondazione. Gli IRCCS di diritto pubblico, su istanza della Regione in cui l'Istituto ha la sede prevalente di attività clinica e di ricerca, possono essere trasformati in Fondazioni di rilievo nazionale, aperte alla partecipazione di soggetti pubblici e privati e sottoposte alla vigilanza del Ministero della salute e del Ministero dell'economia e delle finanze. Gli enti trasformati assumono la denominazione di Fondazione IRCCS."/>
 				</concept>
 			</concept>
+			<concept>
+				<code value="ente-ric-hsp"/>
+				<display value="Ente di Ricerca"/>
+				<definition value="Ente di Ricerca. Codice HSP 9"/>
+			</concept>
 		</concept>
 		<concept>
-			<code value="distretto"/>
+			<code value="dist-san"/>
 			<display value="Distretto Socio Sanitario"/>
 			<definition value="Distretto Socio Sanitario. In dipendenza dell'organizzazione regionale della sanità la dizione e le finalità dei 'distretti' può variare"/>
 		</concept>
 	</concept>
-	<concept>
+
+		
+<!-- 	<concept>
 		<code value="self"/>
 		<display value="Soggetto stesso"/>
 		<definition value="L'entità che compie l'atto è il soggetto stesso. Per esempio autocertificazione dei dati"/>
-	</concept>
+	</concept> -->
+	
+
 </CodeSystem>

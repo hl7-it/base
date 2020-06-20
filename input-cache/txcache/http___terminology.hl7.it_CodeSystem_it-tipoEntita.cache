@@ -1,154 +1,4 @@
 -------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.it/CodeSystem/it-tipoEntita",
-  "code" : "gov"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Attempt to use Terminology server when no Terminology server is available"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.it/CodeSystem/it-tipoEntita",
-  "code" : "mef"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Attempt to use Terminology server when no Terminology server is available"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.it/CodeSystem/it-tipoEntita",
-  "code" : "regione"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Attempt to use Terminology server when no Terminology server is available"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.it/CodeSystem/it-tipoEntita",
-  "code" : "comune"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Attempt to use Terminology server when no Terminology server is available"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.it/CodeSystem/it-tipoEntita",
-  "code" : "as"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Attempt to use Terminology server when no Terminology server is available"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.it/CodeSystem/it-tipoEntita",
-  "code" : "asl"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Attempt to use Terminology server when no Terminology server is available"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.it/CodeSystem/it-tipoEntita",
-  "code" : "distretto"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Attempt to use Terminology server when no Terminology server is available"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.it/CodeSystem/it-tipoEntita",
-  "code" : "self"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Attempt to use Terminology server when no Terminology server is available"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.it/CodeSystem/it-tipoEntita",
-  "code" : "ric"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Attempt to use Terminology server when no Terminology server is available"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.it/CodeSystem/it-tipoEntita",
-  "code" : "ao"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Attempt to use Terminology server when no Terminology server is available"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.it/CodeSystem/it-tipoEntita",
-  "code" : "aou"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Attempt to use Terminology server when no Terminology server is available"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.it/CodeSystem/it-tipoEntita",
-  "code" : "irccs"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Attempt to use Terminology server when no Terminology server is available"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.it/CodeSystem/it-tipoEntita",
-  "code" : "irccs-pub"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Attempt to use Terminology server when no Terminology server is available"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.it/CodeSystem/it-tipoEntita",
-  "code" : "irccs-priv"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Attempt to use Terminology server when no Terminology server is available"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://terminology.hl7.it/CodeSystem/it-tipoEntita",
-  "code" : "irccs-fond"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Attempt to use Terminology server when no Terminology server is available"
-}
--------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -191,6 +41,45 @@ e: {
     "include" : [{
       "system" : "http://terminology.hl7.it/CodeSystem/it-tipoEntita",
       "concept" : [{
+        "code" : "gov"
+      },
+      {
+        "code" : "regione"
+      },
+      {
+        "code" : "comune"
+      },
+      {
+        "code" : "as"
+      },
+      {
+        "code" : "asl"
+      },
+      {
+        "code" : "ao"
+      },
+      {
+        "code" : "aou"
+      },
+      {
+        "code" : "irccs"
+      },
+      {
+        "code" : "distretto"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://terminology.hl7.it/CodeSystem/it-tipoEntita"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.it/CodeSystem/it-tipoEntita",
+      "concept" : [{
         "code" : "as"
       },
       {
@@ -216,45 +105,6 @@ e: {
       },
       {
         "code" : "irccs-fond"
-      },
-      {
-        "code" : "distretto"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://terminology.hl7.it/CodeSystem/it-tipoEntita"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://terminology.hl7.it/CodeSystem/it-tipoEntita",
-      "concept" : [{
-        "code" : "gov"
-      },
-      {
-        "code" : "regione"
-      },
-      {
-        "code" : "comune"
-      },
-      {
-        "code" : "as"
-      },
-      {
-        "code" : "asl"
-      },
-      {
-        "code" : "ao"
-      },
-      {
-        "code" : "aou"
-      },
-      {
-        "code" : "irccs"
       },
       {
         "code" : "distretto"

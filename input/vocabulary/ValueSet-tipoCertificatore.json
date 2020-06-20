@@ -31,10 +31,21 @@
             "code": "asl"
           },
           {
-            "code": "distretto"
+            "code": "ric-hsp"
           },
           {
-            "code": "self"
+            "code": "ao"
+          },
+          {
+            "code": "dist-san"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+        "concept": [
+          {
+            "code": "subject"
           }
         ]
       }

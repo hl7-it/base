@@ -11,6 +11,7 @@ Alias: CS_tipoEntita = http://terminology.hl7.it/CodeSystem/it-tipoEntita
 Alias: UriFls11 = http://terminology.hl7.it/CodeSystem/minsan-fls
 Alias: UriHsp = http://terminology.hl7.it/CodeSystem/minsan-hsp
 Alias: MinSanRegioni = http://terminology.hl7.it/CodeSystem/minsan-regione
+Alias: V3RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsMinsanregione
@@ -34,8 +35,10 @@ Description: "Tipo di Entità (organizzazione o persona) che ha certificato un c
 * CS_tipoEntita#comune
 * CS_tipoEntita#as
 * CS_tipoEntita#asl
-* CS_tipoEntita#distretto
-* CS_tipoEntita#self
+* CS_tipoEntita#ric-hsp
+* CS_tipoEntita#ao
+* CS_tipoEntita#dist-san
+* V3RoleCode#subject
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsTipoOrganizzazione
@@ -43,15 +46,7 @@ Id: tipoOrganizzazione
 Title: "Tipo organizzazione (esempio)"
 Description: "Tipo di organizzazione: value set di esempio"
 //-------------------------------------------------------------------------------------------
-* CS_tipoEntita#gov
-* CS_tipoEntita#regione
-* CS_tipoEntita#comune
-* CS_tipoEntita#as
-* CS_tipoEntita#asl
-* CS_tipoEntita#ao
-* CS_tipoEntita#aou
-* CS_tipoEntita#irccs
-* CS_tipoEntita#distretto
+* codes from system CS_tipoEntita
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsTipoOrgSocioSanitaria
@@ -61,14 +56,20 @@ Description: "Tipo di organizzazione socio-sanitaria"
 //-------------------------------------------------------------------------------------------
 * CS_tipoEntita#as
 * CS_tipoEntita#asl
-* CS_tipoEntita#ric
+* CS_tipoEntita#ric-hsp
 * CS_tipoEntita#ao
 * CS_tipoEntita#aou
 * CS_tipoEntita#irccs
 * CS_tipoEntita#irccs-pub
 * CS_tipoEntita#irccs-priv
 * CS_tipoEntita#irccs-fond
-* CS_tipoEntita#distretto
+* CS_tipoEntita#ente-ric-hsp
+* CS_tipoEntita#osp-dir
+* CS_tipoEntita#pol-univ
+* CS_tipoEntita#cc-priv
+* CS_tipoEntita#cc-priv-a
+* CS_tipoEntita#cc-priv-na
+* CS_tipoEntita#dist-san
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ValueSet: VsMmgPlsRoles
