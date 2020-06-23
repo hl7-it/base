@@ -87,24 +87,24 @@ Description: "Profilo base specifico per Organization: include le informazioni m
 	and codiceFiscale 0..1
 	and strutturaInterna 0..1
 
-* identifier[asl] ^short = "Identitificativo Azienda Sanitaria Locale (FLS 11 - 6 char)"
+* identifier[asl] ^short = "Identificativo Azienda Sanitaria Locale (FLS 11 - 6 char)"
 * identifier[asl].system = "http://hl7.it/sid/fls" (exactly) // pattern
 // * identifier[asl].value 1..1
 * identifier[asl].value from http://hl7.it/fhir/ValueSet/minsan-idAsl (required)
 
 * identifier[aslRegione].system from http://hl7.it/fhir/ValueSet/uri-idAslRegione // pattern
-* identifier[aslRegione] ^short = "Identitificativo Azienda Sanitaria Locale (FLS 11 - 3 char)"
+* identifier[aslRegione] ^short = "Identificativo Regionale Azienda Sanitaria Locale (FLS 11 - 3 char)"
 // * identifier[aslRegione].value 1..1
 
 // * identifier[aziendaOspedaliera] ^patternIdentifier.system = "http://hl7.it/sid/hsp" // pattern
 * identifier[aziendaOspedaliera].system = "http://hl7.it/sid/hsp" (exactly)  // pattern
-* identifier[aziendaOspedaliera] ^short = "Identitificativo Azienda Ospedaliera (HSP 11)"
+* identifier[aziendaOspedaliera] ^short = "Identificativo Azienda Ospedaliera (HSP 11)"
 
 
 //* identifier[aziendaOspedaliera].value 1..1
 * identifier[aziendaOspedaliera].value from http://hl7.it/fhir/ValueSet/minsan-idAziendeOspedaliere (required)
 * identifier[struttura].system = "http://hl7.it/sid/hsp" (exactly) // pattern
-* identifier[struttura] ^short = "Identitificativo Struttura di Ricovero (HSP 11)"
+* identifier[struttura] ^short = "Identificativo Struttura di Ricovero (HSP 11)"
 //* identifier[struttura].value 1..1
 * identifier[struttura].value from http://hl7.it/fhir/ValueSet/minsan-idStrutture (required)
 * identifier[strutturaInterna].system = "http://hl7.it/sid/hsp" (exactly) // pattern

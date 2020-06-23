@@ -165,5 +165,17 @@ Le principali sezioni di questa guida sono:
 <td>CSI Piemonte</td>
 <td>davide.corallo_at_csi.it</td>
 </tr>
+<tr class="even">
+<td>Contributore</td>
+<td>Luigi Enrico Maccolini</td>
+<td>Umbria Digitale</td>
+<td>luigi.maccolini[at]umbriadigitale.it</td>
+</tr>
+<tr class="odd">
+<td>Contributore</td>
+<td>Mario Ciampi</td>
+<td>CNR ICAR</td>
+<td>mario.ciampi_at_icar.cnr.it</td>
+</tr>
 </tbody>
 </table>

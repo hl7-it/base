@@ -71,7 +71,7 @@
         "id": "Organization.identifier:asl",
         "path": "Organization.identifier",
         "sliceName": "asl",
-        "short": "Identitificativo Azienda Sanitaria Locale (FLS 11 - 6 char)",
+        "short": "Identificativo Azienda Sanitaria Locale (FLS 11 - 6 char)",
         "min": 0,
         "max": "1"
       },
@@ -92,7 +92,7 @@
         "id": "Organization.identifier:aslRegione",
         "path": "Organization.identifier",
         "sliceName": "aslRegione",
-        "short": "Identitificativo Azienda Sanitaria Locale (FLS 11 - 3 char)",
+        "short": "Identificativo Regionale Azienda Sanitaria Locale (FLS 11 - 3 char)",
         "min": 0,
         "max": "1"
       },
@@ -108,7 +108,7 @@
         "id": "Organization.identifier:aziendaOspedaliera",
         "path": "Organization.identifier",
         "sliceName": "aziendaOspedaliera",
-        "short": "Identitificativo Azienda Ospedaliera (HSP 11)",
+        "short": "Identificativo Azienda Ospedaliera (HSP 11)",
         "min": 0,
         "max": "1"
       },
@@ -129,7 +129,7 @@
         "id": "Organization.identifier:struttura",
         "path": "Organization.identifier",
         "sliceName": "struttura",
-        "short": "Identitificativo Struttura di Ricovero (HSP 11)",
+        "short": "Identificativo Struttura di Ricovero (HSP 11)",
         "min": 0,
         "max": "1"
       },
