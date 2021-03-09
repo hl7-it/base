@@ -67,7 +67,7 @@
 			</type>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/istat-comuni"/>
+				<valueSet value="http://terminology.hl7.it/ValueSet/istat-comuni"/>
 			</binding>
 		</element>
 		<element id="Patient.extension:luogoNascita.valueAddress.country">
@@ -85,7 +85,7 @@
 			</type>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/istat-stato"/>
+				<valueSet value="http://terminology.hl7.it/ValueSet/istat-stato"/>
 			</binding>
 		</element>
 		-->
@@ -102,7 +102,7 @@
 			</type>
 			<binding>
 				<strength value="example"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/istat-luogoNascita"/>
+				<valueSet value="http://terminology.hl7.it/ValueSet/istat-luogoNascita"/>
 			</binding>
 		</element>
 		<element id="Patient.extension:cittadinanza">
@@ -117,7 +117,7 @@
 			</type>
 			<binding>
 				<strength value="example"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/istat-cittadinanza"/>
+				<valueSet value="http://terminology.hl7.it/ValueSet/istat-cittadinanza"/>
 			</binding>
 		</element>
 		<element id="Patient.extension:professione">
@@ -132,7 +132,7 @@
 			</type>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/istat-professione"/>
+				<valueSet value="http://terminology.hl7.it/ValueSet/istat-professione"/>
 			</binding>
 			<mustSupport value="false"/>
 		</element>
@@ -148,7 +148,7 @@
 			</type>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/istat-titoloStudio"/>
+				<valueSet value="http://terminology.hl7.it/ValueSet/istat-titoloStudio"/>
 			</binding>
 			<mustSupport value="false"/>
 		</element>
@@ -181,7 +181,7 @@
 			<mustSupport value="false"/>
 			<binding>
 				<strength value="extensible"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/tipoIdentificatore"/>
+				<valueSet value="http://terminology.hl7.it/ValueSet/tipoIdentificatore"/>
 			</binding>
 		</element>
 		<!--
@@ -248,7 +248,7 @@
 			<mustSupport value="true"/>
 			<binding>
 				<strength value="required"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/uri-idRegionali"/>
+				<valueSet value="http://terminology.hl7.it/ValueSet/uri-idRegionali"/>
 			</binding>
 		</element>
 		<element id="Patient.identifier:codiceENI">
@@ -272,7 +272,7 @@
 			<mustSupport value="true"/>
 			<binding>
 				<strength value="required"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/uri-idEni"/>
+				<valueSet value="http://terminology.hl7.it/ValueSet/uri-idEni"/>
 			</binding>
 		</element>
 		<element id="Patient.identifier:codiceSTP">
@@ -295,7 +295,7 @@
 			<mustSupport value="true"/>
 			<binding>
 				<strength value="required"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/uri-idStp"/>
+				<valueSet value="http://terminology.hl7.it/ValueSet/uri-idStp"/>
 			</binding>
 		</element>
 		<element id="Patient.name">
@@ -533,7 +533,7 @@
 			<path value="Patient.maritalStatus"/>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/statoCivile"/>
+				<valueSet value="http://terminology.hl7.it/ValueSet/statoCivile"/>
 			</binding>
 		</element>
 		<!--

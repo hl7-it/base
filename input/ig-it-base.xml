@@ -7,7 +7,7 @@
   </extension>-->
 	<url value="http://hl7.it/fhir/ImplementationGuide/ig-it-base"/>
 	<!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
-	<version value="0.1.0"/>
+	<version value="0.1.1"/>
 	<name value="HL7ITFhirBase"/>
 	<title value="HL7 Italia FHIR Implementation Guide (base)"/>
 	<status value="draft"/>
@@ -29,6 +29,13 @@
 		</coding>
 	</jurisdiction>
 	<packageId value="hl7.fhir.it.base"/>
+	
+	<dependsOn>
+		<uri value="http://hl7.it/fhir/ImplementationGuide/hl7.fhir.it.terminology"/>
+		<packageId value="hl7.fhir.it.terminology"/>
+		<version value="dev"/>
+	</dependsOn> 
+	
 	<!-- This should be changed to 'not-open-source' or another license if appropriate for non-HL7-published content -->
 	<license value="CC-BY-SA-4.0"/>
 	<!-- This is whatever FHIR version(s) the IG artifacts are targeting (not the version of this file, which should always be 'current release') -->
@@ -194,8 +201,8 @@
 		<!-- releaselabel should be the ballot status for HL7-published IGs. -->
 		<parameter>
 			<code value="releaselabel"/>
-			<value value="PC Ballot"/>
-			<!-- 	<value value="CI Build"/> -->
+			<!-- <value value="PC Ballot"/> -->
+				<value value="CI Build"/>
 		</parameter>
 		<parameter>
 			<code value="find-other-resources"/>

@@ -220,7 +220,7 @@
 			</type>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/istat-comune"/>
+				<valueSet value="http://terminology.hl7.it/ValueSet/istat-comune"/>
 			</binding>
 		</element>
 		<element id="Address.district">
@@ -243,7 +243,7 @@
 			</type>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/istat-provincia"/>
+				<valueSet value="http://terminology.hl7.it/ValueSet/istat-provincia"/>
 			</binding>
 		</element>
 		<element id="Address.state">
@@ -266,7 +266,7 @@
 			</type>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/istat-regione"/>
+				<valueSet value="http://terminology.hl7.it/ValueSet/istat-regione"/>
 			</binding>
 		</element>
 		<element id="Address.postalCode">
@@ -306,7 +306,7 @@
 			</type>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/istat-stato"/>
+				<valueSet value="http://terminology.hl7.it/ValueSet/istat-stato"/>
 			</binding>
 		</element>
 	</differential>

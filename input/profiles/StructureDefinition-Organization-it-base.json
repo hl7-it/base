@@ -1,6 +1,16 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Organization-it-base",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Base.Entities"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "business"
+    }
+  ],
   "url": "http://hl7.it/fhir/StructureDefinition/Organization-it-base",
   "version": "0.1.0",
   "name": "OrganizationItBase",
@@ -53,7 +63,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "example",
-          "valueSet": "http://hl7.it/fhir/ValueSet/tipoOrganizzazione"
+          "valueSet": "http://terminology.hl7.it/ValueSet/tipoOrganizzazione"
         }
       },
       {

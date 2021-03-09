@@ -11,11 +11,13 @@ Alias: StatoEsenzioneCoverage = http://hl7.it/fhir/StructureDefinition/coverage-
 
 Alias: CS_professioni = http://terminology.hl7.it/CodeSystem/istat-professioni
 Alias: CS_TitoloStudio = http://terminology.hl7.it/CodeSystem/istat-ctsi03
-Alias: professioniPaziente = http://hl7.it/fhir/ValueSet/istat-professione
-Alias: titoloStudio = http://hl7.it/fhir/ValueSet/istat-titoloStudio
+Alias: professioniPaziente = http://terminology.hl7.it/ValueSet/istat-professione
+Alias: titoloStudio = http://terminology.hl7.it/ValueSet/istat-titoloStudio
 Alias: Translation = http://hl7.org/fhir/StructureDefinition/translation
 Alias: ISO_SC_coding = http://hl7.org/fhir/StructureDefinition/iso21090-SC-coding
-
+Alias: VsStatoEsenzione = http://terminology.fhir.it/ValueSet/statoEsenzione
+Alias: CsMinsanRegioni = http://terminology.hl7.it/CodeSystem/minsan-regione
+Alias: CS_unitaTerritoriali = http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritoriali
 
 //=========================
 //====== Estensione =====================================
@@ -24,6 +26,7 @@ Id:          coverage-exceptionStatus
 Title:       "Stato Esenzione"
 Description: "Estensione per gestire lo stato di una esenzione"
 //-------------------------------------------------------------------------------------------
+
 * value[x] only CodeableConcept
 * valueCodeableConcept from VsStatoEsenzione (required)
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -57,7 +60,7 @@ Description: "Profilo base generico per Organization"
 * identifier MS // SI	0..*	Identifier	Identifies this organization across multiple systems
 * active	MS
 * type	MS
-* type from http://hl7.it/fhir/ValueSet/tipoOrganizzazione (example) 
+* type from http://terminology.hl7.it/ValueSet/tipoOrganizzazione (example) 
 * name	MS
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -90,9 +93,9 @@ Description: "Profilo base specifico per Organization: include le informazioni m
 * identifier[asl] ^short = "Identificativo Azienda Sanitaria Locale (FLS 11 - 6 char)"
 * identifier[asl].system = "http://hl7.it/sid/fls" (exactly) // pattern
 // * identifier[asl].value 1..1
-* identifier[asl].value from http://hl7.it/fhir/ValueSet/minsan-idAsl (required)
+* identifier[asl].value from http://terminology.hl7.it/ValueSet/minsan-idAsl (required)
 
-* identifier[aslRegione].system from http://hl7.it/fhir/ValueSet/uri-idAslRegione // pattern
+* identifier[aslRegione].system from http://terminology.hl7.it/ValueSet/uri-idAslRegione // pattern
 * identifier[aslRegione] ^short = "Identificativo Regionale Azienda Sanitaria Locale (FLS 11 - 3 char)"
 // * identifier[aslRegione].value 1..1
 
@@ -102,14 +105,14 @@ Description: "Profilo base specifico per Organization: include le informazioni m
 
 
 //* identifier[aziendaOspedaliera].value 1..1
-* identifier[aziendaOspedaliera].value from http://hl7.it/fhir/ValueSet/minsan-idAziendeOspedaliere (required)
+* identifier[aziendaOspedaliera].value from http://terminology.hl7.it/ValueSet/minsan-idAziendeOspedaliere (required)
 * identifier[struttura].system = "http://hl7.it/sid/hsp" (exactly) // pattern
 * identifier[struttura] ^short = "Identificativo Struttura di Ricovero (HSP 11)"
 //* identifier[struttura].value 1..1
-* identifier[struttura].value from http://hl7.it/fhir/ValueSet/minsan-idStrutture (required)
+* identifier[struttura].value from http://terminology.hl7.it/ValueSet/minsan-idStrutture (required)
 * identifier[strutturaInterna].system = "http://hl7.it/sid/hsp" (exactly) // pattern
 // * identifier[strutturaInterna].value 1..1
-* identifier[strutturaInterna].value from http://hl7.it/fhir/ValueSet/minsan-idStruttureInterne (required)
+* identifier[strutturaInterna].value from http://terminology.hl7.it/ValueSet/minsan-idStruttureInterne (required)
 * identifier[partitaIva].system = "http://hl7.it/sid/partitaIva" (exactly)  // pattern
 * identifier[partitaIva] ^short = "Partita IVA Organizzazione"
 * identifier[codiceFiscale].system = "http://hl7.it/sid/codiceFiscale" (exactly)  // pattern
@@ -117,7 +120,7 @@ Description: "Profilo base specifico per Organization: include le informazioni m
 
 * active	MS
 * type	MS
-* type from http://hl7.it/fhir/ValueSet/tipoOrgSocioSanitaria (extensible)
+* type from http://terminology.hl7.it/ValueSet/tipoOrgSocioSanitaria (extensible)
 * name	MS
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -144,7 +147,7 @@ Description: "Organization: esempio Azienda Sanitaria"
 * telecom[1].system = #fax
 * telecom[1].value = "(0165) 544587"
 * telecom[2].system = #email
-* telecom[2].value = "mailto: protocollo@pec.ausl.vda.it"
+* telecom[2].value = "protocollo@pec.ausl.vda.it"
 * telecom[3].system = #url
 * telecom[3].value = "http://www.ausl.vda.it"
 
@@ -260,7 +263,10 @@ Description: "Profilo base specifico per PractitionerRole:  include le informazi
 * practitioner	^short = "Dettagli del Medico"
 * organization	^short = "Azienda Sanitaria di Appartenenza"
 * organization	only Reference(OrganizationHcp)
-* code from VsMmgPlsRoles (required)
+* code from http://terminology.hl7.it/ValueSet/mmgOrPls (required)
+// * code from VsMmgPlsRoles (required)
+
+
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Instance: PractitionerRoleMMGExample
@@ -300,9 +306,6 @@ Description: "Esempio Practitioner"
 * birthDate = "1980-07-05"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-
 
 
 

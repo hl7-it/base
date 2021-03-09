@@ -29,6 +29,12 @@
   "differential": {
     "element": [
       {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Titolo di Studio del paziente",
+        "definition": "Estensione per gestire il Titolo di studio del paziente come CodeableConcept"
+      },
+      {
         "id": "Extension.extension",
         "path": "Extension.extension",
         "max": "0"
@@ -64,7 +70,7 @@
         "max": "1",
         "binding": {
           "strength": "example",
-          "valueSet": "http://hl7.it/fhir/ValueSet/istat-titoloStudio"
+          "valueSet": "http://terminology.hl7.it/ValueSet/istat-titoloStudio"
         }
       }
     ]

@@ -51,6 +51,10 @@
 		<element id="Coverage">
 			<path value="Coverage"/>
 		</element>
+		<element id="Coverage.beneficiary">
+			<path value="Coverage.beneficiary"/>
+			<mustSupport value="true"/>
+		</element>	
 		<element id="Coverage.costToBeneficiary">
 			<path value="Coverage.costToBeneficiary"/>
 		</element>
@@ -100,7 +104,7 @@
 			<mustSupport value="true"/>
 			<binding>
 				<strength value="extensible"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/minsan-esenzioni"/>
+				<valueSet value="http://terminology.hl7.it/ValueSet/minsan-esenzioni"/>
 			</binding>
 		</element>
 		<element id="Coverage.costToBeneficiary.exception.period">

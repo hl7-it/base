@@ -78,7 +78,7 @@
 			</type>
 			<binding>
 				<strength value="extensible"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/tipoCertificatore"/>
+				<valueSet value="http://terminology.hl7.it/ValueSet/tipoCertificatore"/>
 			</binding>
 		</element>
 -->
@@ -102,7 +102,7 @@
 			</type>
 			<binding>
 				<strength value="extensible"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/tipoCertificatore"/>
+				<valueSet value="http://terminology.hl7.it/ValueSet/tipoCertificatore"/>
 			</binding>
 		</element>
 		<!--
@@ -114,7 +114,7 @@
 			</type>
 			<binding>
 				<strength value="extensible"/>
-				<valueSet value="http://hl7.it/fhir/ValueSet/tipoCertificatore"/>
+				<valueSet value="http://terminology.hl7.it/ValueSet/tipoCertificatore"/>
 			</binding>
 		</element>
 -->

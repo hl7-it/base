@@ -42,7 +42,7 @@ d’uso.
 
 #### Descrizione generale
 
-**musSupport** è una proprietà di un profilo che indica che un certo
+**mustSupport** è una proprietà di un profilo che indica che un certo
 elemento deve “essere supportato” dai sistemi che dichiarano di essere
 conformi a quel profilo.
 
@@ -50,8 +50,8 @@ Il significato di “essere supportato” non è definito dallo standard
 stesso, ma deve essere descritto da chi specifica il profilo.
 
 Il lettore non deve confondere inoltre *mustSupport* e *cardinalità* di
-un elemento: è infatti del tutto lecvito avere elementi opzionali che
-sono musSupport.
+un elemento: è infatti del tutto lecito avere elementi opzionali che
+sono mustSupport.
 
 Maggiori dettagli su questa proprietà sono forniti in
 <https://www.hl7.org/fhir/profiling.html#mustsupport>.
@@ -147,7 +147,7 @@ segue:
 
 <!-- end list -->
 
-  - *In caso di* binding strengths *example*, *preferred*,
+  - *In caso di* binding strength *example*, *preferred*,
     or *extensible*  (CodeableConcept datatypes):
     
       - se i sistemi di origine hanno testo ma nessun dato codificato,
@@ -167,7 +167,7 @@ segue:
     
       - usare il codice di eccezione appropriato incluso nel value set
 
-### Intepretazione dello slicing
+### Interpretazione dello slicing
 
 #### Open slicing
 
@@ -191,16 +191,17 @@ In questi casi, infatti, è consentito utilizzare value set o code
 systems alternativi che non sono quelli indicati nelle slice come
 "*required*".
 
-Prendiamo come esempio lo sclicing del Condition.code nel profilo
+Prendiamo come esempio lo slicing del Condition.code nel profilo
 [Condition-uv-ips](http://hl7.org/fhir/uv/ips/StructureDefinition-Condition-uv-ips.html).
 Questo profilo specifica due slices per questo elemento:
 
-1.  Uno per indicare un problem a partire dal SNOMED CT Global Patient
+1.  Uno per indicare un problema a partire dal SNOMED CT Global Patient
     Set (GPS) ( [CORE Problem List Finding/Situation/Event (GPS) -
     IPS](http://hl7.org/fhir/uv/ips/ValueSet-core-problem-finding-situation-event-gps-uv-ips.html) )
 
 2.  Uno per rappresentare l’assenza o la non conoscenza di problemi
-    rilevanti ( Absent or Unknown Problems - IPS )
+    rilevanti ( [Absent or Unknown Problems -
+    IPS](http://hl7.org/fhir/uv/ips/ValueSet-absent-or-unknown-problems-uv-ips.html) )
 
 Poiché lo slicing è open, la presenza di questi due required value sets
 non impedisce agli implementatori o agli specificatori di rappresentare
@@ -212,7 +213,7 @@ Un altro esempio è dato in questa guida dallo slicing per l’elemento
 questo caso sono rappresentati più possibili identificatori (codice
 fiscale ,id regionale, stp,…) ma una implementazione può decidere di
 usare uno o più di questi identificatori, od nessuno di questi; possono
-essere usati ache altri identificatori non citati nelle slice.
+essere usati anche altri identificatori non citati nelle slice.
 
 #### Slice e cardinalità
 
@@ -220,7 +221,7 @@ Le combinazioni di cardinalità ammesse nello slicing sono descritte in
 [Slice
 cardinality](https://www.hl7.org/fhir/profiling.html#slice-cardinality).
 
-Uns circostanza particolare da interpretare correttamente è il caso in
+Una circostanza particolare da interpretare correttamente è il caso in
 cui l’elemento profilato ha cardinalità 0.. con slice 1.. In questo caso
 significa che l’elemento è opzionale, ma se presente deve essere
 presente almeno un elemento conforme allo slice 1..

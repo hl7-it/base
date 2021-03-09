@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/structuredefinition.xsd">
+	<id value="Patient-it-base"/>
+	<url value="http://hl7.it/fhir/StructureDefinition/Patient-it-base"/>
+	<version value="0.0.1"/>
+	<name value="PatientItBase"/>
+	<title value="Patient - base"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<date value="2018-03-20T16:43:56.519+01:00"/>
+	<description value="Profilo base generico per Patient: descrive come rappresentare in FHIR alcune informazioni tipiche per il contesto Italiano."/>
+	<kind value="resource"/>
+	<abstract value="false"/>
+	<type value="Patient"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+	<derivation value="constraint"/>
+	<differential>
+		<element id="Patient">
+			<path value="Patient"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.extension:certificazione">
+			<path value="Patient.extension"/>
+			<sliceName value="certificazione"/>
+			<short value="Indica che i dati presenti nella risorsa sono stati certificati da uno specifico entità"/>
+			<definition value="Indica che i dati presenti nella risorsa (non quelli referenziati) sono stati certificati da uno specifico entità"/>
+			<max value="1"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.it/fhir/StructureDefinition/recordCertification"/>
+			</type>
+		</element>
+		<!-- OPZIONE 1 -->
+		<element id="Patient.extension:luogoNascita">
+			<path value="Patient.extension"/>
+			<sliceName value="luogoNascita"/>
+			<short value="Indica il luogo di nascita. Tipicamente attraverso il codice comune o stato di nascita"/>
+			<definition value="Luogo di Nascita del paziente. In base al contesto può includere informazioni testuali e/o codificate, in forma strutturata o non strutturata. Tipicamente attraverso il codice comune o stato di nascita."/>
+			<max value="1"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/patient-birthPlace"/>
+			</type>
+		</element>
+		<element id="Patient.extension:luogoNascita.valueAddress">
+			<path value="Patient.extension.valueAddress"/>
+			<short value="Indirizzo del luogo di Nascita"/>
+			<definition value="Indirizzo del luogo di Nascita"/>
+			<type>
+				<code value="Address"/>
+				<profile value="http://hl7.it/fhir/StructureDefinition/Address-it-base"/>
+			</type>
+		</element>
+		<!--	
+		<element id="Patient.extension:luogoNascita.valueAddress.city">
+			<path value="Patient.extension.valueAddress.city"/>
+			<short value="Città di nascita. Comune, se in Italia."/>
+			<definition value="Città di nascita. Per i nati in Italia indica il comune di nascita"/>
+		</element>
+		<element id="Patient.extension:luogoNascita.valueAddress.city.extension:codiceComune">
+			<path value="Patient.extension.valueAddress.city.extension"/>
+			<sliceName value="codiceComune"/>
+			<short value="Codice Comune"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/iso21090-SC-coding"/>
+			</type>
+			<binding>
+				<strength value="preferred"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/istat-comuni"/>
+			</binding>
+		</element>
+		<element id="Patient.extension:luogoNascita.valueAddress.country">
+			<path value="Patient.extension.valueAddress.country"/>
+			<short value="Stato di nascita."/>
+			<definition value="Stato di nascita. Per i non nati in Italia è tipicamente richiesto al posto del comune di nascita"/>
+		</element>
+		<element id="Patient.extension:luogoNascita.valueAddress.country.extension:codiceStato">
+			<path value="Patient.extension.valueAddress.country.extension"/>
+			<sliceName value="codiceStato"/>
+			<short value="Codice Stato"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/iso21090-SC-coding"/>
+			</type>
+			<binding>
+				<strength value="preferred"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/istat-stato"/>
+			</binding>
+		</element>
+		-->
+		<!-- OPZIONE 2 -->
+		<element id="Patient.extension:luogoNascitaCodeable">
+			<path value="Patient.extension"/>
+			<sliceName value="luogoNascitaCodeable"/>
+			<short value="Codice del comune e/o dello stato di nascita"/>
+			<definition value="Codice del comune e/o dello stato di nascita del paziente. In via eccezionle, può essere usato per indicare comune e/o stato di nascita in forma testuale"/>
+			<max value="*"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.it/fhir/StructureDefinition/patient-codeableBirthPlace"/>
+			</type>
+			<binding>
+				<strength value="example"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/istat-luogoNascita"/>
+			</binding>
+		</element>
+		<element id="Patient.extension:cittadinanza">
+			<path value="Patient.extension"/>
+			<sliceName value="cittadinanza"/>
+			<short value="Cittadinanza"/>
+			<definition value="Indica la cittadinanza del cittadino attraverso lo stato di provenienza"/>
+			<max value="1"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/patient-citizenship"/>
+			</type>
+			<binding>
+				<strength value="example"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/istat-cittadinanza"/>
+			</binding>
+		</element>
+		<element id="Patient.extension:professione">
+			<path value="Patient.extension"/>
+			<sliceName value="professione"/>
+			<short value="Professione"/>
+			<definition value="Indica la professione del cittadino come semplice CodeableConcept"/>
+			<max value="1"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.it/fhir/StructureDefinition/patient-occupation-it"/>
+			</type>
+			<binding>
+				<strength value="preferred"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/istat-professione"/>
+			</binding>
+			<mustSupport value="false"/>
+		</element>
+		<element id="Patient.extension:titoloStudio">
+			<path value="Patient.extension"/>
+			<sliceName value="titoloStudio"/>
+			<short value="Titolo di studio"/>
+			<definition value="Indica il titolo di studio del cittadino come semplice CodeableConcept"/>
+			<max value="1"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.it/fhir/StructureDefinition/patient-qualification-it"/>
+			</type>
+			<binding>
+				<strength value="preferred"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/istat-titoloStudio"/>
+			</binding>
+			<mustSupport value="false"/>
+		</element>
+		<element id="Patient.identifier">
+			<path value="Patient.identifier"/>
+			<slicing>
+				<discriminator>
+					<type value="value"/>
+					<path value="$this.system"/>
+				</discriminator>
+				<rules value="open"/>
+			</slicing>
+			<short value="Identificativo del paziente"/>
+			<definition value="Identificativo del paziente. &#13;&#10; Lo slicing specificato per questo element è di tipo open; questo significa che sono ammessi identificativi che non rispettano le regole definite per le sice specificate.  &#13;&#10; Esempi di possibili sistemi di identificazione sono elencati in https://confluence.hl7.org/display/HI/Identificatori"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.identifier.extension:certificazione">
+			<path value="Patient.identifier.extension"/>
+			<sliceName value="certificazioneId"/>
+			<short value="Identificativo certificato (tipicamente per CF)"/>
+			<definition value="Indica che questo identificativo è stato certificato. Usato tipicamente per il Codice Fiscale."/>
+			<max value="1"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.it/fhir/StructureDefinition/recordCertification"/>
+			</type>
+		</element>
+		<element id="Patient.identifier.type">
+			<path value="Patient.identifier.type"/>
+			<mustSupport value="false"/>
+			<binding>
+				<strength value="extensible"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/tipoIdentificatore"/>
+			</binding>
+		</element>
+		<!--
+		<element id="Patient.identifier.system">
+			<path value="Patient.identifier.system"/>
+			<short value="URI che definisce lo spazio di identificazione, in cui l'identificativo usato è unico."/>
+			<definition value="URI che definisce lo spazio di identificazione, in cui l'identificativo usato è unico. &#13;&#10; Esempi di possibili sistemi di identificazione sono elencati in https://confluence.hl7.org/display/HI/Identificatori"/>
+			<min value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		-->
+		<element id="Patient.identifier.value">
+			<path value="Patient.identifier.value"/>
+			<short value="ID del paziente (e.g. Codice Fiscale)"/>
+			<definition value="Identifictivo del paziente"/>
+			<min value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.identifier:codiceFiscale">
+			<path value="Patient.identifier"/>
+			<sliceName value="codiceFiscale"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.identifier:codiceFiscale.system">
+			<path value="Patient.identifier.system"/>
+			<min value="1"/>
+			<fixedUri value="http://hl7.it/sid/codiceFiscale"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.identifier:codiceFiscale.value">
+			<path value="Patient.identifier.value"/>
+			<min value="1"/>
+			<constraint>
+				<key value="pat-id-cf-1"/>
+				<severity value="error"/>
+				<human value="Il Codice Fiscale deve essere di 16 caratteri alfanumerici (3 per il cognome; 3 per il nome; 2 caratteri numerici per l'anno di nascita; 1 per il mese di nascita; 2 caratteri numerici per il giorno di nascita ed il sesso; 4 associati al Comune oppure allo Stato estero di nascita. 1 carattere di controllo"/>
+				<!-- <expression value="matches('^(?:[A-Z][AEIOU][AEIOUX]|[B-DF-HJ-NP-TV-Z]{2}[A-Z]){2}(?:[\\dLMNP-V]{2}(?:[A-EHLMPR-T](?:[04LQ][1-9MNP-V]|[15MR][\\dLMNP-V]|[26NS][0-8LMNP-U])|[DHPS][37PT][0L]|[ACELMRT][37PT][01LM]|[AC-EHLMPR-T][26NS][9V])|(?:[02468LNQSU][048LQU]|[13579MPRTV][26NS])B[26NS][9V])(?:[A-MZ][1-9MNP-V][\\dLMNP-V]{2}|[A-M][0L](?:[1-9MNP-V][\\dLMNP-V]|[0L][1-9MNP-V]))[A-Z]$')"/>
+-->
+				<expression value="matches('^[A-Za-z]{6}[0-9LMNPQRSTUV]{2}[A-Za-z]{1}[0-9LMNPQRSTUV]{2}[A-Za-z]{1}[0-9LMNPQRSTUV]{3}[A-Za-z]{1}$')"/>
+				<xpath value="matches(@value,'^[A-Za-z]{6}[0-9LMNPQRSTUV]{2}[A-Za-z]{1}[0-9LMNPQRSTUV]{2}[A-Za-z]{1}[0-9LMNPQRSTUV]{3}[A-Za-z]{1}$')"/>
+				<!--
+				<xpath value="matches(@value,'/^(?:[A-Z][AEIOU][AEIOUX]|[B-DF-HJ-NP-TV-Z]{2}[A-Z]){2}(?:[\dLMNP-V]{2}(?:[A-EHLMPR-T](?:[04LQ][1-9MNP-V]|[15MR][\dLMNP-V]|[26NS][0-8LMNP-U])|[DHPS][37PT][0L]|[ACELMRT][37PT][01LM]|[AC-EHLMPR-T][26NS][9V])|(?:[02468LNQSU][048LQU]|[13579MPRTV][26NS])B[26NS][9V])(?:[A-MZ][1-9MNP-V][\dLMNP-V]{2}|[A-M][0L](?:[1-9MNP-V][\dLMNP-V]|[0L][1-9MNP-V]))[A-Z]$/i') "/>
+-->
+			</constraint>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.identifier:anpr">
+			<path value="Patient.identifier"/>
+			<sliceName value="anpr"/>
+		</element>
+		<element id="Patient.identifier:anpr.system">
+			<path value="Patient.identifier.system"/>
+			<min value="1"/>
+			<fixedUri value="http://hl7.it/sid/anpr"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.identifier:idRegionale">
+			<path value="Patient.identifier"/>
+			<sliceName value="idRegionale"/>
+		</element>
+		<element id="Patient.identifier:idRegionale.system">
+			<path value="Patient.identifier.system"/>
+			<min value="1"/>
+			<mustSupport value="true"/>
+			<binding>
+				<strength value="required"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/uri-idRegionali"/>
+			</binding>
+		</element>
+		<element id="Patient.identifier:codiceENI">
+			<path value="Patient.identifier"/>
+			<sliceName value="codiceENI"/>
+			<short value="Codice ENI"/>
+			<!--
+			<patternIdentifier>
+				<type>
+					<coding>
+						<system value="http://terminology.hl7.it/CodeSystem/it-identifier-type"/>
+						<code value="ENI"/>
+					</coding>
+				</type>
+			</patternIdentifier>
+			-->
+		</element>
+		<element id="Patient.identifier:codiceENI.system">
+			<path value="Patient.identifier.system"/>
+			<min value="1"/>
+			<mustSupport value="true"/>
+			<binding>
+				<strength value="required"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/uri-idEni"/>
+			</binding>
+		</element>
+		<element id="Patient.identifier:codiceSTP">
+			<path value="Patient.identifier"/>
+			<sliceName value="codiceSTP"/>
+			<!--
+			<patternIdentifier>
+				<type>
+					<coding>
+						<system value="http://terminology.hl7.it/CodeSystem/it-identifier-type"/>
+						<code value="STP"/>
+					</coding>
+				</type>
+			</patternIdentifier>
+-->
+		</element>
+		<element id="Patient.identifier:codiceSTP.system">
+			<path value="Patient.identifier.system"/>
+			<min value="1"/>
+			<mustSupport value="true"/>
+			<binding>
+				<strength value="required"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/uri-idStp"/>
+			</binding>
+		</element>
+		<element id="Patient.name">
+			<path value="Patient.name"/>
+			<requirements value="Need to be able to track the patient by multiple names. Examples are your official name and a partner name.&#xD;&#xA;The Alphabetic representation of the name SHALL be always provided"/>
+			<min value="1"/>
+			<constraint>
+				<key value="it-pat-1"/>
+				<severity value="error"/>
+				<human value="Patient.name.given or Patient.name.family or both SHALL be present"/>
+				<expression value="family.exists() or given.exists()"/>
+				<xpath value="f:given or f:family"/>
+				<source value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+			</constraint>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.name.extension:name-absent-reason">
+			<path value="Patient.name.extension"/>
+			<sliceName value="name-absent-reason"/>
+			<short value="Ragione non valorizzazione elemento name"/>
+			<definition value="Ragione per cui l'elemento name non è stato valorizzato"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/data-absent-reason"/>
+			</type>
+		</element>
+		<element>
+			<path value="Patient.name.text"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.name.family">
+			<path value="Patient.name.family"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.name.given">
+			<path value="Patient.name.given"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.telecom">
+			<path value="Patient.telecom"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.gender">
+			<path value="Patient.gender"/>
+			<!-- <min value="1"/> -->
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.birthDate">
+			<path value="Patient.birthDate"/>
+			<!-- <min value="1"/> -->
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.deceased[x]">
+			<path value="Patient.deceased[x]"/>
+			<mustSupport value="false"/>
+		</element>
+		<element id="Patient.address">
+			<path value="Patient.address"/>
+			<!-- Not yet supported
+			<slicing>
+				<discriminator>
+					<type value="profile"/>
+					<path value="$this"/>
+				</discriminator>
+				<rules value="open"/>
+			</slicing>
+-->
+			<type>
+				<code value="Address"/>
+				<profile value="http://hl7.it/fhir/StructureDefinition/Address-it-base"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+		<!--
+		<element id="Patient.address.line">
+			<path value="Patient.address.line"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.address.city">
+			<path value="Patient.address.city"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.address.state">
+			<path value="Patient.address.state"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.address.postalCode">
+			<path value="Patient.address.postalCode"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.address.country">
+			<path value="Patient.address.country"/>
+			<comment value="ISO 3166 2 or 3 letter codes may be used in place of a full country name."/>
+			<constraint>
+				<key value="pat-cnt-2or3-char"/>
+				<severity value="warning"/>
+				<human value="The content of this element SHALL be selected EITHER from ValueSet ISO Country Alpha-2 http://hl7.org/fhir/ValueSet/iso3166-1-2 OR MAY be selected from ISO Country Alpha-3 Value Set http://hl7.org/fhir/ValueSet/iso3166-1-3, IF the country is not specified in value Set ISO Country Alpha-2 http://hl7.org/fhir/ValueSet/iso3166-1-2."/>
+				<source value="Patient"/>
+			</constraint>
+			<mustSupport value="true"/>
+		</element>
+		-->
+		<!-- Not yet supported
+		<element id="Patient.address:base">
+			<path value="Patient.address"/>
+			<sliceName value="base"/>
+			<type>
+				<code value="Address"/>
+				<profile value="http://hl7.it/fhir/StructureDefinition/Address-it-base"/>
+			</type>
+		</element>		
+		
+		<element id="Patient.address:residenza">
+			<path value="Patient.address"/>
+			<sliceName value="residenza"/>
+			<type>
+				<code value="Address"/>
+				<profile value="http://hl7.it/fhir/StructureDefinition/Address-it-base-residenza"/>
+			</type>
+		</element>
+
+-->
+		<!--
+		<element id="Patient.address:residenza.extension:localita">
+			<path value="Patient.address.extension"/>
+			<sliceName value="localita"/>
+		</element>
+		<element id="Patient.address:residenza.extension:isResidenza">
+			<path value="Patient.address.extension"/>
+			<sliceName value="residenza"/>
+			<min value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.address:residenza.extension:isResidenza.value[x]:valueBoolean">
+			<path value="Patient.address.extension.valueBoolean"/>
+			<sliceName value="valueBoolean"/>
+			<fixedBoolean value="true"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.address:residenza.use">
+			<path value="Patient.address.use"/>
+			<fixedCode value="home"/>
+		</element>
+		
+		<element id="Patient.address:residenza.line.extension:odonimo">
+			<path value="Patient.address.line.extension"/>
+			<sliceName value="odonimo"/>
+		</element>
+		<element id="Patient.address:residenza.line.extension:houseNumber">
+			<path value="Patient.address.line.extension"/>
+			<sliceName value="houseNumber"/>
+		</element>
+		<element id="Patient.address:residenza.line.extension:nomeStrada">
+			<path value="Patient.address.line.extension"/>
+			<sliceName value="nomeStrada"/>
+		</element>
+		<element id="Patient.address:residenza.city.extension:codiceComune">
+			<path value="Patient.address.city.extension"/>
+			<sliceName value="codiceComune"/>
+		</element>
+		<element id="Patient.address:residenza.district.extension:codiceProvincia">
+			<path value="Patient.address.district.extension"/>
+			<sliceName value="codiceProvincia"/>
+		</element>
+		<element id="Patient.address:residenza.state.extension:codiceRegione">
+			<path value="Patient.address.state.extension"/>
+			<sliceName value="codiceRegione"/>
+		</element>
+		<element id="Patient.address:residenza.country.extension:codiceStato">
+			<path value="Patient.address.country.extension"/>
+			<sliceName value="codiceStato"/>
+		</element>
+		<element id="Patient.address:altriIndirizzi">
+			<path value="Patient.address"/>
+			<sliceName value="altriIndirizzi"/>
+			<type>
+				<code value="Address"/>
+				<profile value="http://hl7.it/fhir/StructureDefinition/Address-it-base"/>
+			</type>
+			
+			<type>
+				<code value="Address"/>
+				<profile value="http://hl7.it/fhir/StructureDefinition/Address-it-base"/>
+			</type>
+
+		</element>
+
+		<element id="Patient.address:altriIndirizzi.extension:localita">
+			<path value="Patient.address.extension"/>
+			<sliceName value="localita"/>
+		</element>
+
+		<element id="Patient.address:altriIndirizzi.extension:isResidenza">
+			<path value="Patient.address.extension"/>
+			<sliceName value="altriIndirizzi"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.address:altriIndirizzi.extension:isResidenza.value[x]:valueBoolean">
+			<path value="Patient.address.extension.valueBoolean"/>
+			<sliceName value="valueBoolean"/>
+			<fixedBoolean value="false"/>
+			<mustSupport value="true"/>
+		</element>
+
+		<element id="Patient.address:altriIndirizzi.line.extension:odonimo">
+			<path value="Patient.address.line.extension"/>
+			<sliceName value="odonimo"/>
+		</element>
+		<element id="Patient.address:altriIndirizzi.line.extension:houseNumber">
+			<path value="Patient.address.line.extension"/>
+			<sliceName value="houseNumber"/>
+		</element>
+		<element id="Patient.address:altriIndirizzi.line.extension:nomeStrada">
+			<path value="Patient.address.line.extension"/>
+			<sliceName value="nomeStrada"/>
+		</element>
+		<element id="Patient.address:altriIndirizzi.city.extension:codiceComune">
+			<path value="Patient.address.city.extension"/>
+			<sliceName value="codiceComune"/>
+		</element>
+		<element id="Patient.address:altriIndirizzi.district.extension:codiceProvincia">
+			<path value="Patient.address.district.extension"/>
+			<sliceName value="codiceProvincia"/>
+		</element>
+		<element id="Patient.address:altriIndirizzi.state.extension:codiceRegione">
+			<path value="Patient.address.state.extension"/>
+			<sliceName value="codiceRegione"/>
+		</element>
+		<element id="Patient.address:altriIndirizzi.country.extension:codiceStato">
+			<path value="Patient.address.country.extension"/>
+			<sliceName value="codiceStato"/>
+		</element>
+-->
+		<element id="Patient.maritalStatus">
+			<path value="Patient.maritalStatus"/>
+			<binding>
+				<strength value="preferred"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/statoCivile"/>
+			</binding>
+		</element>
+		<!--
+		<element id="Patient.contact">
+			<path value="Patient.contact"/>
+			<mustSupport value="true"/> 
+		</element>
+		<element id="Patient.contact.relationship">
+			<path value="Patient.contact.relationship"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.contact.name">
+			<path value="Patient.contact.name"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.contact.name.family">
+			<path value="Patient.contact.name.family"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.contact.name.given">
+			<path value="Patient.contact.name.given"/>
+			<mustSupport value="true"/>
+		</element>
+
+		<element id="Patient.contact.telecom">
+			<path value="Patient.contact.telecom"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.contact.address">
+			<path value="Patient.contact.address"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.contact.address.line">
+			<path value="Patient.contact.address.line"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.contact.address.city">
+			<path value="Patient.contact.address.city"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.contact.address.state">
+			<path value="Patient.contact.address.state"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.contact.address.country">
+			<path value="Patient.contact.address.country"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.contact.organization">
+			<path value="Patient.contact.organization"/>
+			<mustSupport value="true"/>
+		</element>
+
+		<element id="Patient.communication">
+			<path value="Patient.communication"/>
+			<mustSupport value="false"/>
+		</element>
+		<element id="Patient.communication.language">
+			<path value="Patient.communication.language"/>
+			<mustSupport value="false"/>
+			<binding>
+				<strength value="required"/>
+				<valueSet value="http://hl7.org/fhir/ValueSet/all-languages"/>
+			</binding>
+		</element>
+-->
+		<element id="Patient.generalPractitioner">
+			<path value="Patient.generalPractitioner"/>
+			<slicing>
+				<discriminator>
+					<type value="profile"/>
+					<path value="$this"/>
+				</discriminator>
+				<rules value="open"/>
+			</slicing>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.generalPractitioner:mmgPlsRole">
+			<path value="Patient.generalPractitioner"/>
+			<sliceName value="mmgPlsRole"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.it/fhir/StructureDefinition/PractitionerRole-it-mmg"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.generalPractitioner:mmgPls">
+			<path value="Patient.generalPractitioner"/>
+			<sliceName value="mmgPls"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.it/fhir/StructureDefinition/Practitioner-it-base"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Patient.generalPractitioner:aziendaAssistenza">
+			<path value="Patient.generalPractitioner"/>
+			<sliceName value="mmgPlsAzienda"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.it/fhir/StructureDefinition/Organization-it-hcp"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+	</differential>
+</StructureDefinition>

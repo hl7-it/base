@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/structuredefinition.xsd">
+	<id value="Address-it-base"/>
+	<url value="http://hl7.it/fhir/StructureDefinition/Address-it-base"/>
+	<version value="0.0.1"/>
+	<name value="AddressItBase"/>
+	<title value="Address - base"/>
+	<status value="draft"/>
+	<description value="Base StructureDefinition per il tipo Address con parti addizionali specifiche per gli indirizzi italiani. Questo profilo struttura l'elemento  Address.line in più parti, consente la codifica di alcune di queste parti e supporta la caratterizzazine degli indirizzi di tipo Residenza. Questa prima versione è ispirata al data type Address Olandese.">
+		<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+			<extension url="lang">
+				<valueCode value="en"/>
+			</extension>
+			<extension url="content">
+				<valueString value="Base StructureDefinition for Address Type with additions for Italian addresses. This profile breaks down the Address.line in several parts, allows the coding of some of these parts and highlights 'officially registered' addresses ('Residenza'). This first draft version is ispired to the Dutch Address"/>
+			</extension>
+		</extension>
+	</description>
+	<copyright value="CC0"/>
+	<fhirVersion value="4.0.1"/>
+	<kind value="complex-type"/>
+	<abstract value="false"/>
+	<type value="Address"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Address"/>
+	<derivation value="constraint"/>
+	<differential>
+		<element id="Address">
+			<path value="Address"/>
+			<short value="Indirizzo fisico o postale">
+				<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+					<extension url="lang">
+						<valueCode value="en"/>
+					</extension>
+					<extension url="content">
+						<valueString value="A physical/postal address"/>
+					</extension>
+				</extension>
+			</short>
+			<definition value="Esiste una varietà di formati di indirizzi postali definiti in tutto il mondo. Questo profilo (Address-it-base) estende il datatype base Address includendo una serie di informazioni rilevanti per esprimere gli indirizzi in Italia. &#xD; &#xA; &#xD; &#xA; Un Address-it-base è un indirizzo FHIR valido; i sistemi che non supportano le estensioni utilizzate saranno in grado comunque di eseguire il rendering e lavorare con un Address-it-base. &#xD; &#xA; &#xD; &#xA; Un indirizzo Address-it-base rende alcune parti di indirizzo comunicabili separatamente. Queste parti sono necessarie in alcuni scenari d'uso italiani, ma potrebbero non avere valore per i sistemi internazionali quando le informazioni vengono inviate all'estero.">
+				<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+					<extension url="lang">
+						<valueCode value="en"/>
+					</extension>
+					<extension url="content">
+						<valueString value="There is a variety of postal address formats defined around the world. This profile (Address-it-base) extends the base datatype Address adding a set of components relevant to express Italian addresses. &#xD;&#xA;&#xD;&#xA;An Address-it-base Address is a proper FHIR Address. Systems that do not understand any of the extensions, will be able to render and work with a thus address. &#xD; &#xA; &#xD; &#xA; Address-it-base addresses make certain address parts separately communicable. These parts are required for some Italian use cases when dealing with IT  addresses, but may not have value for international systems when information gets sent abroad."/>
+					</extension>
+				</extension>
+			</definition>
+			<comment value="Nota: address è per indirizzi postali, non per la localizzazione fisica.">
+				<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+					<extension url="lang">
+						<valueCode value="en"/>
+					</extension>
+					<extension url="content">
+						<valueString value="Note: address is for postal addresses, not physical locations."/>
+					</extension>
+				</extension>
+			</comment>
+			<alias value="Indirizzo"/>
+			<example>
+				<label value="Completo"/>
+				<valueAddress>
+					<line value="Via dei Ciliegi 15"/>
+					<city value="Artimino"/>
+					<state value="PO"/>
+					<postalCode value="59015"/>
+					<country value="IT"/>
+				</valueAddress>
+			</example>
+			<constraint>
+				<key value="it-address-official"/>
+				<!-- <requirements value="This constraint checks conformance against the Dutch BRP constraints on address parts. However: when you only send postalCode + houseNumber which is enough for certain cases this may still be a valid address"/> -->
+				<severity value="error"/>
+				<human value="Se Address rappresenta la residenza allora city e line devono essere inclusi"/>
+				<!-- <human value="Address.streetName in an official address SHALL have a value if one of houseNumber|buildingNumberSuffix|additionalLocator has a value"/> -->
+				<expression value="extension.where(url = 'http://hl7.org/fhir/StructureDefinition/address-official').valueBoolean.where(true).empty() or ( line.exists() and city.exists() )"/>
+				<!--
+		
+				<xpath value="not(.[f:extension[@url='http://hl7.org/fhir/StructureDefinition/address-official'][f:valueBoolean/@value='true']][f:line[empty(f:extension[@url='http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName'])][f:extension[@url=('http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber','http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-buildingNumberSuffix','http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator')]]])"/>
+				-->
+				<source value="http://hl7.org/fhir/StructureDefinition/Address"/>
+			</constraint>
+		</element>
+		<element id="Address.extension:residenza">
+			<path value="Address.extension"/>
+			<sliceName value="residenza"/>
+			<short value="Indica l'indirizzo di residenza"/>
+			<definition value="Indica se questo indirizzo è quello di residenza, come indirizzo 'ufficialmente registrato' address."/>
+			<max value="1"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/address-official"/>
+			</type>
+		</element>
+		<element id="Address.extension:certificazioneIndirizzo">
+			<path value="Address.extension"/>
+			<sliceName value="certificazioneIndirizzo"/>
+			<short value="Certificazione Indirizzo"/>
+			<definition value="Indica che i dati di questo indirizzo sono stati certificati da una specifica entità"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.it/fhir/StructureDefinition/recordCertification"/>
+			</type>
+		</element>
+		<element id="Address.line">
+			<path value="Address.line"/>
+			<short value="Nome completo strada (e.g. Via Corta 1, interno 2)"/>
+			<example>
+				<label value="ex-1"/>
+				<valueString value="Via Corta 1, interno 2"/>
+			</example>
+		</element>
+		<element id="Address.line.extension:odonimo">
+			<path value="Address.line.extension"/>
+			<sliceName value="odonimo"/>
+			<short value="Odonimo, Toponimo Stradale"/>
+			<requirements value="Nome della Strada"/>
+			<alias value="Toponimo Stradale"/>
+			<max value="1"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName"/>
+			</type>
+			<example>
+				<label value="ex-1"/>
+				<valueString value="Via Corta"/>
+			</example>
+		</element>
+		<element id="Address.line.extension:denominazioneUrbanisticaGenerica">
+			<path value="Address.line.extension"/>
+			<sliceName value="denominazioneUrbanisticaGenerica"/>
+			<short value="Denominazione Urbanistica Generica (DUG)"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameType"/>
+			</type>
+			<example>
+				<label value="ex-1"/>
+				<valueString value="Via"/>
+			</example>
+		</element>
+		<element id="Address.line.extension:dugCode">
+			<path value="Address.line.extension"/>
+			<sliceName value="dugCode"/>
+			<short value="Codice Denominazione Urbanistica Generica (DUG)"/>
+			<alias value="specie"/>
+			<max value="1"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.it/fhir/StructureDefinition/address-dug"/>
+			</type>
+			<example>
+				<label value="ex-1"/>
+				<valueCodeableConcept>
+					<coding>
+						<system value="http://registry.geodati.gov.it/dug"/>
+						<code value="67"/>
+						<display value="via"/>
+					</coding>
+				</valueCodeableConcept>
+			</example>
+		</element>
+		<element id="Address.line.extension:denominazioneUrbanisticaUfficiale">
+			<path value="Address.line.extension"/>
+			<sliceName value="denominazioneUrbanisticaUfficiale"/>
+			<short value="Denominazione Urbanistica Ufficiale (DUF)"/>
+			<alias value="denominazione"/>
+			<max value="1"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameBase"/>
+			</type>
+			<example>
+				<label value="ex-1"/>
+				<valueString value="Corta"/>
+			</example>
+		</element>
+		<element id="Address.line.extension:houseNumber">
+			<path value="Address.line.extension"/>
+			<sliceName value="houseNumber"/>
+			<short value="Numero Civico"/>
+			<requirements value="Numero Civico"/>
+			<max value="1"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber"/>
+			</type>
+			<example>
+				<label value="ex-1"/>
+				<valueString value="1"/>
+			</example>
+		</element>
+		<!--
+		<element id="Address.line.extension:nomeStrada">
+			<path value="Address.line.extension"/>
+			<sliceName value="nomeStrada"/>
+			<short value="Nome completo strada (e.g. Via Corta 1)"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetAddressLine"/>
+			</type>
+		</element>
+-->
+		<element id="Address.city">
+			<path value="Address.city"/>
+			<definition value="The name of the city, town, village or other community or delivery center."/>
+			<alias value="Comune"/>
+			<example>
+				<label value="General"/>
+				<valueString value="Bagno a Ripoli"/>
+			</example>
+		</element>
+		<element id="Address.city.extension:codiceComune">
+			<path value="Address.city.extension"/>
+			<sliceName value="codiceComune"/>
+			<short value="Codice Comune"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/iso21090-SC-coding"/>
+			</type>
+			<binding>
+				<strength value="preferred"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/istat-comune"/>
+			</binding>
+		</element>
+		<element id="Address.district">
+			<path value="Address.district"/>
+			<short value="Nome della Provincia"/>
+			<definition value="Nome dell'area amministrativa (county).&#xD;&#xA;Per gli indirizzi italiani è usato per indicare la Provincia"/>
+			<alias value="Provincia"/>
+			<example>
+				<label value="General"/>
+				<valueString value="Campobasso"/>
+			</example>
+		</element>
+		<element id="Address.district.extension:codiceProvincia">
+			<path value="Address.district.extension"/>
+			<sliceName value="codiceProvincia"/>
+			<short value="Codice Provincia"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/iso21090-SC-coding"/>
+			</type>
+			<binding>
+				<strength value="preferred"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/istat-provincia"/>
+			</binding>
+		</element>
+		<element id="Address.state">
+			<path value="Address.state"/>
+			<short value="Sotto-unità dello stato (Regione)."/>
+			<definition value="Sotto-unità dello stato con limitata sovranità in uno stato oragnizzato federalmente.&#xD;&#xA;Nel contesto italiano indica la &quot;Regione&quot;"/>
+			<alias value="Regione"/>
+			<example>
+				<label value="Regione"/>
+				<valueString value="Lazio"/>
+			</example>
+		</element>
+		<element id="Address.state.extension:codiceRegione">
+			<path value="Address.state.extension"/>
+			<sliceName value="codiceRegione"/>
+			<short value="Codice Regione"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/iso21090-SC-coding"/>
+			</type>
+			<binding>
+				<strength value="preferred"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/istat-regione"/>
+			</binding>
+		</element>
+		<element id="Address.postalCode">
+			<path value="Address.postalCode"/>
+			<comment value="I codici postali italiani hanno un pattern '[1,9]\d{4}'."/>
+			<alias value="CAP"/>
+			<alias value="postcode"/>
+			<example>
+				<label value="General"/>
+				<valueString value="50125"/>
+			</example>
+			<condition value="it-postal-code-pattern"/>
+			<constraint>
+				<key value="it-postal-code-pattern"/>
+				<severity value="error"/>
+				<human value="I codici postali italiani hanno un pattern 'nnnnn' (n intero)"/>
+				<expression value="(country in 'it' | 'ita' | 'italia' | 'italy').not() or matches('^[1-9]\\d{4}$')"/>
+				<xpath value="not(../f:country[lower-case(@value)=('it','ita','italia', 'italy')]) or matches(@value,'^[1-9]\d{4}$')"/>
+				<source value="http://hl7.org/fhir/StructureDefinition/Address"/>
+			</constraint>
+		</element>
+		<element id="Address.country">
+			<path value="Address.country"/>
+			<short value="Stato"/>			
+			<example>
+				<label value="Nome Stato"/>
+				<valueString value="Italia"/>
+			</example>
+		</element>
+		<element id="Address.country.extension:codiceStato">
+			<path value="Address.country.extension"/>
+			<sliceName value="codiceStato"/>
+			<short value="Codice Stato"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/iso21090-SC-coding"/>
+			</type>
+			<binding>
+				<strength value="preferred"/>
+				<valueSet value="http://hl7.it/fhir/ValueSet/istat-stato"/>
+			</binding>
+		</element>
+	</differential>
+</StructureDefinition>

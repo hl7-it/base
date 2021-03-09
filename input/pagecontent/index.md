@@ -23,7 +23,7 @@ rappresentazione in FHIR è fornita in questa guida nel tab *Mapping*.
 ### Caveat
 
 I *Profili FHIR IT base* presenti in questa guida hanno come loro
-principalmente scopo quello di facilitare una rappresentazione comune di
+principale scopo quello di facilitare una rappresentazione comune di
 informazioni tipicamente usate nel contesto italiano. In questo senso:
 
   - non pretendono di rappresentare ogni possibile informazione
