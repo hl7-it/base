@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../../fhir-all-xsd/structuredefinition.xsd">
+	<id value="EHIC"/>
+	<url value="http://hl7.it/fhir/StructureDefinition/EHIC"/>
+	<version value="0.0.1"/>
+	<name value="EHIC"/>
+	<title value="EHIC (TEAM)"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<description value="Modello Logico che definisce il set di dati che caratterizzano la tessera TEAM o EHIC (European Healthcare Insurance Card)."/>
+	<fhirVersion value="4.0.1"/>
+	<kind value="logical"/>
+	<abstract value="false"/>
+	<type value="EHIC"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+	<derivation value="specialization"/>
+	<differential>
+		<element id="EHIC">
+			<path value="EHIC"/>
+			<short value="European Healthcare Insurance Card">
+<!-- 				<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+					<extension url="lang">
+						<valueCode value="it"/>
+					</extension>
+					<extension url="content">
+						<valueString value="Tessera Europea di Assicurazione Malattia (TEAM)"/>
+					</extension>
+				</extension> -->
+			</short>
+			<definition value="Logical Model describing the European Healthcare Insurance Card">
+	<!-- 			<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+					<extension url="lang">
+						<valueCode value="it"/>
+					</extension>
+					<extension url="content">
+						<valueString value="Modello Logico che definisce la Tessera Europea di Assicurazione Malattia (TEAM)."/>
+					</extension>
+				</extension> -->
+			</definition>
+			<alias value="TEAM"/>
+			<min value="0"/>
+			<max value="*"/>
+		</element>
+		<element id="EHIC.countryCode">
+			<path value="EHIC.countryCode"/>
+			<short value="Country Code">
+			<!-- 	<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+					<extension url="lang">
+						<valueCode value="it"/>
+					</extension>
+					<extension url="content">
+						<valueString value="codice stato"/>
+					</extension>
+				</extension> -->
+			</short>
+			<definition value="Country Code">
+			<!-- 	<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+					<extension url="lang">
+						<valueCode value="it"/>
+					</extension>
+					<extension url="content">
+						<valueString value="codice stato"/>
+					</extension>
+				</extension> -->
+			</definition>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="CodeableConcept"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept"/>
+			</type>
+<!-- 			<binding>
+				<strength value="required"/>
+				<valueSet value="http://terminology.hl7.it/ValueSet/iso-ehicCountryCode"/>
+			</binding> -->
+		</element>
+		<!-- <element id="EHIC.name">
+			<path value="EHIC.name"/>
+			<short value="EHIC#3 Name">
+				<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+					<extension url="lang">
+						<valueCode value="it"/>
+					</extension>
+					<extension url="content">
+						<valueString value="TEAM#3 Cognome"/>
+					</extension>
+				</extension>
+			</short>
+			<definition value="EHIC, field #3. Name of the card owner">
+				<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+					<extension url="lang">
+						<valueCode value="it"/>
+					</extension>
+					<extension url="content">
+						<valueString value="TEAM, campo #3. Cognome del titolare"/>
+					</extension>
+				</extension>
+			</definition>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="string"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/string"/>
+			</type>
+		</element>
+		<element id="EHIC.givenNames">
+			<path value="EHIC.givenNames"/>
+			<short value="EHIC#4 Given Names">
+				<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+					<extension url="lang">
+						<valueCode value="it"/>
+					</extension>
+					<extension url="content">
+						<valueString value="TEAM#4 Nome"/>
+					</extension>
+				</extension>
+			</short>
+			<definition value="EHIC, field #4. Given Names of the card owner">
+				<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+					<extension url="lang">
+						<valueCode value="it"/>
+					</extension>
+					<extension url="content">
+						<valueString value="TEAM, campo #4. Nome del titolare"/>
+					</extension>
+				</extension>
+			</definition>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="string"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/string"/>
+			</type>
+		</element>
+		<element id="EHIC.birthDate">
+			<path value="EHIC.birthDate"/>
+			<short value="EHIC#5 Birth Date (dd/mm/yyyy)">
+				<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+					<extension url="lang">
+						<valueCode value="it"/>
+					</extension>
+					<extension url="content">
+						<valueString value="TEAM#5 Data di Nascita (dd/mm/yyyy)"/>
+					</extension>
+				</extension>
+			</short>
+			<definition value="EHIC, field #5. Birth Date of the card owner. Date Format (dd/mm/yyyy)">
+				<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+					<extension url="lang">
+						<valueCode value="it"/>
+					</extension>
+					<extension url="content">
+						<valueString value="TEAM, campo #5. Data di Nascita del titolare. Formato data (dd/mm/yyyy)"/>
+					</extension>
+				</extension>
+			</definition>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="dateTime"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/dateTime"/>
+			</type>
+		</element>
+		<element id="EHIC.personalId">
+			<path value="EHIC.personalId"/>
+			
+			<slicing>
+				<discriminator>
+					<type value="value"/>
+					<path value="$this.system"/>
+				</discriminator>
+				<rules value="open"/>
+			</slicing>
+
+			<short value="EHIC#6 Personal Identification Number">
+				<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+					<extension url="lang">
+						<valueCode value="it"/>
+					</extension>
+					<extension url="content">
+						<valueString value="TEAM#6 Numero Identificazione Personale"/>
+					</extension>
+				</extension>
+			</short>
+			<definition value="EHIC, field #6. Personal Identification Number of the card owner">
+				<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+					<extension url="lang">
+						<valueCode value="it"/>
+					</extension>
+					<extension url="content">
+						<valueString value="TEAM, campo #6. Numero di Identificazione Personale del titolare: Codice Fiscale."/>
+					</extension>
+				</extension>
+			</definition>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="BackboneElement"/>
+				
+			</type>
+			
+			<type>
+				<code value="Identifier"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/Identifier"/>
+			</type>
+
+		</element>
+		<element id="EHIC.personalId.system">
+			<path value="EHIC.personalId.system"/>
+				<short value="EHIC#6 Personal Identification Number"/>
+				<definition value="EHIC, field #6. Test"/>
+			<min value="1"/>
+			<type>
+				<code value="uri"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/uri"/>
+			</type>
+		</element>
+		<element id="EHIC.personalId.id">
+			<path value="EHIC.personalId.id"/>
+			<short value="EHIC# TEST"/>
+			<min value="1"/>
+			<type>
+				<code value="string"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/string"/>
+			</type>
+		</element> 
+		
+		<element id="EHIC.personalId:oid-sys">
+			<path value="EHIC.personalId"/>
+			<sliceName value="oid-sys"/>
+			<min value="0"/>
+			<max value="1"/>
+		</element>
+					
+		<element id="EHIC.personalId:oid-sys.system">
+			<path value="EHIC.personalId.system"/>
+			<min value="1"/>
+
+			<binding>
+				<strength value="required"/>
+				<valueSet value="http://terminology.hl7.it/ValueSet/oid-ehicPersonalId"/>
+			</binding>
+
+		</element>
+		<element id="EHIC.personalId:uri-sys">
+			<path value="EHIC.personalId"/>
+			<sliceName value="uri-sys"/>
+		</element>
+		<element id="EHIC.personalId:uri-sys.system">
+			<path value="EHIC.personalId.system"/>
+			<min value="1"/>
+			
+			<binding>
+				<strength value="required"/>
+				<valueSet value="http://terminology.hl7.it/ValueSet/uri-ehicPersonalId"/>
+			</binding>
+
+		</element>
+
+		<element id="EHIC.istitutionId">
+			<path value="EHIC.istitutionId"/>
+			<short value="EHIC#7 Identification Number of the Istitution">
+				<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+					<extension url="lang">
+						<valueCode value="it"/>
+					</extension>
+					<extension url="content">
+						<valueString value="TEAM#7 Numero Identificazione dell'Istituzione"/>
+					</extension>
+				</extension>
+			</short>
+			<definition value="EHIC, field #7. Identification Number of the covering Istitution">
+				<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+					<extension url="lang">
+						<valueCode value="it"/>
+					</extension>
+					<extension url="content">
+						<valueString value="TEAM, campo #7. Numero Identificazione dell'Istituzione: SSN-MIN SALUTE - 500001"/>
+					</extension>
+				</extension>
+			</definition>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="Identifier"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/Identifier"/>
+			</type>
+		</element>
+		<element id="EHIC.cardNumber">
+			<path value="EHIC.cardNumber"/>
+			<short value="EHIC#8 Identification Number of the Card">
+				<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+					<extension url="lang">
+						<valueCode value="it"/>
+					</extension>
+					<extension url="content">
+						<valueString value="TEAM#8 Numero Identificazione della tessera"/>
+					</extension>
+				</extension>
+			</short>
+			<definition value="EHIC, field #8. Identification Number of the Card">
+				<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+					<extension url="lang">
+						<valueCode value="it"/>
+					</extension>
+					<extension url="content">
+						<valueString value="TEAM, campo #8. Numero Identificazione della tessera."/>
+					</extension>
+				</extension>
+			</definition>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="string"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/string"/>
+			</type>
+		</element>
+		<element id="EHIC.expiryDate">
+			<path value="EHIC.expiryDate"/>
+			<short value="EHIC#9 Expiry Date (dd/mm/yyyy)">
+				<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+					<extension url="lang">
+						<valueCode value="it"/>
+					</extension>
+					<extension url="content">
+						<valueString value="TEAM#9 Scadenza (dd/mm/yyyy)"/>
+					</extension>
+				</extension>
+			</short>
+			<definition value="EHIC, field #9. Expiry Date of the card. Date Format (dd/mm/yyyy)">
+				<extension url="http://hl7.org/fhir/StructureDefinition/translation">
+					<extension url="lang">
+						<valueCode value="it"/>
+					</extension>
+					<extension url="content">
+						<valueString value="TEAM, campo #9. Scadenza della carta. Formato data (dd/mm/yyyy)"/>
+					</extension>
+				</extension>
+			</definition>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="dateTime"/>
+				<profile value="http://hl7.org/fhir/StructureDefinition/dateTime"/>
+			</type>
+		</element>
+ -->	</differential>
+</StructureDefinition>
