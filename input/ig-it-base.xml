@@ -31,7 +31,7 @@
 	<packageId value="hl7.fhir.it.base"/>
 	
 	<dependsOn>
-		<uri value="http://hl7.it/fhir/ImplementationGuide/hl7.fhir.it.terminology"/>
+		<uri value="http://terminology.hl7.it/ImplementationGuide/hl7.fhir.it.terminology"/>
 		<packageId value="hl7.fhir.it.terminology"/>
 		<version value="dev"/>
 	</dependsOn> 
