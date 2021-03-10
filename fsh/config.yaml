@@ -16,7 +16,7 @@ version: 0.1.0
 name: HL7ItaliaFHIRImplementationGuide
 title: HL7 Italia FHIR Implementation Guide
 status: active
-publisher: Giorgio Cangioli
+publisher: HL7 Italia
 description: "HL7 Italia FHIR Implementation Guide: base profiles"
 license: CC0-1.0
 fhirVersion: 4.0.1

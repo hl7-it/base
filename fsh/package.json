@@ -5,8 +5,10 @@
  "url" : "http://hl7.it/fhir",
  "title" : "HL7 Italia FHIR Implementation Guide",
  "description": "HL7 Italia FHIR Implementation Guide: base profiles",
- "dependencies": {
-    "hl7.fhir.r4.core": "4.0.1"
+ "dependencies": {[
+    "hl7.fhir.r4.core": "4.0.1",
+	"hl7.fhir.it.terminology": "dev"
+	]
  },
  "keywords": [
    "HL7 Italia",
