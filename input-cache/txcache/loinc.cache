@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "5792-7"
+}, "valueSet" :{
+  "resourceType" : "ValueSet"
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "code" : "",
+  "system" : "",
+  "severity" : "error",
+  "error" : "Unable to resolve value set \"http://terminology.fhir.it/ValueSet/statoEsenzione\" (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------

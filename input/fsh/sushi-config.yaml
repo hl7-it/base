@@ -1,0 +1,68 @@
+# ╭────────────────────────────────────────────────────────────────────────────────────────────────╮
+# │  ACTION REQUIRED: REVIEW AND EDIT THIS FILE TO ENSURE IT ACCURATELY REFLECTS YOUR PROJECT!     │
+# │                                                                                                │
+# │  This file was generated from your existing project files and will be used for SUSHI           │
+# │  configuration from now on. You may delete your package.json as it is no longer needed.        │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+# ╭─────────────────────────────ImplementationGuide-HL7ITFhirBase.json─────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see:                                                                    │
+# │  http://build.fhir.org/ig/HL7/fhir-shorthand/branches/beta/sushi.html#ig-development           │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: HL7ITFhirBase
+canonical: http://hl7.it/fhir
+version: 0.1.1
+name: HL7ItaliaFHIRImplementationGuide
+title: HL7 Italia FHIR Implementation Guide
+status: active
+publisher: HL7 Italia
+description: "HL7 Italia FHIR Implementation Guide: base profiles"
+license: CC-BY-SA-4.0
+fhirVersion: 4.0.1
+parameters:
+  show-inherited-invariants: false
+  find-other-resources: true
+  apply-jurisdiction: true
+  apply-publisher: true
+  special-url: !!seq
+  - "http://terminology.hl7.it/CodeSystem/minsan-esenzioni"
+  - "http://terminology.hl7.it/CodeSystem/istat-professioni"  
+  autoload-resources: true
+  
+parameters:
+  show-inherited-invariants: false
+  
+copyrightYear: 2020+
+releaseLabel: CI Build
+
+jurisdiction: urn:iso:std:iso:3166#IT "Italy"
+
+dependencies:
+  hl7.fhir.it.terminology: 0.1.1
+
+
+FSHOnly: true
+
+# ╭─────────────────────────────────────────────ig.ini─────────────────────────────────────────────╮
+# │  To use a provided ig-data/ig.ini file, delete the "template" property below.                  │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+# template: #it-template
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided ig-data/input/includes/menu.xml file, delete the "menu" property below.     │
+# # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+# menu:
+  # IG Home: index.html
+  # Table of Contents: toc.html
+  # Artifact Index: artifacts.html
+  # Support:
+    # FHIR Spec: new-tab external http://hl7.org/fhir/R4/index.html
+
+# # ╭────────────────────────────────────────────index.md────────────────────────────────────────────╮
+# # │  To use a provided ig-data\input\[pagecontent | pages]\index.[md | xml], delete the            │
+# # │  "indexPageContent" property below.                                                            │
+# # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+# indexPageContent: "HL7 Italia FHIR Implementation Guide: base profiles"
+
+

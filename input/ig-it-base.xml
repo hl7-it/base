@@ -33,7 +33,7 @@
 	<dependsOn>
 		<uri value="http://terminology.hl7.it/ImplementationGuide/hl7.fhir.it.terminology"/>
 		<packageId value="hl7.fhir.it.terminology"/>
-		<version value="dev"/>
+		<version value="current"/>
 	</dependsOn> 
 	
 	<!-- This should be changed to 'not-open-source' or another license if appropriate for non-HL7-published content -->
