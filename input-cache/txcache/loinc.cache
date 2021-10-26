@@ -10,6 +10,6 @@ v: {
   "code" : "",
   "system" : "",
   "severity" : "error",
-  "error" : "Unable to resolve value set \"http://terminology.fhir.it/ValueSet/statoEsenzione\" (from http://tx.fhir.org/r4)"
+  "error" : "Error from server: Unable to resolve value set \"http://terminology.fhir.it/ValueSet/statoEsenzione\""
 }
 -------------------------------------------------------------------------------------

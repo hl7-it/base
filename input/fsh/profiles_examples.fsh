@@ -15,6 +15,17 @@ Description: "Estensione per gestire lo stato di una esenzione"
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Profile:  MoneyItBase
+Parent:   Money
+Id:       Money-it-base
+Title:    "Money - base"
+Description: "Profilo base generico per Money"
+//-------------------------------------------------------------------------------------------
+* currency 1.. MS
+* currency = #EUR
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 /* 000000000000000000 00000000000000 */
 Instance: EsempioEsenzione
@@ -31,6 +42,9 @@ Description: "Esempio Esenzione"
 * costToBeneficiary.exception.extension[0].url = StatoEsenzioneCoverage
 * costToBeneficiary.exception.extension[0].valueCodeableConcept = V3ActStatus#active
 * costToBeneficiary.exception.type = http://terminology.hl7.it/CodeSystem/minsan-esenzioni#E01
+
+
+
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  OrganizationItBase

@@ -18,3 +18,5 @@ Alias: ISO_SC_coding = http://hl7.org/fhir/StructureDefinition/iso21090-SC-codin
 Alias: VsStatoEsenzione = http://terminology.fhir.it/ValueSet/statoEsenzione
 Alias: CsMinsanRegioni = http://terminology.hl7.it/CodeSystem/minsan-regione
 Alias: CS_unitaTerritoriali = http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritoriali
+
+Alias: CS_Estero = http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere
