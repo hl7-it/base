@@ -29,11 +29,8 @@
       }]
     }]
   }
-}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
   "severity" : "error",
   "error" : "The code provided (urn:ietf:rfc:3986#http://hl7.it/sid/stp) is not valid (from http://tx.fhir.org/r4)"
 }
@@ -68,11 +65,8 @@ v: {
       }]
     }]
   }
-}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
   "severity" : "error",
   "error" : "The code provided (urn:ietf:rfc:3986#http://hl7.it/sid/stp) is not valid (from http://tx.fhir.org/r4)"
 }
@@ -107,13 +101,10 @@ v: {
       }]
     }]
   }
-}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "",
   "code" : "http://hl7.it/sid/stp",
-  "system" : "urn:ietf:rfc:3986",
-  "severity" : null,
-  "error" : ""
+  "system" : "urn:ietf:rfc:3986"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -146,13 +137,10 @@ v: {
       }]
     }]
   }
-}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"true", "valueSetMode":"ALL_CHECKS"}####
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "",
   "code" : "http://hl7.it/sid/stp",
-  "system" : "urn:ietf:rfc:3986",
-  "severity" : null,
-  "error" : ""
+  "system" : "urn:ietf:rfc:3986"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -185,11 +173,8 @@ v: {
       }]
     }]
   }
-}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
   "severity" : "error",
   "error" : "The code provided (urn:ietf:rfc:3986#http://hl7.it/sid/codiceFiscale) is not valid (from http://tx.fhir.org/r4)"
 }
@@ -224,11 +209,8 @@ v: {
       }]
     }]
   }
-}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
   "severity" : "error",
   "error" : "The code provided (urn:ietf:rfc:3986#http://hl7.it/sid/codiceFiscale) is not valid (from http://tx.fhir.org/r4)"
 }
@@ -263,11 +245,8 @@ v: {
       }]
     }]
   }
-}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
   "severity" : "error",
   "error" : "The code provided (urn:ietf:rfc:3986#http://hl7.it/sid/codiceFiscale) is not valid (from http://tx.fhir.org/r4)"
 }
@@ -348,11 +327,8 @@ v: {
       }]
     }]
   }
-}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
   "severity" : "error",
   "error" : "The code provided (urn:ietf:rfc:3986#http://hl7.it/sid/fls) is not valid (from http://tx.fhir.org/r4)"
 }
@@ -433,13 +409,10 @@ v: {
       }]
     }]
   }
-}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "",
   "code" : "http://hl7.it/sid/vda/asl",
-  "system" : "urn:ietf:rfc:3986",
-  "severity" : null,
-  "error" : ""
+  "system" : "urn:ietf:rfc:3986"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -518,11 +491,8 @@ v: {
       }]
     }]
   }
-}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
   "severity" : "error",
   "error" : "The code provided (urn:ietf:rfc:3986#http://hl7.it/sid/partitaIva) is not valid (from http://tx.fhir.org/r4)"
 }
@@ -603,11 +573,8 @@ v: {
       }]
     }]
   }
-}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "",
-  "code" : "",
-  "system" : "",
   "severity" : "error",
   "error" : "The code provided (urn:ietf:rfc:3986#http://hl7.it/sid/codiceFiscale) is not valid (from http://tx.fhir.org/r4)"
 }
@@ -688,12 +655,9 @@ v: {
       }]
     }]
   }
-}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"true", "valueSetMode":"ALL_CHECKS"}####
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "",
   "code" : "http://hl7.it/sid/vda/asl",
-  "system" : "urn:ietf:rfc:3986",
-  "severity" : null,
-  "error" : ""
+  "system" : "urn:ietf:rfc:3986"
 }
 -------------------------------------------------------------------------------------
