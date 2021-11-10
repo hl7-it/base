@@ -26,6 +26,10 @@
       {
         "code" : "urn:oid:2.16.840.1.113883.2.9.2.60.4.1",
         "display" : "Anagrafe Unica - Friuli-Venezia Giulia"
+      },
+      {
+        "code" : "http://www.regione.toscana.it/sanita/cur",
+        "display" : "Centrale Unica Regionale - Toscana"
       }]
     }]
   }
@@ -170,6 +174,10 @@ v: {
       {
         "code" : "urn:oid:2.16.840.1.113883.2.9.2.60.4.1",
         "display" : "Anagrafe Unica - Friuli-Venezia Giulia"
+      },
+      {
+        "code" : "http://www.regione.toscana.it/sanita/cur",
+        "display" : "Centrale Unica Regionale - Toscana"
       }]
     }]
   }

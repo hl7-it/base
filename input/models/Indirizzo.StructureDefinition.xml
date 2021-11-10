@@ -333,12 +333,12 @@
 				<label value="codiceComune"/>
 				<valueCodeableConcept>
 					<coding>
-						<system value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritoriali"/>
+						<system value="http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritoriali"/>
 						<code value="005005"/>
 						<display value="Asti"/>
 					</coding>
 					<coding>
-						<system value="http://terminology.hl7.it/CodeSystem/mef-ae-comuni"/>
+						<system value="http://terminology.hl7.it/sid/mef-ae-comuni"/>
 						<code value="A479"/>
 						<display value="Asti"/>
 					</coding>
@@ -378,7 +378,7 @@
 				<label value="codiceIstatProvincia"/>
 				<valueCodeableConcept>
 					<coding>
-						<system value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritoriali"/>
+						<system value="http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritoriali"/>
 						<code value="026"/>
 						<display value="Treviso"/>
 					</coding>

@@ -227,11 +227,11 @@
 		</parameter>
 		<parameter>
 			<code value="special-url"/>
-			<value value="http://terminology.hl7.it/CodeSystem/minsan-fls"/>
+			<value value="http://terminology.hl7.it/sid/minsan-fls"/>
 		</parameter>
 		<parameter>
 			<code value="special-url"/>
-			<value value="http://terminology.hl7.it/CodeSystem/minsan-hsp"/>
+			<value value="http://terminology.hl7.it/sid/minsan-hsp"/>
 		</parameter>
 		<parameter>
 			<code value="special-url"/>
@@ -243,11 +243,11 @@
 		</parameter>
 		<parameter>
 			<code value="special-url"/>
-			<value value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritorialiEstere"/>
+			<value value="http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritorialiEstere"/>
 		</parameter>
 		<parameter>
 			<code value="special-url"/>
-			<value value="http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritoriali"/>
+			<value value="http://terminology.hl7.it/sid/istat-unitaAmministrativeTerritoriali"/>
 		</parameter>
 		<parameter>
 			<code value="special-url"/>
@@ -275,7 +275,7 @@
 		</parameter>
 		<parameter>
 			<code value="special-url"/>
-			<value value="http://terminology.hl7.it/CodeSystem/mef-ae-comuni"/>
+			<value value="http://terminology.hl7.it/sid/mef-ae-comuni"/>
 		</parameter>
 		<parameter>
 			<code value="special-url"/>
